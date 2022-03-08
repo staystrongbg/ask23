@@ -27,7 +27,7 @@ const Topnav = () => {
       ) : (
         <FaBars
           onClick={() => setShowSidebar(!showSidebar)}
-          className='absolute top-20 right-4 cursor-pointer'
+          className='absolute top-28 right-4 cursor-pointer'
         />
       )}
       {showSidebar && <Sidebar links={links} setShowSidebar={setShowSidebar} />}
