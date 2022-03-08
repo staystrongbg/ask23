@@ -9,7 +9,7 @@ import {
 } from './utils';
 const Kategorije = () => {
   return (
-    <div className='w-1/2 flex flex-wrap gap-4'>
+    <div className='xl:w-1/2 w-full flex flex-wrap justify-center gap-4'>
       <Link href='/moj_ljubimac/psi'>
         <a>
           <span className={cardStyle('bg-red-400', 'bg-left-bottom')}>

@@ -2,9 +2,18 @@ import Navlinks from '../components/Navlinks';
 import Image from 'next/image';
 import { useEffect, useState } from 'react';
 import { useGlobalContext } from '../context';
-
+import Sidebar from './sidebar';
+import { FaBars } from 'react-icons/fa';
 const Topnav = () => {
-  const { handleScroll, setHeight, height } = useGlobalContext();
+  const { height, links } = useGlobalContext();
+
+  const [scroll, setScroll] = useState(false);
+  const [showSidebar, setShowSidebar] = useState(false);
+  useEffect(() => {
+    if (window.innerWidth < 1130) {
+      setScroll(true);
+    }
+  }, []);
 
   return (
     <nav className='flex flex-col items-center justify-center bg-transparent text-gray-900 uppercase tracking-wide  text-xl'>
@@ -13,8 +22,15 @@ const Topnav = () => {
           <Image src='/kuce.svg' alt='kuce' width={140} height={140} />
         </div>
       )}
-
-      <Navlinks height={height} />
+      {!scroll ? (
+        <Navlinks height={height} />
+      ) : (
+        <FaBars
+          onClick={() => setShowSidebar(!showSidebar)}
+          className='absolute top-20 right-4 cursor-pointer'
+        />
+      )}
+      {showSidebar && <Sidebar links={links} setShowSidebar={setShowSidebar} />}
     </nav>
   );
 };

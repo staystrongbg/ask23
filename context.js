@@ -3,6 +3,13 @@ import products from './products.json';
 const AppContext = createContext();
 
 const AppProvider = ({ children }) => {
+  const links = [
+    { href: '/', name: 'почетна' },
+    { href: '/brendovi', name: 'брендови' },
+    { href: '/o_nama', name: 'о нама' },
+    { href: '/kontakt', name: 'контакт' },
+  ];
+
   const [isActive, setIsActive] = useState(0);
 
   const [produkti, setProdukti] = useState(
@@ -51,6 +58,7 @@ const AppProvider = ({ children }) => {
         isActive,
         setIsActive,
         handleSearch,
+        links,
       }}
     >
       {children}

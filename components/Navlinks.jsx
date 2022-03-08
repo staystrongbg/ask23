@@ -5,15 +5,12 @@ import styles from '../styles/dropdown.module.scss';
 import Dropdown from './Dropdown';
 import Image from 'next/image';
 import { Search } from '../components/Search';
+import { useGlobalContext } from '../context';
 
 //koristi se samo ovde
-const links = [
-  { href: '/', name: 'почетна' },
-  { href: '/brendovi', name: 'брендови' },
-  { href: '/o_nama', name: 'о нама' },
-  { href: '/kontakt', name: 'контакт' },
-];
-const Navlinks = ({ height, setHeight }) => {
+
+const Navlinks = ({ height }) => {
+  const { links } = useGlobalContext();
   return (
     <div
       className={` ${
@@ -26,7 +23,7 @@ const Navlinks = ({ height, setHeight }) => {
       >
         <Link href='/moj_ljubimac'>
           <a
-            className={`text-slate-700 hover:text-gray-100 select-none ${
+            className={`text-slate-700 hover:text-gray-100 select-none whitespace-nowrap${
               height && 'hover:text-slate-500'
             }`}
           >
@@ -43,10 +40,11 @@ const Navlinks = ({ height, setHeight }) => {
         </span>
         <Dropdown />
       </div>
+
       {links.map((link, i) => (
         <Link key={i} href={link.href}>
           <a
-            className={`select-none hover:text-gray-100 ${
+            className={`select-none whitespace-nowrap hover:text-gray-100 ${
               height && 'hover:text-slate-500'
             } `}
           >

@@ -43,7 +43,7 @@ const MultipleSwipers = ({ products }) => {
       {products.map((p, idx) => (
         <SwiperSlide key={idx} className=' select-none pb-12 '>
           <div
-            className='w-[300px] h-[400px] bg-gray-100 shadow-md hover:shadow-xl rounded-md cursor-pointer transition-all   border-2 '
+            className='w-[300px] h-[400px] bg-gray-100 shadow-md hover:shadow-xl rounded-md cursor-pointer transition-all   border-2 m-auto'
             onClick={() => console.log(idx)}
           >
             <div className='w-full h-1/2'>
