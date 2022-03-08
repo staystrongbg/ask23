@@ -3,8 +3,6 @@ import { FaDog, FaCat, FaKiwiBird, FaFish } from 'react-icons/fa';
 import FaMouse from './FaMouse';
 import styles from '../styles/dropdown.module.scss';
 
-const mojljubimac = ['psi,mace,ptice,ribice,glodari'];
-
 export default function Dropdown() {
   const ICON_STYLE =
     'bg-gray-50 rounded-full w-8 h-8 items-center justify-center flex ';
@@ -14,48 +12,34 @@ export default function Dropdown() {
   };
   const mouse = mouseStyle();
 
+  const Fadog = () => <FaDog />;
+  const Facat = () => <FaCat />;
+  const Fabird = () => <FaKiwiBird />;
+  const Fafish = () => <FaFish />;
+  const Famouse = () => <FaMouse mouse={mouse} />;
+
+  const mojljubimac = [
+    { name: 'пси', comp: Fadog, link: '/moj_ljubimac/psi' },
+    { name: 'мачке', comp: Facat, link: '/moj_ljubimac/macke' },
+    { name: 'птице', comp: Fabird, link: '/moj_ljubimac/ptice' },
+    { name: 'акваристика', comp: Fafish, link: '/moj_ljubimac/akvaristika' },
+    {
+      name: 'мале животиње',
+      comp: Famouse,
+      link: '/moj_ljubimac/male_zivotinje',
+    },
+  ];
+
   return (
     <div className={` ${styles.nav__dropdown}`}>
-      <Link href='/moj_ljubimac/psi'>
-        <a>
-          <span className={ICON_STYLE}>
-            <FaDog />
-          </span>
-          kuce
-        </a>
-      </Link>
-      <Link href='/moj_ljubimac/mace'>
-        <a>
-          <span className={ICON_STYLE}>
-            <FaCat />
-          </span>
-          mace
-        </a>
-      </Link>
-      <Link href='/moj_ljubimac/mace'>
-        <a>
-          <span className={ICON_STYLE}>
-            <FaKiwiBird />
-          </span>
-          ptice
-        </a>
-      </Link>
-      <Link href='/moj_ljubimac/mace'>
-        <a>
-          <span className={ICON_STYLE}>
-            <FaFish />
-          </span>
-          ribice
-        </a>
-      </Link>
-      <Link href='/moj_ljubimac/mace'>
-        <a>
-          <span className={mouse}>
-            <FaMouse />
-          </span>
-          glodari
-        </a>
-      </Link>
+      {mojljubimac.map((lj, idx) => (
+        <Link key={idx} href={lj.link}>
+          <a>
+            <span className={ICON_STYLE}>{lj.comp()}</span>
+            {lj.name}
+          </a>
+        </Link>
+      ))}
     </div>
   );
 }

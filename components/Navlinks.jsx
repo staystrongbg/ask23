@@ -23,7 +23,7 @@ const Navlinks = ({ height }) => {
       >
         <Link href='/moj_ljubimac'>
           <a
-            className={`text-slate-700 hover:text-gray-100 select-none whitespace-nowrap${
+            className={`text-slate-700 tracking-wider hover:text-gray-100 select-none whitespace-nowrap${
               height && 'hover:text-slate-500'
             }`}
           >
@@ -53,7 +53,7 @@ const Navlinks = ({ height }) => {
         </Link>
       ))}
       <Link href='/akcije'>
-        <a className='text-slate-50 py-1 px-2 hover:bg-red-400 rounded-sm select-none bg-red-600'>
+        <a className='text-slate-50 py-1 px-2 tracking-wider hover:bg-red-400 rounded-sm select-none bg-red-600'>
           акције
         </a>
       </Link>

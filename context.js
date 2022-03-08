@@ -44,6 +44,13 @@ const AppProvider = ({ children }) => {
     e.target[0].value = '';
   };
 
+  const [scroll, setScroll] = useState(false);
+  useEffect(() => {
+    if (window.innerWidth < 1130) {
+      setScroll(true);
+    }
+  }, []);
+
   return (
     <AppContext.Provider
       value={{
@@ -59,6 +66,7 @@ const AppProvider = ({ children }) => {
         setIsActive,
         handleSearch,
         links,
+        scroll,
       }}
     >
       {children}

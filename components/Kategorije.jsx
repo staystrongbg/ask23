@@ -43,10 +43,10 @@ const Kategorije = () => {
       </Link>
       <Link href='/moj_ljubimac/ptice'>
         <a>
-          <span className={cardStyle('bg-blue-400', 'bg-right-bottom')}>
+          <span className={cardStyle('bg-blue-300', 'bg-right-bottom')}>
             <div className={detailsContainer('right-2 top-2', 'text-right')}>
-              <h3 className={headingStyle('text-blue-900')}>птице</h3>
-              <p className={textStyle('text-blue-900')}>
+              <h3 className={headingStyle('text-blue-800')}>птице</h3>
+              <p className={textStyle('text-blue-800')}>
                 hrana,kavezi,sudovi...
               </p>
             </div>

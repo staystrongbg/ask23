@@ -5,15 +5,9 @@ import { useGlobalContext } from '../context';
 import Sidebar from './sidebar';
 import { FaBars } from 'react-icons/fa';
 const Topnav = () => {
-  const { height, links } = useGlobalContext();
+  const { height, links, scroll } = useGlobalContext();
 
-  const [scroll, setScroll] = useState(false);
   const [showSidebar, setShowSidebar] = useState(false);
-  useEffect(() => {
-    if (window.innerWidth < 1130) {
-      setScroll(true);
-    }
-  }, []);
 
   return (
     <nav className='flex flex-col items-center justify-center bg-transparent text-gray-900 uppercase tracking-wide  text-xl'>

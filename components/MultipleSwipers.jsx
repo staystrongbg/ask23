@@ -12,10 +12,10 @@ const MultipleSwipers = ({ products }) => {
   return (
     <Swiper
       navigation
-       autoplay={{
-         delay: 3000,
-         disableOnInteraction: false,
-       }}
+      autoplay={{
+        delay: 3000,
+        disableOnInteraction: false,
+      }}
       slidesPerView={3}
       breakpoints={{
         // when window width is >= 1536px
