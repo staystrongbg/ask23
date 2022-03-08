@@ -12,10 +12,10 @@ const MultipleSwipers = ({ products }) => {
   return (
     <Swiper
       navigation
-      autoplay={{
-        delay: 3000,
-        disableOnInteraction: false,
-      }}
+      // autoplay={{
+      //   delay: 3000,
+      //   disableOnInteraction: false,
+      // }}
       slidesPerView={3}
       breakpoints={{
         // when window width is >= 1536px
@@ -32,7 +32,7 @@ const MultipleSwipers = ({ products }) => {
         },
         // when window width is >= 768px
         400: {
-          width: 400,
+          // width: 400,
           slidesPerView: 1,
           spaceBetween: 1,
         },
@@ -41,9 +41,9 @@ const MultipleSwipers = ({ products }) => {
       className='mySwiper '
     >
       {products.map((p, idx) => (
-        <SwiperSlide key={idx} className=' select-none pb-12 '>
+        <SwiperSlide key={idx} className=' w-0 select-none pb-12 '>
           <div
-            className='w-[300px] h-[400px] bg-gray-100 shadow-md hover:shadow-xl rounded-md cursor-pointer transition-all   border-2 m-auto'
+            className='w-[300px] h-[400px] bg-gray-100 shadow-md hover:shadow-xl rounded-md cursor-pointer transition-all border-2 m-auto'
             onClick={() => console.log(idx)}
           >
             <div className='w-full h-1/2'>
