@@ -1,0 +1,100 @@
+[
+  {
+    "name": "hero Product",
+    "detail": "The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog.",
+    "price": "99",
+    "hero": "OMG This just came out today!",
+    "image": "https://picsum.photos/300/200?random=1",
+    "id": 0,
+    "novo": true,
+    "preporuka": false,
+    "akcija": false
+  },
+  {
+    "name": "Product 1",
+    "detail": "The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog.",
+    "price": "99",
+    "info": "This is the latest and greatest product from Derp corp.",
+    "image": "https://picsum.photos/300/200?random=2",
+    "id": 1,
+    "novo": true,
+    "preporuka": false,
+    "akcija": true
+  },
+  {
+    "name": "Product 2",
+    "detail": "The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog.",
+    "price": "99",
+    "offer": "BOGOF",
+    "image": "https://picsum.photos/300/200?random=3",
+    "id": 2,
+    "novo": true,
+    "preporuka": false,
+    "akcija": true
+  },
+  {
+    "name": "Product 3",
+    "detail": "The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog.",
+    "price": "99",
+    "image": "https://picsum.photos/300/200?random=4",
+    "id": 3,
+    "novo": true,
+    "preporuka": false,
+    "akcija": false
+  },
+  {
+    "name": "Product 4",
+    "detail": "The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog.",
+    "price": "99",
+    "offer": "No srsly GTFO",
+    "image": "https://picsum.photos/300/200?random=5",
+    "id": 4,
+    "novo": false,
+    "preporuka": false,
+    "akcija": false
+  },
+  {
+    "name": "Product 5",
+    "detail": "The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog.",
+    "price": "99",
+    "image": "https://picsum.photos/300/200?random=6",
+    "id": 5,
+    "novo": true,
+    "preporuka": false,
+    "akcija": false
+  },
+  {
+    "name": "Product 6",
+    "detail": "The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog.",
+    "price": "99",
+    "info": "This is the latest and greatest product from Derp corp.",
+    "offer": "info with offer",
+    "image": "https://picsum.photos/300/200?random=7",
+    "id": 6,
+    "novo": true,
+    "preporuka": true,
+    "akcija": false
+  },
+  {
+    "name": "Product 5",
+    "detail": "The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog.",
+    "price": "99",
+    "image": "https://picsum.photos/300/200?random=8",
+    "id": 7,
+    "novo": false,
+    "preporuka": true,
+    "akcija": false
+  },
+  {
+    "name": "Product 6",
+    "detail": "The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog.",
+    "price": "99",
+    "info": "This is the latest and greatest product from Derp corp.",
+    "offer": "info with offer",
+    "image": "https://picsum.photos/300/200?random=9",
+    "id": 8,
+    "novo": false,
+    "preporuka": true,
+    "akcija": true
+  }
+]
