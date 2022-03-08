@@ -13,7 +13,7 @@ const Kategorije = () => {
       <Link href='/moj_ljubimac/psi'>
         <a>
           <span className={cardStyle('bg-red-400', 'bg-left-bottom')}>
-            <div className={detailsContainer('left-2 top-6', 'text-left')}>
+            <div className={detailsContainer('left-2 top-4', 'text-left')}>
               <h3 className={headingStyle('text-red-900')}>пси</h3>
               <p className={textStyle('text-red-900')}>
                 Povodci,hrana,igracke, suplementi...
