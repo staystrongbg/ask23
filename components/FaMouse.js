@@ -1,5 +1,5 @@
-const FaMouse = ({ width = 24, mouse }) => {
-  return <img className={mouse} src='/mouse.svg' alt='' width={width} />;
+const FaMouse = ({ mouse }) => {
+  return <img className={mouse} src='/animals/hamster.svg' alt='' />;
 };
 
 export default FaMouse;

@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { categoryData } from '../kategorijeData';
 import {
   cardStyle,
   imgStyle,
@@ -7,10 +8,33 @@ import {
   headingStyle,
   textStyle,
 } from './utils';
+
 const Kategorije = () => {
+  console.log(categoryData);
   return (
     <div className='xl:w-1/2 w-full flex flex-wrap justify-center gap-4'>
-      <Link href='/moj_ljubimac/psi'>
+      {categoryData.map((i) => (
+        <Link key={i.id} href={i.link}>
+          <a>
+            <span className={cardStyle(i.background[0], i.background[1])}>
+              <div
+                className={detailsContainer(
+                  i.detailsContainer[0],
+                  i.detailsContainer[1]
+                )}
+              >
+                <h3 className={headingStyle(i.textStyle)}>{i.title}</h3>
+                <p className={textStyle(i.textStyle)}>{i.text}</p>
+              </div>
+              <div className={imgWidth(i.imgWidth)}>
+                <img src={i.image} className={imgStyle(i.imageStyle)} />
+              </div>
+            </span>
+          </a>
+        </Link>
+      ))}
+
+      {/* <Link href='/moj_ljubimac/psi'>
         <a>
           <span className={cardStyle('bg-red-400', 'bg-left-bottom')}>
             <div className={detailsContainer('left-2 top-4', 'text-left')}>
@@ -25,7 +49,6 @@ const Kategorije = () => {
           </span>
         </a>
       </Link>
-
       <Link href='/moj_ljubimac/mace'>
         <a>
           <span className={cardStyle('bg-yellow-400')}>
@@ -95,7 +118,7 @@ const Kategorije = () => {
             </div>
           </span>
         </a>
-      </Link>
+      </Link> */}
 
       {/* list of categories goes here */}
     </div>

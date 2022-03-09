@@ -5,11 +5,11 @@ import styles from '../styles/dropdown.module.scss';
 
 export default function Dropdown() {
   const ICON_STYLE =
-    'bg-gray-50 rounded-full w-8 h-8 items-center justify-center flex ';
+    'bg-gray-50 rounded-full w-8 h-8 items-center  justify-center flex ';
 
-  const mouseStyle = () => {
-    return `bg-gray-50 rounded-full w-8 h-8 items-center justify-center flex  -scale-x-100`;
-  };
+  const mouseStyle = () =>
+    `bg-gray-50 rounded-full w-5 h-5 mx-4 object-contain items-center justify-center flex  `;
+
   const mouse = mouseStyle();
 
   const Fadog = () => <FaDog />;

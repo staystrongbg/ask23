@@ -1,74 +1,87 @@
-export const detailsContainer = (margin, textAlign) => {
-  return `${margin} ${textAlign}  absolute flex flex-col gap-2  `;
-};
+// import {
+//   cardStyle,
+//   imgStyle,
+//   detailsContainer,
+//   imgWidth,
+//   headingStyle,
+//   textStyle,
+// } from './components/utils';
 
-export const iconStyle = (bg, pawPos) => {
-  return `${bg} w-[200px] h-[200px] items-center relative justify-between flex flex-col overflow-hidden shadow-custom hover:scale-110 transition-all  bg-[url('/animals/paw.svg')] bg-no-repeat ${pawPos}`;
-};
+// export const cardStyle = (bg, pawPos) =>
+//   `${bg} w-[160px] h-[160px] xl:w-[200px] xl:h-[200px] rounded-sm items-center relative justify-between flex flex-col overflow-hidden shadow-custom hover:scale-110 transition-all bg-blend-multiply  bg-[url('/animals/paw.svg')] bg-no-repeat ${pawPos}`;
 
-export const imgStyle = (margin) => {
-  return ` object-cover w-full h-full absolute ${margin}`;
-};
+// export const imgStyle = (margin) =>
+//   ` object-cover w-full h-full absolute ${margin}`;
 
-export const imgWidth = (width) => {
-  return `${width}`;
-};
-//   iconStyle, detailsContainer,imgStyle;
+// export const detailsContainer = (margin, textAlign) =>
+//   `${margin} ${textAlign}  absolute flex flex-col gap-2  `;
 
-export const categotyData = [
+// export const imgWidth = (width) => `${width} h-2/3  absolute left-0 bottom-0`;
+
+// export const headingStyle = (color) =>
+//   ` xl:text-2xl text-xl tracking-normal  uppercase head ${color}`;
+
+// export const textStyle = (color) => `text-sm ${color} z-10 par`;
+
+export const categoryData = [
   {
     id: 0,
     image: '/animals/kucov.png',
-    name: 'kuce',
+    title: 'пси',
     link: '/psi',
     text: 'lorem ipsun dolor...',
-    detailsContainer: detailsContainer('left-2 top-6', 'text-left'),
-    background: iconStyle('bg-red-400', 'bg-left-bottom'),
-    imageStyle: imgStyle('-right-16'),
+    textStyle: 'text-red-900',
+    detailsContainer: ['left-2 top-6', 'text-left'],
+    background: ['bg-red-400', 'bg-left-bottom'],
+    imageStyle: '-right-16',
     imgWidth: 'w-full',
   },
   {
     id: 1,
     image: '/animals/macka.png',
-    name: 'mace',
+    title: 'мачке',
     link: '/mace',
     text: 'lorem ipsun dolor sit emmet...',
-    detailsContainer: detailsContainer('right-2 top-10', 'text-right'),
-    background: iconStyle('bg-yellow-400'),
-    imageStyle: imgStyle('-left-16'),
+    textStyle: 'text-yellow-900',
+    detailsContainer: ['right-2 top-4', 'text-right'],
+    background: ['bg-yellow-400'],
+    imageStyle: '-left-16',
     imgWidth: 'w-full',
   },
   {
     id: 2,
     image: '/animals/pticica.png',
-    name: 'ptice',
+    title: 'птице',
     link: '/ptice',
     text: 'lorem ipsun dolor...',
-    detailsContainer: detailsContainer('right-2 top-2', 'text-right'),
-    background: iconStyle('bg-blue-400', 'bg-right-bottom'),
-    imageStyle: imgStyle('-left-20'),
+    textStyle: 'text-blue-800',
+    detailsContainer: ['right-2 top-2', 'text-right'],
+    background: ['bg-blue-400', 'bg-right-bottom'],
+    imageStyle: '-left-20',
     imgWidth: 'w-full',
   },
   {
     id: 3,
     image: '/animals/ribica.png',
-    name: 'ribice',
+    title: 'акваристика',
     link: '/ribice',
     text: 'lorem ipsun dolor...',
-    detailsContainer: detailsContainer('left-2 top-3'),
-    background: iconStyle('bg-blue-400', 'bg-left-bottom'),
-    imageStyle: imgStyle('-right-20'),
+    textStyle: 'text-blue-900',
+    detailsContainer: ['left-2 top-3'],
+    background: ['bg-blue-400', 'bg-left-bottom'],
+    imageStyle: '-right-20',
     imgWidth: 'w-full',
   },
   {
     id: 4,
     image: '/animals/zec.png',
-    name: 'glodari',
+    title: 'мале животиње',
     link: '/glodari',
     text: 'lorem ipsun dolor...',
-    detailsContainer: detailsContainer('right-2 top-2', 'text-right'),
-    background: iconStyle('bg-green-400', 'bg-right-bottom'),
-    imageStyle: imgStyle('-left-5'),
+    textStyle: 'text-green-900',
+    detailsContainer: ['right-2 top-2', 'text-right'],
+    background: ['bg-green-400', 'bg-right-bottom'],
+    imageStyle: '-left-5',
     imgWidth: 'w-1/2',
   },
 ];
