@@ -5,18 +5,25 @@
 @tailwind utilities;
 
 body {
-  background: #16a085; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #f4d03f,
-    #16a085
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #f4d03f,
-    #16a085
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  /* background: #ed213a;
+  background: -webkit-linear-gradient(to right, #93291e, #ed213a);
+  background: linear-gradient(to right, #93291e, #ed213a); */
+
+  /* background-color: #f1f1f4; */
 }
+
+body {
+  background: #dce35b;
+  background: -webkit-linear-gradient(to right, #45b649, #dce35b);
+  background: linear-gradient(to right, #45b649, #dce35b);
+}
+
+/* body {
+  background: #00c3ff;
+  background: -webkit-linear-gradient(to right, #ffff1c, #00c3ff);
+  background: linear-gradient(to right, #ffff1c, #00c3ff);
+} */
+
 .par {
   font-family: 'Roboto';
   font-weight: 400;

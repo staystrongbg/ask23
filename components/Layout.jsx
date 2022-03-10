@@ -4,7 +4,6 @@ import Topbar from './Topbar';
 const Layout = ({ children }) => {
   return (
     <div className='flex flex-col min-w-screen items-center justify-between'>
-      <Topbar />
       <Topnav />
       {children}
 

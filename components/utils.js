@@ -13,3 +13,6 @@ export const headingStyle = (color) =>
   ` xl:text-2xl text-xl tracking-normal  uppercase head ${color}`;
 
 export const textStyle = (color) => `text-sm ${color} z-10 par`;
+
+
+//a da postavis slajder umesto hero sekcije?

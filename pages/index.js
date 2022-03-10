@@ -30,7 +30,6 @@ export default function Home() {
           {/* novo u ponudi */}
           <Noviteti />
         </div>
-        {searchTerm && <Modal />}
       </Layout>
     </>
   );
