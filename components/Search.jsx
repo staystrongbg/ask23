@@ -28,7 +28,7 @@ export const Search = () => {
         <form onSubmit={(e) => handleSearch(e)} className='z-50'>
           <input
             type='text'
-            placeholder='trazi...'
+            placeholder='тражи...'
             className={` p-2 outline-none h-10 w-full border-b-2 border-gray-400 transition-all bg-transparent text-slate-50 `}
             // onChange={}
           />

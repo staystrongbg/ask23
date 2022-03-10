@@ -38,7 +38,7 @@ const Noviteti = () => {
           ))}
         </div>
 
-        <p className='w-3/4 text-center text-base border-b py-10 border-dashed border-gray-500'>
+        <p className='par w-3/4 text-center text-base border-b py-10 border-dashed border-gray-500'>
           Пет Шоп АСК23 се труди да своје верне потрошаче обавештава о
           најновијин производима
         </p>

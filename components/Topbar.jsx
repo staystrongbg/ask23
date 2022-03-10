@@ -8,7 +8,7 @@ const Topbar = ({ height }) => {
         <span className='bg-gray-400 text-[#733e00]  rounded-full p-2'>
           <FaPhone />
         </span>
-        Dr. Drage Ljočić 3, Beograd | 069 288 71 94
+        Др. Драге Љочић 3, Београд | 069 288 71 94
       </div>
       <div className={`sm:flex hidden gap-2 items-center justify-center`}>
         <span className='bg-gray-400 rounded-full text-[#733e00] p-2'>
