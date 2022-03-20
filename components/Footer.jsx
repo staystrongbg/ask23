@@ -21,17 +21,17 @@ const Footer = () => {
   };
   const ICON_STYLE = 'bg-gray-700 text-slate-50  rounded-full p-2';
   return (
-    <footer className='bg-blue-900/80 w-full items-start justify-between flex text-red-50 px-10 py-5'>
-      <div className='ml-8 flex flex-col items-start w-2/3'>
-        <div className='address flex flex-wrap gap-40 border-b border-gray-500 pb-4'>
-          <div className='flex flex-col items-center justify-center'>
+    <footer className='bg-blue-900/80 w-full items-start justify-betwee flex  lg:flex-row flex-col xs:text-sm overflow-hidden text-red-50 md:px-10 px-2 py-5'>
+      <div className='md:ml-8 flex flex-col items-start  justify-between md:w-2/3 w-full'>
+        <div className='address   flex  md:gap-40 gap-5 items-start border-b border-gray-500 pb-4'>
+          <div className='flex flex-col items-center justify-center text-center'>
             <span className={ICON_STYLE}>
               <FaMapMarkerAlt />
             </span>
             <b>Адреса</b>
             <p> Др. Драге Љочић 3, Београд</p>
           </div>
-          <div className='flex flex-col items-center justify-center'>
+          <div className='flex flex-col items-center whitespace-nowrap justify-center'>
             <span className={ICON_STYLE}>
               <FaPhone />
             </span>
@@ -46,7 +46,7 @@ const Footer = () => {
             <p>beograd.l@yandex.com</p>
           </div>
         </div>
-        <div className='flex gap-40 py-4 items-start'>
+        <div className='flex md:flex-row flex-col md:gap-40 gap-10   py-4 items-start'>
           <div className='flex flex-col items-start gap-8'>
             <Image src='/asklogo.svg' width={200} height={80} alt='logo' />
             <p className='moto text-sm'>
@@ -67,18 +67,20 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div className='flex flex-col whitespace-nowrap '>
-            <b>Мапа сајта</b>
-            <Links text_color='text-gray-50' />
-          </div>
-          <div className='whitespace-nowrap text-sm '>
-            <b>Кориснички сервиси</b>
-            <ul className='flex flex-col gap-2 mt-1'>
-              <li>Испорука робе</li>
-              <li>Начини плаћања</li>
-              <li>Враћање робе</li>
-              <li>Рекламације</li>
-            </ul>
+          <div className='flex gap-10'>
+            <div className='flex flex-col whitespace-nowrap '>
+              <b>Мапа сајта</b>
+              <Links text_color='text-gray-50' />
+            </div>
+            <div className='whitespace-nowrap  '>
+              <b>Кориснички сервиси</b>
+              <ul className='flex flex-col gap-2 mt-1'>
+                <li>Испорука робе</li>
+                <li>Начини плаћања</li>
+                <li>Враћање робе</li>
+                <li>Рекламације</li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
@@ -92,7 +94,7 @@ const Footer = () => {
           </a>
         </Link>
       )}
-      {/* <Map location={location} zoomLevel={17} /> */}
+      <Map location={location} zoomLevel={17} />
     </footer>
   );
 };
