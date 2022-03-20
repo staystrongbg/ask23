@@ -5,7 +5,7 @@ import styles from '../styles/dropdown.module.scss';
 import Dropdown from './Dropdown';
 import Image from 'next/image';
 import { useGlobalContext } from '../context';
-import Topbar from './Topbar';
+import Links from './Links';
 
 //koristi se samo ovde
 
@@ -16,9 +16,9 @@ const Navlinks = () => {
       <div
         className={` ${
           height
-            ? 'fixed top-[48px] left-0 right-0 bg-gray-100/90   z-50 shadow-md'
+            ? 'fixed top-[44px] left-0 right-0 bg-gray-100   z-30 shadow-md'
             : ''
-        }  flex gap-8 px-6 py-4  items-center justify-center rounded-sm uppercase`}
+        }  flex gap-8 px-6 py-0  items-center justify-center text-base rounded-sm uppercase`}
       >
         {height && (
           <Image src='/asklogo.svg' alt='kuce' width={120} height={60} />
@@ -26,7 +26,7 @@ const Navlinks = () => {
         <div
           className={` ${styles.menu} flex items-center justify-center gap-0.5 relative  `}
         >
-          <Link href='/moj_ljubimac'>
+          <Link href='/proizvodi'>
             <a
               className={`text-gray-900 tracking-wider select-none whitespace-nowrap}`}
             >
@@ -44,18 +44,9 @@ const Navlinks = () => {
           <Dropdown />
         </div>
 
-        {links.map((link, i) => (
-          <Link key={i} href={link.href}>
-            <a
-              className={`select-none whitespace-nowrap text-gray-900 border-b-4 border-transparent hover:border-orange-600   
-               `}
-            >
-              {link.name}
-            </a>
-          </Link>
-        ))}
+        <Links text_color='text-gray-900' />
         <Link href='/akcije'>
-          <a className='text-slate-50 py-1 px-2 tracking-wider rounded-sm select-none bg-[#733e00]'>
+          <a className='text-slate-50 py-1 px-2 tracking-wider rounded-sm select-none bg-red-600'>
             акције
           </a>
         </Link>

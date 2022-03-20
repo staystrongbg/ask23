@@ -8,7 +8,9 @@
     "id": 0,
     "novo": true,
     "preporuka": false,
-    "akcija": false
+    "akcija": false,
+    "title": "пси",
+    "link": "psi"
   },
   {
     "name": "Product 1",
@@ -19,7 +21,9 @@
     "id": 1,
     "novo": true,
     "preporuka": false,
-    "akcija": true
+    "akcija": true,
+    "title": "мачке",
+    "link": "macke"
   },
   {
     "name": "Product 2",
@@ -30,7 +34,9 @@
     "id": 2,
     "novo": true,
     "preporuka": false,
-    "akcija": true
+    "akcija": true,
+    "title": "птице",
+    "link": "ptice"
   },
   {
     "name": "Product 3",
@@ -40,7 +46,9 @@
     "id": 3,
     "novo": true,
     "preporuka": false,
-    "akcija": false
+    "akcija": false,
+    "title": "акваристика",
+    "link": "akvaristika"
   },
   {
     "name": "Product 4",
@@ -51,7 +59,9 @@
     "id": 4,
     "novo": false,
     "preporuka": false,
-    "akcija": false
+    "akcija": false,
+    "title": "мале животиње",
+    "link": "male-zivotinje"
   },
   {
     "name": "Product 5",
@@ -61,7 +71,9 @@
     "id": 5,
     "novo": true,
     "preporuka": false,
-    "akcija": false
+    "akcija": false,
+    "title": "мале животиње",
+    "link": "male-zivotinje"
   },
   {
     "name": "Product 6",
@@ -73,7 +85,9 @@
     "id": 6,
     "novo": true,
     "preporuka": true,
-    "akcija": false
+    "akcija": false,
+    "title": "акваристика",
+    "link": "akvaristika"
   },
   {
     "name": "Product 5",
@@ -83,7 +97,9 @@
     "id": 7,
     "novo": false,
     "preporuka": true,
-    "akcija": false
+    "akcija": false,
+    "title": "птице",
+    "link": "ptice"
   },
   {
     "name": "Product 6",
@@ -95,6 +111,8 @@
     "id": 8,
     "novo": false,
     "preporuka": true,
-    "akcija": true
+    "akcija": true,
+    "title": "пси",
+    "link": "psi"
   }
 ]

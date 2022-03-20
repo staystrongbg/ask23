@@ -10,7 +10,6 @@ import {
 } from './utils';
 
 const Kategorije = () => {
-  console.log(categoryData);
   return (
     <div className='xl:w-1/2 w-full flex flex-wrap justify-center gap-4'>
       {categoryData.map((i) => (

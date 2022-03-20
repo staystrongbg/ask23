@@ -19,14 +19,14 @@ export default function Dropdown() {
   const Famouse = () => <FaMouse mouse={mouse} />;
 
   const mojljubimac = [
-    { name: 'пси', comp: Fadog, link: '/moj_ljubimac/psi' },
-    { name: 'мачке', comp: Facat, link: '/moj_ljubimac/macke' },
-    { name: 'птице', comp: Fabird, link: '/moj_ljubimac/ptice' },
-    { name: 'акваристика', comp: Fafish, link: '/moj_ljubimac/akvaristika' },
+    { name: 'пси', comp: Fadog, link: 'psi' },
+    { name: 'мачке', comp: Facat, link: 'macke' },
+    { name: 'птице', comp: Fabird, link: 'ptice' },
+    { name: 'акваристика', comp: Fafish, link: 'akvaristika' },
     {
       name: 'мале животиње',
       comp: Famouse,
-      link: '/moj_ljubimac/male_zivotinje',
+      link: '/male-zivotinje',
     },
   ];
 

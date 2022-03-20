@@ -1,5 +1,4 @@
-import '../styles/globals.css';
-import '../styles/animations.scss';
+import '../styles/globals.scss';
 
 import { AppProvider } from '../context';
 function MyApp({ Component, pageProps }) {

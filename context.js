@@ -1,14 +1,25 @@
 import { useContext, createContext, useState, useEffect } from 'react';
 import products from './products.json';
+import { categoryData } from './kategorijeData';
+import useOnScroll from './useOnScroll';
+import useSearchOnSubmit from './useSearchOnSubmit';
 const AppContext = createContext();
 
 const AppProvider = ({ children }) => {
   const links = [
     { href: '/', name: 'почетна' },
     { href: '/brendovi', name: 'брендови' },
-    { href: '/o_nama', name: 'о нама' },
+    { href: '/o-nama', name: 'о нама' },
     { href: '/kontakt', name: 'контакт' },
   ];
+
+  //
+  //EMAIL PASSWORD OW2GoJ?u;(Xi
+
+  // custom hooks
+  const { height, setHeight, handleScroll } = useOnScroll();
+  const { searchTerm, setSearchTerm, handleSearch, kbEvents } =
+    useSearchOnSubmit();
 
   const [isActive, setIsActive] = useState(0);
 
@@ -16,35 +27,18 @@ const AppProvider = ({ children }) => {
     products.filter((p) => p.novo === true)
   );
 
-  const [searchTerm, setSearchTerm] = useState('');
-
-  const [height, setHeight] = useState(false);
-
-  const handleScroll = () => {
-    setHeight(window.pageYOffset > 0 ? true : false);
-  };
+  const [searchProducts, setSearchProducts] = useState([]); // state for searchInput only
 
   useEffect(() => {
-    window.addEventListener('scroll', handleScroll);
-
-    return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
-
-  useEffect(() => {
-    setProdukti(
+    setSearchProducts(
       products.filter((o) =>
         o.name.toLowerCase().includes(searchTerm.toLowerCase())
       )
     );
   }, [searchTerm]);
 
-  const handleSearch = (e) => {
-    e.preventDefault();
-    setSearchTerm(e.target[0].value);
-    e.target[0].value = '';
-  };
-
   const [scroll, setScroll] = useState(false);
+
   useEffect(() => {
     if (window.innerWidth < 1130) {
       setScroll(true);
@@ -67,6 +61,9 @@ const AppProvider = ({ children }) => {
         handleSearch,
         links,
         scroll,
+        searchProducts,
+        kbEvents,
+        categoryData,
       }}
     >
       {children}

@@ -5,17 +5,25 @@ import { useGlobalContext } from '../context';
 import Sidebar from './sidebar';
 import { FaBars } from 'react-icons/fa';
 import Topbar from './Topbar';
+import Link from 'next/link';
 const Topnav = () => {
   const { height, links, scroll } = useGlobalContext();
 
   const [showSidebar, setShowSidebar] = useState(false);
 
   return (
-    <nav className='flex flex-col items-center w-full justify-center bg-transparent text-gray-900  text-xl'>
+    <nav
+      className={`flex flex-col items-center w-full justify-center bg-transparent text-gray-900  text-xl
+       `}
+    >
       <Topbar height={height} />
-      {!height && (
+      {!scroll && (
         <div className=' z-20 flex items-start justify-start w-fit p-2 xl:mt-16 mt-20 bg-transparent  '>
-          <Image src='/asklogo.svg' alt='kuce' width={340} height={140} />
+          <Link href='/'>
+            <a>
+              <Image src='/asklogo.svg' alt='kuce' width={340} height={140} />
+            </a>
+          </Link>
         </div>
       )}
       {!scroll ? (
@@ -23,7 +31,7 @@ const Topnav = () => {
       ) : (
         <FaBars
           onClick={() => setShowSidebar(!showSidebar)}
-          className='absolute sm:top-20 top-14 right-4 cursor-pointer'
+          className='fixed top-3  z-50 right-3 text-gray-50 font-bold text-2xl cursor-pointer'
         />
       )}
       {showSidebar && <Sidebar links={links} setShowSidebar={setShowSidebar} />}

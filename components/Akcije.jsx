@@ -5,7 +5,7 @@ import { useGlobalContext } from '../context';
 const Akcije = () => {
   const { products } = useGlobalContext();
   return (
-    <section className='  px-5 py-10 bg-gray-100'>
+    <section className='  px-5 py-10 bg-gray-200'>
       <div className='flex flex-col items-center justify-center xl:w-5/6 w-full m-auto mt-12 mb-12'>
         <h2 className='text-3xl uppercase'>производи на акцији</h2>
 

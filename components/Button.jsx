@@ -1,7 +1,7 @@
 import styles from '../styles/button.module.scss';
-const Button = ({ title }) => {
+const Button = ({ title, type = 'button' }) => {
   return (
-    <button className={styles.button}>
+    <button type={type} className={styles.button}>
       <span>{title} </span>
     </button>
   );
