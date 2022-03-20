@@ -13,7 +13,7 @@ const Sidebar = ({ links, setShowSidebar }) => {
       />
       <ul className={styles['sidebar-links']}>
         {/* <Search /> */}
-        <Link href='/moj_ljubimac'>
+        <Link href='/proizvodi'>
           <a
             className={`text-slate-700 tracking-wider border-b-4 border-transparent hover:border-b-4 hover:border-red-400 select-none whitespace-nowrap hover:text-slate-500'
           }`}
