@@ -9,7 +9,7 @@ const Akcije = () => {
       <div className='flex flex-col items-center justify-center xl:w-5/6 w-full m-auto mt-12 mb-12'>
         <h2 className='text-3xl uppercase'>производи на акцији</h2>
 
-        <p className='par w-3/4 text-center text-base border-b py-10 border-dashed border-gray-500'>
+        <p className='par xl:w-3/4 w-full text-center text-base border-b py-10 border-dashed border-gray-500'>
           Свака животиња има своје потребе, навике али и карактер на основу чега
           пажљиво правимо понуду производа за наше купце. Све што је потребно
           Вашим кућним љубимцима можете пронаћи у нашем пет схоп-у. Приуштите им
