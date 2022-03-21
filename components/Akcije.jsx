@@ -7,7 +7,9 @@ const Akcije = () => {
   return (
     <section className='  px-5 py-10 bg-gray-200'>
       <div className='flex flex-col items-center justify-center xl:w-5/6 w-full m-auto mt-12 mb-12'>
-        <h2 className='text-3xl uppercase'>производи на акцији</h2>
+        <h2 className='text-3xl md:text-left text-center uppercase'>
+          производи на акцији
+        </h2>
 
         <p className='par xl:w-3/4 w-full text-center text-base border-b py-10 border-dashed border-gray-500'>
           Свака животиња има своје потребе, навике али и карактер на основу чега

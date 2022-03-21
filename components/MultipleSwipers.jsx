@@ -32,7 +32,7 @@ const MultipleSwipers = ({ products }) => {
           spaceBetween: 1,
         },
         // when window width is >= 768px
-        384: {
+        336: {
           // width: 400,
           slidesPerView: 1,
           spaceBetween: 1,

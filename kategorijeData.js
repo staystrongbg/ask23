@@ -18,9 +18,9 @@ export const categoryData = [
     link: 'macke',
     text: 'lorem ipsun dolor sit emmet...',
     textStyle: 'text-yellow-900',
-    detailsContainer: ['right-2 top-4', 'text-right'],
-    background: ['bg-yellow-400', 'bg-right-bottom'],
-    imageStyle: '-left-16',
+    detailsContainer: ['left-2 top-4', 'text-left'],
+    background: ['bg-yellow-400', 'bg-left-bottom'],
+    imageStyle: '-right-20',
     imgWidth: 'w-full',
   },
   {

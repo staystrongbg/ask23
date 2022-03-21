@@ -23,7 +23,7 @@ const Footer = () => {
   return (
     <footer className='bg-blue-900/80 w-full items-start justify-betwee flex  lg:flex-row flex-col xs:text-sm overflow-hidden text-red-50 md:px-10 px-2 py-5'>
       <div className='md:ml-8 flex flex-col items-start  justify-between md:w-2/3 w-full'>
-        <div className='address   flex  md:gap-40 gap-5 items-start border-b border-gray-500 pb-4'>
+        <div className='address flex md:justify-start justify-center   md:gap-40 gap-5 md:text-base text-xs items-center  md:items-start border-b border-gray-500 pb-4  '>
           <div className='flex flex-col items-center justify-center text-center'>
             <span className={ICON_STYLE}>
               <FaMapMarkerAlt />
@@ -72,7 +72,7 @@ const Footer = () => {
               <b>Мапа сајта</b>
               <Links text_color='text-gray-50' />
             </div>
-            <div className='whitespace-nowrap  '>
+            <div className='whitespace-nowrap sm:text-base text-xs  '>
               <b>Кориснички сервиси</b>
               <ul className='flex flex-col gap-2 mt-1'>
                 <li>Испорука робе</li>

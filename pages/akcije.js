@@ -11,7 +11,7 @@ const Akcije = () => {
       <div className={`wrapper w-full  bg-gray-200 py-20`}>
         <section className='px-5 py-10 bg-gray-200'>
           <div className='flex flex-col items-center justify-center w-5/6 m-auto mt-12 mb-12'>
-            <h1 className='text-3xl uppercase'>
+            <h1 className='text-3xl uppercase  '>
               сви производи тренутно на акцији
             </h1>
             <p className='w-3/4 text-center text-base border-b py-10 border-dashed border-gray-500'>
