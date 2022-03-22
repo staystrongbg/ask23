@@ -10,11 +10,14 @@ export const detailsContainer = (margin, textAlign) =>
 export const imgWidth = (width) => `${width} h-2/3  absolute left-0 bottom-0`;
 
 export const headingStyle = (color) =>
-  ` xl:text-3xl text-2xl tracking-normal  uppercase head ${color}`;
+  ` xl:text-3xl text-xl tracking-normal  uppercase head ${color}`;
 
 export const textStyle = (color) => `xs:text-sm text-xs ${color} z-10 par`;
 
 //a da postavis slajder umesto hero sekcije?
+
+export const ICON_STYLE =
+  'bg-gray-50 rounded-full w-8 h-8 items-center  justify-center flex ';
 
 export const getWindowDimensions = () => {
   const {

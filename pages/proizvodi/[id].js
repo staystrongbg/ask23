@@ -1,13 +1,10 @@
 import Layout from '../../components/Layout';
 import products from '../../products.json';
-import { useGlobalContext } from '../../context';
 const ProizvodPojedinacno = ({ product }) => {
-  console.log(product);
-  const { height } = useGlobalContext();
   return (
     <Layout>
       <div className={`wrapper w-full  bg-gray-200 py-20`}>
-        <article className='flex xl:flex-row flex-col w-4/5 m-auto p-4 bg-transparent'>
+        <article className='flex xl:flex-row flex-col lg:w-4/5 w-full m-auto p-4 bg-transparent'>
           <div className='flex  items-center justify-center xl:w-[800px] xl:h-[800px] w-full h-full object-cover xl:p-4'>
             <img
               className='w-full h-full object-cover'
@@ -15,7 +12,7 @@ const ProizvodPojedinacno = ({ product }) => {
               alt={product.name}
             />
           </div>
-          <div>
+          <div className='mt-2'>
             <h1 className='text-3xl'>{product.name}</h1>
             <span className='text-2xl'>{product.price}</span>
             <div className='text-base'>

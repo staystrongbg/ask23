@@ -1,19 +1,32 @@
 import Layout from '../components/Layout';
-import Proizvod from '../components/Proizvod';
-import { categoryData } from '../kategorijeData';
 import products from '../products.json';
-import { useGlobalContext } from '../context';
+import NonSwiperProizvod from '../components/NonSwiperProizvod';
+import SwiperComponent from '../components/SwiperComponent';
 const Kategorija = ({ page }) => {
-  const { height } = useGlobalContext();
   return (
     <Layout>
-      <div className={`wrapper w-full  bg-gray-200 py-20`}>
-        <h1 className='text-3xl  text-center'>{page[0].title}</h1>
-        <section className='flex gap-6 w-5/6 m-auto flex-wrap'>
-          {page.map((p) => (
-            <Proizvod key={p.id} {...p} />
-          ))}
-        </section>
+      <div className={`wrapper w-full  bg-gray-200 py-5`}>
+        <div className='h-fit'>
+          <SwiperComponent photos={products.map((img) => img.image)} />
+        </div>
+        {/* <h1 className='text-3xl  text-center'></h1> */}
+        <div className='flex flex-col  xl:w-5/6 w-full m-auto mt-12 mb-12'>
+          <h1 className='text-3xl text-center uppercase'>{page[0].title}</h1>
+          <p className='xl:w-3/4 w-full text-center m-auto text-base border-b py-10 border-dashed border-gray-500 mb-20'>
+            Свака животиња има своје потребе, навике али и карактер на основу
+            чега пажљиво правимо понуду производа за наше купце. Све што је
+            потребно Вашим кућним љубимцима можете пронаћи у нашем пет схоп-у.
+            Приуштите им омиљену храну, опрему или играчке по најповољнијим
+            акцијским ценама.
+          </p>
+          <section className='flex xl:gap-5 xl:w-5/6 gap-2 py-10 justify-start w-full flex-wrap'>
+            {/* <div className='flex flex-wrap xl:gap-5 gap-2 py-10 justify-center w-full'> */}
+
+            {page.map((p) => (
+              <NonSwiperProizvod key={p.id} {...p} />
+            ))}
+          </section>
+        </div>
       </div>
     </Layout>
   );

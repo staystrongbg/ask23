@@ -13,7 +13,7 @@ const Kategorije = () => {
   return (
     <div className='xl:w-1/2 w-full flex flex-wrap justify-center gap-4'>
       {categoryData.map((i) => (
-        <Link key={i.id} href={i.link}>
+        <Link key={i.id} href={`/${i.link}`}>
           <a>
             <span className={cardStyle(i.background[0], i.background[1])}>
               <div

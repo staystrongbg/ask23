@@ -6,7 +6,10 @@ export const Search = () => {
   const [isSearching, setIsSearching] = useState(false);
   //local stejt
   return (
-    <div className=' flex items-center gap-2 bg-transparent rounded-md'>
+    <div
+      className=' flex items-center gap-2 bg-transparent rounded-md cursor-pointer'
+      title='Претрага производа'
+    >
       <span
         className={`p-2 cursor-pointer} z-50`}
         onClick={() => setIsSearching(!isSearching)}
@@ -25,14 +28,15 @@ export const Search = () => {
         {isSearching && (
           <form onSubmit={(e) => handleSearch(e)} className='z-50  '>
             <div
-              className='fixed top-0 left-0 right-0 bottom-0 bg-transparent'
+              className='fixed top-0 left-0 right-0 bottom-0 bg-gray-50/80'
               onClick={() => setIsSearching(false)}
             ></div>
 
             <input
               type='text'
-              placeholder='Tражи...'
-              className={`search-input text-base font-bold p-2  h-10 xl:w-[40%] w-[80%] transition-all shadow-md bg-gray-100  rounded-sm text-slate-800 absolute top-12 xl:left-1/2 xl:-translate-x-1/2 left-1 z-40`}
+              autoFocus
+              placeholder='Име производа...'
+              className={`search-input text-base font-bold p-2  h-10 xl:w-[40%] w-[98%] transition-all shadow-md bg-gray-100  rounded-sm text-slate-800 absolute top-12 xl:left-1/2 xl:-translate-x-1/2 left-1 z-40`}
             />
           </form>
         )}

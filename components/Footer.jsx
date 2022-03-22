@@ -88,7 +88,7 @@ const Footer = () => {
       {height && (
         <Link href='#top'>
           <a>
-            <div className=' z-49 fixed bottom-5 p-2 animate-bounce right-2 rounded-full bg-purple-900 text-gray-50 text-3xl'>
+            <div className=' z-50 fixed bottom-5 p-2 animate-bounce right-2 rounded-full bg-purple-900 text-gray-50 text-3xl'>
               <FaArrowUp />
             </div>
           </a>

@@ -7,11 +7,7 @@ import Akcije from '../components/Akcije';
 import Noviteti from '../components/Noviteti';
 import Hero from '../components/Hero';
 
-import { useGlobalContext } from '../context';
-
 export default function Home() {
-  const { searchTerm, height } = useGlobalContext();
-
   return (
     <>
       <Layout>

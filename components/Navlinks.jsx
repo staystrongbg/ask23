@@ -10,7 +10,7 @@ import Links from './Links';
 //koristi se samo ovde
 
 const Navlinks = () => {
-  const { links, height } = useGlobalContext();
+  const { height } = useGlobalContext();
   return (
     <>
       <div
@@ -30,7 +30,7 @@ const Navlinks = () => {
             <a
               className={`text-gray-900 tracking-wider select-none whitespace-nowrap}`}
             >
-              мој љубимац{' '}
+              производи
             </a>
           </Link>
           <span

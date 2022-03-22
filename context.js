@@ -40,10 +40,16 @@ const AppProvider = ({ children }) => {
   const [scroll, setScroll] = useState(false);
 
   useEffect(() => {
-    if (window.innerWidth < 1130) {
+    if (window.innerWidth < 1024) {
       setScroll(true);
     }
   }, []);
+
+  const [showTitles, setShowTitles] = useState(false);
+
+  const [titles] = useState([...new Set(products.map((v) => v.title)), 'све']);
+
+  const [items, setItems] = useState(products);
 
   return (
     <AppContext.Provider
@@ -64,6 +70,11 @@ const AppProvider = ({ children }) => {
         searchProducts,
         kbEvents,
         categoryData,
+        showTitles,
+        setShowTitles,
+        titles,
+        items,
+        setItems,
       }}
     >
       {children}

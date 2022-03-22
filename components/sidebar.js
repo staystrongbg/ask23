@@ -2,8 +2,7 @@ import styles from '../styles/sidebar.module.scss';
 import stylesDropdown from '../styles/dropdown.module.scss';
 
 import Link from 'next/link';
-import { FaChevronRight, FaTimes } from 'react-icons/fa';
-import { Search } from './Search';
+import { FaTimes } from 'react-icons/fa';
 const Sidebar = ({ links, setShowSidebar }) => {
   return (
     <div className={styles['sidebar']}>
@@ -18,7 +17,7 @@ const Sidebar = ({ links, setShowSidebar }) => {
             className={`text-slate-700 tracking-wider border-b-4 border-transparent hover:border-b-4 hover:border-red-400 select-none whitespace-nowrap hover:text-slate-500'
           }`}
           >
-            мој љубимац{' '}
+            производи
           </a>
         </Link>
 
