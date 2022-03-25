@@ -1,4 +1,5 @@
 import { useContext, createContext, useState, useEffect } from 'react';
+import { useRouter } from 'next/router';
 import products from './products.json';
 import { categoryData } from './kategorijeData';
 import useOnScroll from './useOnScroll';
@@ -6,6 +7,7 @@ import useSearchOnSubmit from './useSearchOnSubmit';
 const AppContext = createContext();
 
 const AppProvider = ({ children }) => {
+  const router = useRouter();
   const links = [
     { href: '/', name: 'почетна' },
     { href: '/brendovi', name: 'брендови' },
@@ -46,10 +48,18 @@ const AppProvider = ({ children }) => {
   }, []);
 
   const [showTitles, setShowTitles] = useState(false);
+  const [showfilters, setShowFilters] = useState(false);
 
   const [titles] = useState([...new Set(products.map((v) => v.title)), 'све']);
 
   const [items, setItems] = useState(products);
+
+  //reset
+  useEffect(() => {
+    setItems(products);
+    setShowFilters(false);
+    setShowTitles(false);
+  }, [router.pathname]);
 
   return (
     <AppContext.Provider
@@ -73,6 +83,8 @@ const AppProvider = ({ children }) => {
         showTitles,
         setShowTitles,
         titles,
+        setShowFilters,
+        showfilters,
         items,
         setItems,
       }}

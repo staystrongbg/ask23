@@ -1,6 +1,7 @@
 import MultipleSwipers from '../components/MultipleSwipers';
 import { useState } from 'react';
 import { useGlobalContext } from '../context';
+import { H2, P } from './utils';
 
 const Noviteti = () => {
   //lokani stejtovi i funkcije
@@ -26,22 +27,21 @@ const Noviteti = () => {
       <div className='flex flex-col items-center justify-center xl:w-5/6 m-auto mt-12 mb-12'>
         <div className='flex gap-10'>
           {filtrirano.map((i, idx) => (
-            <h2
+            <H2
               key={idx}
+              onClick={(e) => handleCategory(e.target.textContent, idx)}
               className={` ${
                 isActive === idx && 'border-b-4 border-red-400'
-              } text-3xl cursor-pointer uppercase select-none `}
-              onClick={(e) => handleCategory(e.target.textContent, idx)}
+              } sm:text-2xl text-xl cursor-pointer uppercase select-none `}
             >
               {i}
-            </h2>
+            </H2>
           ))}
         </div>
-
-        <p className='par w-3/4 text-center text-base border-b py-10 border-dashed border-gray-500'>
+        <P>
           Пет Шоп АСК23 се труди да своје верне потрошаче обавештава о
           најновијин производима
-        </p>
+        </P>
         <div className='flex flex-wrap w-full gap-5 py-10 justify-center '>
           <MultipleSwipers products={produkti} />
         </div>

@@ -1,4 +1,3 @@
-import Link from 'next/link';
 import Meta from '../components/Meta';
 import Layout from '../components/Layout';
 import Kategorije from '../components/Kategorije';
@@ -11,7 +10,8 @@ export default function Home() {
   return (
     <>
       <Layout>
-        <Meta title='Početna' />
+        <Meta title='Почетна' />
+        
         <div className={`wrapper w-full }`}>
           <main
             className={` flex xl:flex-row xl:w-5/6 flex-col items-center justify-between m-auto xl:h-screen h-full xl:py-0 py-20  `}

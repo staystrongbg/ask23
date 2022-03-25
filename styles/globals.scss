@@ -8,6 +8,7 @@ html {
 }
 body {
   background-color: rgb(229, 231, 235);
+  overflow-x: hidden;
 }
 // zeleni gradient
 //background:#dce35b;
@@ -36,6 +37,10 @@ body {
 } */
 
 a {
+  font-family: $primary-font;
+}
+
+ul {
   font-family: $primary-font;
 }
 

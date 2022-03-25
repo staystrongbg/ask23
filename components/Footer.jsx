@@ -72,7 +72,8 @@ const Footer = () => {
               <b>Мапа сајта</b>
               <Links text_color='text-gray-50' />
             </div>
-            <div className='whitespace-nowrap sm:text-base text-xs  '>
+
+            <div className='whitespace-nowrap   '>
               <b>Кориснички сервиси</b>
               <ul className='flex flex-col gap-2 mt-1'>
                 <li>Испорука робе</li>

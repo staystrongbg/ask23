@@ -21,7 +21,11 @@ const Navlinks = () => {
         }  flex gap-8 px-6 py-0  items-center justify-center text-base rounded-sm uppercase`}
       >
         {height && (
-          <Image src='/asklogo.svg' alt='kuce' width={120} height={60} />
+          <Link href='/'>
+            <a>
+              <Image src='/asklogo.svg' alt='kuce' width={120} height={60} />
+            </a>
+          </Link>
         )}
         <div
           className={` ${styles.menu} flex items-center justify-center gap-0.5 relative  `}

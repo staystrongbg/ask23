@@ -12,7 +12,7 @@ const Topbar = ({ height }) => {
       className='w-full py-0.5 px-2 bg-gradient-to-r from-[#93291e] to-[#ed213a] text-slate-50 flex  xl:items-center xl:justify-center xl:gap-16 gap-4  fixed top-0 z-50  '
     >
       <Search />
-      <div className='sm:flex w-full lg:text-base text-xs justify-center gap-10 hidden'>
+      <div className='sm:flex w-full lg:text-sm text-xs justify-center gap-10 hidden'>
         <div
           className={` flex flex-col md:flex-row gap-2 items-center justify-center whitespace-nowrap `}
         >

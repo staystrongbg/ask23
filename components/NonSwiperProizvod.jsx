@@ -1,4 +1,5 @@
 import Link from 'next/link';
+// import { useState } from 'react';
 import { useGlobalContext } from '../context';
 const NonSwiperProizvod = ({ ...p }) => {
   const { setSearchTerm } = useGlobalContext();
