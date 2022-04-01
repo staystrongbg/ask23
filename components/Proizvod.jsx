@@ -2,13 +2,18 @@ import Link from 'next/link';
 import { useGlobalContext } from '../context';
 
 const Proizvod = ({ ...p }) => {
-  const { setSearchTerm } = useGlobalContext();
+  const { setSearchTerm, setIsSearching } = useGlobalContext();
+
+  const closeOverlays = () => {
+    setSearchTerm('');
+    setIsSearching(false);
+  };
   return (
     <Link href={`/proizvodi/${p.id.toString()}`}>
       <a>
         <div
           className={`w-72 h-96 lg:text-base text-xs bg-gray-100 hover:shadow-xl rounded-md cursor-pointer transition-all   border-2 `}
-          onClick={() => setSearchTerm('')}
+          onClick={closeOverlays}
         >
           <div className='w-full h-1/2 '>
             <img

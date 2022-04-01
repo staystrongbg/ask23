@@ -2,8 +2,9 @@ import { useEffect } from 'react';
 import { FaTimes } from 'react-icons/fa';
 import { useGlobalContext } from '../context';
 import Proizvod from './Proizvod';
-const Modal = ({ isSearching }) => {
-  const { setSearchTerm, searchProducts, kbEvents } = useGlobalContext();
+const Modal = () => {
+  const { setSearchTerm, searchProducts, kbEvents, isSearching } =
+    useGlobalContext();
 
   return (
     <div

@@ -29,7 +29,7 @@ export const Search = () => {
         {isSearching && (
           <form onSubmit={(e) => handleSearch(e)} className='z-50  '>
             <div
-              className={`fixed top-0 left-0 right-0 bottom-0 bg-gray-50 z-50 `}
+              className={` fixed top-0 left-0 right-0 bottom-0 bg-gray-50/90 z-50 `}
               onClick={() => setIsSearching(false)}
             >
               <div className='bg-red-500 flex justify-between items-center px-4 py-2'>
