@@ -32,12 +32,15 @@ export const Search = () => {
               className={`fixed top-0 left-0 right-0 bottom-0 bg-gray-50 z-50 `}
               onClick={() => setIsSearching(false)}
             >
-              <span
-                className='fixed top-2 right-2  text-gray-900 text-2xl'
-                onClick={() => setIsSearching(false)}
-              >
-                <FaTimes />
-              </span>
+              <div className='bg-red-500 flex justify-between items-center px-4 py-2'>
+                <h3 className='text-gray-50 capitalize'>претрага</h3>
+                <span
+                  className=' text-gray-50 text-2xl'
+                  onClick={() => setIsSearching(false)}
+                >
+                  <FaTimes />
+                </span>
+              </div>
             </div>
 
             <input
