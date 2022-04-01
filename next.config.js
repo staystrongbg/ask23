@@ -8,6 +8,6 @@ module.exports = {
     return config;
   },
   images: {
-    domains: [''],
+    domains: ['picsum.photos'],
   },
 };

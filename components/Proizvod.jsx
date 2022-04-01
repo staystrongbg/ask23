@@ -3,6 +3,7 @@ import { useGlobalContext } from '../context';
 
 const Proizvod = ({ ...p }) => {
   const { setSearchTerm } = useGlobalContext();
+  console.log(p);
   return (
     <Link href={`/proizvodi/${p.id.toString()}`}>
       <a>
@@ -17,10 +18,10 @@ const Proizvod = ({ ...p }) => {
               alt=''
             />
           </div>
-          <div className='px-4 flex flex-col justify-center items-start gap-2 h-1/2'>
+          <div className='px-4 py-6 flex flex-col justify-center items-start gap-1 h-1/2'>
             <p className='text-gray-500'>Цена: </p>
             <h2 className='price font-bold inline text-gray-700   text-xl'>
-              {p.price * (p.id + 10)},00 дин
+              {p.price} дин
             </h2>
             <h3 className='title text-xl text-gray-700 '>{p.name}</h3>
             <p className='details text-sm text-gray-600'>{p.detail}</p>

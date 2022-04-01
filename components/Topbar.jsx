@@ -1,9 +1,26 @@
-import { FaPhone, FaEnvelope, FaMapMarkerAlt } from 'react-icons/fa';
+import {
+  FaPhone,
+  FaEnvelope,
+  FaShoppingCart,
+  FaMapMarkerAlt,
+  FaTimes,
+} from 'react-icons/fa';
+import { AiOutlineShoppingCart } from 'react-icons/ai';
 import { Search } from './Search';
 import Image from 'next/image';
 import Link from 'next/link';
-
+import { useEffect, useState } from 'react';
+import { useGlobalContext } from '../context';
+import { Divider } from '@mui/material';
+import Button2 from '../pages/proizvodi/Buttone2';
 const Topbar = ({ height }) => {
+  const {
+    proizvodiKorpa,
+    setProizvodiKorpa,
+    cart,
+    setCart,
+    removeItemFromCart,
+  } = useGlobalContext();
   const ICON_STYLE = 'bg-gray-700 text-slate-50  rounded-full p-2';
 
   return (
@@ -39,6 +56,81 @@ const Topbar = ({ height }) => {
         </div>
       </div>
 
+      <div
+        className={`cursor-pointer text-2xl absolute lg:right-2 top-3 right-12  `}
+      >
+        <FaShoppingCart onClick={() => setCart(true)} />
+      </div>
+      {cart && (
+        <div className='shopping-cart fixed top-0 right-0 bottom-0 w-96 border-l-4 border-gray-300 bg-gray-200/90 flex justify-between py-10 flex-col '>
+          <span
+            className='text-gray-700 absolute top-2 items-center px-4 text-xl cursor-pointer flex justify-between w-full'
+            onClick={() => setCart(false)}
+          >
+            Ваша корпа
+            <FaTimes />
+          </span>
+          <div className='flex flex-col px-2'>
+            {proizvodiKorpa &&
+              proizvodiKorpa.map((item) => (
+                <div key={item.id}>
+                  <div className='flex items-center'>
+                    <img
+                      src={item.image}
+                      className='w-20 h-20 border border-gray-300 p-1'
+                      alt=''
+                    />
+                    <div className=' text-base m-4 w-full'>
+                      <p className='text-gray-900 flex justify-between w-full'>
+                        <span>{item.name}</span>
+                        <span>{item.price} дин</span>
+                      </p>
+                      <div className='text-gray-400 flex justify-between mt-2'>
+                        <span>Kол. {item.kolicina}</span>
+                        <span
+                          className='text-red-900 cursor-pointer tracking-wider uppercase'
+                          onClick={() => removeItemFromCart(item.id)}
+                        >
+                          {' '}
+                          обриши{' '}
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                  <Divider />
+                </div>
+              ))}
+            {!proizvodiKorpa.length && (
+              <div className='flex flex-col items-center justify-center'>
+                <h2 className='text-gray-600 text-2xl  my-10'>
+                  Корпа је празна
+                </h2>
+                <span className='text-gray-800 text-5xl text-center'>
+                  <AiOutlineShoppingCart />
+                </span>
+              </div>
+            )}
+            {proizvodiKorpa.length > 0 && (
+              <>
+                <h2 className='text-gray-800 text-2xl my-4 text-right font-bold'>
+                  <span className='mr-2'> Укупно:</span>
+                  {proizvodiKorpa.reduce((total, item) => {
+                    total = total + +item.price * item.kolicina;
+                    return total;
+                  }, null)}{' '}
+                  <span className='ml-1'>дин</span>
+                </h2>
+                <Button2 title='заврши куповину' />
+                <p className='text-sm text-gray-500 cursor-pointer text-center my-2'>
+                  <span onClick={() => setCart(false)}>
+                    или наставите куповину →
+                  </span>
+                </p>
+              </>
+            )}
+          </div>
+        </div>
+      )}
       <div className='lg:hidden flex w-full items-center justify-center -ml-10 '>
         <Link href='/'>
           <a>

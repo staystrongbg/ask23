@@ -1,5 +1,3 @@
-import { useEffect, useState } from 'react';
-
 import { FaChevronRight } from 'react-icons/fa';
 import { useGlobalContext } from '../context';
 import Divider from './Divider';
@@ -41,8 +39,7 @@ export const FilterKategorije = () => {
 };
 
 export const FilterSort = () => {
-  const { setItems, items,showfilters,setShowFilters } = useGlobalContext();
-
+  const { setItems, items, showfilters, setShowFilters } = useGlobalContext();
 
   return (
     <ul className={LIST_NAME_STYLE}>

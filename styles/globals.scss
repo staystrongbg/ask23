@@ -57,7 +57,7 @@ span {
 .par {
   font-family: $primary-font;
   font-weight: 400;
-  font-size: 1.15rem;
+  // font-size: 1.15rem;
 }
 
 .head {
@@ -68,4 +68,8 @@ span {
 .search-input {
   animation: fadeIn 0.3s ease-out;
   font-family: $mono-font;
+}
+
+.shopping-cart {
+  animation: fadeIn 0.3s ease-in-out;
 }

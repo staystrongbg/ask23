@@ -53,6 +53,8 @@ const AppProvider = ({ children }) => {
   const [titles] = useState([...new Set(products.map((v) => v.title)), 'све']);
 
   const [items, setItems] = useState(products);
+  const [proizvodiKorpa, setProizvodiKorpa] = useState([]);
+  const [cart, setCart] = useState(false);
 
   //reset
   useEffect(() => {
@@ -60,6 +62,18 @@ const AppProvider = ({ children }) => {
     setShowFilters(false);
     setShowTitles(false);
   }, [router.pathname]);
+
+  // const showCart = () => {
+  //   setCart(true);
+  // };
+  useEffect(() => {
+    console.log(proizvodiKorpa);
+  }, [proizvodiKorpa]);
+
+  const removeItemFromCart = (id) => {
+    setProizvodiKorpa(proizvodiKorpa.filter((item) => item.id !== id));
+    // localStorage.removeItem('korpa');
+  };
 
   return (
     <AppContext.Provider
@@ -87,6 +101,11 @@ const AppProvider = ({ children }) => {
         showfilters,
         items,
         setItems,
+        proizvodiKorpa,
+        setProizvodiKorpa,
+        cart,
+        setCart,
+        removeItemFromCart,
       }}
     >
       {children}
