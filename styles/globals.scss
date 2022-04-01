@@ -70,6 +70,7 @@ span {
   font-family: $mono-font;
 }
 
+.search-overlay,
 .shopping-cart {
-  animation: fadeIn 0.3s ease-in-out;
+  animation: slideLeft 0.3s ease-in-out;
 }
