@@ -7,7 +7,7 @@ import { FaBars } from 'react-icons/fa';
 import Topbar from './Topbar';
 import Link from 'next/link';
 const Topnav = () => {
-  const { height, links, scroll } = useGlobalContext();
+  const { height, links, scroll, cart, isSearching } = useGlobalContext();
 
   const [showSidebar, setShowSidebar] = useState(false);
 
@@ -31,7 +31,9 @@ const Topnav = () => {
       ) : (
         <FaBars
           onClick={() => setShowSidebar(!showSidebar)}
-          className='fixed top-3  z-50 right-3 text-gray-50 font-bold text-2xl cursor-pointer'
+          className={`fixed top-3  z-40 right-3 text-gray-50 font-bold text-2xl cursor-pointer ${
+            cart || isSearching ? 'hidden' : ''
+          } `}
         />
       )}
       {showSidebar && <Sidebar links={links} setShowSidebar={setShowSidebar} />}

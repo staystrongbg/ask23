@@ -1,7 +1,7 @@
 import Layout from '../../components/Layout';
 import products from '../../products.json';
 import Button from '../../components/Button';
-import Button2 from './Buttone2';
+import Button2 from '../../components/Buttone2';
 import { useGlobalContext } from '../../context';
 import { useEffect, useState } from 'react';
 import { useRef } from 'react';

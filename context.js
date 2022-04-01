@@ -30,6 +30,7 @@ const AppProvider = ({ children }) => {
   );
 
   const [searchProducts, setSearchProducts] = useState([]); // state for searchInput only
+  const [isSearching, setIsSearching] = useState(false);
 
   useEffect(() => {
     setSearchProducts(
@@ -106,6 +107,8 @@ const AppProvider = ({ children }) => {
         cart,
         setCart,
         removeItemFromCart,
+        isSearching,
+        setIsSearching,
       }}
     >
       {children}

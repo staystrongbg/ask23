@@ -3,7 +3,6 @@ import { useGlobalContext } from '../context';
 
 const Proizvod = ({ ...p }) => {
   const { setSearchTerm } = useGlobalContext();
-  console.log(p);
   return (
     <Link href={`/proizvodi/${p.id.toString()}`}>
       <a>

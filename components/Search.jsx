@@ -3,16 +3,16 @@ import { FaTimes } from 'react-icons/fa';
 import { useGlobalContext } from '../context';
 import Modal from './Modal';
 export const Search = () => {
-  const { setSearchTerm, handleSearch, searchTerm } = useGlobalContext();
-  const [isSearching, setIsSearching] = useState(false);
+  const { handleSearch, searchTerm, isSearching, setIsSearching } =
+    useGlobalContext();
   //local stejt
   return (
     <div
-      className=' flex items-center gap-2 bg-transparent rounded-md cursor-pointer'
+      className=' flex items-center gap-2 bg-transparent rounded-md cursor-pointer z-50'
       title='Претрага производа'
     >
       <span
-        className={`p-2 cursor-pointer} z-50`}
+        className={`p-2 cursor-pointer}`}
         onClick={() => setIsSearching(!isSearching)}
       >
         <svg
@@ -29,11 +29,11 @@ export const Search = () => {
         {isSearching && (
           <form onSubmit={(e) => handleSearch(e)} className='z-50  '>
             <div
-              className={`fixed top-0 left-0 right-0 bottom-0 bg-gray-50/80  `}
+              className={`fixed top-0 left-0 right-0 bottom-0 bg-gray-50 z-50 `}
               onClick={() => setIsSearching(false)}
             >
               <span
-                className='absolute top-2 right-2 text-gray-900 text-2xl'
+                className='fixed top-2 right-2  text-gray-900 text-2xl'
                 onClick={() => setIsSearching(false)}
               >
                 <FaTimes />
@@ -44,7 +44,7 @@ export const Search = () => {
               type='text'
               autoFocus
               placeholder='Име производа...'
-              className={`search-input text-base font-bold p-2  h-10 xl:w-[40%] w-[98%] transition-all shadow-md bg-gray-100  rounded-sm text-slate-800 absolute top-12 xl:left-1/2 xl:-translate-x-1/2 left-1 z-40   `}
+              className={`search-input text-base font-bold p-2  h-10 xl:w-[40%] w-[98%] transition-all shadow-md bg-gray-100  rounded-sm text-slate-800 absolute top-12 xl:left-1/2 xl:-translate-x-1/2 left-1 z-50   `}
             />
           </form>
         )}
