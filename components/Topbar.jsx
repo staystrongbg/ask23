@@ -16,7 +16,6 @@ import Button2 from './Buttone2';
 const Topbar = ({ height }) => {
   const {
     proizvodiKorpa,
-    setProizvodiKorpa,
     cart,
     setCart,
     removeItemFromCart,

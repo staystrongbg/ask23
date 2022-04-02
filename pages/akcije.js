@@ -7,7 +7,7 @@ import SwiperComponent from '../components/SwiperComponent';
 import { useGlobalContext } from '../context';
 import { H1, P } from '../components/utils';
 const Akcije = () => {
-  const { products, setItems, items } = useGlobalContext();
+  const { items } = useGlobalContext();
   return (
     <Layout>
       <Meta title='Акције' />
@@ -15,7 +15,9 @@ const Akcije = () => {
       <div className={`wrapper w-full  bg-gray-200 `}>
         {/* //top slider */}
         <div className='py-5'>
-          <SwiperComponent photos={products.map((img) => img.image)} />
+          <SwiperComponent
+            photos={items.filter((p) => p.akcija).map((img) => img.image)}
+          />
         </div>
 
         <section className='sm:px-5 px-1 bg-gray-200'>
@@ -31,7 +33,7 @@ const Akcije = () => {
 
             <div className='flex md:flex-row flex-col xl:gap-40'>
               <div className='xl:grow-1 px-2'>
-                <FilterKategorije setItems={setItems} items={items} />
+                <FilterKategorije />
                 <FilterSort />
               </div>
               {/* iskljuciti wrap i aktivirati flex-col */}

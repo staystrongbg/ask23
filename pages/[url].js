@@ -7,11 +7,14 @@ import { useGlobalContext } from '../context';
 import { useEffect } from 'react';
 import Meta from '../components/Meta';
 import { H1, P } from '../components/utils';
+
 const Kategorija = ({ page }) => {
   const { setItems, items } = useGlobalContext();
+
   useEffect(() => {
     setItems(page);
   }, [items, page]);
+
   return (
     <Layout>
       <Meta title={page[0].title} />
@@ -19,7 +22,7 @@ const Kategorija = ({ page }) => {
       <div className={`wrapper w-full  bg-gray-200 `}>
         {/* //top slider */}
         <div className='py-5'>
-          <SwiperComponent photos={products.map((img) => img.image)} />
+          <SwiperComponent photos={items.map((img) => img.image)} />
         </div>
         <section className='sm:px-5 px-1  bg-gray-200'>
           <div className='flex flex-col  xl:w-5/6 w-full m-auto mt-12 mb-12'>

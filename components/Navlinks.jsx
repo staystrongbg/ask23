@@ -9,7 +9,7 @@ import Links from './Links';
 
 //koristi se samo ovde
 
-const Navlinks = () => {
+const Navlinks = ({ className = '' }) => {
   const { height } = useGlobalContext();
   return (
     <>
@@ -18,7 +18,7 @@ const Navlinks = () => {
           height
             ? 'fixed top-[44px] left-0 right-0 bg-gray-100   z-30 shadow-md'
             : ''
-        }  flex gap-8 px-6 py-0  items-center justify-center text-base rounded-sm uppercase`}
+        }  flex gap-8 px-6 py-0  items-center justify-center text-base rounded-sm uppercase ${className} `}
       >
         {height && (
           <Link href='/'>

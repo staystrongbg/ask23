@@ -7,7 +7,7 @@ import { FaBars } from 'react-icons/fa';
 import Topbar from './Topbar';
 import Link from 'next/link';
 const Topnav = () => {
-  const { height, links, scroll, cart, isSearching } = useGlobalContext();
+  const { height, links, cart, isSearching } = useGlobalContext();
 
   const [showSidebar, setShowSidebar] = useState(false);
 
@@ -17,25 +17,22 @@ const Topnav = () => {
        `}
     >
       <Topbar height={height} />
-      {!scroll && (
-        <div className=' z-20 flex items-start justify-start w-fit p-2 xl:mt-16 mt-20 bg-transparent  '>
-          <Link href='/'>
-            <a>
-              <Image src='/asklogo.svg' alt='kuce' width={340} height={140} />
-            </a>
-          </Link>
-        </div>
-      )}
-      {!scroll ? (
-        <Navlinks />
-      ) : (
-        <FaBars
-          onClick={() => setShowSidebar(!showSidebar)}
-          className={`fixed top-3  z-40 right-3 text-gray-50 font-bold text-2xl cursor-pointer ${
-            cart || isSearching ? 'hidden' : ''
-          } `}
-        />
-      )}
+
+      <div className=' z-20 lg:flex hidden items-start justify-start w-fit p-2 xl:mt-16 mt-20 bg-transparent  '>
+        <Link href='/'>
+          <a>
+            <Image src='/asklogo.svg' alt='kuce' width={340} height={140} />
+          </a>
+        </Link>
+      </div>
+
+      <Navlinks className='lg:flex hidden' />
+      <FaBars
+        onClick={() => setShowSidebar(!showSidebar)}
+        className={`fixed top-3  z-40 right-3 text-gray-50 font-bold text-2xl cursor-pointer lg:hidden flex ${
+          cart || isSearching ? 'hidden' : ''
+        } `}
+      />
       {showSidebar && <Sidebar links={links} setShowSidebar={setShowSidebar} />}
     </nav>
   );

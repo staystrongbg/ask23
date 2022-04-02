@@ -3,8 +3,7 @@ import { FaTimes } from 'react-icons/fa';
 import { useGlobalContext } from '../context';
 import Proizvod from './Proizvod';
 const Modal = () => {
-  const { setSearchTerm, searchProducts, kbEvents, isSearching } =
-    useGlobalContext();
+  const { setSearchTerm, searchProducts, kbEvents } = useGlobalContext();
 
   return (
     <div

@@ -40,7 +40,7 @@ export const FilterKategorije = () => {
 
 export const FilterSort = () => {
   const { setItems, items, showfilters, setShowFilters } = useGlobalContext();
-
+  // console.log(items);
   return (
     <ul className={LIST_NAME_STYLE}>
       <span

@@ -40,20 +40,13 @@ const AppProvider = ({ children }) => {
     );
   }, [searchTerm]);
 
-  const [scroll, setScroll] = useState(false);
-
-  useEffect(() => {
-    if (window.innerWidth < 1024) {
-      setScroll(true);
-    }
-  }, []);
-
   const [showTitles, setShowTitles] = useState(false);
   const [showfilters, setShowFilters] = useState(false);
 
   const [titles] = useState([...new Set(products.map((v) => v.title)), 'све']);
 
-  const [items, setItems] = useState(products);
+  const [items, setItems] = useState([]);
+
   const [proizvodiKorpa, setProizvodiKorpa] = useState([]);
   const [cart, setCart] = useState(false);
 
@@ -64,12 +57,9 @@ const AppProvider = ({ children }) => {
     setShowTitles(false);
   }, [router.pathname]);
 
-  // const showCart = () => {
-  //   setCart(true);
-  // };
-  useEffect(() => {
-    console.log(proizvodiKorpa);
-  }, [proizvodiKorpa]);
+  // useEffect(() => {
+  //   console.log(proizvodiKorpa);
+  // }, [proizvodiKorpa]);
 
   const removeItemFromCart = (id) => {
     setProizvodiKorpa(proizvodiKorpa.filter((item) => item.id !== id));
@@ -91,7 +81,6 @@ const AppProvider = ({ children }) => {
         setIsActive,
         handleSearch,
         links,
-        scroll,
         searchProducts,
         kbEvents,
         categoryData,
