@@ -47,12 +47,16 @@ const AppProvider = ({ children }) => {
 
   const [items, setItems] = useState([]);
 
+  useEffect(() => {
+    setItems(products);
+  }, [products]);
+
   const [proizvodiKorpa, setProizvodiKorpa] = useState([]);
   const [cart, setCart] = useState(false);
 
   //reset
   useEffect(() => {
-    setItems(products);
+    // setItems(products);
     setShowFilters(false);
     setShowTitles(false);
   }, [router.pathname]);
