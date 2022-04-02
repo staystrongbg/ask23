@@ -54,6 +54,10 @@ const AppProvider = ({ children }) => {
   const [proizvodiKorpa, setProizvodiKorpa] = useState([]);
   const [cart, setCart] = useState(false);
 
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [router.asPath]);
+
   //reset
   useEffect(() => {
     setItems(products);
