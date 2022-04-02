@@ -32,7 +32,7 @@ const ProizvodPojedinacno = ({ product }) => {
 
   return (
     <Layout>
-      <div className={`wrapper w-full  bg-gray-200 py-20`}>
+      <div className={`wrapper w-full  bg-gray-200 `}>
         <article className='flex flex-col lg:w-4/5 w-full m-auto p-4 bg-transparent'>
           <h1 className='text-3xl mb-5'>{product.name}</h1>
           <div className='flex md:flex-row flex-col gap-4'>
