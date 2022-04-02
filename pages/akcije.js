@@ -7,7 +7,7 @@ import SwiperComponent from '../components/SwiperComponent';
 import { useGlobalContext } from '../context';
 import { H1, P } from '../components/utils';
 const Akcije = () => {
-  const { items } = useGlobalContext();
+  const { products, items } = useGlobalContext();
   return (
     <Layout>
       <Meta title='Акције' />
@@ -15,9 +15,7 @@ const Akcije = () => {
       <div className={`wrapper w-full  bg-gray-200 `}>
         {/* //top slider */}
         <div className='py-5'>
-          <SwiperComponent
-            photos={items.filter((p) => p.akcija).map((img) => img.image)}
-          />
+          <SwiperComponent photos={products.map((img) => img.image)} />
         </div>
 
         <section className='sm:px-5 px-1 bg-gray-200'>

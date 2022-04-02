@@ -56,7 +56,7 @@ const AppProvider = ({ children }) => {
 
   //reset
   useEffect(() => {
-    // setItems(products);
+    setItems(products);
     setShowFilters(false);
     setShowTitles(false);
   }, [router.pathname]);

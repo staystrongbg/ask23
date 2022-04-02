@@ -13,14 +13,9 @@ import { useEffect, useState } from 'react';
 import { useGlobalContext } from '../context';
 import { Divider } from '@mui/material';
 import Button2 from './Buttone2';
-const Topbar = ({ height }) => {
-  const {
-    proizvodiKorpa,
-    cart,
-    setCart,
-    removeItemFromCart,
-    isSearching,
-  } = useGlobalContext();
+const Topbar = () => {
+  const { proizvodiKorpa, cart, setCart, removeItemFromCart, isSearching } =
+    useGlobalContext();
   const ICON_STYLE = 'bg-gray-700 text-slate-50  rounded-full p-2';
 
   return (

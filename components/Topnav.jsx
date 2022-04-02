@@ -6,7 +6,11 @@ import Sidebar from './sidebar';
 import { FaBars } from 'react-icons/fa';
 import Topbar from './Topbar';
 import Link from 'next/link';
+import { useRef } from 'react';
+import { useRouter } from 'next/router';
+import { route } from 'next/dist/server/router';
 const Topnav = () => {
+  const router = useRouter();
   const { height, links, cart, isSearching } = useGlobalContext();
 
   const [showSidebar, setShowSidebar] = useState(false);
