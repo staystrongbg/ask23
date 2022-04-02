@@ -42,6 +42,8 @@ const ProizvodPojedinacno = ({ product }) => {
                 objectFit='cover'
                 width='600px'
                 height='600px'
+                placeholder='blur'
+                blurDataURL={product.image}
                 src={product.image}
                 alt={product.name}
               />
