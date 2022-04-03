@@ -19,10 +19,7 @@ const Topbar = () => {
   const ICON_STYLE = 'bg-gray-700 text-slate-50  rounded-full p-2';
 
   return (
-    <div
-      id='top'
-      className='w-full py-0.5 px-2 bg-gradient-to-r from-[#93291e] to-[#ed213a] text-slate-50 flex  xl:items-center xl:justify-center xl:gap-16 gap-4  fixed top-0 z-40  '
-    >
+    <div className='w-full py-0.5 px-2 bg-gradient-to-r from-[#93291e] to-[#ed213a] text-slate-50 flex  xl:items-center xl:justify-center xl:gap-16 gap-4  fixed top-0 z-40  '>
       <Search />
       <div className='sm:flex w-full lg:text-sm text-xs justify-center gap-10 hidden'>
         <div
