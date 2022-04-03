@@ -58,6 +58,10 @@ const AppProvider = ({ children }) => {
     window.scrollTo(0, 0);
   }, [router.asPath]);
 
+  const scrollToTop = () => {
+    window.scrollTo(0, 0);
+  };
+
   //reset
   useEffect(() => {
     setItems(products);
@@ -105,6 +109,7 @@ const AppProvider = ({ children }) => {
         setCart,
         removeItemFromCart,
         isSearching,
+        scrollToTop,
         setIsSearching,
       }}
     >
