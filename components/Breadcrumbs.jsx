@@ -3,8 +3,8 @@ import { useState } from 'react';
 import { useRouter } from 'next/router';
 const BreadcrumbExample = () => {
   const router = useRouter();
-  const [disabled, setDisabled] = useState(false);
   const pathSnippets = router.asPath.split('/').filter((i) => i);
+  const [disabled, setDisabled] = useState(pathSnippets.length - 1);
 
   const urls = pathSnippets.map((snippet, idx) => {
     const url = `/${snippet}`;
@@ -19,20 +19,11 @@ const BreadcrumbExample = () => {
     if (snippet === 'akvaristika') snippet = 'акваристика';
     if (snippet === 'male-zivotinje') snippet = 'мале животиње';
     if (snippet.includes('#')) return snippet.slice(0, 1);
-    console.log(pathSnippets, idx, pathSnippets.length - 1);
     return (
       <Link key={idx} href={url}>
-        <a
-          className={` ${
-            pathSnippets.length - 1 === idx && 'pointer-events-none  '
-          } `}
-        >
+        <a className={` ${disabled === idx && 'pointer-events-none  '} `}>
           <span className='mr-2'>/</span>{' '}
-          <span
-            className={` ${
-              pathSnippets.length - 1 === idx && 'text-gray-400  '
-            } `}
-          >
+          <span className={` ${disabled === idx && 'text-gray-400  '} `}>
             {snippet}
           </span>
         </a>
@@ -50,25 +41,3 @@ const BreadcrumbExample = () => {
 };
 
 export default BreadcrumbExample;
-
-// { href: '/', name: 'почетна' },
-// { href: '/brendovi', name: 'брендови' },
-// { href: '/o-nama', name: 'о нама' },
-// { href: '/kontakt', name: 'контакт' },
-
-// const breadcrumbNameMap = {
-//   '/': 'почетна',
-//   '/proizvodi': 'производи',
-//   '/brendovi': 'брендови',
-//   '/o-nama': 'о нама',
-//   '/kontakt': 'контакт',
-//   '/akcije': 'акције',
-//   '/psi': 'пси',
-//   '/macke': 'мачке',
-//   '/ptice': 'птице',
-//   '/akvaristika': 'акваристика',
-//   '/male-zivotinje': 'мале животиње',
-// };
-
-// const cir_url = Object.values(breadcrumbNameMap);
-// console.log(cir_url);

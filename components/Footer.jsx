@@ -13,7 +13,7 @@ import Map from './Map';
 import Link from 'next/link';
 import { useGlobalContext } from '../context';
 const Footer = () => {
-  const { height } = useGlobalContext();
+  const { height, scrollToTop } = useGlobalContext();
   const location = {
     address: 'Dr. Drage Ljočić 3, Beograd',
     lat: 44.80241,
@@ -87,13 +87,13 @@ const Footer = () => {
       </div>
 
       {height && (
-        <Link href='#top'>
-          <a>
-            <div className=' z-50 fixed bottom-5 p-2 animate-bounce right-2 rounded-full bg-purple-900 text-gray-50 text-3xl'>
-              <FaArrowUp />
-            </div>
-          </a>
-        </Link>
+        <div
+          className=' z-50 fixed bottom-5 p-2 animate-bounce right-2 rounded-full bg-purple-900 text-gray-50 text-3xl cursor-pointer'
+          title='назад на врх стране'
+          onClick={scrollToTop}
+        >
+          <FaArrowUp />
+        </div>
       )}
       <Map location={location} zoomLevel={17} />
     </footer>
