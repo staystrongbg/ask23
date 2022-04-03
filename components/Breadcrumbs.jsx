@@ -1,8 +1,9 @@
 import Link from 'next/link';
+import { useState } from 'react';
 import { useRouter } from 'next/router';
 const BreadcrumbExample = () => {
   const router = useRouter();
-
+  const [disabled, setDisabled] = useState(false);
   const pathSnippets = router.asPath.split('/').filter((i) => i);
 
   const urls = pathSnippets.map((snippet, idx) => {
@@ -18,16 +19,28 @@ const BreadcrumbExample = () => {
     if (snippet === 'akvaristika') snippet = 'акваристика';
     if (snippet === 'male-zivotinje') snippet = 'мале животиње';
     if (snippet.includes('#')) return snippet.slice(0, 1);
+    console.log(pathSnippets, idx, pathSnippets.length - 1);
     return (
       <Link key={idx} href={url}>
-        <a>
-          <span className='mr-2'>/</span> {snippet}
+        <a
+          className={` ${
+            pathSnippets.length - 1 === idx && 'pointer-events-none  '
+          } `}
+        >
+          <span className='mr-2'>/</span>{' '}
+          <span
+            className={` ${
+              pathSnippets.length - 1 === idx && 'text-gray-400  '
+            } `}
+          >
+            {snippet}
+          </span>
         </a>
       </Link>
     );
   });
   return (
-    <div className='breadcrumbs w-4/5 m-auto text-base flex gap-2 text-gray-500 uppercase cursor-pointer border-b border-gray-300 p-2'>
+    <div className='breadcrumbs w-4/5 m-auto text-base flex gap-2 text-gray-600 uppercase cursor-pointer border-b border-gray-300 p-2'>
       <Link href='/'>
         <a>почетна</a>
       </Link>
