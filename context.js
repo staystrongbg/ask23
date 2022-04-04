@@ -54,6 +54,8 @@ const AppProvider = ({ children }) => {
   const [proizvodiKorpa, setProizvodiKorpa] = useState([]);
   const [cart, setCart] = useState(false);
 
+  const [productIndex, setProductIndex] = useState(null);
+
   useEffect(() => {
     window.scrollTo(0, 0);
   }, [router.asPath]);
@@ -111,6 +113,8 @@ const AppProvider = ({ children }) => {
         isSearching,
         scrollToTop,
         setIsSearching,
+        productIndex,
+        setProductIndex,
       }}
     >
       {children}

@@ -1,24 +1,37 @@
 import Layout from '../../components/Layout';
 import products from '../../products.json';
-import Button from '../../components/Button';
 import Button2 from '../../components/Buttone2';
 import { useGlobalContext } from '../../context';
-import { useEffect, useState } from 'react';
 import { useRef } from 'react';
 import Image from 'next/image';
 const ProizvodPojedinacno = ({ product }) => {
-  const { proizvodiKorpa, setProizvodiKorpa, setCart } = useGlobalContext();
+  const { proizvodiKorpa, setProizvodiKorpa, setCart, productIndex } =
+    useGlobalContext();
 
   const dodajProizvodUKorpu = (id) => {
     const tempProduct = { ...product, kolicina: kolicinaRef.current.value };
-    setProizvodiKorpa([...proizvodiKorpa, tempProduct]);
+    // setProizvodiKorpa([...proizvodiKorpa, tempProduct]);
+    add(proizvodiKorpa, tempProduct);
+
     kolicinaRef.current.value = '1';
     setCart(true);
     setTimeout(() => setCart(false), 3000);
 
     // localStorage.setItem('korpa', JSON.stringify(tempProduct));
     //mora da bude push u arr ovako ako samo setujes on gazi prethodni unos i cuva samo posslednji
+    // setProizvodiKorpa(proizvodiKorpa.map((p) => p));
   };
+
+  function add(arr, tempP) {
+    const found = arr.some((el) => el.id === tempP.id);
+    if (!found) setProizvodiKorpa([...arr, tempP]);
+    if (found) {
+      proizvodiKorpa[productIndex].kolicina =
+        +proizvodiKorpa[productIndex].kolicina + +kolicinaRef.current.value;
+    }
+
+    return arr;
+  }
 
   const kolicinaRef = useRef(null);
 
