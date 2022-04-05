@@ -12,7 +12,7 @@ import Link from 'next/link';
 import { useGlobalContext } from '../context';
 import Cart from './Cart';
 const Topbar = () => {
-  const { cart, setCart, isSearching } = useGlobalContext();
+  const { cart, setCart, isSearching, shake } = useGlobalContext();
 
   const ICON_STYLE = 'bg-gray-700 text-slate-50  rounded-full p-2';
 
@@ -47,7 +47,8 @@ const Topbar = () => {
       </div>
 
       <div
-        className={`cursor-pointer text-2xl absolute lg:right-2 top-3 right-12 z-50 ${
+        style={{ animation: `${shake && 'zoomIn 0.5s ease-out'} ` }}
+        className={`cursor-pointer text-2xl absolute lg:right-2 top-3 right-12 z-50    ${
           isSearching && 'hidden'
         } `}
       >
@@ -55,7 +56,7 @@ const Topbar = () => {
       </div>
 
       {cart && (
-        <ClickAwayListener onClickAway={(prev) => setCart(!prev)}>
+        <ClickAwayListener onClickAway={() => setCart(false)}>
           <div className='shopping-cart fixed top-0 right-0 bottom-0 sm:w-96 w-full sm:border-l-4 border-gray-300 bg-gray-200/90 flex justify-between flex-col z-50 '>
             <Cart />
           </div>

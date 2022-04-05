@@ -54,8 +54,6 @@ const AppProvider = ({ children }) => {
   const [proizvodiKorpa, setProizvodiKorpa] = useState([]);
   const [cart, setCart] = useState(false);
 
-  const [productIndex, setProductIndex] = useState(null);
-
   useEffect(() => {
     window.scrollTo(0, 0);
   }, [router.asPath]);
@@ -78,6 +76,14 @@ const AppProvider = ({ children }) => {
   const removeItemFromCart = (id) => {
     setProizvodiKorpa(proizvodiKorpa.filter((item) => item.id !== id));
     // localStorage.removeItem('korpa');
+  };
+
+  //shake cart animation
+  const [shake, setShake] = useState(false);
+
+  const shakeThatCart = () => {
+    setShake(true);
+    setTimeout(() => setShake(false), 1000);
   };
 
   return (
@@ -113,8 +119,8 @@ const AppProvider = ({ children }) => {
         isSearching,
         scrollToTop,
         setIsSearching,
-        productIndex,
-        setProductIndex,
+        shake,
+        shakeThatCart,
       }}
     >
       {children}

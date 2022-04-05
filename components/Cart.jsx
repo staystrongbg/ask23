@@ -4,22 +4,23 @@ import { FaTimes } from 'react-icons/fa';
 import Button2 from './Buttone2';
 import Divider from './Divider';
 import Image from 'next/image';
+import { useEffect } from 'react';
 const Cart = () => {
-  const { proizvodiKorpa, setCart, removeItemFromCart, setProductIndex } =
-    useGlobalContext();
+  const { proizvodiKorpa, setCart, removeItemFromCart } = useGlobalContext();
+  //ovde se izgleda ne izvrsava ovaj map jer komponenta nije renderovana u trenutku kada iz [id] kliknemo addProduct
+  //trebalo bi znaci ili pre njenog rendera da se mapira nekako? ili da se nekako invokuje render a da se to ne vidi
 
   return (
     <div className='flex flex-col'>
       <span
-        onClick={(prev) => setCart(!prev)}
+        onClick={() => setCart(false)}
         className='text-gray-50  bg-indigo-700   items-center px-4 py-2 text-xl cursor-pointer flex justify-between w-full'
       >
         Ваша корпа
         <FaTimes />
       </span>
       {proizvodiKorpa &&
-        proizvodiKorpa.map((item, idx) => {
-          setProductIndex(idx);
+        proizvodiKorpa.map((item) => {
           return (
             <div key={item.id}>
               <div className='flex px-2 py-1 items-center '>
@@ -64,7 +65,7 @@ const Cart = () => {
       {proizvodiKorpa.length > 0 && (
         <>
           <Divider />
-          <h2 className='text-gray-800 text-2xl my-4 text-right font-bold'>
+          <h2 className='text-red-600 text-2xl my-4 text-right font-bold'>
             <span className='mr-2'> Укупно:</span>
             {proizvodiKorpa.reduce((total, item) => {
               total = total + +item.price * item.kolicina;
@@ -74,9 +75,7 @@ const Cart = () => {
           </h2>
           <Button2 title='заврши куповину' />
           <p className='text-sm text-gray-500 cursor-pointer text-center my-2'>
-            <span onClick={(prev) => setCart(!prev)}>
-              или наставите куповину →
-            </span>
+            <span onClick={() => setCart(false)}>или наставите куповину →</span>
           </p>
         </>
       )}

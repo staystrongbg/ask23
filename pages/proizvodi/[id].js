@@ -2,32 +2,31 @@ import Layout from '../../components/Layout';
 import products from '../../products.json';
 import Button2 from '../../components/Buttone2';
 import { useGlobalContext } from '../../context';
-import { useRef } from 'react';
+import { useRef, useState } from 'react';
 import Image from 'next/image';
 const ProizvodPojedinacno = ({ product }) => {
-  const { proizvodiKorpa, setProizvodiKorpa, setCart, productIndex } =
+  const { proizvodiKorpa, setProizvodiKorpa, shakeThatCart } =
     useGlobalContext();
-
-  const dodajProizvodUKorpu = (id) => {
+  const dodajProizvodUKorpu = () => {
     const tempProduct = { ...product, kolicina: kolicinaRef.current.value };
-    // setProizvodiKorpa([...proizvodiKorpa, tempProduct]);
     add(proizvodiKorpa, tempProduct);
-
     kolicinaRef.current.value = '1';
-    setCart(true);
-    setTimeout(() => setCart(false), 3000);
-
+    shakeThatCart();
     // localStorage.setItem('korpa', JSON.stringify(tempProduct));
     //mora da bude push u arr ovako ako samo setujes on gazi prethodni unos i cuva samo posslednji
     // setProizvodiKorpa(proizvodiKorpa.map((p) => p));
   };
 
   function add(arr, tempP) {
-    const found = arr.some((el) => el.id === tempP.id);
-    if (!found) setProizvodiKorpa([...arr, tempP]);
-    if (found) {
-      proizvodiKorpa[productIndex].kolicina =
-        +proizvodiKorpa[productIndex].kolicina + +kolicinaRef.current.value;
+    // const indexFound = arr.some((el) => el.id === tempP.id);
+
+    // function (return index if match / -1 if no match
+    var indexFound = arr.findIndex((element) => element.id === tempP.id);
+
+    if (indexFound < 0) setProizvodiKorpa([...arr, tempP]);
+    if (indexFound >= 0) {
+      proizvodiKorpa[indexFound].kolicina =
+        +proizvodiKorpa[indexFound].kolicina + +kolicinaRef.current.value;
     }
 
     return arr;
@@ -49,7 +48,6 @@ const ProizvodPojedinacno = ({ product }) => {
         <article className='flex flex-col lg:w-4/5 w-full m-auto p-4 bg-transparent'>
           <h1 className='text-3xl mb-5'>{product.name}</h1>
           <div className='flex md:flex-row flex-col gap-4'>
-            {' '}
             <div className='flex justify-center xl:max-w-[600px] '>
               <Image
                 objectFit='cover'
@@ -84,7 +82,7 @@ const ProizvodPojedinacno = ({ product }) => {
                   />
                   <Button2
                     title='додај у корпу'
-                    onClick={() => dodajProizvodUKorpu(product.id)}
+                    onClick={dodajProizvodUKorpu}
                   />
                 </div>
               </div>
