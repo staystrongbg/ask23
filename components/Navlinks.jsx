@@ -1,26 +1,26 @@
 import Link from 'next/link';
 import { FaChevronRight } from 'react-icons/fa';
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import styles from '../styles/dropdown.module.scss';
 import Dropdown from './Dropdown';
 import Image from 'next/image';
 import { useGlobalContext } from '../context';
 import Links from './Links';
-
 //koristi se samo ovde
 
 const Navlinks = ({ className = '' }) => {
-  const { height } = useGlobalContext();
+  const { handleScroll, offset } = useGlobalContext();
+
   return (
     <>
       <div
         className={` ${
-          height
+          offset
             ? 'fixed top-[44px] left-0 right-0 bg-gray-100   z-30 shadow-md'
             : ''
         }  flex gap-8 px-6 py-0  items-center justify-center text-base rounded-sm uppercase ${className} `}
       >
-        {height && (
+        {offset && (
           <Link href='/'>
             <a>
               <Image src='/asklogo.svg' alt='kuce' width={120} height={60} />
@@ -40,7 +40,7 @@ const Navlinks = ({ className = '' }) => {
           <span
             id={styles.chevron}
             className={`text-gray-900 hover:text-gray-600 select-none ${
-              height && 'hover:text-slate-500'
+              offset && 'hover:text-slate-500'
             }`}
           >
             <FaChevronRight />

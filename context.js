@@ -2,7 +2,6 @@ import { useContext, createContext, useState, useEffect } from 'react';
 import { useRouter } from 'next/router';
 import products from './products.json';
 import { categoryData } from './kategorijeData';
-import useOnScroll from './useOnScroll';
 import useSearchOnSubmit from './useSearchOnSubmit';
 const AppContext = createContext();
 
@@ -19,9 +18,17 @@ const AppProvider = ({ children }) => {
   //EMAIL PASSWORD OW2GoJ?u;(Xi
 
   // custom hooks
-  const { height, setHeight, handleScroll } = useOnScroll();
-  const { searchTerm, setSearchTerm, handleSearch, kbEvents } =
-    useSearchOnSubmit();
+  const { searchTerm, setSearchTerm, handleSearch } = useSearchOnSubmit();
+
+  const [offset, setOffset] = useState(null);
+
+  useEffect(() => {
+    const onScroll = () => setOffset(window.pageYOffset !== 0);
+    // clean up code
+    window.removeEventListener('scroll', onScroll);
+    window.addEventListener('scroll', onScroll, { passive: true });
+    return () => window.removeEventListener('scroll', onScroll);
+  }, []);
 
   const [isActive, setIsActive] = useState(0);
 
@@ -94,15 +101,11 @@ const AppProvider = ({ children }) => {
         setProdukti,
         produkti,
         products,
-        height,
-        setHeight,
-        handleScroll,
         isActive,
         setIsActive,
         handleSearch,
         links,
         searchProducts,
-        kbEvents,
         categoryData,
         showTitles,
         setShowTitles,
@@ -121,6 +124,7 @@ const AppProvider = ({ children }) => {
         setIsSearching,
         shake,
         shakeThatCart,
+        offset,
       }}
     >
       {children}

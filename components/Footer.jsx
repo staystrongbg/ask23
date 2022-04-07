@@ -88,7 +88,7 @@ const Footer = () => {
 
       {height && (
         <div
-          className=' z-50 fixed bottom-5 p-2 animate-bounce right-2 rounded-full bg-purple-900 text-gray-50 text-3xl cursor-pointer'
+          className=' z-50 fixed bottom-5 p-2 animate-bounce right-2 rounded-full bg-purple-900 text-gray-50 text-3xl cursor-pointer sm:block hidden '
           title='назад на врх стране'
           onClick={scrollToTop}
         >

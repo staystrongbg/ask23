@@ -4,11 +4,10 @@ import { useState } from 'react';
 import { useGlobalContext } from '../context';
 import Sidebar from './sidebar';
 import { FaBars } from 'react-icons/fa';
-import Topbar from './Topbar';
 import Link from 'next/link';
 
 const Topnav = () => {
-  const { height, links, cart, isSearching } = useGlobalContext();
+  const { links, cart, isSearching } = useGlobalContext();
 
   const [showSidebar, setShowSidebar] = useState(false);
 
@@ -17,8 +16,6 @@ const Topnav = () => {
       className={`flex flex-col items-center w-full justify-center bg-transparent text-gray-900  text-xl
        `}
     >
-      <Topbar height={height} />
-
       <div className=' z-20 lg:flex hidden items-start justify-start w-fit p-2 xl:mt-16 mt-20 bg-transparent  '>
         <Link href='/'>
           <a>

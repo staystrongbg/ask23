@@ -7,6 +7,7 @@ import Image from 'next/image';
 const ProizvodPojedinacno = ({ product }) => {
   const { proizvodiKorpa, setProizvodiKorpa, shakeThatCart } =
     useGlobalContext();
+
   const dodajProizvodUKorpu = () => {
     const tempProduct = { ...product, kolicina: kolicinaRef.current.value };
     add(proizvodiKorpa, tempProduct);
