@@ -7,6 +7,7 @@ import { useGlobalContext } from '../context';
 import { useEffect } from 'react';
 import Meta from '../components/Meta';
 import { H1, P } from '../components/utils';
+
 const Kategorija = ({ page }) => {
   const { setItems, items } = useGlobalContext();
   useEffect(() => {

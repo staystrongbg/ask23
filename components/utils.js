@@ -24,6 +24,9 @@ export const LIST_NAME_STYLE =
 export const FILTERI_STYLE =
   'list-none font-bold  cursor-pointer text-blue-500 text-sm  mb-3 tracking-wide whitespace-nowrap capitalize ml-4 ';
 
+//array sa zadatom duzinom
+export const createArr = (length) => [...Array(length).keys()];
+
 //custom styled components! TEST TEST TEST :)
 export const H1 = ({ children, className = null, onClick = null }) => {
   return (
