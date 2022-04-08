@@ -28,10 +28,10 @@ export const FILTERI_STYLE =
 export const createArr = (length) => [...Array(length).keys()];
 
 //custom styled components! TEST TEST TEST :)
-export const H1 = ({ children, className = null, onClick = null }) => {
+export const H1 = ({ children, className = '', onClick = null }) => {
   return (
     <h1
-      className={`${className}  sm:text-3xl text-2xl text-center uppercase`}
+      className={`${className}  sm:text-3xl text-2xl uppercase`}
       onClick={onClick}
     >
       {children}
@@ -48,7 +48,7 @@ export const H2 = ({
     <h2
       onClick={onClick}
       tabIndex={tabIndex}
-      className={` ${className} sm:text-2xl text-xl text-center uppercase`}
+      className={` ${className} sm:text-2xl text-xl uppercase`}
     >
       {children}
     </h2>
@@ -56,10 +56,10 @@ export const H2 = ({
 };
 
 //tailwind units
-export const P = ({ children, width = '2/3', style = '' }) => {
+export const P = ({ children, width = '2/3', className = '' }) => {
   return (
     <p
-      className={`xl:w-${width} sm:text-base text-sm w-full text-center border-b sm:py-10 py-5 border-dashed border-gray-500 mb-20 ${style} `}
+      className={`xl:w-${width}  sm:text-base text-sm w-full border-b sm:py-10 py-5 border-dashed border-gray-500 mb-20 ${className} `}
     >
       {children}
     </p>
