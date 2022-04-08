@@ -55,9 +55,12 @@ export const H2 = ({
   );
 };
 
-export const P = ({ children }) => {
+//tailwind units
+export const P = ({ children, width = '2/3', style = '' }) => {
   return (
-    <p className='xl:w-3/4 sm:text-base text-sm w-full text-center m-auto border-b sm:py-10 py-5 border-dashed border-gray-500 mb-20'>
+    <p
+      className={`xl:w-${width} sm:text-base text-sm w-full text-center border-b sm:py-10 py-5 border-dashed border-gray-500 mb-20 ${style} `}
+    >
       {children}
     </p>
   );
