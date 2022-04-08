@@ -23,7 +23,7 @@ const SviProizvodi = () => {
 
         <section className='sm:px-5 px-1  bg-gray-200'>
           <div className='flex flex-col  xl:w-5/6 w-full m-auto  mb-12'>
-            <H1>сви производи</H1>
+            <H1 className='text-center'>сви производи</H1>
             <P className='m-auto text-center '>
               Свака животиња има своје потребе, навике али и карактер на основу
               чега пажљиво правимо понуду производа за наше купце. Све што је
