@@ -31,11 +31,16 @@ const BreadcrumbExample = () => {
     );
   });
   return (
-    <div className='breadcrumbs w-4/5 m-auto text-base flex gap-2 text-gray-600 uppercase cursor-pointer border-b border-gray-300 p-2'>
-      <Link href='/'>
-        <a>почетна</a>
-      </Link>
-      {urls.map((url) => url)}
+    <div className='breadcrumbs sm:w-4/5 w-full m-auto pt-20'>
+      <p className='sm:text-sm text-xs italic  text-gray-400 px-2 '>
+        Ви сте овде
+      </p>
+      <div className=' sm:text-base text-sm flex gap-2 text-gray-600 uppercase cursor-pointer border-b border-gray-300 p-2 '>
+        <Link href='/'>
+          <a>почетна</a>
+        </Link>
+        {urls.map((url) => url)}
+      </div>
     </div>
   );
 };

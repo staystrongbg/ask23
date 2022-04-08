@@ -18,21 +18,6 @@ const ProizvodPojedinacno = ({ product }) => {
     // setProizvodiKorpa(proizvodiKorpa.map((p) => p));
   };
 
-  function add(arr, tempP) {
-    // const indexFound = arr.some((el) => el.id === tempP.id);
-
-    // function (return index if match / -1 if no match
-    var indexFound = arr.findIndex((element) => element.id === tempP.id);
-
-    if (indexFound < 0) setProizvodiKorpa([...arr, tempP]);
-    if (indexFound >= 0) {
-      proizvodiKorpa[indexFound].kolicina =
-        +proizvodiKorpa[indexFound].kolicina + +kolicinaRef.current.value;
-    }
-
-    return arr;
-  }
-
   const kolicinaRef = useRef(null);
 
   // useEffect(() => {
@@ -42,6 +27,21 @@ const ProizvodPojedinacno = ({ product }) => {
   // useEffect(() => {
   //   console.log(proizvodiKorpa);
   // }, [proizvodiKorpa]);
+
+  function add(arr, tempP) {
+    // const indexFound = arr.some((el) => el.id === tempP.id);
+
+    // function (return index if match / -1 if no match
+    let indexFound = arr.findIndex((element) => element.id === tempP.id);
+
+    if (indexFound < 0) setProizvodiKorpa([...arr, tempP]);
+    if (indexFound >= 0) {
+      proizvodiKorpa[indexFound].kolicina =
+        +proizvodiKorpa[indexFound].kolicina + +kolicinaRef.current.value;
+    }
+
+    return arr;
+  }
 
   return (
     <Layout>
@@ -60,8 +60,8 @@ const ProizvodPojedinacno = ({ product }) => {
                 alt={product.name}
               />
             </div>
-            <div className='mt-2 flex flex-col gap-6'>
-              <div className='text-base'>
+            <div className='sm:text-base text-sm mt-2 flex flex-col gap-6'>
+              <div className=''>
                 <p className='font-bold mb-2'>Детаљи о производу</p>
                 <p>{product.detail}</p>
               </div>
@@ -71,12 +71,12 @@ const ProizvodPojedinacno = ({ product }) => {
                   <li>количина</li>
                 </ul>
                 <div className=' flex justify-start gap-10 items-center'>
-                  <span className='text-2xl font-bold text-gray-50 bg-red-600 p-2 rounded-sm'>
+                  <span className='sm:text-2xl text-xl font-bold text-gray-50 bg-red-600 sm:p-2 p-1 rounded-sm'>
                     {product.price},00
                   </span>
                   <input
                     ref={kolicinaRef}
-                    className='w-12'
+                    className='w-10'
                     defaultValue={1}
                     min={1}
                     type='number'

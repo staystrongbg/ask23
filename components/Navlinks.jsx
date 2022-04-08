@@ -9,14 +9,14 @@ import Links from './Links';
 //koristi se samo ovde
 
 const Navlinks = ({ className = '' }) => {
-  const { handleScroll, offset } = useGlobalContext();
+  const { offset } = useGlobalContext();
 
   return (
     <>
       <div
         className={` ${
           offset
-            ? 'fixed top-[44px] left-0 right-0 bg-gray-100   z-30 shadow-md'
+            ? 'fixed top-[56px] left-0 right-0 bg-gray-100   z-30 shadow-md'
             : ''
         }  flex gap-8 px-6 py-0  items-center justify-center text-base rounded-sm uppercase ${className} `}
       >
