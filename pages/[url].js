@@ -24,8 +24,8 @@ const Kategorija = ({ page }) => {
         </div>
         <section className='sm:px-5 px-1  bg-gray-200'>
           <div className='flex flex-col  xl:w-5/6 w-full m-auto mt-12 mb-12'>
-            <H1>{page[0].title}</H1>
-            <P>
+            <H1 className='text-center'>{page[0].title}</H1>
+            <P className='text-center m-auto'>
               Свака животиња има своје потребе, навике али и карактер на основу
               чега пажљиво правимо понуду производа за наше купце. Све што је
               потребно Вашим кућним љубимцима можете пронаћи у нашем пет схоп-у.
