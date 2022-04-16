@@ -5,7 +5,7 @@ const Hero = () => {
       <h1 className='text-6xl font-bold text-gray-900 uppercase text-center w-full'>
         аск23
       </h1>
-      <P>
+      <P className='text-center'>
         Добродошли у АСК23 место где ћете наћи све што је потребно да ваш љубимац буде 
     срећан. 
       </P>
