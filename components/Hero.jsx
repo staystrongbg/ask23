@@ -1,13 +1,23 @@
-import Button from './Button';
+import { P } from './utils';
 const Hero = () => {
   return (
-    <div className='xl:w-1/2 w-full p-8 flex flex-col items-start gap-8'>
-      <h1 className='text-6xl font-bold text-gray-900 uppercase'>аск23</h1>
-      <p className='par'>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore autem
-        dolor numquam aliquam eum ratione vero.
-      </p>
-      <Button title='више' />
+    <div className='xl:w-5/6 m-auto w-full p-8 flex flex-col items-start gap-8'>
+      <h1 className='text-6xl font-bold text-gray-900 uppercase text-center w-full'>
+        аск23
+      </h1>
+      <P>
+        Добродошли у Пет Републиц место где љубимци имају право гласа Пет
+        Републиц је модеран бутик за кућне љубимце, рађен по у угледу на
+        европске модерне пет схоп-ове. У свом асортиману садржи најбољи и
+        комплетан избор суперпремиум хране и опреме, као и богату понуду
+        играчака и високо квалитетних препарата. Пет Републиц свакодневно
+        издваја специјалне понуде за своје купце, а производе можете поручити и
+        у Пет Републиц wеб схоп-у. Све то је пажљиво одабрано од стране нашег
+        стручног ветеринарског тима, који Вас у сваком тренутку може
+        посаветовати лично у Пет Републиц објектима или питање можете поставити
+        на сајту у делу „Питај ветеринара“. Посетите наш пет схоп и обрадујте
+        Вашег кућног љубимца.
+      </P>
     </div>
   );
 };

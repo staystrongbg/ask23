@@ -22,9 +22,9 @@ export default function Dropdown() {
     { name: 'птице', comp: Fabird, link: 'ptice' },
     { name: 'акваристика', comp: Fafish, link: 'akvaristika' },
     {
-      name: 'мале животиње',
+      name: 'глодари',
       comp: Famouse,
-      link: 'male-zivotinje',
+      link: 'glodari',
     },
   ];
 

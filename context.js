@@ -3,7 +3,8 @@ import { useRouter } from 'next/router';
 import products from './products.json';
 import { categoryData } from './kategorijeData';
 import useSearchOnSubmit from './useSearchOnSubmit';
-const AppContext = createContext();
+
+const AppContext = createContext(null);
 
 const AppProvider = ({ children }) => {
   const router = useRouter();

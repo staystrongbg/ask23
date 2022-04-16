@@ -50,7 +50,7 @@ const Navlinks = ({ className = '' }) => {
 
         <Links text_color='text-gray-900' />
         <Link href='/akcije'>
-          <a className='text-slate-50 py-1 px-2 tracking-wider rounded-sm select-none bg-red-600'>
+          <a className='text-slate-50 py-1 px-2 tracking-wider rounded-sm select-none bg-orange-600'>
             акције
           </a>
         </Link>

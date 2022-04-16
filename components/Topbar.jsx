@@ -15,13 +15,13 @@ import Link from 'next/link';
 import { useGlobalContext } from '../context';
 import Cart from './Cart';
 const Topbar = () => {
-  const { cart, setCart, isSearching, links, shake } = useGlobalContext();
+  const { cart, setCart, isSearching, links, shake, proizvodiKorpa } =
+    useGlobalContext();
   const [showSidebar, setShowSidebar] = useState(false);
 
   const ICON_STYLE = 'bg-gray-700 text-slate-50  rounded-full p-2';
-
   return (
-    <div className='w-full bg-gradient-to-r from-[#93291e] to-[#ed213a] text-slate-50 flex  xl:items-center xl:justify-center xl:gap-16 py-2  fixed top-0 z-40  '>
+    <div className='w-full bg-gradient-to-r from-orange-800 to-orange-600 text-slate-50 flex  xl:items-center xl:justify-center xl:gap-16 py-2  fixed top-0 z-40  '>
       <Search />
       <div className='sm:flex w-full lg:text-sm text-xs justify-center gap-10 hidden'>
         <div
@@ -51,12 +51,40 @@ const Topbar = () => {
       </div>
 
       <div
-        style={{ animation: `${shake && 'zoomIn 0.5s ease-out'} ` }}
-        className={`cursor-pointer text-2xl absolute lg:right-2 top-4 right-12 z-50    ${
+        className={`transition-all cursor-pointer text-2xl absolute xl:right-2 xl:top-1 top-4 right-12 z-50  flex flex-col  ${
           isSearching && 'hidden'
         } `}
       >
-        <FaShoppingCart onClick={() => setCart(true)} />
+        <div className='flex gap-2'>
+          {proizvodiKorpa.length > 0 && (
+            <span className=' xl:hidden flex items-center justify-center text-base fixed top-2 right-10  w-5 h-5 rounded-full bg-blue-700 text-gray-50 z-50'>
+              {proizvodiKorpa.reduce((kolicina, item) => {
+                kolicina = kolicina + +item.kolicina;
+                return kolicina;
+              }, 0)}
+            </span>
+          )}
+
+          <FaShoppingCart
+            onClick={() => setCart(true)}
+            style={{ animation: `${shake && 'zoomIn 0.5s ease-out'} ` }}
+          />
+          <span className='text-lg font-bold xl:block hidden'>
+            {proizvodiKorpa.reduce((total, item) => {
+              total = total + +item.price * +item.kolicina;
+              return Math.round((total + Number.EPSILON) * 100) / 100;
+            }, 0)}{' '}
+            дин{' '}
+          </span>
+        </div>
+
+        <span className='text-base xl:block hidden'>
+          {proizvodiKorpa.reduce((kolicina, item) => {
+            kolicina = kolicina + +item.kolicina;
+            return kolicina;
+          }, 0)}{' '}
+          артикала
+        </span>
       </div>
       <FaBars
         onClick={() => setShowSidebar(!showSidebar)}

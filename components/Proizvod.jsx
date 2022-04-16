@@ -9,7 +9,7 @@ const Proizvod = ({ ...p }) => {
     setIsSearching(false);
   };
   return (
-    <Link href={`/proizvodi/${p.id.toString()}`}>
+    <Link href={`/proizvodi/${p._id.$oid.toString()}`}>
       <a>
         <div
           className={`w-72 h-96 lg:text-base text-xs bg-gray-100 hover:shadow-xl rounded-md cursor-pointer transition-all   border-2 `}

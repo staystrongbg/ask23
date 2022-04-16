@@ -9,7 +9,13 @@ const Cart = () => {
   const { proizvodiKorpa, setCart, removeItemFromCart } = useGlobalContext();
   //ovde se izgleda ne izvrsava ovaj map jer komponenta nije renderovana u trenutku kada iz [id] kliknemo addProduct
   //trebalo bi znaci ili pre njenog rendera da se mapira nekako? ili da se nekako invokuje render a da se to ne vidi
-
+  console.log(proizvodiKorpa);
+  console.log(
+    proizvodiKorpa.reduce((total, item) => {
+      total = total + item.price * item.kolicina;
+      return Math.round((total + Number.EPSILON) * 100) / 100;
+    }, 0)
+  );
   return (
     <div className='flex flex-col'>
       <span
@@ -22,7 +28,7 @@ const Cart = () => {
       {proizvodiKorpa &&
         proizvodiKorpa.map((item) => {
           return (
-            <div key={item.id}>
+            <div key={item._id.$oid}>
               <div className='flex px-2 py-1 items-center '>
                 <span className='border flex items-center justify-center border-gray-300 p-1'>
                   <Image
@@ -37,14 +43,18 @@ const Cart = () => {
                 </span>
                 <div className=' text-base m-4 w-full'>
                   <p className='text-gray-900 flex justify-between w-full'>
-                    <span>{item.name}</span>
-                    <span>{item.price} дин</span>
+                    <span className='font-semibold text-gray-600 '>
+                      {item.name}
+                    </span>
+                    <span className='text-red-600 font-semibold'>
+                      {item.price} дин
+                    </span>
                   </p>
-                  <div className='text-gray-400 flex justify-between mt-2'>
+                  <div className='text-gray-500 flex justify-between mt-2'>
                     <span>Kол. {item.kolicina}</span>
                     <span
                       className='text-red-900 cursor-pointer tracking-wider uppercase'
-                      onClick={() => removeItemFromCart(item.id)}
+                      onClick={() => removeItemFromCart(item._id.$oid)}
                     >
                       обриши
                     </span>
@@ -69,8 +79,8 @@ const Cart = () => {
             <span className='mr-2'> Укупно:</span>
             {proizvodiKorpa.reduce((total, item) => {
               total = total + +item.price * item.kolicina;
-              return total;
-            }, null)}{' '}
+              return Math.round((total + Number.EPSILON) * 100) / 100;
+            }, 0)}
             <span className='ml-1'>дин</span>
           </h2>
           <Button2 title='заврши куповину' />

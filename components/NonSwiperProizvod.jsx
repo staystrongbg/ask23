@@ -6,7 +6,7 @@ const NonSwiperProizvod = ({ ...p }) => {
   return (
     <>
       {p && (
-        <Link href={`proizvodi/${p.id.toString()}`}>
+        <Link href={`proizvodi/${p._id.$oid.toString()}`}>
           <a>
             <div
               className={`w-40 h-72 lg:w-72 lg:h-96 lg:text-base text-xs bg-gray-100 hover:shadow-xl rounded-md cursor-pointer transition-all   border-2  flex flex-col items-center justify-start`}
@@ -24,7 +24,9 @@ const NonSwiperProizvod = ({ ...p }) => {
                 <h2 className='price font-bold inline text-gray-700   text-xl'>
                   {p.price} дин
                 </h2>
-                <h3 className='title text-xl text-gray-700 '>{p.name}</h3>
+                <h3 className='title xl:text-xl text-base text-gray-700 '>
+                  {p.name}
+                </h3>
                 <p className='details text-sm text-gray-600'>{p.detail}</p>
               </div>
             </div>

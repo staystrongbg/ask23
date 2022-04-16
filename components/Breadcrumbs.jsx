@@ -1,13 +1,13 @@
 import Link from 'next/link';
 import { useState } from 'react';
 import { useRouter } from 'next/router';
+import products from '../products.json';
 const BreadcrumbExample = () => {
   const router = useRouter();
   const pathSnippets = router.asPath.split('/').filter((i) => i);
   const [disabled, setDisabled] = useState(pathSnippets.length - 1);
-
   const urls = pathSnippets.map((snippet, idx) => {
-    const url = `/${snippet}`;
+    let url = `/${snippet}`;
     if (snippet === 'proizvodi') snippet = 'производи';
     if (snippet === 'brendovi') snippet = 'брендови';
     if (snippet === 'o-nama') snippet = 'о нама';
@@ -17,13 +17,15 @@ const BreadcrumbExample = () => {
     if (snippet === 'macke') snippet = 'мачке';
     if (snippet === 'ptice') snippet = 'птице';
     if (snippet === 'akvaristika') snippet = 'акваристика';
-    if (snippet === 'male-zivotinje') snippet = 'мале животиње';
+    if (snippet === 'glodari') snippet = 'глодари';
     if (snippet.includes('#')) return snippet.slice(0, 1);
+    const compUrl = products.find((url) => url._id.$oid === snippet);
+    if (compUrl) snippet = compUrl.name;
     return (
       <Link key={idx} href={url}>
-        <a className={` ${disabled === idx && 'pointer-events-none  '} `}>
+        <a className={` ${disabled === idx ? 'pointer-events-none ' : ''} `}>
           <span className='mr-2'>/</span>{' '}
-          <span className={` ${disabled === idx && 'text-gray-400  '} `}>
+          <span className={` ${disabled === idx ? 'text-orange-900  ' : ''} `}>
             {snippet}
           </span>
         </a>
@@ -35,7 +37,7 @@ const BreadcrumbExample = () => {
       <p className='sm:text-sm text-xs italic  text-gray-400 px-2 '>
         Ви сте овде
       </p>
-      <div className=' sm:text-base text-sm flex gap-2 text-gray-600 uppercase cursor-pointer border-b border-gray-300 p-2 '>
+      <div className=' sm:text-base text-sm flex gap-2 text-gray-600 uppercase cursor-pointer border-b border-gray-300 p-2 whitespace-nowrap  '>
         <Link href='/'>
           <a>почетна</a>
         </Link>

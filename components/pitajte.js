@@ -1,10 +1,11 @@
 import Button from './Button';
 import styles from '../styles/pitajte.module.scss';
+import BottomLine from './BottomLine';
 const Pitajte = () => {
   return (
     <div className={styles['pitajte']}>
       <h2>Имате питање за нас?</h2>
-      <div className='border-b-2 m-auto border-red-500 w-60 '></div>
+      <BottomLine />
       <form
         method='POST'
         action='https://formsubmit.co/beograd.l@yandex.com'

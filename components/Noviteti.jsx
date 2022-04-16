@@ -2,12 +2,12 @@ import MultipleSwipers from '../components/MultipleSwipers';
 import { useState } from 'react';
 import { useGlobalContext } from '../context';
 import { H2, P } from './utils';
+import Akcije from './Akcije';
 
 const Noviteti = () => {
   //lokani stejtovi i funkcije
   const [novo, setNovo] = useState(false);
-  const [preporuka, setPreporuka] = useState(false);
-  const [filtrirano, setFiltrirano] = useState(['ново', 'препорука']);
+  const [filtrirano, setFiltrirano] = useState(['ново', 'акција']);
 
   const { produkti, setProdukti, products, isActive, setIsActive } =
     useGlobalContext();
@@ -17,8 +17,8 @@ const Noviteti = () => {
     setProdukti(
       e === 'ново'
         ? products.filter((p) => p.novo === true)
-        : e === 'препорука'
-        ? products.filter((p) => p.preporuka === true)
+        : e === 'акција'
+        ? products.filter((p) => p.akcija === true)
         : products
     );
   };

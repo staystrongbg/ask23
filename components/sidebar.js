@@ -7,7 +7,7 @@ const Sidebar = ({ links, setShowSidebar }) => {
   return (
     <div className={styles['sidebar']}>
       <FaTimes
-        className='absolute top-4 right-4 cursor-pointer'
+        className='absolute top-4 right-4 cursor-pointer text-gray-800 text-xl'
         onClick={() => setShowSidebar(false)}
       />
       <ul className={styles['sidebar-links']}>

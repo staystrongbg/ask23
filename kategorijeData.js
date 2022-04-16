@@ -50,8 +50,8 @@ export const categoryData = [
   {
     id: 4,
     image: '/animals/zec.png',
-    title: 'мале животиње',
-    link: 'male-zivotinje',
+    title: 'глодари',
+    link: 'glodari',
     text: 'lorem ipsun dolor...',
     textStyle: 'text-green-900',
     detailsContainer: ['right-2 top-2', 'text-right'],
