@@ -9,13 +9,7 @@ const Cart = () => {
   const { proizvodiKorpa, setCart, removeItemFromCart } = useGlobalContext();
   //ovde se izgleda ne izvrsava ovaj map jer komponenta nije renderovana u trenutku kada iz [id] kliknemo addProduct
   //trebalo bi znaci ili pre njenog rendera da se mapira nekako? ili da se nekako invokuje render a da se to ne vidi
-  console.log(proizvodiKorpa);
-  console.log(
-    proizvodiKorpa.reduce((total, item) => {
-      total = total + item.price * item.kolicina;
-      return Math.round((total + Number.EPSILON) * 100) / 100;
-    }, 0)
-  );
+
   return (
     <div className='flex flex-col'>
       <span
