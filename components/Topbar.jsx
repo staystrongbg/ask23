@@ -14,6 +14,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { useGlobalContext } from '../context';
 import Cart from './Cart';
+import { AiOutlineShoppingCart } from 'react-icons/ai';
 const Topbar = () => {
   const { cart, setCart, isSearching, links, shake, proizvodiKorpa } =
     useGlobalContext();
@@ -57,18 +58,22 @@ const Topbar = () => {
       >
         <div className='flex gap-2'>
           {proizvodiKorpa.length > 0 && (
-            <span className=' xl:hidden flex items-center justify-center text-base fixed top-2 right-10  w-5 h-5 rounded-full bg-blue-700 text-gray-50 z-50'>
+            <span className=' xl:hidden flex items-center justify-center text-base fixed top-2 right-10  w-5 h-5 rounded-full bg-blue-400 text-blue-900 z-50'>
               {proizvodiKorpa.reduce((kolicina, item) => {
                 kolicina = kolicina + +item.kolicina;
                 return kolicina;
               }, 0)}
             </span>
           )}
+          {proizvodiKorpa.length > 0 ? (
+            <FaShoppingCart
+              onClick={() => setCart(true)}
+              style={{ animation: `${shake && 'zoomIn 0.5s ease-out'} ` }}
+            />
+          ) : (
+            <AiOutlineShoppingCart onClick={() => setCart(true)} />
+          )}
 
-          <FaShoppingCart
-            onClick={() => setCart(true)}
-            style={{ animation: `${shake && 'zoomIn 0.5s ease-out'} ` }}
-          />
           <span className='text-lg font-bold xl:block hidden'>
             {proizvodiKorpa.reduce((total, item) => {
               total = total + +item.price * +item.kolicina;
@@ -79,10 +84,13 @@ const Topbar = () => {
         </div>
 
         <span className='text-base xl:block hidden'>
-          {proizvodiKorpa.reduce((kolicina, item) => {
-            kolicina = kolicina + +item.kolicina;
-            return kolicina;
-          }, 0)}{' '}
+          <b>
+            {' '}
+            {proizvodiKorpa.reduce((kolicina, item) => {
+              kolicina = kolicina + +item.kolicina;
+              return kolicina;
+            }, 0)}{' '}
+          </b>
           артикала
         </span>
       </div>

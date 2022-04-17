@@ -2,17 +2,28 @@ import Layout from '../components/Layout';
 import products from '../products.json';
 import NonSwiperProizvod from '../components/NonSwiperProizvod';
 import SwiperComponent from '../components/SwiperComponent';
-import { FilterSort } from '../components/FilterKategorije';
+import { FilterSort, FilterTip } from '../components/FilterKategorije';
 import { useGlobalContext } from '../context';
 import { useEffect } from 'react';
+import { useRouter } from 'next/router';
 import Meta from '../components/Meta';
 import { H1, P } from '../components/utils';
 
 const Kategorija = ({ page }) => {
-  const { setItems, items } = useGlobalContext();
+  const { setItems, items, setVrstaZivotinje, vrstaZivotinje } =
+    useGlobalContext();
+
+  const router = useRouter();
+
   useEffect(() => {
-    setItems(page);
-  }, [page, items]);
+    setItems(vrstaZivotinje);
+  }, [router.pathname, vrstaZivotinje]);
+
+  useEffect(() => {
+    setVrstaZivotinje(page.filter((k) => k.link === router.query.url));
+  }, [page]);
+
+  // console.log(vrstaZivotinje.filter((v) => v.tip === 'Korpa'));
   return (
     <Layout>
       <Meta title={page[0].title} />
@@ -36,11 +47,12 @@ const Kategorija = ({ page }) => {
             <div className='flex md:flex-row flex-col xl:gap-40'>
               <div className='xl:grow-1 px-2'>
                 <FilterSort />
+                <FilterTip />
               </div>
               {/* iskljuciti wrap i aktivirati flex-col */}
               <div className='flex flex-wrap grow-3 jusitfy-center xl:gap-5 gap-2 py-10  '>
-                {page &&
-                  page.map((p) => <NonSwiperProizvod key={p.id} {...p} />)}
+                {items &&
+                  items.map((p) => <NonSwiperProizvod key={p.id} {...p} />)}
               </div>
             </div>
           </div>

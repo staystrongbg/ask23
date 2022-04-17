@@ -50,10 +50,12 @@ const AppProvider = ({ children }) => {
 
   const [showTitles, setShowTitles] = useState(false);
   const [showfilters, setShowFilters] = useState(false);
-
+  const [showTip, setShowTip] = useState(false);
+  const [tip, setTip] = useState(products.map((tip) => tip.tip));
   const [titles] = useState([...new Set(products.map((v) => v.title)), 'све']);
-
+  const [vrstaZivotinje, setVrstaZivotinje] = useState([]);
   const [items, setItems] = useState([]);
+  const [vrsteProizvoda, setVrsteProizvoda] = useState([]);
 
   useEffect(() => {
     setItems(products);
@@ -75,6 +77,8 @@ const AppProvider = ({ children }) => {
     setItems(products);
     setShowFilters(false);
     setShowTitles(false);
+    setVrsteProizvoda([]);
+    setShowTip(false);
   }, [router.pathname]);
 
   // useEffect(() => {
@@ -82,7 +86,7 @@ const AppProvider = ({ children }) => {
   // }, [proizvodiKorpa]);
 
   const removeItemFromCart = (id) => {
-    setProizvodiKorpa(proizvodiKorpa.filter((item) => item.id !== id));
+    setProizvodiKorpa(proizvodiKorpa.filter((item) => item._id.$oid !== id));
     // localStorage.removeItem('korpa');
   };
 
@@ -114,6 +118,14 @@ const AppProvider = ({ children }) => {
         setShowFilters,
         showfilters,
         items,
+        showTip,
+        setShowTip,
+        tip,
+        setTip,
+        vrstaZivotinje,
+        setVrstaZivotinje,
+        vrsteProizvoda,
+        setVrsteProizvoda,
         setItems,
         proizvodiKorpa,
         setProizvodiKorpa,

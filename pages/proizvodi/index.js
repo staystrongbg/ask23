@@ -5,12 +5,14 @@ import SwiperComponent from '../../components/SwiperComponent';
 import {
   FilterKategorije,
   FilterSort,
+  FilterTip,
 } from '../../components/FilterKategorije';
 import Meta from '../../components/Meta';
 import { H1, P } from '../../components/utils';
+import { useState } from 'react';
+import { useEffect } from 'react';
 const SviProizvodi = () => {
-  const { products, items } = useGlobalContext();
-
+  const { products, items, showTip, vrstaZivotinje } = useGlobalContext();
   return (
     <Layout>
       <Meta title='Производи' />
@@ -34,7 +36,15 @@ const SviProizvodi = () => {
 
             <div className='flex md:flex-row flex-col xl:gap-40'>
               <div className='xl:grow-1 px-2'>
-                <FilterKategorije />
+                {vrstaZivotinje.length > 0 ? (
+                  <>
+                    <FilterKategorije />
+                    <FilterTip />
+                  </>
+                ) : (
+                  <FilterKategorije />
+                )}
+
                 <FilterSort />
               </div>
               {/* iskljuciti wrap i aktivirati flex-col */}

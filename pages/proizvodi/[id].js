@@ -44,6 +44,7 @@ const ProizvodPojedinacno = ({ product }) => {
 
     return arr;
   }
+
   return (
     <Layout>
       <div className={`wrapper w-full  bg-gray-200 `}>
