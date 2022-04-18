@@ -35,7 +35,6 @@ const ProizvodPojedinacno = ({ product }) => {
     let indexFound = arr.findIndex(
       (element) => element._id.$oid === tempP._id.$oid
     );
-    console.log(tempP);
     if (indexFound < 0) setProizvodiKorpa([...arr, tempP]);
     if (indexFound >= 0) {
       proizvodiKorpa[indexFound].kolicina =

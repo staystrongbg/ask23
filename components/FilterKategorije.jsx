@@ -5,12 +5,13 @@ import { useGlobalContext } from '../context';
 import Divider from './Divider';
 import { LIST_NAME_STYLE, FILTERI_STYLE } from './utils';
 
-export const FilterKategorije = () => {
+export const FilterKategorije = ({ numberOfProductsByType }) => {
   const {
     products,
     showTitles,
     setShowTitles,
     setItems,
+    items,
     titles,
     vrstaZivotinje,
     setVrstaZivotinje,
@@ -33,22 +34,29 @@ export const FilterKategorije = () => {
         titles.map((title, idx) => (
           <li
             onClick={(e) => {
-              setShowTitles(false);
+              // setShowTitles(false);
+              console.log(e.target.textContent, vrstaZivotinje);
               setShowTip(true);
               setVrstaZivotinje(
-                products.filter((k) => k.title === e.target.textContent)
+                products.filter((k) => e.target.textContent.includes(k.title))
               );
               setItems(
-                e.target.textContent === 'све'
+                e.target.textContent.includes('све')
                   ? products
-                  : products.filter((k) => k.title === e.target.textContent)
+                  : products.filter((k) =>
+                      e.target.textContent.includes(k.title)
+                    )
               );
             }}
             tabIndex='0'
             key={idx}
             className='list-none font-bold cursor-pointer text-blue-500 text-sm mb-3 tracking-wide whitespace-nowrap capitalize ml-4 '
           >
-            {title}
+            {title}(
+            {title === 'све'
+              ? numberOfProductsByType.length
+              : numberOfProductsByType.filter((u) => u.title === title).length}
+            )
           </li>
         ))}
       <Divider />
@@ -56,7 +64,7 @@ export const FilterKategorije = () => {
   );
 };
 
-export const FilterTip = () => {
+export const FilterTip = ({ numberOfProductsByType }) => {
   const {
     setItems,
     items,
@@ -68,7 +76,11 @@ export const FilterTip = () => {
   } = useGlobalContext();
 
   useEffect(() => {
-    setVrsteProizvoda([...new Set(vrstaZivotinje.map((v) => v.tip)), 'све']);
+    setVrsteProizvoda(
+      vrstaZivotinje.length
+        ? [...new Set(vrstaZivotinje.map((v) => v.tip)), 'све']
+        : []
+    );
   }, [vrstaZivotinje]);
 
   return (
@@ -80,21 +92,28 @@ export const FilterTip = () => {
         тип производа
         <FaChevronRight className={` ${showTip && 'rotate-90'}`} />
       </span>
+      {/* za proizvodi ne bi isla vrsta zivotinja i tip vec treba da se gadjaju products i title */}
       {showTip &&
-        vrsteProizvoda.map((vrsta, idx) => (
+        vrsteProizvoda.map((tip, idx) => (
           <li
             onClick={(e) => {
-              setItems(
-                e.target.textContent === 'све'
+              setItems(() =>
+                e.target.textContent.includes('све')
                   ? vrstaZivotinje
-                  : vrstaZivotinje.filter((z) => z.tip === e.target.textContent)
+                  : vrstaZivotinje.filter((z) =>
+                      e.target.textContent.includes(z.tip)
+                    )
               );
             }}
             tabIndex='0'
             key={idx}
             className={`list-none font-bold cursor-pointer text-blue-500 text-sm mb-3 tracking-wide whitespace-nowrap capitalize ml-4`}
           >
-            {vrsta}
+            {tip}(
+            {tip === 'све'
+              ? numberOfProductsByType.length
+              : numberOfProductsByType.filter((u) => u.tip === tip).length}
+            )
           </li>
         ))}
       {showTip && !vrsteProizvoda.length && (
@@ -107,7 +126,6 @@ export const FilterTip = () => {
 
 export const FilterSort = () => {
   const { setItems, items, showfilters, setShowFilters } = useGlobalContext();
-  // console.log(items);
   return (
     <ul className={LIST_NAME_STYLE}>
       <span

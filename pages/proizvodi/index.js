@@ -38,11 +38,13 @@ const SviProizvodi = () => {
               <div className='xl:grow-1 px-2'>
                 {vrstaZivotinje.length > 0 ? (
                   <>
-                    <FilterKategorije />
-                    <FilterTip />
+                    <FilterKategorije numberOfProductsByType={products} />
+                    <FilterTip
+                      numberOfProductsByType={products.filter((f) => f.title)}
+                    />
                   </>
                 ) : (
-                  <FilterKategorije />
+                  <FilterKategorije numberOfProductsByType={products} />
                 )}
 
                 <FilterSort />

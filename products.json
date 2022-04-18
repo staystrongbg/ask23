@@ -33,7 +33,7 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c0b"
     },
-    "tip": "Igracke - lopta",
+    "tip": "Igracke",
     "name": "LOPTICE I ROLNE 4CM - za macke",
 
     "price": "57.67",
@@ -48,7 +48,7 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c0c"
     },
-    "tip": "Igracke - lopta",
+    "tip": "Igracke",
     "name": "LOPTICA OBMO.PAMUC.KANAPOM 4.5CM - za macke",
 
     "price": "129.95",
@@ -63,7 +63,7 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c0d"
     },
-    "tip": "Igracke - lopta",
+    "tip": "Igracke",
     "name": "4 LOPTE ZVECKE,4.5CM",
 
     "price": "48.73",
@@ -78,7 +78,7 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c0e"
     },
-    "tip": "Igracke - mis",
+    "tip": "Igracke",
     "name": "24 KRZNENA MISA\"MISIJA PARADA\"",
 
     "price": "109.10",
@@ -93,7 +93,7 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c0f"
     },
-    "tip": "Igracke - pecaljka",
+    "tip": "Igracke",
     "name": "STAP SA PERJEM,50CM",
 
     "price": "143.48",
@@ -273,7 +273,7 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c1b"
     },
-    "tip": "Cinija - keramicka",
+    "tip": "Cinija",
     "name": "CINIJA KERAMICKA ZA MACKE 0.3L",
 
     "price": "236.09",
@@ -288,7 +288,7 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c1c"
     },
-    "tip": "Cinija - rostfraj",
+    "tip": "Cinija",
     "name": "CINIJA ZA ART.24831,0.45L rostfraj ",
 
     "price": "145.29",
@@ -303,7 +303,7 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c1d"
     },
-    "tip": "Cinija - rostfraj",
+    "tip": "Cinija",
     "name": "CINIJA ZA ART.24832 0.75L",
 
     "price": "217.93",
@@ -318,7 +318,7 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c1e"
     },
-    "tip": "Igracke - kanap",
+    "tip": "Igracke",
     "name": "VUNENO UZE ZA IGRU 25G/15CM",
 
     "price": "78.96",
@@ -333,7 +333,7 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c1f"
     },
-    "tip": "Igracke - kanap",
+    "tip": "Igracke",
     "name": "DENTA FAN KANAP,PAMUC.500G/60CM",
 
     "price": "586.56",
@@ -348,7 +348,7 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c20"
     },
-    "tip": "Igracke - lopta",
+    "tip": "Igracke",
     "name": "LOPTA PAMUCNA SA KANAP.5.5CM/30C",
 
     "price": "177.66",
@@ -363,7 +363,7 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c21"
     },
-    "tip": "Igracke - lopta",
+    "tip": "Igracke",
     "name": "LOPTA JEZASTA,VINIL,7.5 CM",
 
     "price": "222.78",
@@ -378,7 +378,7 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c22"
     },
-    "tip": "Igracke - lopta",
+    "tip": "Igracke",
     "name": "LOPTA PAMUCNA SA KANAP.7CM/50CM",
 
     "price": "290.46",
@@ -708,7 +708,7 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c38"
     },
-    "tip": "Igracke - Ptice",
+    "tip": "Igracke",
     "name": "LJULJASKA KOCKA.SA ZVONCETOM",
 
     "price": "104.34",
@@ -723,7 +723,7 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c39"
     },
-    "tip": "Igracke - Ptice",
+    "tip": "Igracke",
     "name": "MERDEVINE DRVENE,5prečki,24cm",
 
     "price": "118.44",
@@ -738,7 +738,7 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c3a"
     },
-    "tip": "Igracke - Ptice",
+    "tip": "Igracke",
     "name": "3 RESETK.LOPTICE NA LANCU,4.5CM",
 
     "price": "127.24",
@@ -753,7 +753,7 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c3b"
     },
-    "tip": "Igracke - Ptice",
+    "tip": "Igracke",
     "name": "POLUKRUZNA LJULJASKA 8X15CM",
 
     "price": "159.05",
@@ -768,7 +768,7 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c3c"
     },
-    "tip": "Igracke - Ptice",
+    "tip": "Igracke",
     "name": "MERDEVINE DRVENE,8prečki,36cm",
 
     "price": "152.28",
@@ -783,7 +783,7 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c3d"
     },
-    "tip": "Igracke - Ptice",
+    "tip": "Igracke",
     "name": "PENJALICA ZA PTICE,DRVENA 25CM",
 
     "price": "248.16",
@@ -798,7 +798,7 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c3e"
     },
-    "tip": "Igracke - Ptice",
+    "tip": "Igracke",
     "name": "LJULJASKA POLUKRUZNA,15X27CM",
 
     "price": "260.57",
@@ -813,7 +813,7 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c3f"
     },
-    "tip": "Igracke - Ptice",
+    "tip": "Igracke",
     "name": "PRSTEN PAMUCNI SA DRV.KUGL.16cm",
 
     "price": "539.64",
@@ -2508,7 +2508,7 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0cb0"
     },
-    "tip": "Igracke - lopta",
+    "tip": "Igracke",
     "name": "Lopta za pse tenis 6.5cm ",
 
     "price": "79.35",
@@ -2538,7 +2538,7 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0cb2"
     },
-    "tip": "Igracke - lopta",
+    "tip": "Igracke",
     "name": "Igracka kanap sa teniskom loptom zeleno/plavi 25cm ",
 
     "price": "237.60",
@@ -2553,7 +2553,7 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0cb3"
     },
-    "tip": "Igracke - lopta",
+    "tip": "Igracke",
     "name": "Igracka kanap sa loptom narandzasto/plavi 19cm ",
 
     "price": "174.07",
@@ -3228,7 +3228,7 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0ce0"
     },
-    "tip": "Igracke - latex",
+    "tip": "Igracke",
     "name": "Anastasia kokoška - 32 x 7 x 6 cm",
 
     "price": "495.72",
@@ -3288,7 +3288,7 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0ce4"
     },
-    "tip": "Igracke - lopta",
+    "tip": "Igracke",
     "name": "Catapult sa teniskom lopticom (plava, crvena I žuta)  - 65 x 6 x 6 cm Ø6,3 cm ",
 
     "price": "409.28",
@@ -3378,7 +3378,7 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0cea"
     },
-    "tip": "Igracke - kost",
+    "tip": "Igracke",
     "name": "Gaspra – igračka kost (narandzasta, roza, zelena) 16 cm",
 
     "price": "533.52",
@@ -3438,7 +3438,7 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0cee"
     },
-    "tip": "Igracke - lopta",
+    "tip": "Igracke",
     "name": "Jupiter – lopta za poslastice (crvena, zelena,plava) Ø 6,5 cm",
 
     "price": "192.73",
@@ -3498,7 +3498,7 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0cf2"
     },
-    "tip": "Igracke - lopta",
+    "tip": "Igracke",
     "name": "Mars lopta za poslastice (narandžasta, žuta  I plava) - Ø8 cm                                 ",
 
     "price": "336.38",
@@ -3513,7 +3513,7 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0cf3"
     },
-    "tip": "Cinija - plasticna",
+    "tip": "Cinija",
     "name": "Melaminska Posuda - Sporo Hranjenje 1400 ml - Zelena - Plava  - Bela",
 
     "price": "919.89",
@@ -3528,7 +3528,7 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0cf4"
     },
-    "tip": "Cinija - plasticna",
+    "tip": "Cinija",
     "name": "Melaminska Posuda - Sporo Hranjenje 250 ml - Zelena - Plava - Bela",
 
     "price": "372.30",
@@ -3543,7 +3543,7 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0cf5"
     },
-    "tip": "Cinija - plasticna",
+    "tip": "Cinija",
     "name": "Melaminska Posuda - Sporo Hranjenje 450 ml  - Zelena - Plava - Bela",
 
     "price": "470.44",
@@ -3558,7 +3558,7 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0cf6"
     },
-    "tip": "Cinija - plasticna",
+    "tip": "Cinija",
     "name": "Melaminska Posuda - Sporo Hranjenje 900 ml - Zelena - Plava - Bela",
 
     "price": "677.74",
@@ -3573,7 +3573,7 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0cf7"
     },
-    "tip": "Cinija - plasticna",
+    "tip": "Cinija",
     "name": "Melaminska Posuda Moderne 1100 ml  - Zelena - Plava - Bela",
 
     "price": "746.72",
@@ -3588,7 +3588,7 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0cf8"
     },
-    "tip": "Cinija - plasticna",
+    "tip": "Cinija",
     "name": "Melaminska Posuda Moderne 300 ml  - Zelena - Plava - Bela",
 
     "price": "347.05",
@@ -3603,7 +3603,7 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0cf9"
     },
-    "tip": "Cinija - plasticna",
+    "tip": "Cinija",
     "name": "Melaminska Posuda Moderne 450 ml  - Zelena - Plava - Bela",
 
     "price": "524.84",
@@ -3648,7 +3648,7 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0cfc"
     },
-    "tip": "Igracke - pecaljka",
+    "tip": "Igracke",
     "name": "Miš na štapiću – 35 cm",
 
     "price": "413.55",
@@ -3678,7 +3678,7 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0cfe"
     },
-    "tip": "Igracke - pecaljka",
+    "tip": "Igracke",
     "name": "Natura perce na štapiću – 35,5 cm",
 
     "price": "381.19",
@@ -3873,7 +3873,7 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0d0b"
     },
-    "tip": "Cinija - plasticna",
+    "tip": "Cinija",
     "name": "Plastična Činija 1150 ml - Tamno Plava - Tamno Siva – Braon",
 
     "price": "300.11",
@@ -3888,7 +3888,7 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0d0c"
     },
-    "tip": "Cinija - plasticna",
+    "tip": "Cinija",
     "name": "Plastična Činija 475 ml - Tamno Plava - Tamno Siva - Braon",
 
     "price": "177.44",
@@ -3903,7 +3903,7 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0d0d"
     },
-    "tip": "Cinija - plasticna",
+    "tip": "Cinija",
     "name": "Plastična Činija 775 ml - Tamno Plava - Tamno Siva – Braon",
 
     "price": "231.13",
@@ -3918,7 +3918,7 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0d0e"
     },
-    "tip": "Cinija - plasticna",
+    "tip": "Cinija",
     "name": "Plastična posuda - dupla 2 x 150 ml",
 
     "price": "101.34",
@@ -4293,7 +4293,7 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0d27"
     },
-    "tip": "Igracke - kanap",
+    "tip": "Igracke",
     "name": "Uže 20 cm",
 
     "price": "104.85",
@@ -4308,7 +4308,7 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0d28"
     },
-    "tip": "Igracke - kanap",
+    "tip": "Igracke",
     "name": "Uže 26 cm",
 
     "price": "210.09",
@@ -4323,7 +4323,7 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0d29"
     },
-    "tip": "Igracke - kanap",
+    "tip": "Igracke",
     "name": "Uže 37 cm",
 
     "price": "402.02",
@@ -4338,7 +4338,7 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0d2a"
     },
-    "tip": "Igracke - kanap",
+    "tip": "Igracke",
     "name": "Uže 48 cm",
 
     "price": "665.44",

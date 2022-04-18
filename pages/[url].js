@@ -18,7 +18,6 @@ const Kategorija = ({ page }) => {
   useEffect(() => {
     setItems(vrstaZivotinje);
   }, [router.pathname, vrstaZivotinje]);
-
   useEffect(() => {
     setVrstaZivotinje(page.filter((k) => k.link === router.query.url));
   }, [page]);
@@ -47,7 +46,11 @@ const Kategorija = ({ page }) => {
             <div className='flex md:flex-row flex-col xl:gap-40'>
               <div className='xl:grow-1 px-2'>
                 <FilterSort />
-                <FilterTip />
+                <FilterTip
+                  numberOfProductsByType={products.filter(
+                    (p) => p.link === router.query.url
+                  )}
+                />
               </div>
               {/* iskljuciti wrap i aktivirati flex-col */}
               <div className='flex flex-wrap grow-3 jusitfy-center xl:gap-5 gap-2 py-10  '>

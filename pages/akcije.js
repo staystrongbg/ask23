@@ -1,4 +1,8 @@
-import { FilterKategorije, FilterSort } from '../components/FilterKategorije';
+import {
+  FilterKategorije,
+  FilterSort,
+  FilterTip,
+} from '../components/FilterKategorije';
 import Layout from '../components/Layout';
 import Meta from '../components/Meta';
 import NonSwiperProizvod from '../components/NonSwiperProizvod';
@@ -8,6 +12,7 @@ import { useGlobalContext } from '../context';
 import { H1, P } from '../components/utils';
 const Akcije = () => {
   const { products, items } = useGlobalContext();
+
   return (
     <Layout>
       <Meta title='Акције' />
@@ -31,7 +36,11 @@ const Akcije = () => {
 
             <div className='flex md:flex-row flex-col xl:gap-40'>
               <div className='xl:grow-1 px-2'>
-                <FilterKategorije />
+                <FilterKategorije
+                  numberOfProductsByType={products.filter((p) => p.akcija)}
+                />
+                <FilterTip />
+
                 <FilterSort />
               </div>
               {/* iskljuciti wrap i aktivirati flex-col */}
