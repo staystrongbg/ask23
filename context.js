@@ -48,6 +48,9 @@ const AppProvider = ({ children }) => {
     );
   }, [searchTerm]);
 
+  const perPage = 8;
+  const page = 1;
+
   const [showTitles, setShowTitles] = useState(false);
   const [showfilters, setShowFilters] = useState(false);
   const [showTip, setShowTip] = useState(false);
@@ -72,15 +75,6 @@ const AppProvider = ({ children }) => {
     window.scrollTo(0, 0);
   };
 
-  //reset
-  useEffect(() => {
-    setItems(products);
-    setShowFilters(false);
-    setShowTitles(false);
-    setVrsteProizvoda([]);
-    setShowTip(false);
-  }, [router.pathname]);
-
   // useEffect(() => {
   //   console.log(proizvodiKorpa);
   // }, [proizvodiKorpa]);
@@ -98,6 +92,17 @@ const AppProvider = ({ children }) => {
     setTimeout(() => setShake(false), 1000);
   };
 
+  const [pagination, setPagination] = useState({ page: 1, perPage: 8 });
+
+  //reset
+  useEffect(() => {
+    setItems(products);
+    setShowFilters(false);
+    setShowTitles(false);
+    setVrsteProizvoda([]);
+    setShowTip(false);
+    setPagination({ page: 1, perPage: 8 });
+  }, [router.pathname, router.asPath]);
   return (
     <AppContext.Provider
       value={{
@@ -138,6 +143,8 @@ const AppProvider = ({ children }) => {
         shake,
         shakeThatCart,
         offset,
+        pagination,
+        setPagination,
       }}
     >
       {children}

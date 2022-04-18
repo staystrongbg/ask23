@@ -11,8 +11,17 @@ import Meta from '../../components/Meta';
 import { H1, P } from '../../components/utils';
 import { useState } from 'react';
 import { useEffect } from 'react';
+import Button2 from '../../components/Buttone2';
 const SviProizvodi = () => {
-  const { products, items, showTip, vrstaZivotinje } = useGlobalContext();
+  const {
+    products,
+    items,
+    showTip,
+    vrstaZivotinje,
+    pagination,
+    setPagination,
+  } = useGlobalContext();
+
   return (
     <Layout>
       <Meta title='Производи' />
@@ -50,11 +59,22 @@ const SviProizvodi = () => {
                 <FilterSort />
               </div>
               {/* iskljuciti wrap i aktivirati flex-col */}
-              <div className='flex flex-wrap grow-3 jusitfy-center xl:gap-5 gap-2 py-10  '>
+              <div className='items-container flex flex-wrap grow-3 jusitfy-center xl:gap-5 gap-2 py-10  '>
                 {items &&
-                  items.map((p, idx) => <NonSwiperProizvod key={idx} {...p} />)}
+                  items
+                    .slice(0, pagination.page * pagination.perPage)
+                    .map((p, idx) => <NonSwiperProizvod key={idx} {...p} />)}
               </div>
             </div>
+            {items.length > pagination.perPage && (
+              <Button2
+                className='w-72 m-auto'
+                title='ucitaj jos'
+                onClick={() =>
+                  setPagination({ ...pagination, page: pagination.page + 1 })
+                }
+              />
+            )}
           </div>
         </section>
       </div>

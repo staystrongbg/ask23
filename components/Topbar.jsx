@@ -102,7 +102,7 @@ const Topbar = () => {
       />
       {cart && (
         <ClickAwayListener onClickAway={() => setCart(false)}>
-          <div className='shopping-cart fixed top-0 right-0 bottom-0 sm:w-96 w-full sm:border-l-4 border-gray-300 bg-gray-200/90 flex justify-between flex-col z-50 '>
+          <div className='shopping-cart fixed top-0 right-0 bottom-0 sm:w-96 w-full sm:border-l-4 border-gray-300 bg-gray-200/90 flex justify-between flex-col z-50 overflow-auto '>
             <Cart />
           </div>
         </ClickAwayListener>

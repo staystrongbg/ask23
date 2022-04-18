@@ -10,8 +10,9 @@ import NonSwiperProizvod from '../components/NonSwiperProizvod';
 import SwiperComponent from '../components/SwiperComponent';
 import { useGlobalContext } from '../context';
 import { H1, P } from '../components/utils';
+import Button2 from '../components/Buttone2';
 const Akcije = () => {
-  const { products, items } = useGlobalContext();
+  const { products, items, pagination, setPagination } = useGlobalContext();
 
   return (
     <Layout>
@@ -48,9 +49,19 @@ const Akcije = () => {
                 {items &&
                   items
                     .filter((f) => f.akcija)
+                    .slice(0, pagination.page * pagination.perPage)
                     .map((p, idx) => <NonSwiperProizvod key={idx} {...p} />)}
               </div>
             </div>
+            {items.filter((f) => f.akcija).length > pagination.perPage && (
+              <Button2
+                className='w-72 m-auto'
+                title='ucitaj jos'
+                onClick={() =>
+                  setPagination({ ...pagination, page: pagination.page + 1 })
+                }
+              />
+            )}
           </div>
         </section>
       </div>

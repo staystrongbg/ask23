@@ -4495,7 +4495,7 @@
     "detail": "ovo je detail proizvoda",
     "image": "https://picsum.photos/id/232/1200/1000",
     "novo": false,
-    "akcija": false,
+    "akcija": true,
     "title": "пси",
     "link": "psi"
   },
@@ -4525,7 +4525,7 @@
     "detail": "ovo je detail proizvoda",
     "image": "https://picsum.photos/id/232/1200/1000",
     "novo": false,
-    "akcija": false,
+    "akcija": true,
     "title": "мачке",
     "link": "macke"
   }

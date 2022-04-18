@@ -9,7 +9,8 @@ const NonSwiperProizvod = ({ ...p }) => {
         <Link href={`proizvodi/${p._id.$oid.toString()}`}>
           <a>
             <div
-              className={`w-40 h-72 lg:w-72 lg:h-96 lg:text-base text-xs bg-gray-100 hover:shadow-xl rounded-md cursor-pointer transition-all   border-2  flex flex-col items-center justify-start`}
+              className={` w-40 h-72 lg:w-72 lg:h-96 lg:text-base text-xs bg-gray-100 hover:shadow-xl rounded-md cursor-pointer transition-all   border-2  flex flex-col items-center justify-start`}
+              style={{ animation: 'fadeIn 0.3s ease-out' }}
               onClick={() => setSearchTerm('')}
             >
               <div className='w-full lg:h-1/2 h-1/3'>

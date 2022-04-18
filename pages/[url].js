@@ -8,10 +8,17 @@ import { useEffect } from 'react';
 import { useRouter } from 'next/router';
 import Meta from '../components/Meta';
 import { H1, P } from '../components/utils';
+import Button2 from '../components/Buttone2';
 
 const Kategorija = ({ page }) => {
-  const { setItems, items, setVrstaZivotinje, vrstaZivotinje } =
-    useGlobalContext();
+  const {
+    setItems,
+    items,
+    setVrstaZivotinje,
+    vrstaZivotinje,
+    pagination,
+    setPagination,
+  } = useGlobalContext();
 
   const router = useRouter();
 
@@ -55,9 +62,20 @@ const Kategorija = ({ page }) => {
               {/* iskljuciti wrap i aktivirati flex-col */}
               <div className='flex flex-wrap grow-3 jusitfy-center xl:gap-5 gap-2 py-10  '>
                 {items &&
-                  items.map((p) => <NonSwiperProizvod key={p.id} {...p} />)}
+                  items
+                    .slice(0, pagination.page * pagination.perPage)
+                    .map((p) => <NonSwiperProizvod key={p.id} {...p} />)}
               </div>
             </div>
+            {items.length > pagination.perPage && (
+              <Button2
+                className='w-72 m-auto'
+                title='ucitaj jos'
+                onClick={() =>
+                  setPagination({ ...pagination, page: pagination.page + 1 })
+                }
+              />
+            )}
           </div>
         </section>
       </div>
