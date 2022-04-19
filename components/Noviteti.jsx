@@ -23,7 +23,7 @@ const Noviteti = () => {
     );
   };
   return (
-    <section className='  px-5 py-10 bg-gray-200'>
+    <section className='  px-5 py-10 '>
       <div className='flex flex-col items-center justify-center xl:w-5/6 m-auto mt-12 mb-12'>
         <div className='flex gap-10'>
           {filtrirano.map((i, idx) => (

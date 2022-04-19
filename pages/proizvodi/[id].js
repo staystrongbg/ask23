@@ -2,47 +2,19 @@ import Layout from '../../components/Layout';
 import products from '../../products.json';
 import Button2 from '../../components/Buttone2';
 import { useGlobalContext } from '../../context';
-import { useRef, useState } from 'react';
+import { useState } from 'react';
 import Image from 'next/image';
+
 const ProizvodPojedinacno = ({ product }) => {
-  const { proizvodiKorpa, setProizvodiKorpa, shakeThatCart } =
-    useGlobalContext();
-
-  const dodajProizvodUKorpu = () => {
-    const tempProduct = { ...product, kolicina: kolicinaRef.current.value };
-    add(proizvodiKorpa, tempProduct);
-    kolicinaRef.current.value = '1';
-    shakeThatCart();
-    // localStorage.setItem('korpa', JSON.stringify(tempProduct));
-    //mora da bude push u arr ovako ako samo setujes on gazi prethodni unos i cuva samo posslednji
-    // setProizvodiKorpa(proizvodiKorpa.map((p) => p));
-  };
-
-  const kolicinaRef = useRef(null);
-
-  // useEffect(() => {
-  //   setProizvodiKorpa([JSON.parse(localStorage.getItem('korpa'))]);
-  // }, []);
-
-  // useEffect(() => {
-  //   console.log(proizvodiKorpa);
-  // }, [proizvodiKorpa]);
-
-  function add(arr, tempP) {
-    // const indexFound = arr.some((el) => el.id === tempP.id);
-
-    // function (return index if match / -1 if no match
-    let indexFound = arr.findIndex(
-      (element) => element._id.$oid === tempP._id.$oid
-    );
-    if (indexFound < 0) setProizvodiKorpa([...arr, tempP]);
-    if (indexFound >= 0) {
-      proizvodiKorpa[indexFound].kolicina =
-        +proizvodiKorpa[indexFound].kolicina + +kolicinaRef.current.value;
-    }
-
-    return arr;
-  }
+  const {
+    proizvodiKorpa,
+    setProizvodiKorpa,
+    shakeThatCart,
+    dodajProizvodUKorpu,
+    add,
+    kolicinaInput,
+    setKolicinaInput,
+  } = useGlobalContext();
 
   return (
     <Layout>
@@ -78,17 +50,19 @@ const ProizvodPojedinacno = ({ product }) => {
                   </div>
                   <div className='cena flex flex-col'>
                     <span>количина</span>
+
                     <input
-                      ref={kolicinaRef}
+                      // ref={kolicinaRef}
+                      onChange={(e) => setKolicinaInput(e.currentTarget.value)}
                       className='w-10 p-1 font-bold text-center text-gray-600'
-                      defaultValue={1}
+                      value={kolicinaInput}
                       min={1}
                       type='number'
                     />
                   </div>
                   <Button2
                     title='додај у корпу'
-                    onClick={dodajProizvodUKorpu}
+                    onClick={() => dodajProizvodUKorpu(product)}
                   />
                 </div>
               </div>

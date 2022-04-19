@@ -4,7 +4,7 @@ import Topbar from './Topbar';
 import Breadcrumbs from './Breadcrumbs';
 const Layout = ({ children }) => {
   return (
-    <div className='flex flex-col'>
+    <div className='flex flex-col '>
       <Topbar />
       <Topnav />
       <Breadcrumbs />

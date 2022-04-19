@@ -6,7 +6,7 @@ import { H1, P } from './utils';
 const Akcije = () => {
   const { products } = useGlobalContext();
   return (
-    <section className='  px-5 py-10 bg-gray-200'>
+    <section className='  px-5 py-10 '>
       <div className='flex flex-col items-center justify-center xl:w-5/6 w-full m-auto mt-12 mb-12'>
         <H1> производи на акцији</H1>
         <P className='text-center'>

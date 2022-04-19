@@ -94,6 +94,33 @@ const AppProvider = ({ children }) => {
 
   const [pagination, setPagination] = useState({ page: 1, perPage: 8 });
 
+  // input number of items to add to cart
+  const [kolicinaInput, setKolicinaInput] = useState(1);
+
+  const dodajProizvodUKorpu = (product) => {
+    const tempProduct = { ...product, kolicina: kolicinaInput };
+    add(proizvodiKorpa, tempProduct);
+    setKolicinaInput(1);
+    shakeThatCart();
+    // localStorage.setItem('korpa', JSON.stringify(tempProduct));
+    //mora da bude push u arr ovako ako samo setujes on gazi prethodni unos i cuva samo posslednji
+    // setProizvodiKorpa(proizvodiKorpa.map((p) => p));
+  };
+
+  function add(arr, tempP) {
+    // function (return index if match / -1 if no match
+    let indexFound = arr.findIndex(
+      (element) => element._id.$oid === tempP._id.$oid
+    );
+    if (indexFound < 0) setProizvodiKorpa([...arr, tempP]);
+    if (indexFound >= 0) {
+      proizvodiKorpa[indexFound].kolicina =
+        +proizvodiKorpa[indexFound].kolicina + +kolicinaInput;
+    }
+
+    return arr;
+  }
+
   //reset
   useEffect(() => {
     setItems(products);
@@ -145,6 +172,10 @@ const AppProvider = ({ children }) => {
         offset,
         pagination,
         setPagination,
+        dodajProizvodUKorpu,
+        add,
+        kolicinaInput,
+        setKolicinaInput,
       }}
     >
       {children}
