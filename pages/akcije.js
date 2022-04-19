@@ -40,7 +40,9 @@ const Akcije = () => {
                 <FilterKategorije
                   numberOfProductsByType={products.filter((p) => p.akcija)}
                 />
-                <FilterTip />
+                <FilterTip
+                  numberOfProductsByType={products.filter((p) => p.akcija)}
+                />
 
                 <FilterSort />
               </div>
