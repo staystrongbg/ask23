@@ -39,11 +39,11 @@ const Proizvod = ({ ...p }) => {
         </a>
       </Link>
       <div
-        className='uppercase gap-2  absolute text-gray-600 bottom-0 right-2  p-2 flex   w-full items-center justify-end'
+        className='uppercase gap-2  absolute  bottom-0 right-2  p-2 flex   w-full items-center justify-end'
         onClick={() => dodajProizvodUKorpu(p)}
       >
-        <p className='lg:text-sm text-xs'>додај у корпу</p>
-        <span className=' xl:text-3xl text-xl '>
+        <p className='lg:text-sm text-xs text-gray-600'>додај у корпу</p>
+        <span className=' xl:text-3xl text-xl text-green-600 '>
           <FaShoppingCart />
         </span>
       </div>

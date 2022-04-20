@@ -1,6 +1,6 @@
 import { AiOutlineShoppingCart } from 'react-icons/ai';
 import { useGlobalContext } from '../context';
-import { FaTimes } from 'react-icons/fa';
+import { FaTimes, FaTrash } from 'react-icons/fa';
 import Button2 from './Buttone2';
 import Divider from './Divider';
 import Image from 'next/image';
@@ -23,8 +23,8 @@ const Cart = () => {
         proizvodiKorpa.map((item) => {
           return (
             <div key={item._id.$oid}>
-              <div className='flex px-2 py-1 items-center '>
-                <span className='border flex items-center justify-center border-gray-300 p-1'>
+              <div className='flex px-2 items-center justify-start '>
+                <span className='border flex items-center justify-center border-gray-300 p-1 '>
                   <Image
                     objectFit='cover'
                     width={80}
@@ -35,22 +35,20 @@ const Cart = () => {
                     alt={item.name}
                   />
                 </span>
-                <div className=' text-base m-4 w-full'>
-                  <p className='text-gray-900 flex justify-between w-full'>
-                    <span className='font-semibold text-gray-600 '>
-                      {item.name}
-                    </span>
-                    <span className='text-red-600 font-semibold'>
+                <div className=' text-base m-2 w-full'>
+                  <p className='text-gray-900 flex justify-between w-full '>
+                    <span className=' text-gray-600 text-sm '>{item.name}</span>
+                    <span className='text-red-600 whitespace-nowrap '>
                       {item.price} дин
                     </span>
                   </p>
                   <div className='text-gray-500 flex justify-between mt-2'>
                     <span>Kол. {item.kolicina}</span>
                     <span
-                      className='text-red-900 cursor-pointer tracking-wider uppercase'
+                      className='text-gray-500 cursor-pointer tracking-wider uppercase'
                       onClick={() => removeItemFromCart(item._id.$oid)}
                     >
-                      обриши
+                      <FaTrash />
                     </span>
                   </div>
                 </div>
