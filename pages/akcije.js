@@ -12,8 +12,8 @@ import { useGlobalContext } from '../context';
 import { H1, P } from '../components/utils';
 import Button2 from '../components/Buttone2';
 const Akcije = () => {
-  const { products, items, pagination, setPagination } = useGlobalContext();
-
+  const { products, items, pagination, setPagination, vrstaZivotinje } =
+    useGlobalContext();
   return (
     <Layout>
       <Meta title='Акције' />
@@ -41,7 +41,7 @@ const Akcije = () => {
                   numberOfProductsByType={products.filter((p) => p.akcija)}
                 />
                 <FilterTip
-                  numberOfProductsByType={products.filter((p) => p.akcija)}
+                  numberOfProductsByType={items.filter((p) => p.akcija)}
                 />
 
                 <FilterSort />

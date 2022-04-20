@@ -42,7 +42,7 @@ const Noviteti = () => {
           Пет Шоп АСК23 се труди да своје верне потрошаче обавештава о
           најновијин производима
         </P>
-        <div className='flex flex-wrap w-full gap-5 py-10 justify-center '>
+        <div className='flex flex-wrap w-full gap-1 py-10 justify-center '>
           <MultipleSwipers products={produkti} />
         </div>
       </div>

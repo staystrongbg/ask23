@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
 import { FaTimes } from 'react-icons/fa';
 import { useGlobalContext } from '../context';
-import Proizvod from './Proizvod';
+import Proizvod from './SwiperProizvod';
 const Modal = () => {
   const { setSearchTerm, searchProducts, kbEvents } = useGlobalContext();
 

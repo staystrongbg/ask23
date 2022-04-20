@@ -8,7 +8,7 @@ import 'swiper/css/navigation';
 // import required modules
 import { Navigation, Autoplay } from 'swiper';
 import Button from './Button';
-import Proizvod from './Proizvod';
+import SwiperProizvod from './SwiperProizvod';
 const MultipleSwipers = ({ products }) => {
   return (
     <Swiper
@@ -46,7 +46,7 @@ const MultipleSwipers = ({ products }) => {
           key={idx}
           className=' w-0 select-none pb-12 flex items-center justify-center '
         >
-          <Proizvod {...p} />
+          <SwiperProizvod {...p} />
         </SwiperSlide>
       ))}
     </Swiper>

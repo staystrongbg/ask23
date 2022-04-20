@@ -35,7 +35,6 @@ export const FilterKategorije = ({ numberOfProductsByType }) => {
           <li
             onClick={(e) => {
               // setShowTitles(false);
-              console.log(e.target.textContent, vrstaZivotinje);
               setShowTip(true);
               setVrstaZivotinje(
                 products.filter((k) => e.target.textContent.includes(k.title))
@@ -50,13 +49,17 @@ export const FilterKategorije = ({ numberOfProductsByType }) => {
             }}
             tabIndex='0'
             key={idx}
-            className='list-none font-bold cursor-pointer text-blue-500 text-sm mb-3 tracking-wide whitespace-nowrap capitalize ml-4 '
+            className='list-none font-bold cursor-pointer text-blue-500 text-sm mb-3 tracking-wide whitespace-nowrap capitalize ml-4 flex justify-between '
           >
-            {title}(
-            {title === 'све'
-              ? numberOfProductsByType.length
-              : numberOfProductsByType.filter((u) => u.title === title).length}
-            )
+            <span>{title}</span>
+            <span>
+              ({' '}
+              {title === 'све'
+                ? numberOfProductsByType.length
+                : numberOfProductsByType.filter((u) => u.title === title)
+                    .length}
+              )
+            </span>
           </li>
         ))}
       <Divider />
@@ -97,7 +100,7 @@ export const FilterTip = ({ numberOfProductsByType }) => {
         vrsteProizvoda.map((tip, idx) => (
           <li
             onClick={(e) => {
-              setItems(() =>
+              setItems(
                 e.target.textContent.includes('све')
                   ? vrstaZivotinje
                   : vrstaZivotinje.filter((z) =>
@@ -107,13 +110,17 @@ export const FilterTip = ({ numberOfProductsByType }) => {
             }}
             tabIndex='0'
             key={idx}
-            className={`list-none font-bold cursor-pointer text-blue-500 text-sm mb-3 tracking-wide whitespace-nowrap capitalize ml-4`}
+            className={`list-none font-bold cursor-pointer text-blue-500 text-sm mb-3 tracking-wide whitespace-nowrap capitalize ml-4 flex justify-between`}
           >
-            {tip}(
-            {tip === 'све'
-              ? numberOfProductsByType.length
-              : numberOfProductsByType.filter((u) => u.tip === tip).length}
-            )
+            <span>{tip}</span>
+            <span>
+              (
+              {tip === 'све'
+                ? numberOfProductsByType.length
+                : numberOfProductsByType.filter((u) => tip.includes(u.tip))
+                    .length}
+              )
+            </span>
           </li>
         ))}
       {showTip && !vrsteProizvoda.length && (

@@ -49,7 +49,9 @@ const SviProizvodi = () => {
                   <>
                     <FilterKategorije numberOfProductsByType={products} />
                     <FilterTip
-                      numberOfProductsByType={products.filter((f) => f.title)}
+                      numberOfProductsByType={vrstaZivotinje.filter(
+                        (f) => f.title
+                      )}
                     />
                   </>
                 ) : (
