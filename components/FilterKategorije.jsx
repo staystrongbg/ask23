@@ -3,7 +3,12 @@ import { useState } from 'react';
 import { FaChevronRight } from 'react-icons/fa';
 import { useGlobalContext } from '../context';
 import Divider from './Divider';
-import { LIST_NAME_STYLE, FILTERI_STYLE } from './utils';
+import {
+  CHEVRON_ROTATING_STYLE,
+  LIST_NAME_STYLE,
+  LI_LIST_STYLE,
+  UL_LIST_STYLE,
+} from './utils';
 
 export const FilterKategorije = ({ numberOfProductsByType }) => {
   const {
@@ -24,11 +29,13 @@ export const FilterKategorije = ({ numberOfProductsByType }) => {
   return (
     <ul className={LIST_NAME_STYLE}>
       <span
-        className='flex items-center justify-start w-full mb-2 cursor-pointer  '
+        className={UL_LIST_STYLE}
         onClick={() => setShowTitles(!showTitles)}
       >
         животиња
-        <FaChevronRight className={` ${showTitles && 'rotate-90'}`} />
+        <FaChevronRight
+          className={` ${showTitles && CHEVRON_ROTATING_STYLE}`}
+        />
       </span>
       {showTitles &&
         titles.map((title, idx) => (
@@ -49,7 +56,7 @@ export const FilterKategorije = ({ numberOfProductsByType }) => {
             }}
             tabIndex='0'
             key={idx}
-            className='list-none font-bold cursor-pointer text-blue-500 text-sm mb-3 tracking-wide whitespace-nowrap capitalize ml-4 flex justify-between '
+            className={LI_LIST_STYLE}
           >
             <span>{title}</span>
             <span>
@@ -88,12 +95,9 @@ export const FilterTip = ({ numberOfProductsByType }) => {
 
   return (
     <ul className={`${LIST_NAME_STYLE}  `}>
-      <span
-        className='flex items-center justify-start w-full mb-2 cursor-pointer  '
-        onClick={() => setShowTip(!showTip)}
-      >
+      <span className={UL_LIST_STYLE} onClick={() => setShowTip(!showTip)}>
         тип производа
-        <FaChevronRight className={` ${showTip && 'rotate-90'}`} />
+        <FaChevronRight className={` ${showTip && CHEVRON_ROTATING_STYLE}`} />
       </span>
       {/* za proizvodi ne bi isla vrsta zivotinja i tip vec treba da se gadjaju products i title */}
       {showTip &&
@@ -110,7 +114,7 @@ export const FilterTip = ({ numberOfProductsByType }) => {
             }}
             tabIndex='0'
             key={idx}
-            className={`list-none font-bold cursor-pointer text-blue-500 text-sm mb-3 tracking-wide whitespace-nowrap capitalize ml-4 flex justify-between`}
+            className={LI_LIST_STYLE}
           >
             <span>{tip}</span>
             <span>
@@ -136,16 +140,18 @@ export const FilterSort = () => {
   return (
     <ul className={LIST_NAME_STYLE}>
       <span
-        className='flex items-center justify-start w-full mb-2 cursor-pointer  '
+        className={UL_LIST_STYLE}
         onClick={() => setShowFilters(!showfilters)}
       >
         филтери
-        <FaChevronRight className={` ${showfilters && 'rotate-90'}`} />
+        <FaChevronRight
+          className={` ${showfilters && CHEVRON_ROTATING_STYLE}`}
+        />
       </span>
       {showfilters && (
         <>
           <li
-            className={FILTERI_STYLE}
+            className={LI_LIST_STYLE}
             onClick={() =>
               setItems(items.sort((a, b) => a.price - b.price).map((r) => r))
             }
@@ -153,7 +159,7 @@ export const FilterSort = () => {
             цена растуће
           </li>
           <li
-            className={FILTERI_STYLE}
+            className={LI_LIST_STYLE}
             onClick={() =>
               setItems(items.sort((a, b) => b.price - a.price).map((g) => g))
             }

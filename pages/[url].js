@@ -4,7 +4,7 @@ import NonSwiperProizvod from '../components/NonSwiperProizvod';
 import SwiperComponent from '../components/SwiperComponent';
 import { FilterSort, FilterTip } from '../components/FilterKategorije';
 import { useGlobalContext } from '../context';
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import { useRouter } from 'next/router';
 import Meta from '../components/Meta';
 import { H1, P } from '../components/utils';
@@ -21,10 +21,11 @@ const Kategorija = ({ page }) => {
   } = useGlobalContext();
 
   const router = useRouter();
-
+  const [renderLimit, setRenderLimit] = useState(items.length);
   useEffect(() => {
     setItems(vrstaZivotinje);
   }, [router.pathname, vrstaZivotinje]);
+
   useEffect(() => {
     setVrstaZivotinje(page.filter((k) => k.link === router.query.url));
   }, [page]);

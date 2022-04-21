@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { FaDog, FaCat, FaKiwiBird, FaFish } from 'react-icons/fa';
+import { GiHummingbird } from 'react-icons/gi';
 import FaMouse from './FaMouse';
 import styles from '../styles/dropdown.module.scss';
 import { ICON_STYLE } from './utils';
@@ -12,7 +13,7 @@ export default function Dropdown() {
 
   const Fadog = () => <FaDog />;
   const Facat = () => <FaCat />;
-  const Fabird = () => <FaKiwiBird />;
+  const Fabird = () => <GiHummingbird />;
   const Fafish = () => <FaFish />;
   const Famouse = () => <FaMouse mouse={mouse} />;
 

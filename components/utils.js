@@ -1,3 +1,4 @@
+//kategorija stilovi
 export const cardStyle = (bg, pawPos) =>
   `${bg} w-[150px] h-[150px] xl:w-[240px] xl:h-[240px] rounded-sm items-center relative justify-between flex flex-col overflow-hidden shadow-custom hover:scale-110 transition-all bg-blend-multiply  bg-[url('/animals/paw.svg')] bg-no-repeat ${pawPos}`;
 
@@ -13,16 +14,24 @@ export const headingStyle = (color) =>
   ` xl:text-3xl text-xl tracking-normal  uppercase head ${color}`;
 
 export const textStyle = (color) => `sm:text-base text-sm  ${color} z-10 par`;
+//kategorijastilovi
 
-//a da postavis slajder umesto hero sekcije?
+//dropdown icon stilovi
 export const ICON_STYLE =
   'bg-gray-50 rounded-full w-8 h-8 items-center  justify-center flex ';
 
+//filteri
+export const UL_LIST_STYLE =
+  'flex items-center justify-start w-full mb-4 cursor-pointer text-sm text-blue-900 whitespace-nowrap';
+
+export const LI_LIST_STYLE =
+  'list-none font-bold cursor-pointer text-blue-700 text-sm mb-3 tracking-wide whitespace-nowrap capitalize ml-4 flex justify-between ';
+
 export const LIST_NAME_STYLE =
   'font-bold sm:text-base text-sm uppercase tracking-widest flex-col flex';
+//filteri kraj
 
-export const FILTERI_STYLE =
-  'list-none font-bold  cursor-pointer text-blue-500 text-sm  mb-3 tracking-wide whitespace-nowrap capitalize ml-4 ';
+export const CHEVRON_ROTATING_STYLE = 'rotate-90 transition-all';
 
 //array sa zadatom duzinom
 export const createArr = (length) => [...Array(length).keys()];
@@ -64,17 +73,4 @@ export const P = ({ children, width = '2/3', className = '' }) => {
       {children}
     </p>
   );
-};
-
-export const getWindowDimensions = () => {
-  const {
-    innerWidth: wwidth,
-    innerHeight: wheight,
-    pageYOffset: wyoffset,
-  } = window;
-  return {
-    wwidth,
-    wheight,
-    wyoffset,
-  };
 };

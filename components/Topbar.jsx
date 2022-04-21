@@ -31,7 +31,7 @@ const Topbar = () => {
           <span className={ICON_STYLE}>
             <FaMapMarkerAlt />
           </span>
-          Др. Драге Љочић 3, Београд
+          Др Драге Љочић 3, Београд
         </div>
         <div
           className={` flex flex-col md:flex-row gap-2 items-center justify-center whitespace-nowrap`}

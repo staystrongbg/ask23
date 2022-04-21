@@ -42,8 +42,10 @@ const AppProvider = ({ children }) => {
 
   useEffect(() => {
     setSearchProducts(
-      products.filter((o) =>
-        o.name.toLowerCase().includes(searchTerm.toLowerCase())
+      products.filter(
+        (o) =>
+          o.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
+          o.tip.toLowerCase().includes(searchTerm.toLowerCase())
       )
     );
   }, [searchTerm]);
