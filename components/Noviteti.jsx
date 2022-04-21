@@ -39,8 +39,8 @@ const Noviteti = () => {
           ))}
         </div>
         <P className='text-center'>
-          Пет Шоп АСК23 се труди да своје верне потрошаче обавештава о
-          најновијин производима
+          АСК23 - СВЕ ЗА КУЋНЕ ЉУБИМЦЕ се труди да своје верне потрошаче
+          обавештава о најновијин производима и акцијама
         </P>
         <div className='flex flex-wrap w-full gap-1 py-10 justify-center '>
           <MultipleSwipers products={produkti} />

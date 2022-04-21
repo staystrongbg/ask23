@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { FaDog, FaCat, FaKiwiBird, FaFish } from 'react-icons/fa';
+import { FaDog, FaCat, FaFish } from 'react-icons/fa';
 import { GiHummingbird } from 'react-icons/gi';
 import FaMouse from './FaMouse';
 import styles from '../styles/dropdown.module.scss';
