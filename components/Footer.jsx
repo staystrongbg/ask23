@@ -29,7 +29,7 @@ const Footer = () => {
               <FaMapMarkerAlt />
             </span>
             <b>Адреса</b>
-            <p> Др. Драге Љочић 3, Београд</p>
+            <p> Др Драге Љочић 3, Београд</p>
           </div>
           <div className='flex flex-col items-center whitespace-nowrap justify-center'>
             <span className={ICON_STYLE}>
@@ -50,13 +50,12 @@ const Footer = () => {
           <div className='flex flex-col items-start gap-8'>
             <Image src='/asklogo.svg' width={200} height={80} alt='logo' />
             <p className='moto text-sm'>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus,
-              consectetur cumque natus eius quos itaque provident ullam?
-              Deleniti consequatur eum modi, maiores non dolor doloremque porro,
-              dignissimos nulla provident repellat?{' '}
+              Из огромне љубави према животињама родила се жеља да се отвори
+              продавница за куће љубимце која ће у понуди имати све што наше
+              љубимце чини ситим и срећним.
             </p>
             <div className='social flex-col text-xl flex  gap-4'>
-              <p>Пратите нас ана друштвеним мрежама</p>
+              <p>Пратите нас на друштвеним мрежама</p>
               <div className='flex gap-4'>
                 <span className={ICON_STYLE}>
                   <FaFacebook />

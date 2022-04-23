@@ -11,9 +11,10 @@ export const detailsContainer = (margin, textAlign) =>
 export const imgWidth = (width) => `${width} h-2/3  absolute left-0 bottom-0`;
 
 export const headingStyle = (color) =>
-  ` xl:text-3xl text-xl tracking-normal  uppercase head ${color}`;
+  ` xl:text-5xl break-all text-3xl tracking-normal  uppercase head ${color}`;
 
-export const textStyle = (color) => `sm:text-base text-sm  ${color} z-10 par`;
+export const textStyle = (color, className) =>
+  `sm:text-base text-sm  ${color} z-10 par ${className} `;
 //kategorijastilovi
 
 //dropdown icon stilovi

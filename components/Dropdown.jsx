@@ -21,7 +21,7 @@ export default function Dropdown() {
     { name: 'пси', comp: Fadog, link: 'psi' },
     { name: 'мачке', comp: Facat, link: 'macke' },
     { name: 'птице', comp: Fabird, link: 'ptice' },
-    { name: 'акваристика', comp: Fafish, link: 'akvaristika' },
+    { name: 'рибице', comp: Fafish, link: 'ribice' },
     {
       name: 'глодари',
       comp: Famouse,

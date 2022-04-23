@@ -16,7 +16,7 @@ const BreadcrumbExample = () => {
     if (snippet === 'psi') snippet = 'пси';
     if (snippet === 'macke') snippet = 'мачке';
     if (snippet === 'ptice') snippet = 'птице';
-    if (snippet === 'akvaristika') snippet = 'акваристика';
+    if (snippet === 'ribice') snippet = 'рибице';
     if (snippet === 'glodari') snippet = 'глодари';
     if (snippet.includes('#')) return snippet.slice(0, 1);
     const compUrl = products.find((url) => url._id.$oid === snippet);
