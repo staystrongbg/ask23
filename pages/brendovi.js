@@ -5,7 +5,7 @@ import Placeholder from '../components/Placeholder';
 const Brendovi = () => {
   return (
     <Layout>
-      <div className={`wrapper w-full  bg-gray-200 `}>
+      <div className={`wrapper w-full   `}>
         <div className='flex flex-col  xl:w-5/6 w-full m-auto mb-12'>
           <H1 className='my-8 text-center'>Брендови</H1>
 
@@ -13,7 +13,7 @@ const Brendovi = () => {
             Ово је списак свих брендова чији смо дистрибутер
           </P>
 
-          <section className='brands m-auto flex flex-wrap gap-4'>
+          <section className=' m-auto flex flex-wrap gap-4'>
             {createArr(18).map((item) => (
               <Placeholder key={item} item={item} width='w-[240px]' />
             ))}
