@@ -1,6 +1,6 @@
 //kategorija stilovi
 export const cardStyle = (bg, pawPos) =>
-  `${bg} w-[150px] h-[150px] xl:w-[240px] xl:h-[240px] rounded-sm items-center relative justify-between flex flex-col overflow-hidden shadow-custom hover:scale-110 transition-all bg-blend-multiply  bg-[url('/animals/paw.svg')] bg-no-repeat ${pawPos}`;
+  `${bg} w-[150px] h-[150px] xl:w-[240px] xl:h-[240px] rounded-sm items-center relative justify-between flex flex-col overflow-hidden shadow-custom hover:scale-110 transition-all bg-blend-multiply rounded-lg border-4 border-gray-500/50 bg-[url('/animals/paw.svg')] bg-no-repeat  ${pawPos}`;
 
 export const imgStyle = (margin) =>
   ` object-cover w-full h-full absolute ${margin}`;

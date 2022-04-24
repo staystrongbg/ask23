@@ -13,7 +13,11 @@ export default function Home() {
       <Layout>
         <Meta title='Почетна' />
 
-        <div className={`wrapper w-full h-full }`}>
+        <div
+          className={`wrapper w-full h-[600px] naslovna-bg flex items-center justify-center relative `}
+        >
+          <div className='absolute top-0 right-0 left-0 bottom-0 bg-gradient-to-b from-gray-50/10 to-[#f7f7f7]'></div>
+
           <main
             className={` flex xl:w-5/6 flex-col items-center justify-between m-auto py-20  `}
           >

@@ -15,7 +15,7 @@ const MultipleSwipers = ({ products }) => {
       navigation
       autoplay={{
         delay: 3000,
-        disableOnInteraction: false,
+        disableOnInteraction: true,
       }}
       slidesPerView={3}
       breakpoints={{

@@ -11,7 +11,7 @@ import {
 
 const Kategorije = () => {
   return (
-    <div className='xl:w-5/6 m-auto  w-full flex flex-wrap justify-center gap-4'>
+    <div className='xl:w-5/6 m-auto  w-full flex flex-wrap justify-center gap-4 '>
       {categoryData.map((i) => (
         <Link key={i.id} href={`/${i.link}`}>
           <a>

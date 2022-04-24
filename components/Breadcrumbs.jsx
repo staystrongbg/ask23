@@ -33,7 +33,7 @@ const BreadcrumbExample = () => {
     );
   });
   return (
-    <div className='breadcrumbs sm:w-4/5 w-full m-auto pt-20'>
+    <div className='breadcrumbs sm:w-4/5 w-full m-auto pt-20 bg-transparent'>
       <p className='sm:text-sm text-xs italic  text-gray-400 px-2 '>
         Ви сте овде
       </p>

@@ -91,3 +91,18 @@ input::-webkit-inner-spin-button {
 input[type='number'] {
   -moz-appearance: textfield;
 }
+
+.brands {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image: url('/Slike/komarov-egor-bg-unsplash.jpg');
+}
+.naslovna-bg {
+  background-color: #333;
+  // mix-blend-mode: saturation;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 70%;
+  background-image: url('/Slike/hannah-lim-U6nlG0Y5sfs-unsplash.jpg');
+}
