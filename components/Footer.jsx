@@ -36,7 +36,7 @@ const Footer = () => {
               <FaPhone />
             </span>
             <b>Телефон</b>
-            <p>069 288 71 94</p>
+            <p>069 288 72 94</p>
           </div>
           <div className='flex flex-col items-center justify-center'>
             <span className={ICON_STYLE}>
