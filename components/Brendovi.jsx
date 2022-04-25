@@ -22,7 +22,7 @@ const Brendovi = () => {
   return (
     <section className='brands relative mx-auto mb-40 w-full flex flex-col items-center justify-center h-screen '>
       <div className='absolute top-0 right-0 left-0 bottom-0 bg-gray-700/60'></div>
-      <H1 className='text-gray-50 drop-shadow-lg '>
+      <H1 className='text-gray-50 drop-shadow-lg text-center '>
         код нас можете наћи производе реномираних произвођача
       </H1>
       <BottomLine />
@@ -32,7 +32,7 @@ const Brendovi = () => {
             key={idx}
             src={logo}
             alt=''
-            className='z-10 xl:w-[250px] w-28 '
+            className='z-10 xl:w-[250px] w-28 transition-all '
           />
         ))}
       </div>
