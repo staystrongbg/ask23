@@ -31,10 +31,8 @@ const Brendovi = () => {
           <img
             key={idx}
             src={logo}
-            width='250px'
-            height='100%'
             alt=''
-            className='z-10'
+            className='z-10 xl:w-[250px] w-28 '
           />
         ))}
       </div>
