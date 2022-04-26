@@ -24,6 +24,8 @@ export const FilterKategorije = ({ numberOfProductsByType }) => {
     setShowTip,
     tip,
     setTip,
+    pagination,
+    setPagination,
   } = useGlobalContext();
 
   return (
@@ -41,7 +43,7 @@ export const FilterKategorije = ({ numberOfProductsByType }) => {
         titles.map((title, idx) => (
           <li
             onClick={(e) => {
-              // setShowTitles(false);
+              setPagination({ ...pagination, page: 1 });
               setShowTip(true);
               setVrstaZivotinje(
                 products.filter((k) => e.target.textContent.includes(k.title))
@@ -83,6 +85,8 @@ export const FilterTip = ({ numberOfProductsByType }) => {
     vrstaZivotinje,
     vrsteProizvoda,
     setVrsteProizvoda,
+    pagination,
+    setPagination,
   } = useGlobalContext();
 
   useEffect(() => {
@@ -104,6 +108,7 @@ export const FilterTip = ({ numberOfProductsByType }) => {
         vrsteProizvoda.map((tip, idx) => (
           <li
             onClick={(e) => {
+              setPagination({ ...pagination, page: 1 });
               setItems(
                 e.target.textContent.includes('све')
                   ? vrstaZivotinje

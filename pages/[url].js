@@ -68,7 +68,7 @@ const Kategorija = ({ page }) => {
                     .map((p) => <NonSwiperProizvod key={p.id} {...p} />)}
               </div>
             </div>
-            {items.length > pagination.perPage && (
+            {items.length > pagination.perPage * pagination.page && (
               <Button2
                 className='w-72 m-auto'
                 title='ucitaj jos'

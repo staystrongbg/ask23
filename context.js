@@ -132,6 +132,7 @@ const AppProvider = ({ children }) => {
     setShowTip(false);
     setPagination({ page: 1, perPage: 8 });
   }, [router.pathname, router.asPath]);
+
   return (
     <AppContext.Provider
       value={{

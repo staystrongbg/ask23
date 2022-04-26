@@ -28,7 +28,6 @@ export default function Home() {
         {/* <Akcije /> */}
         {/* novo u ponudi */}
         <Noviteti />
-        <Hero />
         <Brendovi />
       </Layout>
     </>
