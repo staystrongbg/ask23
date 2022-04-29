@@ -20,7 +20,7 @@ const brands = getBrandLogo();
 
 const Brendovi = () => {
   return (
-    <section className='brands relative mx-auto mb-40 w-full flex flex-col items-center justify-center h-screen '>
+    <section className='brands relative mx-auto mb-40 w-full flex flex-col items-center justify-center py-8 min-h-screen '>
       <div className='absolute top-0 right-0 left-0 bottom-0 bg-gray-700/60'></div>
       <H1 className='text-gray-50 drop-shadow-lg text-center '>
         Добродошли у АСК23 <br /> место где ћете наћи све што вашег љубимца чини
@@ -30,7 +30,7 @@ const Brendovi = () => {
         Код нас ћете наћи производе реномираних произвођача
       </p>
       <BottomLine />
-      <div className=' flex flex-wrap items-center justify-center w-4/5 gap-10 '>
+      <div className=' flex flex-wrap items-center justify-center w-4/5 gap-4 '>
         {brands.map((logo, idx) => {
           return (
             <img

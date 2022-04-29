@@ -3,8 +3,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c09"
     },
-    "tip": "Grebalica",
-    "name": "GREBALICA UGAONA 49.5X23.5CM,BEZ",
+    "tip": "гребалица",
+    "name": "гребалица угаона 49.5X23.5CM,BEZ",
 
     "price": "1548.52",
     "detail": "ovo je detail proizvoda",
@@ -18,8 +18,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c0a"
     },
-    "tip": "Igracke",
-    "name": "IGR.MATATABI SA PERJEM,20CM",
+    "tip": "играчке",
+    "name": "игр.мататаби са перјем,20CM",
 
     "price": "243.20",
     "detail": "ovo je detail proizvoda",
@@ -33,8 +33,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c0b"
     },
-    "tip": "Igracke",
-    "name": "LOPTICE I ROLNE 4CM - za macke",
+    "tip": "играчке",
+    "name": "лоптице и ролне 4CM - за мачке",
 
     "price": "57.67",
     "detail": "ovo je detail proizvoda",
@@ -48,8 +48,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c0c"
     },
-    "tip": "Igracke",
-    "name": "LOPTICA OBMO.PAMUC.KANAPOM 4.5CM - za macke",
+    "tip": "играчке",
+    "name": "лоптица обмо.памуч.канап. 4.5CM - за мачке",
 
     "price": "129.95",
     "detail": "ovo je detail proizvoda",
@@ -63,8 +63,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c0d"
     },
-    "tip": "Igracke",
-    "name": "4 LOPTE ZVECKE,4.5CM",
+    "tip": "играчке",
+    "name": "4 лопте звецке,4.5CM",
 
     "price": "48.73",
     "detail": "ovo je detail proizvoda",
@@ -78,8 +78,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c0e"
     },
-    "tip": "Igracke",
-    "name": "24 KRZNENA MISA\"MISIJA PARADA\"",
+    "tip": "играчке",
+    "name": "24 крзнена\"мишија парада\"",
 
     "price": "109.10",
     "detail": "ovo je detail proizvoda",
@@ -93,8 +93,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c0f"
     },
-    "tip": "Igracke",
-    "name": "STAP SA PERJEM,50CM",
+    "tip": "играчке",
+    "name": "штап са перјем,50CM",
 
     "price": "143.48",
     "detail": "ovo je detail proizvoda",
@@ -108,8 +108,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c10"
     },
-    "tip": "Ogrlica",
-    "name": "OGR. MACE-NECKI SA MARAMOM",
+    "tip": "огрлица",
+    "name": "огр. MACE-NECKI са марамом",
 
     "price": "368.18",
     "detail": "ovo je detail proizvoda",
@@ -123,8 +123,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c11"
     },
-    "tip": "Oprema",
-    "name": "SPREJ OD MACIJE TRAVE,50ML",
+    "tip": "опрема",
+    "name": "спреј од мачије траве,50ML",
 
     "price": "308.62",
     "detail": "ovo je detail proizvoda",
@@ -138,8 +138,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c12"
     },
-    "tip": "Oprema",
-    "name": "SPREJ OD MACIJE TRAVE,175ML",
+    "tip": "опрема",
+    "name": "спреј од мачије траве,175ML",
 
     "price": "376.30",
     "detail": "ovo je detail proizvoda",
@@ -153,8 +153,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c13"
     },
-    "tip": "Posip",
-    "name": "ŠAPICA-POSIP ZA MACE 5KG",
+    "tip": "посип",
+    "name": "шапица-посип за маце 5KG",
 
     "price": "219.28",
     "detail": "ovo je detail proizvoda",
@@ -168,8 +168,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c14"
     },
-    "tip": "Suplement",
-    "name": "TRAVA MACIJA,CINIJA 100G",
+    "tip": "суплемент",
+    "name": "трава мачија,чинија 100G",
 
     "price": "192.21",
     "detail": "ovo je detail proizvoda",
@@ -183,8 +183,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c15"
     },
-    "tip": "Toalet",
-    "name": "LOP. ZA UKL.POSIPA TEŠKA",
+    "tip": "тоалет",
+    "name": "лоп. за укл. посипа, тешка",
 
     "price": "100.17",
     "detail": "ovo je detail proizvoda",
@@ -198,8 +198,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c16"
     },
-    "tip": "Toalet",
-    "name": "LOP. ZA UKL.POSIPA GUSTA",
+    "tip": "тоалет",
+    "name": "лоп. за укл. посипа, густа",
 
     "price": "138.07",
     "detail": "ovo je detail proizvoda",
@@ -213,8 +213,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c17"
     },
-    "tip": "Am",
-    "name": "AM CLASSIC TKANI 30-40/15-CRNI",
+    "tip": "амови",
+    "name": "ам CLASSIC ткани 30-40/15-црни",
 
     "price": "472.18",
     "detail": "ovo je detail proizvoda",
@@ -228,8 +228,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c18"
     },
-    "tip": "Am",
-    "name": "AM CLASSIC TKANI 40-65/15-CRVENI",
+    "tip": "амови",
+    "name": "ам CLASSIC ткани 40-65/15-црвени",
 
     "price": "554.30",
     "detail": "ovo je detail proizvoda",
@@ -243,8 +243,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c19"
     },
-    "tip": "Am",
-    "name": "AM CLASSIC TKANI 50-75/25-CRNI",
+    "tip": "амови",
+    "name": "ам CLASSIC ткани 50-75/25-црни",
 
     "price": "871.04",
     "detail": "ovo je detail proizvoda",
@@ -258,8 +258,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c1a"
     },
-    "tip": "Am",
-    "name": "AM CLASSIC TKANI 75-100/25-CRVEN",
+    "tip": "амови",
+    "name": "ам CLASSIC ткани 75-100/25-црвени",
 
     "price": "1032.35",
     "detail": "ovo je detail proizvoda",
@@ -273,8 +273,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c1b"
     },
-    "tip": "Cinija",
-    "name": "CINIJA KERAMICKA ZA MACKE 0.3L",
+    "tip": "чинија",
+    "name": "чинија керамичка за мачке 0.3L",
 
     "price": "236.09",
     "detail": "ovo je detail proizvoda",
@@ -288,8 +288,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c1c"
     },
-    "tip": "Cinija",
-    "name": "CINIJA ZA ART.24831,0.45L rostfraj ",
+    "tip": "чинија",
+    "name": "чинија за арт..24831,0.45L ростфрај ",
 
     "price": "145.29",
     "detail": "ovo je detail proizvoda",
@@ -303,8 +303,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c1d"
     },
-    "tip": "Cinija",
-    "name": "CINIJA ZA ART.24832 0.75L",
+    "tip": "чинија",
+    "name": "чинија за арт.24832 0.75L",
 
     "price": "217.93",
     "detail": "ovo je detail proizvoda",
@@ -318,8 +318,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c1e"
     },
-    "tip": "Igracke",
-    "name": "VUNENO UZE ZA IGRU 25G/15CM",
+    "tip": "играчке",
+    "name": "вунено ужЕ ЗА ИГРУ 25G/15CM",
 
     "price": "78.96",
     "detail": "ovo je detail proizvoda",
@@ -333,8 +333,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c1f"
     },
-    "tip": "Igracke",
-    "name": "DENTA FAN KANAP,PAMUC.500G/60CM",
+    "tip": "играчке",
+    "name": "дента фан канап,памуч.500G/60CM",
 
     "price": "586.56",
     "detail": "ovo je detail proizvoda",
@@ -348,8 +348,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c20"
     },
-    "tip": "Igracke",
-    "name": "LOPTA PAMUCNA SA KANAP.5.5CM/30C",
+    "tip": "играчке",
+    "name": "лопта памучна са канапом, 5.5CM/30C",
 
     "price": "177.66",
     "detail": "ovo je detail proizvoda",
@@ -363,8 +363,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c21"
     },
-    "tip": "Igracke",
-    "name": "LOPTA JEZASTA,VINIL,7.5 CM",
+    "tip": "играчке",
+    "name": "лопта јежаста, винил,7.5 CM",
 
     "price": "222.78",
     "detail": "ovo je detail proizvoda",
@@ -378,8 +378,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c22"
     },
-    "tip": "Igracke",
-    "name": "LOPTA PAMUCNA SA KANAP.7CM/50CM",
+    "tip": "играчке",
+    "name": "лопта памучна са канап..7CM/50CM",
 
     "price": "290.46",
     "detail": "ovo je detail proizvoda",
@@ -393,8 +393,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c23"
     },
-    "tip": "Korpa",
-    "name": "KORPA NAJL.SA MREZI.PODESAV.VEL1",
+    "tip": "корпа",
+    "name": "корпа најл.са мрежи. подешав. вел1",
 
     "price": "376.19",
     "detail": "ovo je detail proizvoda",
@@ -408,8 +408,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c24"
     },
-    "tip": "Korpa",
-    "name": "KORPA NAJL.SA MREZI.PODESAV.VEL2",
+    "tip": "корпа",
+    "name": "корпа најл.са мрежи.подешав.вел2",
 
     "price": "406.80",
     "detail": "ovo je detail proizvoda",
@@ -423,8 +423,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c25"
     },
-    "tip": "Korpa",
-    "name": "KORPA NAJL.SA MREZI.PODESAV.VEL3",
+    "tip": "корпа",
+    "name": "корпа најл.са мрежи.подешав.вел3",
 
     "price": "477.55",
     "detail": "ovo je detail proizvoda",
@@ -438,8 +438,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c26"
     },
-    "tip": "Korpa",
-    "name": "KORPA NAJL.SA MREZI.PODESAV.VEL4",
+    "tip": "корпа",
+    "name": "корпа најл.са мрежи.подешав.вел4",
 
     "price": "517.98",
     "detail": "ovo je detail proizvoda",
@@ -453,8 +453,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c27"
     },
-    "tip": "Korpa",
-    "name": "KORPA NAJL.SA MREZI.PODESAV.VEL5",
+    "tip": "корпа",
+    "name": "корпа најл.са мрежи.подешав.вел5",
 
     "price": "545.77",
     "detail": "ovo je detail proizvoda",
@@ -468,8 +468,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c28"
     },
-    "tip": "Ogrlica",
-    "name": "DAVILICA MOUNTAIN 45-55CM/6MM",
+    "tip": "огрлица",
+    "name": "давилица MOUNTAIN 45-55CM/6MM",
 
     "price": "205.30",
     "detail": "ovo je detail proizvoda",
@@ -483,8 +483,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c29"
     },
-    "tip": "Ogrlica",
-    "name": "DAVILICA MOUNTAIN 55-65CM/10MM",
+    "tip": "огрлица",
+    "name": "давилица MOUNTAIN 55-65CM/10MM",
 
     "price": "296.89",
     "detail": "ovo je detail proizvoda",
@@ -498,8 +498,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c2a"
     },
-    "tip": "Ogrlica",
-    "name": "OGRLICA PREMIUM XS-S 22-35CM/10MM KORAL",
+    "tip": "огрлица",
+    "name": "огрлица PREMIUM XS-S 22-35CM/10MM корал",
 
     "price": "290.46",
     "detail": "ovo je detail proizvoda",
@@ -513,8 +513,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c2b"
     },
-    "tip": "Ogrlica",
-    "name": "6 OGR.ZA STENCE M-L,22-35/10",
+    "tip": "огрлица",
+    "name": "6 огр.за штенце M-L,22-35/10",
 
     "price": "130.19",
     "detail": "ovo je detail proizvoda",
@@ -528,8 +528,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c2c"
     },
-    "tip": "Oprema",
-    "name": "VALJAK ZA KUPLJENJE DLAKA",
+    "tip": "опрема",
+    "name": "ваљак за купљење длака",
 
     "price": "284.48",
     "detail": "ovo je detail proizvoda",
@@ -543,8 +543,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c2d"
     },
-    "tip": "Oprema",
-    "name": "2 VALJKA ZA KUPLJENJE DLAKE",
+    "tip": "опрема",
+    "name": "2 ваљка за купљење длака",
 
     "price": "73.32",
     "detail": "ovo je detail proizvoda",
@@ -558,8 +558,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c2e"
     },
-    "tip": "Poslastice",
-    "name": "100 ROLNI ZA GLOD,MIX PAK.9-10MM",
+    "tip": "посластица",
+    "name": "100 ролни за глод,MIX PAK.9-10MM",
 
     "price": "6.50",
     "detail": "ovo je detail proizvoda",
@@ -573,8 +573,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c2f"
     },
-    "tip": "Poslastice",
-    "name": "50 KOSTI ZA KLOD.PRES.10GR/5CM",
+    "tip": "посластица",
+    "name": "50 KOSTIкости за глод.прес..10GR/5CM",
 
     "price": "30.05",
     "detail": "ovo je detail proizvoda",
@@ -588,8 +588,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c30"
     },
-    "tip": "Poslastice",
-    "name": "50 KOSTI ZA GLOD.PRES.20GR/8CM",
+    "tip": "посластица",
+    "name": "50 кости за глод.прес..20GR/8CM",
 
     "price": "52.66",
     "detail": "ovo je detail proizvoda",
@@ -603,8 +603,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c31"
     },
-    "tip": "Povodac",
-    "name": "POV.CLASSIC 1.2-1.8/10-CRVENI",
+    "tip": "поводац",
+    "name": "пов.CLASSIC 1.2-1.8/10-црвени",
 
     "price": "358.14",
     "detail": "ovo je detail proizvoda",
@@ -618,8 +618,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c32"
     },
-    "tip": "Povodac",
-    "name": "POV.CLASSIC XS-S,1.20M/15MM CRNI",
+    "tip": "поводац",
+    "name": "пов.CLASSIC XS-S,1.20M/15MM црни",
 
     "price": "363.78",
     "detail": "ovo je detail proizvoda",
@@ -633,8 +633,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c33"
     },
-    "tip": "Povodac",
-    "name": "POV.CLASSIC 1.2-1.8/20-CRNI",
+    "tip": "поводац",
+    "name": "пов.CLASSIC 1.2-1.8/20-црни",
 
     "price": "541.44",
     "detail": "ovo je detail proizvoda",
@@ -648,8 +648,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c34"
     },
-    "tip": "Povodac",
-    "name": "POV.CLASSIC L-XL,1.00M/25MM CRNI",
+    "tip": "поводац",
+    "name": "пов.CLASSIC L-XL,1.00M/25MM црни",
 
     "price": "583.74",
     "detail": "ovo je detail proizvoda",
@@ -663,8 +663,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c35"
     },
-    "tip": "Hranilica/pojilica",
-    "name": "HRANILICA POJILICA, 65ML/14.5CM",
+    "tip": "хранилица/појилица",
+    "name": "хранилица појилица, 65ML/14.5CM",
 
     "price": "157.02",
     "detail": "ovo je detail proizvoda",
@@ -678,8 +678,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c36"
     },
-    "tip": "Hranilica/pojilica",
-    "name": "HRANILICA/POJILICA, 130ML/16CM",
+    "tip": "хранилица/појилица",
+    "name": "хранилица појилица, 130Mхранилица појилица",
 
     "price": "170.55",
     "detail": "ovo je detail proizvoda",
@@ -693,8 +693,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c37"
     },
-    "tip": "Hranilica/pojilica",
-    "name": "12 VIS.POSUDICA ZA KAVEZE,130ML",
+    "tip": "хранилица/појилица",
+    "name": "хранилица појилица.POSUDICA ZA KAVEZE,130ML",
 
     "price": "99.49",
     "detail": "ovo je detail proizvoda",
@@ -708,8 +708,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c38"
     },
-    "tip": "Igracke",
-    "name": "LJULJASKA KOCKA.SA ZVONCETOM",
+    "tip": "играчке",
+    "name": "љуљашка коцка. са звонцетом",
 
     "price": "104.34",
     "detail": "ovo je detail proizvoda",
@@ -723,8 +723,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c39"
     },
-    "tip": "Igracke",
-    "name": "MERDEVINE DRVENE,5prečki,24cm",
+    "tip": "играчке",
+    "name": "мердевине дрвене,5пречки,24cm",
 
     "price": "118.44",
     "detail": "ovo je detail proizvoda",
@@ -738,8 +738,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c3a"
     },
-    "tip": "Igracke",
-    "name": "3 RESETK.LOPTICE NA LANCU,4.5CM",
+    "tip": "играчке",
+    "name": "3 решетк.лоптице на ланцу,4.5CM",
 
     "price": "127.24",
     "detail": "ovo je detail proizvoda",
@@ -753,8 +753,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c3b"
     },
-    "tip": "Igracke",
-    "name": "POLUKRUZNA LJULJASKA 8X15CM",
+    "tip": "играчке",
+    "name": "полукружна љуљњашка 8X15CM",
 
     "price": "159.05",
     "detail": "ovo je detail proizvoda",
@@ -768,8 +768,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c3c"
     },
-    "tip": "Igracke",
-    "name": "MERDEVINE DRVENE,8prečki,36cm",
+    "tip": "играчке",
+    "name": "мердевине дрвене,8пречки,36cm",
 
     "price": "152.28",
     "detail": "ovo je detail proizvoda",
@@ -783,8 +783,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c3d"
     },
-    "tip": "Igracke",
-    "name": "PENJALICA ZA PTICE,DRVENA 25CM",
+    "tip": "играчке",
+    "name": "пењалица за птице,дрвена 25CM",
 
     "price": "248.16",
     "detail": "ovo je detail proizvoda",
@@ -798,8 +798,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c3e"
     },
-    "tip": "Igracke",
-    "name": "LJULJASKA POLUKRUZNA,15X27CM",
+    "tip": "играчке",
+    "name": "љуљашка полукружна,15X27CM",
 
     "price": "260.57",
     "detail": "ovo je detail proizvoda",
@@ -813,8 +813,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c3f"
     },
-    "tip": "Igracke",
-    "name": "PRSTEN PAMUCNI SA DRV.KUGL.16cm",
+    "tip": "играчке",
+    "name": "прстен памучни са дрв.кугл.16cm",
 
     "price": "539.64",
     "detail": "ovo je detail proizvoda",
@@ -828,8 +828,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c40"
     },
-    "tip": "Suplement",
-    "name": "KAMEN ZA KLjUCANjE sa JODOM 25g",
+    "tip": "суплемент",
+    "name": "камен за кљуцање са јодом 25g",
 
     "price": "114.15",
     "detail": "ovo je detail proizvoda",
@@ -843,8 +843,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c41"
     },
-    "tip": "Suplement",
-    "name": "KAMEN ZA KLjUCANjE sa JODOM 120g",
+    "tip": "суплемент",
+    "name": "камен за кљуцање са јодом 120g",
 
     "price": "150.48",
     "detail": "ovo je detail proizvoda",
@@ -858,8 +858,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c42"
     },
-    "tip": "Suplement",
-    "name": "KAMEN ZA KLjUCANjE sa ALGAMA,210",
+    "tip": "суплемент",
+    "name": "камен за кљуцање са алгама,210",
 
     "price": "171.23",
     "detail": "ovo je detail proizvoda",
@@ -873,8 +873,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c43"
     },
-    "tip": "Sosic",
-    "name": "FRISKIES Cat Sos JUNIOR Piletina(multipack), 4x85g",
+    "tip": "сосић",
+    "name": "FRISKIES Cat сос JUNIOR пилкетина(multipack), 4x85g",
 
     "price": "40.76",
     "detail": "ovo je detail proizvoda",
@@ -888,8 +888,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c44"
     },
-    "tip": "Granule",
-    "name": "PRO PLAN Cat STERILISED Renal - Zečetina, 10kg",
+    "tip": "грануле",
+    "name": "PRO PLAN Cat STERILISED Renal - зечетина, 10kg",
 
     "price": "826.25",
     "detail": "ovo je detail proizvoda",
@@ -903,8 +903,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c45"
     },
-    "tip": "Pasteta",
-    "name": "GOURMET GOLD Cat Cig Piletina&džigerica komadići u pašteti, 85g",
+    "tip": "паштета",
+    "name": "GOURMET GOLD Cat Cig пилетина&џигерица комадићи у паштети, 85g",
 
     "price": "82.65",
     "detail": "ovo je detail proizvoda",
@@ -918,8 +918,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c46"
     },
-    "tip": "Pasteta",
-    "name": "GOURMET GOLD Cat Jagnjetina&pačetina pašteta, 85g",
+    "tip": "паштета",
+    "name": "GOURMET GOLD Cat јагњетина&пачетина паштета, 85g",
 
     "price": "82.65",
     "detail": "ovo je detail proizvoda",
@@ -933,8 +933,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c47"
     },
-    "tip": "Pasteta",
-    "name": "GOURMET GOLD Cat Tuna pašteta, 85g",
+    "tip": "паштета",
+    "name": "GOURMET GOLD Cat Tuna паштета, 85g",
 
     "price": "82.65",
     "detail": "ovo je detail proizvoda",
@@ -948,8 +948,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c48"
     },
-    "tip": "Pasteta",
-    "name": "GOURMET GOLD Cat Cig Govedina u sosu (multipack), 4x85g",
+    "tip": "паштета",
+    "name": "GOURMET GOLD Cat Cig говедина у сосу (multipack), 4x85g",
 
     "price": "81.18",
     "detail": "ovo je detail proizvoda",
@@ -963,7 +963,7 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c49"
     },
-    "tip": "Poslastice",
+    "tip": "посластица",
     "name": "FELIX PARTY MIX Cat Mixed Grill, 60g",
 
     "price": "114.11",
@@ -978,7 +978,7 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c4a"
     },
-    "tip": "Poslastice",
+    "tip": "посластица",
     "name": "FELIX PARTY MIX Cat Ocean, 60g",
 
     "price": "114.11",
@@ -993,7 +993,7 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c4b"
     },
-    "tip": "Poslastice",
+    "tip": "посластица",
     "name": "FELIX PARTY MIX Cat Original, 60g",
 
     "price": "114.11",
@@ -1008,8 +1008,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c4c"
     },
-    "tip": "Sosic",
-    "name": "FELIX sos jagnjetina, 100g",
+    "tip": "сосић",
+    "name": "FELIX sos јагњетина, 100g",
 
     "price": "56.32",
     "detail": "ovo je detail proizvoda",
@@ -1023,8 +1023,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c4d"
     },
-    "tip": "Sosic",
-    "name": "FRISKIES Cat Sos Govedina (multipack 4x85g), 4x85g",
+    "tip": "сосић",
+    "name": "FRISKIES Cat Sos говедина (multipack 4x85g), 4x85g",
 
     "price": "78.18",
     "detail": "ovo je detail proizvoda",
@@ -1038,8 +1038,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c4e"
     },
-    "tip": "Sosic",
-    "name": "FRISKIES Cat Sos Losos(multipack), 4x85g",
+    "tip": "сосић",
+    "name": "FRISKIES Cat Sos лосос(multipack), 4x85g",
 
     "price": "78.18",
     "detail": "ovo je detail proizvoda",
@@ -1053,8 +1053,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c4f"
     },
-    "tip": "Granule",
-    "name": "PRO PLAN Dog All sizes Adult Light/Sterilised Piletina, 14kg",
+    "tip": "грануле",
+    "name": "PRO PLAN Dog All sizes Adult Light/Sterilised пилетина, 14kg",
     "kolicina": "kg",
     "price": "553.24",
     "detail": "ovo je detail proizvoda",
@@ -1068,7 +1068,7 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c50"
     },
-    "tip": "Poslastice",
+    "tip": "посластица",
     "name": "DENTALIFE LARGE Dog",
 
     "price": "183.77",
@@ -1083,7 +1083,7 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c51"
     },
-    "tip": "Poslastice",
+    "tip": "посластица",
     "name": "DENTALIFE MEDIUM Dog",
 
     "price": "183.77",
@@ -1098,7 +1098,7 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c52"
     },
-    "tip": "Poslastice",
+    "tip": "посластица",
     "name": "DENTALIFE SMALL Dog",
 
     "price": "179.90",
@@ -1113,8 +1113,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c53"
     },
-    "tip": "Sosic",
-    "name": "FRISKIES Dog sos Adult Govedina,piletina i jagnjetina (multipack 12x100g)",
+    "tip": "сосић",
+    "name": "FRISKIES Dog sos Adult говедина,пилетина и јагњетина (multipack 12x100g)",
 
     "price": "49.77",
     "detail": "ovo je detail proizvoda",
@@ -1128,8 +1128,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c54"
     },
-    "tip": "Granule",
-    "name": "PRO PLAN Dog Medium Puppy Sensitive Digestion Jagnjetina, 12kg",
+    "tip": "грануле",
+    "name": "PRO PLAN Dog Medium Puppy Sensitive Digestion јагњетина, 12kg",
 
     "price": "579.13",
     "detail": "ovo je detail proizvoda",
@@ -1143,8 +1143,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c55"
     },
-    "tip": "Sosic",
-    "name": "FRISKIES Dog sos JUNIOR Piletina i šargarepa (multipack 4x100g)",
+    "tip": "сосић",
+    "name": "FRISKIES Dog sos JUNIOR пилетина и шаргарепа (multipack 4x100g)",
 
     "price": "49.28",
     "detail": "ovo je detail proizvoda",
@@ -1158,8 +1158,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c56"
     },
-    "tip": "Kamen za glodanje",
-    "name": "FL 84251 Gnawing stone jagoda (kamen za glodanje)",
+    "tip": "камен за глодање",
+    "name": "FL 84251 Gnawing stone јагода (камен за глодање)",
 
     "price": "122.76",
     "detail": "ovo je detail proizvoda",
@@ -1173,8 +1173,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c57"
     },
-    "tip": "Kamen za glodanje",
-    "name": "FL 84252 Gnawing stone grap (kamen za glodanje)",
+    "tip": "камен за глодање",
+    "name": "FL 84252 Gnawing stone grap (камен за глодање)",
 
     "price": "122.76",
     "detail": "ovo je detail proizvoda",
@@ -1188,8 +1188,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c58"
     },
-    "tip": "Piljevina",
-    "name": "HVT Piljevina premijum 15l",
+    "tip": "пиљевина",
+    "name": "HVT пиљевина premium 15l",
 
     "price": "136.17",
     "detail": "ovo je detail proizvoda",
@@ -1203,8 +1203,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c59"
     },
-    "tip": "Piljevina",
-    "name": "HVT Piljevina premijum Citrus 15l",
+    "tip": "пиљевина",
+    "name": "HVT пиљевина premium Citrus 15l",
 
     "price": "134.00",
     "detail": "ovo je detail proizvoda",
@@ -1218,8 +1218,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c5a"
     },
-    "tip": "Piljevina",
-    "name": "HVT Piljevina premijum Jabuka 15l",
+    "tip": "пиљевина",
+    "name": "HVT пиљевина premium јабука 15l",
 
     "price": "134.00",
     "detail": "ovo je detail proizvoda",
@@ -1233,8 +1233,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c5b"
     },
-    "tip": "Semenke",
-    "name": "CE Hrcak 400g",
+    "tip": "семенке",
+    "name": "CE хрчак 400g",
 
     "price": "100.15",
     "detail": "ovo je detail proizvoda",
@@ -1248,8 +1248,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c5c"
     },
-    "tip": "Semenke",
-    "name": "MN 1kg MISCUGLIO CRICETI - Hrcak",
+    "tip": "семенке",
+    "name": "MN 1kg MISCUGLIO CRICETI - хрчак",
 
     "price": "273.84",
     "detail": "ovo je detail proizvoda",
@@ -1263,7 +1263,7 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c5d"
     },
-    "tip": "Seno",
+    "tip": "сено",
     "name": "MEADOW HAY 1 KG / 30 LTR",
 
     "price": "326.80",
@@ -1278,7 +1278,7 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c5e"
     },
-    "tip": "Posip",
+    "tip": "посип",
     "name": "GH 5kg Who Cares - CLUMPING",
 
     "price": "256.78",
@@ -1293,7 +1293,7 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c5f"
     },
-    "tip": "Posip",
+    "tip": "посип",
     "name": "GH 5kg Who Cares",
 
     "price": "278.37",
@@ -1308,8 +1308,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c60"
     },
-    "tip": "Posip",
-    "name": "GH 5kg Who Cares - LAVANDA",
+    "tip": "посип",
+    "name": "GH 5kg Who Cares - лаванда",
 
     "price": "302.37",
     "detail": "ovo je detail proizvoda",
@@ -1323,8 +1323,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c61"
     },
-    "tip": "Posip",
-    "name": "MM 3.8L Moksi silikonski pesak za mace",
+    "tip": "посип",
+    "name": "MM 3.8L Moksi сликонски песак за маце",
 
     "price": "529.17",
     "detail": "ovo je detail proizvoda",
@@ -1338,7 +1338,7 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c62"
     },
-    "tip": "Posip",
+    "tip": "посип",
     "name": "GH 6l Clumping Imperial Care BABY POWDER",
 
     "price": "538.31",
@@ -1353,8 +1353,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c63"
     },
-    "tip": "Posip",
-    "name": "MM 5l Moksi silikonski pesak za mace",
+    "tip": "посип",
+    "name": "MM 5l Moksi сликонски песак за маце",
 
     "price": "667.29",
     "detail": "ovo je detail proizvoda",
@@ -1368,8 +1368,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c64"
     },
-    "tip": "Kesice za izmet",
-    "name": "MM Kesice Moksi Regular 3/1",
+    "tip": "кесице за измет",
+    "name": "MM кесице Moksi Regular 3/1",
 
     "price": "122.40",
     "detail": "ovo je detail proizvoda",
@@ -1383,8 +1383,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c65"
     },
-    "tip": "Kesice za izmet",
-    "name": "MM Kutija + Kesica Moksi 1/1",
+    "tip": "кесице за измет",
+    "name": "MM кутија + кесица Moksi 1/1",
 
     "price": "126.72",
     "detail": "ovo je detail proizvoda",
@@ -1398,8 +1398,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c66"
     },
-    "tip": "Konzerva",
-    "name": "MM Moksi Mini salama za pse i mace 0.4gr",
+    "tip": "конзерва",
+    "name": "MM Moksi Mini салама за псе и маце 0.4gr",
 
     "price": "84.48",
     "detail": "ovo je detail proizvoda",
@@ -1413,8 +1413,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c67"
     },
-    "tip": "Konzerva",
-    "name": "MM 1kg Salama za pse i macke sa govedinom",
+    "tip": "конзерва",
+    "name": "MM 1kg салама за псе и мачке са говедином",
 
     "price": "128.18",
     "detail": "ovo je detail proizvoda",
@@ -1428,8 +1428,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c68"
     },
-    "tip": "Konzerva",
-    "name": "MM 1kg Salama za pse i macke sa piletinom",
+    "tip": "конзерва",
+    "name": "MM 1kg салама за псе и мачке са пилетином",
 
     "price": "128.18",
     "detail": "ovo je detail proizvoda",
@@ -1443,8 +1443,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c69"
     },
-    "tip": "Konzerva",
-    "name": "MM 1kg Salama za pse i macke sa sunka",
+    "tip": "конзерва",
+    "name": "MM 1kg салам за псе и мачке шунка",
 
     "price": "128.18",
     "detail": "ovo je detail proizvoda",
@@ -1458,7 +1458,7 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c6a"
     },
-    "tip": "Poslastice",
+    "tip": "посластица",
     "name": "Jumbo Sausage 30g",
 
     "price": "79.11",
@@ -1473,8 +1473,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c6b"
     },
-    "tip": "Poslastice",
-    "name": "MM MOKSI suve govedje tetive, pak od 3 kom",
+    "tip": "посластица",
+    "name": "MM MOKSI суве говеђе тетиве, пак од 3 ком.",
 
     "price": "126.72",
     "detail": "ovo je detail proizvoda",
@@ -1488,8 +1488,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c6c"
     },
-    "tip": "Poslastice",
-    "name": "SLIM kobasice 7KS/60g",
+    "tip": "посластица",
+    "name": "SLIM кобасице 7KS/60g",
 
     "price": "197.69",
     "detail": "ovo je detail proizvoda",
@@ -1503,7 +1503,7 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c6d"
     },
-    "tip": "Poslastice",
+    "tip": "посластица",
     "name": "Mini bones ham 580g",
 
     "price": "27.82",
@@ -1518,7 +1518,7 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c6e"
     },
-    "tip": "Poslastice",
+    "tip": "посластица",
     "name": "Meat Sticks 80kom",
 
     "price": "7.66",
@@ -1533,8 +1533,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c6f"
     },
-    "tip": "Poslastice",
-    "name": "MM Obojeni manchy stapic 12.5cmx20mm, 9-10g (100/1)",
+    "tip": "посластица",
+    "name": "MM обојени manchy штапић 12.5cmx20mm, 9-10g (100/1)",
 
     "price": "7.82",
     "detail": "ovo je detail proizvoda",
@@ -1548,8 +1548,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c70"
     },
-    "tip": "Poslastice",
-    "name": "MM Manchy plocica 12.5cmx20mm, 9-10g (100/1)",
+    "tip": "посластица",
+    "name": "MM Manchy плочица 12.5cmx20mm, 9-10g (100/1)",
 
     "price": "9.98",
     "detail": "ovo je detail proizvoda",
@@ -1563,7 +1563,7 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c71"
     },
-    "tip": "Poslastice",
+    "tip": "посластица",
     "name": "Maxi starsstick ham, 800g",
 
     "price": "46.38",
@@ -1578,8 +1578,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c72"
     },
-    "tip": "Transporter",
-    "name": "MP Transp.2783 GIPSY S pl.vrata zeleni ECO 46x31x32",
+    "tip": "транспортер",
+    "name": "MP Transp.2783 GIPSY S пл.врата зелени ECO 46x31x32",
 
     "price": "904.36",
     "detail": "ovo je detail proizvoda",
@@ -1593,8 +1593,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c73"
     },
-    "tip": "Transporter",
-    "name": "MP Transp.1083 Gipsy L mtl.vrata plavi 58x38x38",
+    "tip": "транспортер",
+    "name": "MP Transp.1083 Gipsy L мтл. врата плави 58x38x38",
 
     "price": "1635.71",
     "detail": "ovo je detail proizvoda",
@@ -1608,8 +1608,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c74"
     },
-    "tip": "Poslastice",
-    "name": "MN 60gr Kanarinci-stapici miks sa medom",
+    "tip": "посластица",
+    "name": "MN 60gr канаринци-штапићи микс са медом",
 
     "price": "228.00",
     "detail": "ovo je detail proizvoda",
@@ -1623,8 +1623,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c75"
     },
-    "tip": "Poslastice",
-    "name": "MN 60gr Kanarinci-stapici miks sa vocem",
+    "tip": "посластица",
+    "name": "MN 60gr канаринци-штапићи микс са воћем",
 
     "price": "228.00",
     "detail": "ovo je detail proizvoda",
@@ -1638,8 +1638,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c76"
     },
-    "tip": "Poslastice",
-    "name": "MN 120gr Nimfe/papagaji-stapici miks sa lesnicima",
+    "tip": "посластица",
+    "name": "MN 120gr нимфе/папагаји-штапићи микс са лешницима",
 
     "price": "366.13",
     "detail": "ovo je detail proizvoda",
@@ -1653,8 +1653,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c77"
     },
-    "tip": "Poslastice",
-    "name": "MN 120gr Nimfe/papagaji-stapici miks sa vocem ",
+    "tip": "посластица",
+    "name": "MN 120gr нимфе/папагаји-штапићи микс са воћем ",
 
     "price": "366.13",
     "detail": "ovo je detail proizvoda",
@@ -1668,8 +1668,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c78"
     },
-    "tip": "Semenke",
-    "name": "CE Minerali za ptice 100g-1/20",
+    "tip": "семенке",
+    "name": "CE минерали за птице 100g-1/20",
 
     "price": "82.06",
     "detail": "ovo je detail proizvoda",
@@ -1683,8 +1683,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c79"
     },
-    "tip": "Semenke",
-    "name": "CE Proso 400gr-1/32",
+    "tip": "семенке",
+    "name": "CE просо 400gr-1/32",
 
     "price": "80.24",
     "detail": "ovo je detail proizvoda",
@@ -1698,8 +1698,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c7a"
     },
-    "tip": "Semenke",
-    "name": "CE Kanarinci 400g",
+    "tip": "семенке",
+    "name": "CE канаринци 400g",
 
     "price": "125.76",
     "detail": "ovo je detail proizvoda",
@@ -1713,8 +1713,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c7b"
     },
-    "tip": "Semenke",
-    "name": "CE Bar u klasu 100g-1/26",
+    "tip": "семенке",
+    "name": "CE бар у класу 100g-1/26",
 
     "price": "120.41",
     "detail": "ovo je detail proizvoda",
@@ -1728,8 +1728,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c7c"
     },
-    "tip": "Semenke",
-    "name": "CE Nimfe 400g",
+    "tip": "семенке",
+    "name": "CE нимфе 400g",
 
     "price": "136.24",
     "detail": "ovo je detail proizvoda",
@@ -1743,8 +1743,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c7d"
     },
-    "tip": "Semenke",
-    "name": "CE Tigrice 400g",
+    "tip": "семенке",
+    "name": "CE ти+грице 400g",
 
     "price": "128.68",
     "detail": "ovo je detail proizvoda",
@@ -1758,8 +1758,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c7e"
     },
-    "tip": "Semenke",
-    "name": "MN 1kg PARAKEETS UNIVERSAL Nimfe",
+    "tip": "семенке",
+    "name": "MN 1kg PARAKEETS UNIVERSAL нимфе",
 
     "price": "236.76",
     "detail": "ovo je detail proizvoda",
@@ -1773,8 +1773,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c7f"
     },
-    "tip": "Semenke",
-    "name": "MN 1kg MISCUGLIO CANARINI Kanarinci ",
+    "tip": "семенке",
+    "name": "MN 1kg MISCUGLIO CANARINI канаринци ",
 
     "price": "281.41",
     "detail": "ovo je detail proizvoda",
@@ -1788,8 +1788,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c80"
     },
-    "tip": "Semenke",
-    "name": "MN 1kg AGAPORNIS PARAKEETS Nimfe",
+    "tip": "семенке",
+    "name": "MN 1kg AGAPORNIS PARAKEETS нимфе",
 
     "price": "288.76",
     "detail": "ovo je detail proizvoda",
@@ -1803,7 +1803,7 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c81"
     },
-    "tip": "Granule",
+    "tip": "грануле",
     "name": "Cibau Lamb Sensitive Medium&Maxi, 12kg",
     "kolicina": "kg",
     "price": "364.36",
@@ -1818,7 +1818,7 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c82"
     },
-    "tip": "Granule",
+    "tip": "грануле",
     "name": "Matisse, Kitten Chicken & Rice,10kg",
     "kolicina": "kg",
     "price": "476.41",
@@ -1833,7 +1833,7 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c83"
     },
-    "tip": "Granule",
+    "tip": "грануле",
     "name": "Matisse, Adult Neutered Salmon & Tuna, 10kg",
     "kolicina": "kg",
     "price": "449.81",
@@ -1848,7 +1848,7 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c84"
     },
-    "tip": "Granule",
+    "tip": "грануле",
     "name": "N&D, Pumpkin Medium&Maxi Adult Lamb&Blueberry, 12kg",
     "kolicina": "kg",
     "price": "722.12",
@@ -1863,7 +1863,7 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c85"
     },
-    "tip": "Granule",
+    "tip": "грануле",
     "name": "N&D, Pumpkin Puppy Lamb&Blueberry Mini, 7kg",
     "kolicina": "kg",
     "price": "771.35",
@@ -1878,7 +1878,7 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c86"
     },
-    "tip": "Granule",
+    "tip": "грануле",
     "name": "N&D, Pumpkin Mini Adult Chicken&Pomegranate, 7kg",
     "kolicina": "kg",
     "price": "664.90",
@@ -1893,7 +1893,7 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c87"
     },
-    "tip": "Granule",
+    "tip": "грануле",
     "name": "N&D, Medium&Maxi Adult Chicken&Pomegranate Ancestral Selection, 15kg",
     "kolicina": "kg",
     "price": "391.25",
@@ -1908,7 +1908,7 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c88"
     },
-    "tip": "Granule",
+    "tip": "грануле",
     "name": "N&D, Ancestral Grain Cat Lamb&Blueberry, 10kg",
     "kolicina": "kg",
     "price": "772.71",
@@ -1923,7 +1923,7 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c89"
     },
-    "tip": "Granule",
+    "tip": "грануле",
     "name": "N&D, Ancestral Grain Cat Chicken&Pomegranate, 10kg",
     "kolicina": "kg",
     "price": "747.87",
@@ -1938,8 +1938,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c8a"
     },
-    "tip": "Konzerva",
-    "name": "Dog Menu govedina 1240g",
+    "tip": "конзерва",
+    "name": "Dog Menu говедина 1240g",
 
     "price": "179.76",
     "detail": "ovo je detail proizvoda",
@@ -1953,8 +1953,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c8b"
     },
-    "tip": "Konzerva",
-    "name": "Dog Menu piletina 1240g",
+    "tip": "конзерва",
+    "name": "Dog Menu пилетина` 1240g",
 
     "price": "179.76",
     "detail": "ovo je detail proizvoda",
@@ -1968,8 +1968,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c8c"
     },
-    "tip": "Konzerva",
-    "name": "Cat Menu piletina, 415g",
+    "tip": "конзерва",
+    "name": "Cat Menu пилетина, 415g",
 
     "price": "78.96",
     "detail": "ovo je detail proizvoda",
@@ -1983,8 +1983,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c8d"
     },
-    "tip": "Konzerva",
-    "name": "Cat Menu riba, 415g",
+    "tip": "конзерва",
+    "name": "Cat Menu риба, 415g",
 
     "price": "78.96",
     "detail": "ovo je detail proizvoda",
@@ -1998,8 +1998,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c8e"
     },
-    "tip": "Konzerva",
-    "name": "Cat Menu govedina, 415g",
+    "tip": "конзерва",
+    "name": "Cat Menu говедина, 415g",
 
     "price": "78.96",
     "detail": "ovo je detail proizvoda",
@@ -2013,8 +2013,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c8f"
     },
-    "tip": "Konzerva",
-    "name": "Dog Menu piletina 415g",
+    "tip": "конзерва",
+    "name": "Dog Menu пилетина` 415g",
 
     "price": "78.96",
     "detail": "ovo je detail proizvoda",
@@ -2028,8 +2028,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c90"
     },
-    "tip": "Konzerva",
-    "name": "Dog Menu govedina 415g",
+    "tip": "конзерва",
+    "name": "Dog Menu говедина 415g",
 
     "price": "78.96",
     "detail": "ovo je detail proizvoda",
@@ -2043,8 +2043,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c91"
     },
-    "tip": "Konzerva",
-    "name": "Nuevo Govedina Grain free, 400g",
+    "tip": "конзерва",
+    "name": "Nuevo говедина Gr`ain free, 400g",
 
     "price": "216.31",
     "detail": "ovo je detail proizvoda",
@@ -2058,8 +2058,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c92"
     },
-    "tip": "Konzerva",
-    "name": "Nuevo Jagnjetina I krompir grain free, 400g",
+    "tip": "конзерва",
+    "name": "Nuevo јагњетина и кромпир grain free, 400g",
 
     "price": "216.31",
     "detail": "ovo je detail proizvoda",
@@ -2073,8 +2073,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c93"
     },
-    "tip": "Konzerva",
-    "name": "Nuevo Piletina Sensitive Grain Free, 200g",
+    "tip": "конзерва",
+    "name": "Nuevo пилетина Sensitive Grain Free, 200g",
 
     "price": "142.74",
     "detail": "ovo je detail proizvoda",
@@ -2088,8 +2088,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c94"
     },
-    "tip": "Konzerva",
-    "name": "Nuevo Kitten - Piletina sa pirinčem i uljem losos, 200g",
+    "tip": "конзерва",
+    "name": "Nuevo Kitten - пилетина са пиринчем и уљем, 200g",
 
     "price": "143.91",
     "detail": "ovo je detail proizvoda",
@@ -2103,8 +2103,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c95"
     },
-    "tip": "Konzerva",
-    "name": "Nuevo Govedina  Grain Free, 200g",
+    "tip": "конзерва",
+    "name": "Nuevo говедина  Grain Free, 200g",
 
     "price": "143.91",
     "detail": "ovo je detail proizvoda",
@@ -2118,8 +2118,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c96"
     },
-    "tip": "Sosic",
-    "name": "Plaisir preliv za mačke, Plaisir Multipack ,100g, 12 kom",
+    "tip": "сосић",
+    "name": "Plaisir прелив за мачке, Plaisir Multipack ,100g, 12 kom",
 
     "price": "41.50",
     "detail": "ovo je detail proizvoda",
@@ -2133,8 +2133,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c97"
     },
-    "tip": "Sosic",
-    "name": "Plaisir preliv za mačiće, piletina, 100g",
+    "tip": "сосић",
+    "name": "Plaisir прелив за мачиће, пилетина, 100g",
 
     "price": "41.40",
     "detail": "ovo je detail proizvoda",
@@ -2148,8 +2148,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c98"
     },
-    "tip": "Pasteta",
-    "name": "Plaisir pašteta za mačke, Piletina za mačiće-Kitten, 100g",
+    "tip": "паштета",
+    "name": "Plaisir паштета за мачке, пилетина за мачиће-Kitten, 100g",
 
     "price": "51.33",
     "detail": "ovo je detail proizvoda",
@@ -2163,8 +2163,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c99"
     },
-    "tip": "Pasteta",
-    "name": "Plaisir pašteta za mačke, Piletina, 100g",
+    "tip": "паштета",
+    "name": "Plaisir паштета за мачке, пилетина, 100g",
 
     "price": "51.33",
     "detail": "ovo je detail proizvoda",
@@ -2178,8 +2178,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c9a"
     },
-    "tip": "Pasteta",
-    "name": "Plaisir pašteta za mačke, Govedina, 100g",
+    "tip": "паштета",
+    "name": "Plaisir паштета за мачке, говедина, 100g",
 
     "price": "51.33",
     "detail": "ovo je detail proizvoda",
@@ -2193,8 +2193,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c9b"
     },
-    "tip": "Pasteta",
-    "name": "Plaisir pašteta za mačke, Losos, 100g",
+    "tip": "паштета",
+    "name": "Plaisir паштета за мачке, лосос, 100g",
 
     "price": "51.33",
     "detail": "ovo je detail proizvoda",
@@ -2208,8 +2208,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c9c"
     },
-    "tip": "Pašteta",
-    "name": "Plaisir pašteta za pse - Govedina I povrće, 150g",
+    "tip": "паштета",
+    "name": "Plaisir паштета за псе - говедина и поврће, 150g",
 
     "price": "78.59",
     "detail": "ovo je detail proizvoda",
@@ -2223,8 +2223,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c9d"
     },
-    "tip": "Pašteta",
-    "name": "Plaisir pašteta za pse - Piletina, 150g",
+    "tip": "паштета",
+    "name": "Plaisir паштета за псе - пилетина`, 150g",
 
     "price": "78.59",
     "detail": "ovo je detail proizvoda",
@@ -2238,8 +2238,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c9e"
     },
-    "tip": "Pašteta",
-    "name": "Plaisir pašteta za štence - Piletina, 150g",
+    "tip": "паштета",
+    "name": "Plaisir паштета за штенце - пилетина, 150g",
 
     "price": "78.59",
     "detail": "ovo je detail proizvoda",
@@ -2253,8 +2253,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0c9f"
     },
-    "tip": "Suplement",
-    "name": "Diafarm, VM Energy pasta gel+Taurin+Omega 6, 50g",
+    "tip": "суплемент",
+    "name": "Diafarm, VM Energy паста гел+таурин+омега 6, 50g",
 
     "price": "639.58",
     "detail": "ovo je detail proizvoda",
@@ -2268,8 +2268,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0ca0"
     },
-    "tip": "Suplement",
-    "name": "Diafarm, Cat Malt pasta 50ml",
+    "tip": "суплемент",
+    "name": "Diafarm, Cat Malt паста 50ml",
 
     "price": "608.96",
     "detail": "ovo je detail proizvoda",
@@ -2283,8 +2283,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0ca1"
     },
-    "tip": "Ostalo",
-    "name": "Adresar u obliku srca ",
+    "tip": "остало",
+    "name": "адресар у облику срца ",
 
     "price": "80.00",
     "detail": "ovo je detail proizvoda",
@@ -2298,8 +2298,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0ca2"
     },
-    "tip": "Am",
-    "name": "Am Coco Mis braon 25x660mm ",
+    "tip": "амови",
+    "name": "ам Coco миш браон 25x660mm ",
 
     "price": "1391.51",
     "detail": "ovo je detail proizvoda",
@@ -2313,8 +2313,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0ca3"
     },
-    "tip": "Am",
-    "name": "Am COCO Large plavi ",
+    "tip": "амови",
+    "name": "Ам COCO Large плави ",
 
     "price": "1292.29",
     "detail": "ovo je detail proizvoda",
@@ -2328,8 +2328,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0ca4"
     },
-    "tip": "Am",
-    "name": "Am Trekking FUSS-COMF. 10mm crna ",
+    "tip": "амови",
+    "name": "ам Trekking FUSS-COMF. 10mm црна ",
 
     "price": "641.02",
     "detail": "ovo je detail proizvoda",
@@ -2343,8 +2343,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0ca5"
     },
-    "tip": "Am",
-    "name": "Am COCO Medium plavi ",
+    "tip": "амови",
+    "name": "ам COCO Medium плави ",
 
     "price": "1176.53",
     "detail": "ovo je detail proizvoda",
@@ -2358,8 +2358,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0ca6"
     },
-    "tip": "Am",
-    "name": "Am Trekking FUSS-COMF. 30mm crveni ",
+    "tip": "амови",
+    "name": "ам Trekking FUSS-COMF. 30mm црвени ",
 
     "price": "1430.89",
     "detail": "ovo je detail proizvoda",
@@ -2373,8 +2373,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0ca7"
     },
-    "tip": "Am",
-    "name": "Am COCO Small roze ",
+    "tip": "амови",
+    "name": "ам COCO Small розе ",
 
     "price": "1119.83",
     "detail": "ovo je detail proizvoda",
@@ -2388,8 +2388,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0ca8"
     },
-    "tip": "Grebalica",
-    "name": "Grebalica za mace ravna ",
+    "tip": "гребалица",
+    "name": "гребалица за маце равна ",
 
     "price": "423.90",
     "detail": "ovo je detail proizvoda",
@@ -2403,8 +2403,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0ca9"
     },
-    "tip": "Grebalica",
-    "name": "Grebalica Pesciotto 26.5x13x4cm ",
+    "tip": "гребалица",
+    "name": "гребалица Pesciotto 26.5x13x4cm ",
 
     "price": "635.40",
     "detail": "ovo je detail proizvoda",
@@ -2418,8 +2418,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0caa"
     },
-    "tip": "Am",
-    "name": "Rukohvat od najlona crni 25x45 ",
+    "tip": "амови",
+    "name": "рукохват од најлона црни 25x45 ",
 
     "price": "486.68",
     "detail": "ovo je detail proizvoda",
@@ -2433,8 +2433,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0cab"
     },
-    "tip": "Transporter",
-    "name": "Transporter Pratico 2 vise boja ",
+    "tip": "транспортер",
+    "name": "транспортер Pratico 2 више боја ",
 
     "price": "1700.06",
     "detail": "ovo je detail proizvoda",
@@ -2448,8 +2448,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0cac"
     },
-    "tip": "Transporter",
-    "name": "Transporter Pratico vise boja ",
+    "tip": "транспортер",
+    "name": "транспортер Pratico више боја ",
 
     "price": "1416.56",
     "detail": "ovo je detail proizvoda",
@@ -2463,8 +2463,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0cad"
     },
-    "tip": "Ostalo",
-    "name": "Sigurnosni pojas 20mm za kola ",
+    "tip": "остало",
+    "name": "сигурносни појас 20mm за кола ",
 
     "price": "300.04",
     "detail": "ovo je detail proizvoda",
@@ -2478,8 +2478,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0cae"
     },
-    "tip": "Igracke",
-    "name": "Igracka Twister 4cm u kutiji ",
+    "tip": "играчке",
+    "name": "играчка Twister 4cm у кутији ",
 
     "price": "105.23",
     "detail": "ovo je detail proizvoda",
@@ -2493,8 +2493,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0caf"
     },
-    "tip": "Igracke",
-    "name": "Igracka za mace Mixer 3.8/5cm ",
+    "tip": "играчке",
+    "name": "играчка за маце Mixer 3.8/5cm ",
 
     "price": "21.56",
     "detail": "ovo je detail proizvoda",
@@ -2508,8 +2508,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0cb0"
     },
-    "tip": "Igracke",
-    "name": "Lopta za pse tenis 6.5cm ",
+    "tip": "играчке",
+    "name": "лопта за псе тенис 6.5cm ",
 
     "price": "79.35",
     "detail": "ovo je detail proizvoda",
@@ -2523,8 +2523,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0cb1"
     },
-    "tip": "Igracke",
-    "name": "Igracka za macke metalne lopte 4cm ",
+    "tip": "играчке",
+    "name": "играчка за мачке металне лопте 4cm ",
 
     "price": "30.22",
     "detail": "ovo je detail proizvoda",
@@ -2538,8 +2538,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0cb2"
     },
-    "tip": "Igracke",
-    "name": "Igracka kanap sa teniskom loptom zeleno/plavi 25cm ",
+    "tip": "играчке",
+    "name": "играчка канап са тениском лоптон зелено/плави 25cm ",
 
     "price": "237.60",
     "detail": "ovo je detail proizvoda",
@@ -2553,8 +2553,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0cb3"
     },
-    "tip": "Igracke",
-    "name": "Igracka kanap sa loptom narandzasto/plavi 19cm ",
+    "tip": "играчке",
+    "name": "играчка канап са лоптом нарљнџасто/плави 19cm ",
 
     "price": "174.07",
     "detail": "ovo je detail proizvoda",
@@ -2568,8 +2568,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0cb4"
     },
-    "tip": "Povodac",
-    "name": "D.Povod. reflect 10*1200 narandz ",
+    "tip": "поводац",
+    "name": "D.Povod. reflect 10*1200 наранџаст ",
 
     "price": "499.95",
     "detail": "ovo je detail proizvoda",
@@ -2583,8 +2583,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0cb5"
     },
-    "tip": "Povodac",
-    "name": "Pov.za pse metal 1*4mm crna ",
+    "tip": "поводац",
+    "name": "пов.за псе метал 1*4mm црна ",
 
     "price": "424.88",
     "detail": "ovo je detail proizvoda",
@@ -2598,8 +2598,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0cb6"
     },
-    "tip": "Povodac",
-    "name": "Pov.za pse metal 1.1m*2mm crvena ",
+    "tip": "поводац",
+    "name": "пов.за псе метал 1.1m*2mm црвена ",
 
     "price": "294.53",
     "detail": "ovo je detail proizvoda",
@@ -2613,8 +2613,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0cb7"
     },
-    "tip": "Povodac",
-    "name": "Pov. za pse metal 1m*3mm plavi ",
+    "tip": "поводац",
+    "name": "пов. за псе метал 1m*3mm плави ",
 
     "price": "351.45",
     "detail": "ovo je detail proizvoda",
@@ -2628,8 +2628,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0cb8"
     },
-    "tip": "Povodac",
-    "name": "Povodac od gajtana 12mm-1m zut ",
+    "tip": "поводац",
+    "name": "поводац од гајтана 12mm-1m жут ",
 
     "price": "557.87",
     "detail": "ovo je detail proizvoda",
@@ -2643,8 +2643,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0cb9"
     },
-    "tip": "Povodac",
-    "name": "POVODAC OD GAJTANA 10MM-1M CRNI ",
+    "tip": "поводац",
+    "name": "поводац од гајтана 10MM-1M црни ",
 
     "price": "451.26",
     "detail": "ovo je detail proizvoda",
@@ -2658,8 +2658,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0cba"
     },
-    "tip": "Povodac",
-    "name": "POVODAC OD GAJTANA 12MM-1M CRNI ",
+    "tip": "поводац",
+    "name": "поводац од гајтана 12MM-1M црни ",
 
     "price": "557.87",
     "detail": "ovo je detail proizvoda",
@@ -2673,8 +2673,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0cbb"
     },
-    "tip": "Povodac",
-    "name": "POVODAC OD GAJTANA 8MM-1,3M PLAVI ",
+    "tip": "поводац",
+    "name": "поводац од гајтна 8MM-1,3M плави ",
 
     "price": "335.34",
     "detail": "ovo je detail proizvoda",
@@ -2688,8 +2688,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0cbc"
     },
-    "tip": "Povodac",
-    "name": "POVODAC OD GAJTANA 8MM-1,3M LJUBIcASTI ",
+    "tip": "поводац",
+    "name": "поводац од гајтана 8MM-1,3M љубичасти ",
 
     "price": "335.34",
     "detail": "ovo je detail proizvoda",
@@ -2703,8 +2703,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0cbd"
     },
-    "tip": "Povodac",
-    "name": "POVODAC OD GAJTANA 6MM-1,3M CRVENI ",
+    "tip": "поводац",
+    "name": "поводац од гајтана 6MM-1,3M црвени ",
 
     "price": "213.84",
     "detail": "ovo je detail proizvoda",
@@ -2718,8 +2718,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0cbe"
     },
-    "tip": "Povodac",
-    "name": "Povodac od gajtana 6mm-1,7m ",
+    "tip": "поводац",
+    "name": "поводац од гајтана 6mm-1,7m ",
 
     "price": "270.14",
     "detail": "ovo je detail proizvoda",
@@ -2733,8 +2733,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0cbf"
     },
-    "tip": "Povodac",
-    "name": "Povodac od gajtana 4mm-1,7m ",
+    "tip": "поводац",
+    "name": "поводац од гајтана 4mm-1,7m ",
 
     "price": "246.33",
     "detail": "ovo je detail proizvoda",
@@ -2748,8 +2748,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0cc0"
     },
-    "tip": "Povodac",
-    "name": "Povodac od gajtana 10mm-1,7m ",
+    "tip": "поводац",
+    "name": "поводац од гајтана 10mm-1,7m ",
 
     "price": "557.87",
     "detail": "ovo je detail proizvoda",
@@ -2763,8 +2763,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0cc1"
     },
-    "tip": "Povodac",
-    "name": "Povodac Premium 18mmx100cm od jagnjece koze ",
+    "tip": "поводац",
+    "name": "поводац Premium 18mmx100cm од јагњеће коже ",
 
     "price": "1267.87",
     "detail": "ovo je detail proizvoda",
@@ -2778,7 +2778,7 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0cc2"
     },
-    "tip": "Granule",
+    "tip": "грануле",
     "name": "Tetramix 60ml ",
 
     "price": "65.46",
@@ -2793,8 +2793,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0cc3"
     },
-    "tip": "Granule",
-    "name": "Granula crna 1 - sitna 60ml ",
+    "tip": "грануле",
+    "name": "гранула црна 1 - ситна 60ml ",
 
     "price": "64.22",
     "detail": "ovo je detail proizvoda",
@@ -2808,7 +2808,7 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0cc4"
     },
-    "tip": "Granule",
+    "tip": "грануле",
     "name": "Tubifex 60ml ",
 
     "price": "138.32",
@@ -2823,8 +2823,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0cc5"
     },
-    "tip": "Granule",
-    "name": "Granula crna 2 - krupna 60ml ",
+    "tip": "грануле",
+    "name": "гранула црна 2 - крупна 60ml ",
 
     "price": "64.22",
     "detail": "ovo je detail proizvoda",
@@ -2838,7 +2838,7 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0cc6"
     },
-    "tip": "Granule",
+    "tip": "грануле",
     "name": "Tropical mix 120ml ",
 
     "price": "102.51",
@@ -2853,8 +2853,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0cc7"
     },
-    "tip": "Granule",
-    "name": "Granula crna - sitna 120ml ",
+    "tip": "грануле",
+    "name": "гранула црна - ситна 120ml ",
 
     "price": "113.62",
     "detail": "ovo je detail proizvoda",
@@ -2868,8 +2868,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0cc8"
     },
-    "tip": "Am",
-    "name": "Am Trekking FUSS-COMF. 25mm crni ",
+    "tip": "амови",
+    "name": "ам Trekking FUSS-COMF. 25mm црни ",
 
     "price": "1079.66",
     "detail": "ovo je detail proizvoda",
@@ -2883,8 +2883,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0cc9"
     },
-    "tip": "Am",
-    "name": "Am Trekking FUSS-COMF. 15mm lila ",
+    "tip": "амови",
+    "name": "ам Trekking FUSS-COMF. 15mm лила ",
 
     "price": "759.15",
     "detail": "ovo je detail proizvoda",
@@ -2898,8 +2898,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0cca"
     },
-    "tip": "Am",
-    "name": "Am Trekking FUSS-COMF. 20mm zeleni ",
+    "tip": "амови",
+    "name": "ам Trekking FUSS-COMF. 20mm зелени ",
 
     "price": "1039.92",
     "detail": "ovo je detail proizvoda",
@@ -2913,7 +2913,7 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0ccb"
     },
-    "tip": "Poslastice",
+    "tip": "посластица",
     "name": "Heart/Moon/Star Mix, 2kg",
 
     "price": "30.10",
@@ -2928,7 +2928,7 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0ccc"
     },
-    "tip": "Poslastice",
+    "tip": "посластица",
     "name": "Mini Mix, 2kg",
 
     "price": "26.33",
@@ -2943,8 +2943,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0ccd"
     },
-    "tip": "Granule",
-    "name": "Premil, standard zivina, 10kg",
+    "tip": "грануле",
+    "name": "Premil, standard живина, 10kg",
     "kolicina": "kg",
     "price": "205.74",
     "detail": "ovo je detail proizvoda",
@@ -2958,23 +2958,23 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0cce"
     },
-    "tip": "Granule",
-    "name": "Josera Culinesse losos 15kg",
+    "tip": "грануле",
+    "name": "Josera Culinesse лосос 15kg",
     "kolicina": "kg",
     "price": "454.82",
     "detail": "ovo je detail proizvoda",
     "image": "https://picsum.photos/id/232/1200/1000",
     "novo": false,
     "akcija": false,
-    "title": "пси",
-    "link": "psi"
+    "title": "мачке",
+    "link": "macke"
   },
   {
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0ccf"
     },
-    "tip": "Granule",
-    "name": "Josera, catelux pacetina, hairball 15kg",
+    "tip": "грануле",
+    "name": "Josera, catelux пачетина, hairball 15kg",
     "kolicina": "kg",
     "price": "469.14",
     "detail": "ovo je detail proizvoda",
@@ -2988,7 +2988,7 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0cd0"
     },
-    "tip": "Granule",
+    "tip": "грануле",
     "name": "Premil maxi basic, 15kg",
     "kolicina": "kg",
     "price": "121.44",
@@ -3003,7 +3003,7 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0cd1"
     },
-    "tip": "Granule",
+    "tip": "грануле",
     "name": "Josera, active dog, 18kg",
     "kolicina": "kg",
     "price": "225.91",
@@ -3018,7 +3018,7 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0cd2"
     },
-    "tip": "Granule",
+    "tip": "грануле",
     "name": "Royal canin, mini adult, 8kg",
     "kolicina": "kg",
     "price": "786.60",
@@ -3033,7 +3033,7 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0cd3"
     },
-    "tip": "Granule",
+    "tip": "грануле",
     "name": "Royal canin, medium adult, 10kg",
     "kolicina": "kg",
     "price": "596.51",
@@ -3048,7 +3048,7 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0cd4"
     },
-    "tip": "Granule",
+    "tip": "грануле",
     "name": "Royal canin, mini puppy, 8kg",
     "kolicina": "kg",
     "price": "852.15",
@@ -3063,8 +3063,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0cd5"
     },
-    "tip": "Sampon",
-    "name": "Sampon za dugu dlaku - Velelek, 200ml",
+    "tip": "шампон",
+    "name": "шампон за дугу длаку - Velelek, 200ml",
     "kolicina": "kg",
     "price": "132.99",
     "detail": "ovo je detail proizvoda",
@@ -3078,8 +3078,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0cd6"
     },
-    "tip": "Sampon",
-    "name": "Sampon za kratku dlaku - Velelek, 200ml",
+    "tip": "шампон",
+    "name": "шампон за кратку длаку - Velelek, 200ml",
 
     "price": "132.99",
     "detail": "ovo je detail proizvoda",
@@ -3093,8 +3093,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0cd7"
     },
-    "tip": "Sampon",
-    "name": "Sampon za protiv parazita - Velelek, 125ml",
+    "tip": "шампон",
+    "name": "шампон против паразита - Velelek, 125ml",
 
     "price": "132.99",
     "detail": "ovo je detail proizvoda",
@@ -3108,8 +3108,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0cd8"
     },
-    "tip": "Sampon",
-    "name": "Sampon za stence i macke - Velelek, 200ml",
+    "tip": "шампон",
+    "name": "шампон за штенце и мачке - Velelek, 200ml",
 
     "price": "132.99",
     "detail": "ovo je detail proizvoda",
@@ -3123,7 +3123,7 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0cd9"
     },
-    "tip": "Sampon",
+    "tip": "шампон",
     "name": "Vele balzam - Velelek, 125ml",
 
     "price": "163.02",
@@ -3138,8 +3138,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0cda"
     },
-    "tip": "Granule",
-    "name": "GOSBI Original Cat Adult 12kg + 1kg gratis",
+    "tip": "грануле",
+    "name": "GOSBI Original Cat Adult 12kg + 1kg гратис",
     "kolicina": "kg",
     "price": "412.25",
     "detail": "ovo je detail proizvoda",
@@ -3153,8 +3153,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0cdb"
     },
-    "tip": "Granule",
-    "name": "Gosbi Original Cat Kitten 7kg + 1kg gratis",
+    "tip": "грануле",
+    "name": "Gosbi Original Cat Kitten 7kg + 1kg гратис",
     "kolicina": "kg",
     "price": "463.37",
     "detail": "ovo je detail proizvoda",
@@ -3168,7 +3168,7 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0cdc"
     },
-    "tip": "Granule",
+    "tip": "грануле",
     "name": "GOSBI EXCLUSIVE GRAIN FREE ADULT MINI, 7kg ",
     "kolicina": "kg",
     "price": "643.33",
@@ -3183,7 +3183,7 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0cdd"
     },
-    "tip": "Granule",
+    "tip": "грануле",
     "name": "Gosbi LIFE PUPPY, 15kg  ",
     "kolicina": "kg",
     "price": "327.60",
@@ -3198,8 +3198,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0cde"
     },
-    "tip": "Granule",
-    "name": "Gosbi Original Cat Sterilized Hairball 7 kg + 1kg gratis ",
+    "tip": "грануле",
+    "name": "Gosbi Original Cat Sterilized Hairball 7 kg + 1kg гратис ",
     "kolicina": "kg",
     "price": "569.42",
     "detail": "ovo je detail proizvoda",
@@ -3213,8 +3213,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0cdf"
     },
-    "tip": "Granule",
-    "name": "Gosbi Exclusive Lamb Mini 7kg + 2kg gratis ",
+    "tip": "грануле",
+    "name": "Gosbi Exclusive Lamb Mini 7kg + 2kg гратис ",
     "kolicina": "kg",
     "price": "636.59",
     "detail": "ovo je detail proizvoda",
@@ -3228,8 +3228,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0ce0"
     },
-    "tip": "Igracke",
-    "name": "Anastasia kokoška - 32 x 7 x 6 cm",
+    "tip": "играчке",
+    "name": "Anastasia кокошка - 32 x 7 x 6 cm",
 
     "price": "495.72",
     "detail": "ovo je detail proizvoda",
@@ -3243,8 +3243,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0ce1"
     },
-    "tip": "Maramice",
-    "name": "Antibakterijske vlažne maramice 40 kom",
+    "tip": "марамице",
+    "name": "антибактеријске влажне марамице 40 ком",
 
     "price": "189.55",
     "detail": "ovo je detail proizvoda",
@@ -3258,8 +3258,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0ce2"
     },
-    "tip": "Boca za vodu",
-    "name": "Boca za vodu - M 500 ml Plava",
+    "tip": "боца за воду",
+    "name": "боца за воду - M 500 ml плава",
 
     "price": "326.43",
     "detail": "ovo je detail proizvoda",
@@ -3273,8 +3273,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0ce3"
     },
-    "tip": "Boca za vodu",
-    "name": "Boca za vodu - S 300 ml Plava",
+    "tip": "боца за воду",
+    "name": "боца за воду - S 300 ml плава",
 
     "price": "276.64",
     "detail": "ovo je detail proizvoda",
@@ -3288,8 +3288,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0ce4"
     },
-    "tip": "Igracke",
-    "name": "Catapult sa teniskom lopticom (plava, crvena I žuta)  - 65 x 6 x 6 cm Ø6,3 cm ",
+    "tip": "играчке",
+    "name": "Catapult са тениском лоптицом (плава, црвена и жута)  - 65 x 6 x 6 cm Ø6,3 cm ",
 
     "price": "409.28",
     "detail": "ovo je detail proizvoda",
@@ -3303,8 +3303,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0ce5"
     },
-    "tip": "Igracke",
-    "name": "Donut – igračka krofna (narandzasta, žuta, plava) Ø 9 cm",
+    "tip": "играчке",
+    "name": "Donut – играчка крофна (наранџаста, жута, плава) Ø 9 cm",
 
     "price": "270.96",
     "detail": "ovo je detail proizvoda",
@@ -3318,8 +3318,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0ce6"
     },
-    "tip": "Kozmetika",
-    "name": "Ear Cleaner losion za čišćenje ušiju 118 ml",
+    "tip": "козметика",
+    "name": "Ear Cleaner лосион за чишћење ушију 118 ml",
 
     "price": "392.45",
     "detail": "ovo je detail proizvoda",
@@ -3333,8 +3333,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0ce7"
     },
-    "tip": "Boca za vodu",
-    "name": "Flašica za male životinje (plava, zelena, narandžasta I roza) - 100ml",
+    "tip": "боца за воду",
+    "name": "флашица за мале животиње (плава, зелена, наранџаста и роза) - 100ml",
 
     "price": "173.58",
     "detail": "ovo je detail proizvoda",
@@ -3348,8 +3348,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0ce8"
     },
-    "tip": "Boca za vodu",
-    "name": "Flašica za male životinje (plava, zelena, narandžasta I roza) - 250ml",
+    "tip": "боца за воду",
+    "name": "флашица за мале животиње (плава, зелена, наранџаста и роза) - 250ml",
 
     "price": "203.75",
     "detail": "ovo je detail proizvoda",
@@ -3363,8 +3363,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0ce9"
     },
-    "tip": "Boca za vodu",
-    "name": "Flašica za male životinje (plava, zelena, narandžasta I roza) - 450ml",
+    "tip": "боца за воду",
+    "name": "флашица за мале животиње (плава, зелена, наранџаста и роза) - 450ml",
 
     "price": "225.79",
     "detail": "ovo je detail proizvoda",
@@ -3378,8 +3378,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0cea"
     },
-    "tip": "Igracke",
-    "name": "Gaspra – igračka kost (narandzasta, roza, zelena) 16 cm",
+    "tip": "играчке",
+    "name": "Gaspra – играчка кост (наранџаста, роза, зелена) 16 cm",
 
     "price": "533.52",
     "detail": "ovo je detail proizvoda",
@@ -3393,8 +3393,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0ceb"
     },
-    "tip": "Kesice za izmet",
-    "name": "Higijenske kesice za pse - 300 kom - miris trave – Zelene",
+    "tip": "кесице за измет",
+    "name": "хигијенске кесице за псе - 300 ком - мирис траве – зелена",
 
     "price": "8.71",
     "detail": "ovo je detail proizvoda",
@@ -3408,8 +3408,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0cec"
     },
-    "tip": "Kesice za izmet",
-    "name": "Higijenske kesice za pse 4 x 20 kom - Mix boje",
+    "tip": "кесице за измет",
+    "name": "хигијенске кесице за псе 4 x 20 ком - микс боје",
 
     "price": "238.86",
     "detail": "ovo je detail proizvoda",
@@ -3423,8 +3423,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0ced"
     },
-    "tip": "Grebalica",
-    "name": "Janga Snake grebalica kućica - 30 x 30 x 40 cm Ø 8,5 cm                  ",
+    "tip": "гребалица",
+    "name": "Janga Snake гребалица кућица - 30 x 30 x 40 cm Ø 8,5 cm                  ",
 
     "price": "2931.55",
     "detail": "ovo je detail proizvoda",
@@ -3438,8 +3438,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0cee"
     },
-    "tip": "Igracke",
-    "name": "Jupiter – lopta za poslastice (crvena, zelena,plava) Ø 6,5 cm",
+    "tip": "играчке",
+    "name": "Jupiter – лопта посластица (црвена, зелена,плава) Ø 6,5 cm",
 
     "price": "192.73",
     "detail": "ovo je detail proizvoda",
@@ -3453,8 +3453,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0cef"
     },
-    "tip": "Toalet",
-    "name": "Lopatica za WC osnovna - Crvena - Plastična - 26 x 10 x 1 cm",
+    "tip": "тоалет",
+    "name": "лопатица за WC основна - црвена - пластична - 26 x 10 x 1 cm",
 
     "price": "52.99",
     "detail": "ovo je detail proizvoda",
@@ -3469,7 +3469,7 @@
       "$oid": "6257d0abc1d4d9a0790c0cf0"
     },
     "tip": "Makaze",
-    "name": "Makaze za nokte - sigurnosne - 5,5 x 12,5 cm S",
+    "name": "маказе за нокте - сигурносне - 5,5 x 12,5 cm S",
 
     "price": "598.09",
     "detail": "ovo je detail proizvoda",
@@ -3484,7 +3484,7 @@
       "$oid": "6257d0abc1d4d9a0790c0cf1"
     },
     "tip": "Makaze",
-    "name": "Makaze za nokte - sigurnosne - 6,7 x 15 cm L",
+    "name": "маказе за нокте - сигурносне - 6,7 x 15 cm L",
 
     "price": "796.50",
     "detail": "ovo je detail proizvoda",
@@ -3498,8 +3498,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0cf2"
     },
-    "tip": "Igracke",
-    "name": "Mars lopta za poslastice (narandžasta, žuta  I plava) - Ø8 cm                                 ",
+    "tip": "играчке",
+    "name": "Mars лопта za посластица (наранџаста, жута и плава) - Ø8 cm                                 ",
 
     "price": "336.38",
     "detail": "ovo je detail proizvoda",
@@ -3513,8 +3513,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0cf3"
     },
-    "tip": "Cinija",
-    "name": "Melaminska Posuda - Sporo Hranjenje 1400 ml - Zelena - Plava  - Bela",
+    "tip": "чинија",
+    "name": "меламинска посуда - споро храњење 1400 ml - зелена - плава  - бела",
 
     "price": "919.89",
     "detail": "ovo je detail proizvoda",
@@ -3528,8 +3528,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0cf4"
     },
-    "tip": "Cinija",
-    "name": "Melaminska Posuda - Sporo Hranjenje 250 ml - Zelena - Plava - Bela",
+    "tip": "чинија",
+    "name": "меламинска посуда - споро храњење 250 ml - зелена - плава - бела",
 
     "price": "372.30",
     "detail": "ovo je detail proizvoda",
@@ -3543,8 +3543,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0cf5"
     },
-    "tip": "Cinija",
-    "name": "Melaminska Posuda - Sporo Hranjenje 450 ml  - Zelena - Plava - Bela",
+    "tip": "чинија",
+    "name": "меламинска посуда - споро храњење 450 ml  - зелена - плава - бела",
 
     "price": "470.44",
     "detail": "ovo je detail proizvoda",
@@ -3558,8 +3558,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0cf6"
     },
-    "tip": "Cinija",
-    "name": "Melaminska Posuda - Sporo Hranjenje 900 ml - Zelena - Plava - Bela",
+    "tip": "чинија",
+    "name": "меламинска посуда - споро храњење 900 ml - зелена - плава - бела",
 
     "price": "677.74",
     "detail": "ovo je detail proizvoda",
@@ -3573,8 +3573,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0cf7"
     },
-    "tip": "Cinija",
-    "name": "Melaminska Posuda Moderne 1100 ml  - Zelena - Plava - Bela",
+    "tip": "чинија",
+    "name": "меламинска посуда moderne 1100 ml  - зелена - плава - бела",
 
     "price": "746.72",
     "detail": "ovo je detail proizvoda",
@@ -3588,8 +3588,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0cf8"
     },
-    "tip": "Cinija",
-    "name": "Melaminska Posuda Moderne 300 ml  - Zelena - Plava - Bela",
+    "tip": "чинија",
+    "name": "меламинска посуда Moderne 300 ml  - зелена - плава - бела",
 
     "price": "347.05",
     "detail": "ovo je detail proizvoda",
@@ -3603,8 +3603,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0cf9"
     },
-    "tip": "Cinija",
-    "name": "Melaminska Posuda Moderne 450 ml  - Zelena - Plava - Bela",
+    "tip": "чинија",
+    "name": "меламинска посуда Moderne 450 ml  - зелена - плава - бела",
 
     "price": "524.84",
     "detail": "ovo je detail proizvoda",
@@ -3618,8 +3618,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0cfa"
     },
-    "tip": "Toalet",
-    "name": "Memphis WC - Otvoreni sa rubom (Zeleni, tirkizni I ljubičasti) - 40,5 x 33,2 x 12 cm ",
+    "tip": "тоалет",
+    "name": "Memphis WC - отворени са рубом (зелени, тиркизни и љубичасти) - 40,5 x 33,2 x 12 cm ",
 
     "price": "622.62",
     "detail": "ovo je detail proizvoda",
@@ -3633,8 +3633,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0cfb"
     },
-    "tip": "Igracke",
-    "name": "Metis igračka (roza, narandžasta I zelena) - 13,2 x 5,8 cm",
+    "tip": "играчке",
+    "name": "Metis играчка (роза, наранџаста и зелена) - 13,2 x 5,8 cm",
 
     "price": "614.38",
     "detail": "ovo je detail proizvoda",
@@ -3648,8 +3648,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0cfc"
     },
-    "tip": "Igracke",
-    "name": "Miš na štapiću – 35 cm",
+    "tip": "играчке",
+    "name": "миш на штапићу – 35 cm",
 
     "price": "413.55",
     "detail": "ovo je detail proizvoda",
@@ -3663,8 +3663,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0cfd"
     },
-    "tip": "Igracke",
-    "name": "Natura morska trava Roll & Ball - 20cm Ø3,5 cm|12 cm Ø4,5 cm",
+    "tip": "играчке",
+    "name": "Natura морска трава Roll & Ball - 20cm Ø3,5 cm|12 cm Ø4,5 cm",
 
     "price": "221.83",
     "detail": "ovo je detail proizvoda",
@@ -3678,8 +3678,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0cfe"
     },
-    "tip": "Igracke",
-    "name": "Natura perce na štapiću – 35,5 cm",
+    "tip": "играчке",
+    "name": "Natura перце на штапићу – 35,5 cm",
 
     "price": "381.19",
     "detail": "ovo je detail proizvoda",
@@ -3693,8 +3693,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0cff"
     },
-    "tip": "Torbica za poslastice",
-    "name": "Nazca  transportna torba (za poslastice) Plavo Crna 12 x 12 x 15 cm",
+    "tip": "торбица за посластица",
+    "name": "Nazca  транспортна торба (за посластица) плаво црна 12 x 12 x 15 cm",
 
     "price": "255.09",
     "detail": "ovo je detail proizvoda",
@@ -3708,8 +3708,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0d00"
     },
-    "tip": "Ogrlica",
-    "name": "Ogrlica za mačke - Glitter (siva I crvena)",
+    "tip": "огрлица",
+    "name": "огрлица за мачке - Glitter (сива и црвена)",
 
     "price": "261.75",
     "detail": "ovo je detail proizvoda",
@@ -3723,8 +3723,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0d01"
     },
-    "tip": "Ogrlica",
-    "name": "Ogrlica za mačke - Stripes (zelena I roza)",
+    "tip": "огрлица",
+    "name": "огрлица за мачке - Stripes (зелена и роза)",
 
     "price": "241.81",
     "detail": "ovo je detail proizvoda",
@@ -3738,8 +3738,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0d02"
     },
-    "tip": "Ogrlica",
-    "name": "Ogrlica za pse - Prugasta (roza sa cvetićima) - 1,5 x 25 cm/35,5 cm - S",
+    "tip": "огрлица",
+    "name": "огрлица за псе - пругаста (роза са цветићима) - 1,5 x 25 cm/35,5 cm - S",
 
     "price": "374.87",
     "detail": "ovo je detail proizvoda",
@@ -3753,8 +3753,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0d03"
     },
-    "tip": "Ogrlica",
-    "name": "Ogrlica za pse - Prugasta (roza sa zelenim, žutim I belim) - 1,5 x 25 cm/35,5 cm - S   ",
+    "tip": "огрлица",
+    "name": "огрлица за псе - пругаста (роза са зеленим, жутим и белим) - 1,5 x 25 cm/35,5 cm - S   ",
 
     "price": "431.03",
     "detail": "ovo je detail proizvoda",
@@ -3768,8 +3768,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0d04"
     },
-    "tip": "Ogrlica",
-    "name": "Ogrlica za pse - Prugasta (roza sa zelenim, žutim I belim) - 2 x 35 cm/51 cm - M",
+    "tip": "огрлица",
+    "name": "огрлица за псе - пругаста (роза са зеленим, жутим и белим) - 2 x 35 cm/51 cm - M",
 
     "price": "439.45",
     "detail": "ovo je detail proizvoda",
@@ -3783,8 +3783,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0d05"
     },
-    "tip": "Ogrlica",
-    "name": "Ogrlica za pse - Sportline (crvena, crna I plava) - 1,5 x 25 cm/35,5 cm - S ",
+    "tip": "огрлица",
+    "name": "огрлица за псе - Sportline (црвена, црна и плава) - 1,5 x 25 cm/35,5 cm - S ",
 
     "price": "305.31",
     "detail": "ovo je detail proizvoda",
@@ -3798,8 +3798,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0d06"
     },
-    "tip": "Ogrlica",
-    "name": "Ogrlica za pse - Sportline (crvena, crna I plava) - 2 x 35,5 cm/51 cm - M ",
+    "tip": "огрлица",
+    "name": "огрлица за псе - Sportline (црвена, црна и плава) - 2 x 35,5 cm/51 cm - M ",
 
     "price": "349.25",
     "detail": "ovo je detail proizvoda",
@@ -3813,8 +3813,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0d07"
     },
-    "tip": "Ogrlica",
-    "name": "Ogrlica za pse - Sportline (crvena, crna I plava) - 2,5 x 51 cm/71 cm - L ",
+    "tip": "огрлица",
+    "name": "огрлица за псе - Sportline (црвена, црна и плава) - 2,5 x 51 cm/71 cm - L ",
 
     "price": "421.24",
     "detail": "ovo je detail proizvoda",
@@ -3828,8 +3828,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0d08"
     },
-    "tip": "Lezaljka",
-    "name": "Oleron ovalni jastuk – Plavi - 48 x 32 x 12 cm - M",
+    "tip": "лежаљка",
+    "name": "Oleron овални јастук – плави - 48 x 32 x 12 cm - M",
 
     "price": "1006.39",
     "detail": "ovo je detail proizvoda",
@@ -3843,8 +3843,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0d09"
     },
-    "tip": "Lezaljka",
-    "name": "Oleron ovalni jastuk - Svetlo sivi - 64 x 42 x 14 cm - L",
+    "tip": "лежаљка",
+    "name": "Oleron овални јастук - светло сиви - 64 x 42 x 14 cm - L",
 
     "price": "1642.97",
     "detail": "ovo je detail proizvoda",
@@ -3858,8 +3858,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0d0a"
     },
-    "tip": "Lezaljka",
-    "name": "Oleron ovalni jastuk - Tamno sivi - 37,5 x 24,5 x 10 cm - S",
+    "tip": "лежаљка",
+    "name": "Oleron овални јастук - тамно сиви - 37,5 x 24,5 x 10 cm - S",
 
     "price": "677.72",
     "detail": "ovo je detail proizvoda",
@@ -3873,8 +3873,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0d0b"
     },
-    "tip": "Cinija",
-    "name": "Plastična Činija 1150 ml - Tamno Plava - Tamno Siva – Braon",
+    "tip": "чинија",
+    "name": "пластична чинија 1150 ml - тамно плава - тамно сива – браон",
 
     "price": "300.11",
     "detail": "ovo je detail proizvoda",
@@ -3888,8 +3888,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0d0c"
     },
-    "tip": "Cinija",
-    "name": "Plastična Činija 475 ml - Tamno Plava - Tamno Siva - Braon",
+    "tip": "чинија",
+    "name": "пластична чинија 475 ml - тамно плава - тамно сива - браон",
 
     "price": "177.44",
     "detail": "ovo je detail proizvoda",
@@ -3903,8 +3903,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0d0d"
     },
-    "tip": "Cinija",
-    "name": "Plastična Činija 775 ml - Tamno Plava - Tamno Siva – Braon",
+    "tip": "чинија",
+    "name": "пластична чинија 775 ml - тамно плава - тамно сива – браон",
 
     "price": "231.13",
     "detail": "ovo je detail proizvoda",
@@ -3918,8 +3918,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0d0e"
     },
-    "tip": "Cinija",
-    "name": "Plastična posuda - dupla 2 x 150 ml",
+    "tip": "чинија",
+    "name": "пластична посуда - дупла 2 x 150 ml",
 
     "price": "101.34",
     "detail": "ovo je detail proizvoda",
@@ -3933,8 +3933,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0d0f"
     },
-    "tip": "Grebalica",
-    "name": "Portland grebalica - Tabla (karton) - 42,5 x 24 x 10 cm",
+    "tip": "гребалица",
+    "name": "Portland гребалица - табла (картон) - 42,5 x 24 x 10 cm",
 
     "price": "1074.06",
     "detail": "ovo je detail proizvoda",
@@ -3948,8 +3948,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0d10"
     },
-    "tip": "Povodac",
-    "name": "Povodac - Cvetići (rozi sa cvetićima) - 2 x 100 cm",
+    "tip": "поводац",
+    "name": "поводац - цветићи (рози са цветићима) - 2 x 100 cm",
 
     "price": "676.73",
     "detail": "ovo je detail proizvoda",
@@ -3963,8 +3963,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0d11"
     },
-    "tip": "Povodac",
-    "name": "Povodac - Sportline (crveni, crni I plavi) - 2 x 100 cm",
+    "tip": "поводац",
+    "name": "поводац - Sportline (црвени, црни и плави) - 2 x 100 cm",
 
     "price": "520.55",
     "detail": "ovo je detail proizvoda",
@@ -3978,8 +3978,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0d12"
     },
-    "tip": "Sampon",
-    "name": "Prirodni Neutralni Šampon za čestu upotrebu 250 ml",
+    "tip": "шампон",
+    "name": "природни неутрални шампон за честу употребу 250 ml",
 
     "price": "364.20",
     "detail": "ovo je detail proizvoda",
@@ -3993,8 +3993,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0d13"
     },
-    "tip": "Sampon",
-    "name": "Prirodni Šampon - 2 u 1 (šampon I kondicioner) 250 ml",
+    "tip": "шампон",
+    "name": "природни шампон - 2 у 1 (шампон и кондиционер) 250 ml",
 
     "price": "364.20",
     "detail": "ovo je detail proizvoda",
@@ -4008,8 +4008,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0d14"
     },
-    "tip": "Sampon",
-    "name": "Prirodni šampon protiv buva I krpelja 250 ml",
+    "tip": "шампон",
+    "name": "природни шампон против бува и крпеља 250 ml",
 
     "price": "364.20",
     "detail": "ovo je detail proizvoda",
@@ -4023,8 +4023,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0d15"
     },
-    "tip": "Sampon",
-    "name": "Prirodni Šampon za belu dlaku 250 ml",
+    "tip": "шампон",
+    "name": "природни шампон за белу длаку 250 ml",
 
     "price": "364.20",
     "detail": "ovo je detail proizvoda",
@@ -4038,8 +4038,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0d16"
     },
-    "tip": "Sampon",
-    "name": "Prirodni Šampon za dugu dlaku 250 ml  ",
+    "tip": "шампон",
+    "name": "природни шампон за дугу длаку 250 ml  ",
 
     "price": "364.20",
     "detail": "ovo je detail proizvoda",
@@ -4053,8 +4053,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0d17"
     },
-    "tip": "Sampon",
-    "name": "Prirodni Šampon za raščešljavanje 250 ml  ",
+    "tip": "шампон",
+    "name": "природни шампон за расчешљавање 250 ml  ",
 
     "price": "364.20",
     "detail": "ovo je detail proizvoda",
@@ -4068,8 +4068,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0d18"
     },
-    "tip": "Sampon",
-    "name": "Prirodni Šampon za štenad 250 ml",
+    "tip": "шампон",
+    "name": "природни шампон за штенад 250 ml",
 
     "price": "364.20",
     "detail": "ovo je detail proizvoda",
@@ -4083,8 +4083,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0d19"
     },
-    "tip": "Pelene",
-    "name": "Puppy trening podloge - 15 kom (45 x 60 cm) Bele",
+    "tip": "пелене",
+    "name": "Puppy тренинг подлоге - 15 ком (45 x 60 cm) беле",
 
     "price": "412.88",
     "detail": "ovo je detail proizvoda",
@@ -4098,8 +4098,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0d1a"
     },
-    "tip": "Pelene",
-    "name": "Puppy trening podloge - 50 kom (45 x 60 cm) Bele",
+    "tip": "пелене",
+    "name": "Puppy тренинг подлоге - 50 ком (45 x 60 cm) беле",
 
     "price": "31.29",
     "detail": "ovo je detail proizvoda",
@@ -4113,8 +4113,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0d1b"
     },
-    "tip": "Pelene",
-    "name": "Puppy trening podloge - 15 kom (60 x 60 cm) Bele",
+    "tip": "пелене",
+    "name": "Puppy тренинг подлоге - 15 kom (60 x 60 cm) беле",
 
     "price": "563.83",
     "detail": "ovo je detail proizvoda",
@@ -4128,8 +4128,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0d1c"
     },
-    "tip": "Pelene",
-    "name": "Puppy trening podloge - 100 kom (60 x 60 cm) Bele",
+    "tip": "пелене",
+    "name": "Puppy тренинг подлоге - 100 ком (60 x 60 cm) беле",
 
     "price": "36.34",
     "detail": "ovo je detail proizvoda",
@@ -4143,8 +4143,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0d1d"
     },
-    "tip": "Pelene",
-    "name": "Puppy trening podloge - 15 kom (90 x 60 cm) Bele",
+    "tip": "пелене",
+    "name": "Puppy тренинг подлоге - 15 ком (90 x 60 cm) беле",
 
     "price": "890.90",
     "detail": "ovo je detail proizvoda",
@@ -4158,8 +4158,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0d1e"
     },
-    "tip": "Pelene",
-    "name": "Puppy trening podloge - 50 kom (90 x 60 cm) Bele",
+    "tip": "пелене",
+    "name": "Puppy тренинг подлоге - 50 ком (90 x 60 cm) беле",
 
     "price": "58.45",
     "detail": "ovo je detail proizvoda",
@@ -4173,8 +4173,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0d1f"
     },
-    "tip": "Igracke",
-    "name": "Saturn igračka za pse - crvena",
+    "tip": "играчке",
+    "name": "Saturn играчка за псе - црвена",
 
     "price": "560.25",
     "detail": "ovo je detail proizvoda",
@@ -4188,8 +4188,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0d20"
     },
-    "tip": "Igracke",
-    "name": "Saturn igračka za pse - zelena",
+    "tip": "играчке",
+    "name": "Saturn играчка за псе - зелена",
 
     "price": "560.25",
     "detail": "ovo je detail proizvoda",
@@ -4203,8 +4203,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0d21"
     },
-    "tip": "Oprema",
-    "name": "Set za dojenje 66.5 ml",
+    "tip": "опрема",
+    "name": "сет за дојење 66.5 ml",
 
     "price": "337.46",
     "detail": "ovo je detail proizvoda",
@@ -4218,8 +4218,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0d22"
     },
-    "tip": "Igracke",
-    "name": "Splash bumerang – (plavi, žuti I narandžasti) - 21,5 x 25 x 3,1 cm",
+    "tip": "играчке",
+    "name": "Splash bumerang – (плави, жути и наранџасти) - 21,5 x 25 x 3,1 cm",
 
     "price": "553.69",
     "detail": "ovo je detail proizvoda",
@@ -4233,8 +4233,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0d23"
     },
-    "tip": "Kozmetika",
-    "name": "Tear Stain Remover losion za otklanjanje mrlja ispod očiju 118 ml",
+    "tip": "козметика",
+    "name": "Tear Stain Remover лосион за отклањање мрља испод очију 118 ml",
 
     "price": "377.35",
     "detail": "ovo je detail proizvoda",
@@ -4248,8 +4248,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0d24"
     },
-    "tip": "Igracke",
-    "name": "Twist Prsten (rozi, plavi, žuti) - 19 cm lopta",
+    "tip": "играчке",
+    "name": "Twist прстен (рози, плави, жути) - 19 cm лопта",
 
     "price": "321.48",
     "detail": "ovo je detail proizvoda",
@@ -4263,8 +4263,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0d25"
     },
-    "tip": "Igracke",
-    "name": "Uranus igračka za pse - ljubičasta",
+    "tip": "играчке",
+    "name": "Uranus играчка за псе - љубичаста",
 
     "price": "256.50",
     "detail": "ovo je detail proizvoda",
@@ -4278,8 +4278,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0d26"
     },
-    "tip": "Igracke",
-    "name": "Uranus igračka za pse - zelena",
+    "tip": "играчке",
+    "name": "Uranus играчка за псе - зелена",
 
     "price": "256.50",
     "detail": "ovo je detail proizvoda",
@@ -4293,8 +4293,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0d27"
     },
-    "tip": "Igracke",
-    "name": "Uže 20 cm",
+    "tip": "играчке",
+    "name": "уже 20 cm",
 
     "price": "104.85",
     "detail": "ovo je detail proizvoda",
@@ -4308,8 +4308,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0d28"
     },
-    "tip": "Igracke",
-    "name": "Uže 26 cm",
+    "tip": "играчке",
+    "name": "уже 26 cm",
 
     "price": "210.09",
     "detail": "ovo je detail proizvoda",
@@ -4323,8 +4323,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0d29"
     },
-    "tip": "Igracke",
-    "name": "Uže 37 cm",
+    "tip": "играчке",
+    "name": "уже 37 cm",
 
     "price": "402.02",
     "detail": "ovo je detail proizvoda",
@@ -4338,8 +4338,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0d2a"
     },
-    "tip": "Igracke",
-    "name": "Uže 48 cm",
+    "tip": "играчке",
+    "name": "уже 48 cm",
 
     "price": "665.44",
     "detail": "ovo je detail proizvoda",
@@ -4353,8 +4353,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0d2b"
     },
-    "tip": "Maramice",
-    "name": "Vlažne maramice - miris avokada 40 kom",
+    "tip": "марамице",
+    "name": "влажне марамице - мирис авокада 40 kom",
 
     "price": "182.25",
     "detail": "ovo je detail proizvoda",
@@ -4368,8 +4368,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0d2c"
     },
-    "tip": "Maramice",
-    "name": "Vlažne maramice - miris kokosa 40 kom",
+    "tip": "марамице",
+    "name": "влажне марамице - мирис кокоса 40 kom",
 
     "price": "182.25",
     "detail": "ovo je detail proizvoda",
@@ -4383,8 +4383,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0d2d"
     },
-    "tip": "Maramice",
-    "name": "Vlažne Maramice za telo I šape 15 x 20 cm 40 komada – Bele",
+    "tip": "марамице",
+    "name": "влажне марамице за тело и шапе 15 x 20 cm 40 комада – беле",
 
     "price": "135.96",
     "detail": "ovo je detail proizvoda",
@@ -4398,8 +4398,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0d2e"
     },
-    "tip": "Maramice",
-    "name": "Vlažne Maramice za telo I šape 19 x 16 cm 100 komada – Bele",
+    "tip": "марамице",
+    "name": "влажне марамице за тело и шапе 19 x 16 cm 100 комада – беле",
 
     "price": "587.51",
     "detail": "ovo je detail proizvoda",
@@ -4413,8 +4413,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0d2f"
     },
-    "tip": "Igracke",
-    "name": "Washy S - 4 x 4 x 10 cm – Plavo Bela",
+    "tip": "играчке",
+    "name": "Washy S - 4 x 4 x 10 cm – плаво бела",
 
     "price": "525.85",
     "detail": "ovo je detail proizvoda",
@@ -4428,8 +4428,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0d30"
     },
-    "tip": "Kragne",
-    "name": "Zaštitni Okovratnik BASTION L 31,1 x 53,3 cm",
+    "tip": "крагне",
+    "name": "заштитни оковратник BASTION L 31,1 x 53,3 cm",
 
     "price": "704.37",
     "detail": "ovo je detail proizvoda",
@@ -4443,8 +4443,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0d31"
     },
-    "tip": "Kragne",
-    "name": "Zaštitni Okovratnik BASTION M 24,1 x 39,1 cm",
+    "tip": "крагне",
+    "name": "заштитни оковратник BASTION M 24,1 x 39,1 cm",
 
     "price": "536.36",
     "detail": "ovo je detail proizvoda",
@@ -4458,8 +4458,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0d32"
     },
-    "tip": "Kragne",
-    "name": "Zaštitni Okovratnik BASTION S 18,4 x 31,1 cm",
+    "tip": "крагне",
+    "name": "заштитни оковратник BASTION S 18,4 x 31,1 cm",
 
     "price": "454.90",
     "detail": "ovo je detail proizvoda",
@@ -4473,8 +4473,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0d33"
     },
-    "tip": "Kragne",
-    "name": "Zaštitni Okovratnik BASTION XL 38,7 x 63,5 cm",
+    "tip": "крагне",
+    "name": "заштитни оковратник BASTION XL 38,7 x 63,5 cm",
 
     "price": "953.35",
     "detail": "ovo je detail proizvoda",
@@ -4488,8 +4488,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0d34"
     },
-    "tip": "Kragne",
-    "name": "Zaštitni Okovratnik BASTION XS 14,6 x 44,1 cm",
+    "tip": "крагне",
+    "name": "заштитни оковратник BASTION XS 14,6 x 44,1 cm",
 
     "price": "391.72",
     "detail": "ovo je detail proizvoda",
@@ -4503,8 +4503,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0d35"
     },
-    "tip": "Toalet",
-    "name": "Dairut WC - Kutija (bela sa crnim) - 50 x 42 x 36 cm",
+    "tip": "тоалет",
+    "name": "Dairut WC - кутија (бела са црниm) - 50 x 42 x 36 cm",
 
     "price": "1976.79",
     "detail": "ovo je detail proizvoda",
@@ -4518,8 +4518,8 @@
     "_id": {
       "$oid": "6257d0abc1d4d9a0790c0d36"
     },
-    "tip": "Toalet",
-    "name": "Rosetta WC - Kutija - Plavo Bela - 50 x 42,5 x 44,5 cm",
+    "tip": "тоалет",
+    "name": "Rosetta WC - кутија - плаво бела - 50 x 42,5 x 44,5 cm",
 
     "price": "2112.80",
     "detail": "ovo je detail proizvoda",

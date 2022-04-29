@@ -41,7 +41,7 @@ export const createArr = (length) => [...Array(length).keys()];
 export const H1 = ({ children, className = '', onClick = null }) => {
   return (
     <h1
-      className={`${className}  sm:text-3xl text-2xl uppercase`}
+      className={`${className}  xl:text-3xl md:text-2xl sm:text-xl uppercase`}
       onClick={onClick}
     >
       {children}

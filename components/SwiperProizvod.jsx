@@ -29,7 +29,9 @@ const SwiperProizvod = ({ ...p }) => {
         </Link>
       </div>
       <div className='p-2 flex flex-col items-center justify-around lg:h-1/2 h-2/3 '>
-        <h3 className='title xl:text-base text-sm text-blue-700 '>{p.name}</h3>
+        <h3 className='title xl:text-base text-sm text-blue-700 '>
+          {p.name.toUpperCase()}
+        </h3>
         <div className='proizvod-cena lg:py-2 py-1 lg:px-8 px-4 bg-red-600 '>
           <h2 className='price font-bold inline text-gray-100   lg:text-2xl text-xl '>
             {p.price}
