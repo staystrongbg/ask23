@@ -10,7 +10,7 @@ const NonSwiperProizvod = ({ ...p }) => {
     <>
       {p && (
         <div
-          className={` w-40 h-72 lg:w-72 lg:h-96 lg:text-base text-xs bg-gray-100 hover:shadow-lg rounded-md  transition-all  border-2  flex flex-col  justify-start relative`}
+          className={` min-h-96 xl:h-96   bg-gray-100 hover:shadow-lg rounded-md overflow-hidden transition-all  border-2  flex flex-col  justify-start relative`}
           style={{ animation: 'fadeIn 0.3s ease-out' }}
           onClick={() => setSearchTerm('')}
         >
@@ -27,22 +27,22 @@ const NonSwiperProizvod = ({ ...p }) => {
             </Link>
           </div>
           <div className='p-2 flex flex-col items-center justify-around lg:h-1/2 h-2/3 '>
-            <h3 className='title xl:text-base text-sm text-blue-700 '>
+            <h3 className='title text-base text-blue-700 whitespace-pre-wrap '>
               {p.name.toUpperCase()}
             </h3>
             <div className='proizvod-cena lg:py-2 py-1 lg:px-8 px-4 bg-red-600 '>
-              <h2 className='price font-bold inline text-gray-100   lg:text-2xl text-xl '>
+              <h2 className='price font-bold inline text-gray-100   text-2xl   '>
                 {p.price}
               </h2>
             </div>
-            <p className='details text-xs text-gray-400'>
+            <p className='details sm:text-sm text-xs text-gray-400'>
               *приказане цене су у РСД
             </p>
             <div
               className='uppercase gap-2  korpa-ikonica  p-2 flex w-full cursor-pointer items-center justify-center'
               onClick={() => dodajProizvodUKorpu(p)}
             >
-              <p className='lg:text-sm text-xs text-gray-600'>додај у корпу</p>
+              <p className='text-base text-gray-600'>додај у корпу</p>
               <span className=' xl:text-3xl text-xl text-yellow-500  '>
                 <FaShoppingCart />
               </span>

@@ -41,7 +41,7 @@ export const createArr = (length) => [...Array(length).keys()];
 export const H1 = ({ children, className = '', onClick = null }) => {
   return (
     <h1
-      className={`${className}  xl:text-3xl md:text-2xl sm:text-xl uppercase`}
+      className={`${className}  xl:text-3xl md:text-2xl sm:text-xl   uppercase`}
       onClick={onClick}
     >
       {children}
@@ -73,5 +73,16 @@ export const P = ({ children, width = '2/3', className = '' }) => {
     >
       {children}
     </p>
+  );
+};
+
+//grid product list
+export const GridContainer = ({ children, className = '' }) => {
+  return (
+    <div
+      className={`xl:w-4/5 w-full grid ${className} grid-cols-2 gap-y-6 xl:gap-y-10 gap-x-4 mt-6 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8`}
+    >
+      {children}
+    </div>
   );
 };

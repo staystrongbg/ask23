@@ -15,7 +15,7 @@ import { useGlobalContext } from '../context';
 const Footer = () => {
   const { height, scrollToTop } = useGlobalContext();
   const location = {
-    address: 'Dr. Drage Ljočić 3, Beograd',
+    address: 'Др Драге Љочић, Београд',
     lat: 44.80241,
     lng: 20.5242,
   };
@@ -23,13 +23,13 @@ const Footer = () => {
   return (
     <footer className='bg-blue-900/80 w-full items-start justify-betwee flex  lg:flex-row flex-col xs:text-sm overflow-hidden text-red-50 md:px-10 px-2 py-5'>
       <div className='md:ml-8 flex flex-col items-start  justify-between md:w-2/3 w-full'>
-        <div className='address flex md:justify-start justify-center   md:gap-40 gap-5 md:text-base text-xs items-center  md:items-start border-b border-gray-500 pb-4  '>
-          <div className='flex flex-col items-center justify-center text-center'>
+        <div className='address flex md:justify-start justify-center   md:gap-40 gap-5  items-center  md:items-start border-b border-gray-500 pb-4  '>
+          <div className='flex flex-col items-start justify-center text-center'>
             <span className={ICON_STYLE}>
               <FaMapMarkerAlt />
             </span>
             <b>Адреса</b>
-            <p> Др Драге Љочић 3, Београд</p>
+            <p> {location.address}</p>
           </div>
           <div className='flex flex-col items-center whitespace-nowrap justify-center'>
             <span className={ICON_STYLE}>
@@ -47,7 +47,7 @@ const Footer = () => {
           </div>
         </div>
         <div className='flex md:flex-row flex-col md:gap-40 gap-10   py-4 items-start'>
-          <div className='flex flex-col items-start gap-8'>
+          <div className='flex flex-col items-start gap-8 w-[300px]'>
             <Image src='/asklogo.svg' width={200} height={80} alt='logo' />
             <p className='moto text-sm'>
               Из огромне љубави према животињама родила се жеља да се отвори
@@ -66,7 +66,7 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div className='flex gap-10'>
+          <div className='flex gap-10 text-base'>
             <div className='flex flex-col whitespace-nowrap '>
               <b>Мапа сајта</b>
               <Links text_color='text-gray-50' />

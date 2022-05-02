@@ -39,7 +39,7 @@ const Topbar = () => {
           <span className={ICON_STYLE}>
             <FaPhone />
           </span>
-          069 288 71 94
+          069 288 72 94
         </div>
         <div
           className={` flex flex-col md:flex-row gap-2 items-center justify-center whitespace-nowrap`}
