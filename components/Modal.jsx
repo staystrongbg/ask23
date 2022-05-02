@@ -1,9 +1,10 @@
 import { useEffect } from 'react';
 import { FaTimes } from 'react-icons/fa';
 import { useGlobalContext } from '../context';
-import Proizvod from './SwiperProizvod';
+import NonSwiperProizvod from './NonSwiperProizvod';
+import { GridContainer } from './utils';
 const Modal = () => {
-  const { setSearchTerm, searchProducts, kbEvents } = useGlobalContext();
+  const { setSearchTerm, searchProducts } = useGlobalContext();
 
   return (
     <div
@@ -15,13 +16,17 @@ const Modal = () => {
       >
         <FaTimes className='w-[24px] h-[24px] text-gray-800' />
       </span>
-      {searchProducts &&
-        searchProducts.map((p, idx) => <Proizvod key={idx} {...p} />)}
-      {!searchProducts.length && (
-        <h2 className='price  inline text-gray-700   text-xl'>
-          Nema proizvoda koji odgovaraju pretrazi...
-        </h2>
-      )}
+      <GridContainer>
+        {searchProducts &&
+          searchProducts.map((p, idx) => (
+            <NonSwiperProizvod key={idx} {...p} />
+          ))}
+        {!searchProducts.length && (
+          <h2 className='price  inline text-gray-700   text-xl'>
+            Nema proizvoda koji odgovaraju pretrazi...
+          </h2>
+        )}
+      </GridContainer>
     </div>
   );
 };
