@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <>
       <Layout>
-        <Meta title='Почетна' />
+        <Meta title='ДОБРОДОШЛИ! - Почетна страна' />
 
         <div
           className={`wrapper w-full h-[600px] naslovna-bg flex items-center justify-center relative `}

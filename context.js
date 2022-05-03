@@ -77,10 +77,6 @@ const AppProvider = ({ children }) => {
     window.scrollTo(0, 0);
   };
 
-  // useEffect(() => {
-  //   console.log(proizvodiKorpa);
-  // }, [proizvodiKorpa]);
-
   const removeItemFromCart = (id) => {
     setProizvodiKorpa(proizvodiKorpa.filter((item) => item._id.$oid !== id));
     // localStorage.removeItem('korpa');

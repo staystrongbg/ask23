@@ -11,12 +11,8 @@ import Link from 'next/link';
 const Cart = () => {
   const { proizvodiKorpa, setCart, removeItemFromCart } = useGlobalContext();
   const [order, setOrder] = useState(false);
-  const [details, setDetails] = useState(false);
   const [zavrsiKupovinu, setZavrsiKupovinu] = useState(false);
-  const sendMail = (e) => {
-    e.preventDefault();
-    console.log(proizvodiKorpa);
-  };
+
   return (
     <div className='flex flex-col'>
       <span

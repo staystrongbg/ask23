@@ -1,10 +1,13 @@
 import Layout from '../components/Layout';
+import Meta from '../components/Meta';
 import Placeholder from '../components/Placeholder';
 import { H1, P } from '../components/utils';
 
 const About = () => {
   return (
     <Layout>
+      <Meta title='О нама' />
+
       <div className={`wrapper w-full  bg-gray-200 `}>
         <div className='flex flex-col  xl:w-5/6 w-full m-auto mb-12'>
           <H1 className='my-8 text-center   '>Ко је АСК23?</H1>

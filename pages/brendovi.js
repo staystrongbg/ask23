@@ -2,9 +2,11 @@ import Layout from '../components/Layout';
 import { H1, P, createArr } from '../components/utils';
 
 import Placeholder from '../components/Placeholder';
+import Meta from '../components/Meta';
 const Brendovi = () => {
   return (
     <Layout>
+      <Meta title='Сви произвођачи'
       <div className={`wrapper w-full   `}>
         <div className='flex flex-col  xl:w-5/6 w-full m-auto mb-12'>
           <H1 className='my-8 text-center'>Брендови</H1>

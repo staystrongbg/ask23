@@ -4,6 +4,7 @@ import Button2 from '../../components/Buttone2';
 import { useGlobalContext } from '../../context';
 import { useState } from 'react';
 import Image from 'next/image';
+import Meta from '../../components/Meta';
 
 const ProizvodPojedinacno = ({ product }) => {
   const {
@@ -18,6 +19,8 @@ const ProizvodPojedinacno = ({ product }) => {
 
   return (
     <Layout>
+      <Meta title={product.name} />
+
       <div className={`wrapper w-full  `}>
         <article className='flex flex-col lg:w-4/5 w-full m-auto p-4 bg-transparent'>
           <h1 className='text-3xl mb-5 text-orange-900 '>{product.name}</h1>

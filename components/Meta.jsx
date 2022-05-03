@@ -6,13 +6,14 @@ const Meta = ({ keywords, description, title }) => {
       <meta name='keywords' content={keywords} />
       <meta name='description' content={description} />
       <link rel='icon' href='/favicon.ico' />
-      <title>A C K 2 3 | Dobrodošli! - {title}</title>
+      <title>A C K 2 3 - {title}</title>
     </Head>
   );
 };
 
 Meta.defaultProps = {
-  keywords: 'kućni ljubimci, hrana za pse i mačke',
+  keywords:
+    'kućni ljubimci, hrana za pse, mačke, glodare, ribice i ptice, macke,psi,пси,мачке, рибице,птице, храна за кућне љубимце',
   description: 'Sve za vašeg kućnog ljubimca',
 };
 

@@ -33,7 +33,7 @@ const Kategorija = ({ page }) => {
   // console.log(vrstaZivotinje.filter((v) => v.tip === 'Korpa'));
   return (
     <Layout>
-      <Meta title={page[0].title} />
+      <Meta title={`Производи за ${page[0].title}`} />
 
       <div className={`wrapper w-full `}>
         {/* //top slider */}
