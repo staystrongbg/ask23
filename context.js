@@ -131,6 +131,7 @@ const AppProvider = ({ children }) => {
     setVrsteProizvoda([]);
     setShowTip(false);
     setPagination({ page: 1, perPage: 8 });
+    setIsSearching(false);
   }, [router.pathname, router.asPath]);
 
   return (

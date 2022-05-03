@@ -6,12 +6,16 @@ import {
   FaFacebook,
   FaInstagram,
   FaArrowUp,
+  FaTimes,
 } from 'react-icons/fa';
 import Links from './Links';
 import Image from 'next/image';
+import { useState } from 'react';
 import Map from './Map';
 import Link from 'next/link';
+import ClickAwayListener from '@mui/material/ClickAwayListener';
 import { useGlobalContext } from '../context';
+import { H2, ICON_STYLE_FOOTER, P } from './utils';
 const Footer = () => {
   const { height, scrollToTop } = useGlobalContext();
   const location = {
@@ -19,27 +23,52 @@ const Footer = () => {
     lat: 44.80241,
     lng: 20.5242,
   };
-  const ICON_STYLE = 'bg-gray-700 text-slate-50  rounded-full p-2';
+
+  const [korisnickiServis, setKorisnickiServis] = useState({
+    servis: '',
+    propratni: '',
+  });
+
   return (
-    <footer className='bg-blue-900/80 w-full items-start justify-between flex  lg:flex-row flex-col xs:text-sm overflow-hidden text-red-50 md:px-10 px-2 py-5'>
+    <footer className='bg-blue-900/80 w-full items-start justify-betwee flex  lg:flex-row flex-col xs:text-sm overflow-hidden text-red-50 md:px-10 px-2 py-5'>
+      {korisnickiServis.servis && (
+        <ClickAwayListener
+          onClickAway={() => setKorisnickiServis({ servis: '', propratni: '' })}
+        >
+          <div
+            className='fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-gray-100 rounded-md border-2 shadow-lg text-gray-700 py-8 px-4 w-[500px] z-50 '
+            style={{ animation: 'fadeIn 0.3s ease' }}
+          >
+            <span
+              className='absolute top-2 right-2 text-xl'
+              onClick={() => setKorisnickiServis({ servis: '', propratni: '' })}
+            >
+              <FaTimes />
+            </span>
+            <H2 className='text-center mb-8'>{korisnickiServis.servis}</H2>
+            <p className='text-center'>{korisnickiServis.propratni}</p>
+          </div>
+        </ClickAwayListener>
+      )}
+
       <div className='md:ml-8 flex flex-col items-start  justify-between md:w-2/3 w-full'>
-        <div className='address flex md:justify-start justify-center   md:gap-40 gap-5  items-start border-b border-gray-500 pb-4  '>
+        <div className='address flex md:justify-start justify-center   md:gap-40 gap-5  items-start  md:items-start border-b border-gray-500 pb-4  '>
           <div className='flex flex-col items-center justify-center text-center'>
-            <span className={ICON_STYLE}>
+            <span className={ICON_STYLE_FOOTER}>
               <FaMapMarkerAlt />
             </span>
             <b>Адреса</b>
             <p> {location.address}</p>
           </div>
           <div className='flex flex-col items-center whitespace-nowrap justify-center'>
-            <span className={ICON_STYLE}>
+            <span className={ICON_STYLE_FOOTER}>
               <FaPhone />
             </span>
             <b>Телефон</b>
             <p>069 288 72 94</p>
           </div>
           <div className='flex flex-col items-center justify-center'>
-            <span className={ICON_STYLE}>
+            <span className={ICON_STYLE_FOOTER}>
               <FaEnvelope />
             </span>
             <b>Имејл</b>
@@ -57,10 +86,10 @@ const Footer = () => {
             <div className='social flex-col text-xl flex  gap-4'>
               <p>Пратите нас на друштвеним мрежама</p>
               <div className='flex gap-4'>
-                <span className={ICON_STYLE}>
+                <span className={ICON_STYLE_FOOTER}>
                   <FaFacebook />
                 </span>
-                <span className={ICON_STYLE}>
+                <span className={ICON_STYLE_FOOTER}>
                   <FaInstagram />
                 </span>
               </div>
@@ -74,11 +103,50 @@ const Footer = () => {
 
             <div className='whitespace-nowrap   '>
               <b>Кориснички сервиси</b>
-              <ul className='flex flex-col gap-2 mt-1'>
-                <li>Испорука робе</li>
-                <li>Начини плаћања</li>
-                <li>Враћање робе</li>
-                <li>Рекламације</li>
+              <ul className='flex flex-col gap-2 mt-1 cursor-pointer'>
+                <li
+                  onClick={(e) =>
+                    setKorisnickiServis({
+                      servis: e.target.textContent,
+                      propratni: 'Испорука робу вршимо курирском службом Бех',
+                    })
+                  }
+                >
+                  Испорука робе
+                </li>
+                <li
+                  onClick={(e) =>
+                    setKorisnickiServis({
+                      servis: e.target.textContent,
+                      propratni:
+                        'Плаћање се врши по пријему поузећем или уплатом на рачун',
+                    })
+                  }
+                >
+                  Начини плаћања
+                </li>
+                <li
+                  onClick={(e) =>
+                    setKorisnickiServis({
+                      servis: e.target.textContent,
+                      propratni:
+                        'Враћање робе у року од три дана од дана куповине',
+                    })
+                  }
+                >
+                  Враћање робе
+                </li>
+                <li
+                  onClick={(e) =>
+                    setKorisnickiServis({
+                      servis: e.target.textContent,
+                      propratni:
+                        'Проверите робу и кусур на лицу места. Додатне рекламације на уважамо. Продавац је дужан да вам изда фисклани рачун',
+                    })
+                  }
+                >
+                  Рекламације
+                </li>
               </ul>
             </div>
           </div>

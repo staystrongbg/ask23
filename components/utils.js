@@ -20,6 +20,8 @@ export const textStyle = (color, className) =>
 //dropdown icon stilovi
 export const ICON_STYLE =
   'bg-gray-50 rounded-full w-8 h-8 items-center  justify-center flex ';
+//footer icon style
+export const ICON_STYLE_FOOTER = 'bg-gray-700 text-slate-50  rounded-full p-2';
 
 //filteri
 export const UL_LIST_STYLE =

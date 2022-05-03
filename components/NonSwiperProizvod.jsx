@@ -12,13 +12,13 @@ const NonSwiperProizvod = ({ ...p }) => {
         <div
           className={` min-h-96 xl:h-96   bg-gray-100 hover:shadow-lg rounded-md overflow-hidden transition-all  border-2  flex flex-col  justify-start relative`}
           style={{ animation: 'fadeIn 0.3s ease-out' }}
-          onClick={() => setSearchTerm('')}
         >
           <div className='w-full lg:h-1/2 h-1/3'>
             <Link href={`proizvodi/${p._id.$oid.toString()}`}>
               <a>
                 {/* u nexy config... */}
                 <img
+                  onClick={() => setSearchTerm('')}
                   className='product-image  rounded-t-md object-cover h-full w-full cursor-pointer'
                   src={p.image}
                   alt=''
