@@ -14,7 +14,7 @@ const SwiperProizvod = ({ ...p }) => {
 
   return (
     <div
-      className={`w-72 h-96 lg:text-base text-xs bg-gray-100 hover:shadow-lg rounded-md  transition-all relative  border-2 flex flex-col justify-start `}
+      className={`w-72 h-[420px] lg:text-base text-xs bg-gray-100 hover:shadow-lg rounded-md  transition-all relative  border-2 flex flex-col justify-start `}
       onClick={closeOverlays}
     >
       <div className='w-full h-1/2 relative '>
@@ -29,6 +29,14 @@ const SwiperProizvod = ({ ...p }) => {
         </Link>
       </div>
       <div className='p-2 flex flex-col items-center justify-around lg:h-1/2 h-2/3 '>
+        <div className='flex gap-4 mt-2 '>
+          <span className='rounded-lg bg-gray-200 text-gray-500 py-1 px-2'>
+            {p.tip}
+          </span>
+          <span className='bg-gray-200 rounded-lg text-gray-500 py-1 px-2'>
+            {p.title}
+          </span>
+        </div>
         <h3 className='title xl:text-base text-sm text-blue-700 '>
           {p.name.toUpperCase()}
         </h3>

@@ -82,7 +82,7 @@ export const P = ({ children, width = '2/3', className = '' }) => {
 export const GridContainer = ({ children, className = '' }) => {
   return (
     <div
-      className={`xl:w-4/5 w-full grid ${className} grid-cols-2 gap-y-6 xl:gap-y-10 gap-x-4 mt-6 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8`}
+      className={`xl:w-4/5 w-full grid ${className} grid-cols-1 sm:grid-cols-2 gap-y-6 xl:gap-y-10 gap-x-2 mt-6 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-4`}
     >
       {children}
     </div>
