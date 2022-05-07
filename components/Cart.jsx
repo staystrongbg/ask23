@@ -164,20 +164,36 @@ const Cart = () => {
           <form
             className='flex flex-col gap-2 border p-4 bg-white text-gray-600 w-96'
             method='POST'
-            action='https://formsubmit.co/staystrongbg@gmail.com'
+            action='https://formsubmit.co/beograd.l@yandex.com'
           >
             <input type='hidden' value='table' name='_template' />
             <input type='hidden' name='_next' value='http://localhost:3000/' />
-            <TextField label='Име' variant='standard' name='ime' />
-            <TextField label='Презиме' variant='standard' name='prezime' />{' '}
+            <TextField label='Име' variant='outlined' name='ime' required />
+            <TextField
+              label='Презиме'
+              variant='outlined'
+              name='prezime'
+              required
+            />
             <TextField
               label='Email'
-              variant='standard'
+              variant='outlined'
               name='email'
               type='email'
+              required
             />{' '}
-            <TextField label='Адреса' variant='standard' name='adresa' />{' '}
-            <TextField label='Телефон' variant='standard' name='telefon' />
+            <TextField
+              label='Адреса'
+              variant='outlined'
+              name='adresa'
+              required
+            />
+            <TextField
+              label='Телефон'
+              variant='outlined'
+              name='telefon'
+              required
+            />
             <textarea
               className='hidden'
               name='message'

@@ -88,3 +88,17 @@ export const GridContainer = ({ children, className = '' }) => {
     </div>
   );
 };
+//brand logos
+function importAll(r) {
+  return r.keys().map(r);
+}
+
+const getBrandLogo = () => {
+  const f = importAll(
+    require.context('/public/brendovi', false, /\.(png|jpe?g|JPG|webp|svg)$/)
+  );
+
+  return f.map((img) => img.default).map((image) => image.src);
+};
+
+export const brands = getBrandLogo();

@@ -79,9 +79,8 @@ const Footer = () => {
           <div className='flex flex-col items-start gap-8 w-[300px]'>
             <Image src='/asklogo.svg' width={200} height={80} alt='logo' />
             <p className='moto text-sm'>
-              Из огромне љубави према животињама родила се жеља да се отвори
-              продавница за куће љубимце која ће у понуди имати све што наше
-              љубимце чини ситим и срећним.
+              продавница за куће љубимце која у понуди има све што наше љубимце
+              чини ситим и срећним.
             </p>
             <div className='social flex-col text-xl flex  gap-4'>
               <p>Пратите нас на друштвеним мрежама</p>

@@ -1,22 +1,6 @@
 import Image from 'next/image';
 import BottomLine from './BottomLine';
-import Placeholder from './Placeholder';
-import { createArr, H1 } from './utils';
-
-function importAll(r) {
-  return r.keys().map(r);
-}
-
-const getBrandLogo = () => {
-  const f = importAll(
-    require.context('/public/brendovi', false, /\.(png|jpe?g|JPG|webp|svg)$/)
-  );
-
-  return f.map((img) => img.default).map((image) => image.src);
-};
-
-const brands = getBrandLogo();
-// console.log(brands);
+import { createArr, H1, brands } from './utils';
 
 const Brendovi = () => {
   return (

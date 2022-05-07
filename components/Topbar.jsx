@@ -8,7 +8,7 @@ import {
 import ClickAwayListener from '@mui/material/ClickAwayListener';
 import { useState } from 'react';
 import Sidebar from './sidebar';
-
+import { BiTime } from 'react-icons/bi';
 import { Search } from './Search';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -19,8 +19,8 @@ const Topbar = () => {
   const { cart, setCart, isSearching, links, shake, proizvodiKorpa } =
     useGlobalContext();
   const [showSidebar, setShowSidebar] = useState(false);
-
   const ICON_STYLE = 'bg-gray-700 text-slate-50  rounded-full p-2';
+
   return (
     <div className='w-full bg-gradient-to-r from-orange-800 to-orange-600 text-slate-50 flex  xl:items-center xl:justify-center xl:gap-16 py-2  fixed top-0 z-40  '>
       <Search />
@@ -32,6 +32,14 @@ const Topbar = () => {
             <FaMapMarkerAlt />
           </span>
           Др Драге Љочић 3, Београд
+        </div>
+        <div
+          className={` flex flex-col md:flex-row gap-2 items-center justify-center whitespace-nowrap `}
+        >
+          <span className={ICON_STYLE}>
+            <BiTime />
+          </span>
+          9 - 20ч
         </div>
         <div
           className={` flex flex-col md:flex-row gap-2 items-center justify-center whitespace-nowrap`}

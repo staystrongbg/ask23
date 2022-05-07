@@ -2,21 +2,21 @@ import Button from './Button';
 import styles from '../styles/pitajte.module.scss';
 import BottomLine from './BottomLine';
 import { useRouter } from 'next/router';
+import TextField from '@mui/material/TextField';
+
 const Pitajte = () => {
   const router = useRouter();
-  function redirect() {
-    router.replace('/');
-  }
+
   return (
     <div className={styles['pitajte']}>
-      <h2>Имате питање за нас?</h2>
+      <h2>Поставите нам питање</h2>
       <BottomLine />
       <form
         method='POST'
-        action='https://formsubmit.co/staystrongbg@gmail.com'
+        action='https://formsubmit.co/beograd.l@yandex.com'
         className={styles['form']}
       >
-        <input type='hidden' value='table' name='_template' />
+        {/* <input type='hidden' value='table' name='_template' />
         <input type='hidden' name='_next' value='http://localhost:3000/' />
         <input
           id={styles['ime']}
@@ -32,12 +32,24 @@ const Pitajte = () => {
           placeholder='Имејл*'
           required
         />
-        <textarea
+          <textarea
+            name='pitanje'
+            id={styles['pitanje']}
+            placeholder='Питање*'
+            required
+          ></textarea> */}
+        <TextField label='Име' variant='outlined' name='ime' required />
+        <TextField label='email' variant='outlined' name='email' required />
+
+        <TextField
+          id='filled-textarea'
+          label='питање'
+          multiline
           name='pitanje'
-          id={styles['pitanje']}
-          placeholder='Питање*'
+          rows={10}
+          variant='outlined'
           required
-        ></textarea>
+        />
         <Button title='пошаљи' type='submit' />
       </form>
     </div>

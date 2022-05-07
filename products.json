@@ -4,11 +4,10 @@
       "$oid": "6257d0abc1d4d9a0790c0c09"
     },
     "tip": "гребалица",
-    "name": "гребалица угаона 49.5X23.5CM,BEZ",
-
+    "name": "гребалица угаона 49.5X23.5CM, беж",
     "price": "1548.52",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/grebalica-ugaona-bez.jpg",
     "novo": false,
     "akcija": false,
     "title": "мачке",
@@ -19,11 +18,10 @@
       "$oid": "6257d0abc1d4d9a0790c0c0a"
     },
     "tip": "играчке",
-    "name": "игр.мататаби са перјем,20CM",
-
+    "name": "играчка мататаби са перјем,20CM",
     "price": "243.20",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/matatabi.jpg",
     "novo": true,
     "akcija": false,
     "title": "мачке",
@@ -35,10 +33,9 @@
     },
     "tip": "играчке",
     "name": "лоптице и ролне 4CM - за мачке",
-
     "price": "57.67",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/trixie-loptice-i-rolne-45cm.webp",
     "novo": true,
     "akcija": false,
     "title": "мачке",
@@ -49,11 +46,10 @@
       "$oid": "6257d0abc1d4d9a0790c0c0c"
     },
     "tip": "играчке",
-    "name": "лоптица обмо.памуч.канап. 4.5CM - за мачке",
-
+    "name": "лоптица обмотана памучним канапом 4.5CM - за мачке",
     "price": "129.95",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/loptica-obmotana-pam-kan.jpeg",
     "novo": false,
     "akcija": false,
     "title": "мачке",
@@ -65,10 +61,9 @@
     },
     "tip": "играчке",
     "name": "4 лопте звецке,4.5CM",
-
     "price": "48.73",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/lopte-zvecke.jpg",
     "novo": false,
     "akcija": true,
     "title": "мачке",
@@ -80,7 +75,6 @@
     },
     "tip": "играчке",
     "name": "24 крзнена\"мишија парада\"",
-
     "price": "109.10",
     "detail": "-",
     "image": "/placeholder-image.png",
@@ -94,11 +88,10 @@
       "$oid": "6257d0abc1d4d9a0790c0c0f"
     },
     "tip": "играчке",
-    "name": "штап са перјем,50CM",
-
+    "name": "штап са перјем, 50CM",
     "price": "143.48",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/stap-perje.jpg",
     "novo": false,
     "akcija": false,
     "title": "мачке",
@@ -109,11 +102,11 @@
       "$oid": "6257d0abc1d4d9a0790c0c10"
     },
     "tip": "огрлица",
-    "name": "огр. MACE-NECKI са марамом",
+    "name": "огрлица маце NECKI са марамом",
 
     "price": "368.18",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/mace-necki-marama.jpg",
     "novo": false,
     "akcija": false,
     "title": "мачке",
@@ -124,11 +117,11 @@
       "$oid": "6257d0abc1d4d9a0790c0c11"
     },
     "tip": "опрема",
-    "name": "спреј од мачије траве,50ML",
+    "name": "спреј од мачије траве, 50ML",
 
     "price": "308.62",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/sprej-mac-trava.jpg",
     "novo": false,
     "akcija": false,
     "title": "мачке",
@@ -139,11 +132,11 @@
       "$oid": "6257d0abc1d4d9a0790c0c12"
     },
     "tip": "опрема",
-    "name": "спреј од мачије траве,175ML",
+    "name": "спреј од мачије траве, 175ML",
 
     "price": "376.30",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/sprej-mac-trava.jpg",
     "novo": false,
     "akcija": false,
     "title": "мачке",
@@ -158,7 +151,7 @@
 
     "price": "219.28",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/sapica-posip.png",
     "novo": false,
     "akcija": false,
     "title": "мачке",
@@ -169,11 +162,11 @@
       "$oid": "6257d0abc1d4d9a0790c0c14"
     },
     "tip": "суплемент",
-    "name": "трава мачија,чинија 100G",
+    "name": "трава мачија, чинија 100G",
 
     "price": "192.21",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/trixie-macija-trava-u-posudi.jpg",
     "novo": false,
     "akcija": false,
     "title": "мачке",
@@ -184,11 +177,11 @@
       "$oid": "6257d0abc1d4d9a0790c0c15"
     },
     "tip": "тоалет",
-    "name": "лоп. за укл. посипа, тешка",
+    "name": "лопатица за укл. посипа, тешка",
 
     "price": "100.17",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/lopatica-teska.jpeg",
     "novo": false,
     "akcija": false,
     "title": "мачке",
@@ -199,11 +192,11 @@
       "$oid": "6257d0abc1d4d9a0790c0c16"
     },
     "tip": "тоалет",
-    "name": "лоп. за укл. посипа, густа",
+    "name": "лопатица за укл. посипа, густа",
 
     "price": "138.07",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/trixie-lopatica-za-uklanjanje-posipa.jpg",
     "novo": false,
     "akcija": false,
     "title": "мачке",
@@ -218,7 +211,7 @@
 
     "price": "472.18",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/Classic_tkani_am.jpg",
     "novo": false,
     "akcija": false,
     "title": "пси",
@@ -233,7 +226,7 @@
 
     "price": "554.30",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/am-za-psa.jpg",
     "novo": false,
     "akcija": false,
     "title": "пси",
@@ -248,7 +241,8 @@
 
     "price": "871.04",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/Classic_tkani_am.jpg",
+
     "novo": false,
     "akcija": false,
     "title": "пси",
@@ -263,7 +257,8 @@
 
     "price": "1032.35",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/am-za-psa.jpg",
+
     "novo": false,
     "akcija": false,
     "title": "пси",
@@ -278,7 +273,7 @@
 
     "price": "236.09",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/cinij-ker-za-mace.jpg",
     "novo": false,
     "akcija": false,
     "title": "мачке",
@@ -289,7 +284,7 @@
       "$oid": "6257d0abc1d4d9a0790c0c1c"
     },
     "tip": "чинија",
-    "name": "чинија за арт..24831,0.45L ростфрај ",
+    "name": "чинија за арт.24831,0.45L ростфрај ",
 
     "price": "145.29",
     "detail": "-",
@@ -323,7 +318,7 @@
 
     "price": "78.96",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/vuneno-uze.jpg",
     "novo": false,
     "akcija": false,
     "title": "мачке",
@@ -574,7 +569,7 @@
       "$oid": "6257d0abc1d4d9a0790c0c2f"
     },
     "tip": "посластица",
-    "name": "50 KOSTIкости за глод.прес..10GR/5CM",
+    "name": "50 кости за глод.прес. 10GR/5CM",
 
     "price": "30.05",
     "detail": "-",
@@ -589,7 +584,7 @@
       "$oid": "6257d0abc1d4d9a0790c0c30"
     },
     "tip": "посластица",
-    "name": "50 кости за глод.прес..20GR/8CM",
+    "name": "50 кости за глод.прес.20GR/8CM",
 
     "price": "52.66",
     "detail": "-",
