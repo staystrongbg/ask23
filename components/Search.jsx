@@ -1,11 +1,9 @@
-import { useState } from 'react';
 import { FaTimes } from 'react-icons/fa';
 import { useGlobalContext } from '../context';
 import Modal from './Modal';
 export const Search = () => {
   const { handleSearch, searchTerm, isSearching, setIsSearching } =
     useGlobalContext();
-  //local stejt
   return (
     <div
       className=' flex items-center gap-2 bg-transparent rounded-md cursor-pointer z-50'
@@ -50,7 +48,7 @@ export const Search = () => {
             <input
               type='text'
               autoFocus
-              placeholder='Име производа...'
+              placeholder='назив производа...'
               className={`search-input text-base font-bold p-2  h-10 xl:w-[40%] w-[98%] transition-all shadow-md bg-gray-100  rounded-sm text-slate-800 absolute top-12 xl:left-1/2 xl:-translate-x-1/2 left-1 z-50   `}
             />
           </form>

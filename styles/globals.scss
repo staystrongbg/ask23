@@ -19,35 +19,26 @@ body {
   clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
 }
 
-.wrapper {
-}
-
-a {
-  font-family: $primary-font;
-}
-
-ul {
-  font-family: $primary-font;
-}
-
+.par,
+.head,
+p,
+span,
 h1,
 h2,
-h3 {
-  font-family: $primary-font;
-}
-
-span {
-  font-family: $primary-font;
-}
-
-.par {
+h3,
+ul,
+li,
+a {
   font-family: $primary-font;
   font-weight: 400;
-  // font-size: 1.15rem;
+  // font-size: 1.55rem;
 }
 
-.head {
+b {
   font-family: $primary-font;
+  font-weight: bold;
+}
+.head {
   font-weight: 900;
 }
 
@@ -58,9 +49,6 @@ span {
 
 .shopping-cart {
   animation: slideRight 0.3s ease-in-out;
-}
-
-.breadcrumbs {
 }
 
 /* Chrome, Safari, Edge, Opera */

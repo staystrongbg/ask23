@@ -88,7 +88,7 @@ const Cart = () => {
         </>
       )}
       {zavrsiKupovinu && (
-        <div className='fixed top-2 left-2 bottom-2 right-2 rounded-lg bg-gray-50 flex flex-col items-center justify-start   p-4 overflow-scroll'>
+        <div className='fixed top-0 left-0 bottom-0 right-0  bg-gray-50 flex flex-col items-center justify-start   p-4 overflow-scroll'>
           <div className='flex flex-col items-center'>
             <Link href='/'>
               <a>

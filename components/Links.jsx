@@ -8,7 +8,7 @@ const Links = ({ text_color }) => {
       {links.map((link, i) => (
         <Link key={i} href={link.href}>
           <a
-            className={`select-none whitespace-nowrap ${text_color} border-b-4 border-transparent w-fit hover:border-orange-600   
+            className={`select-none whitespace-nowrap ${text_color} border-b-4 border-transparent w-fit hover:border-orange-600  sm:text-sm md:text-base lg:text-lg 
                `}
           >
             {link.name}
