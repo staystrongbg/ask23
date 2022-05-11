@@ -28,7 +28,7 @@ export const UL_LIST_STYLE =
   'flex items-center justify-start w-full mb-4 cursor-pointer text-base font-bold text-blue-900 whitespace-nowrap';
 
 export const LI_LIST_STYLE =
-  'list-none font-bold cursor-pointer text-blue-700 text-base mb-3 tracking-wide whitespace-nowrap capitalize ml-4 flex justify-between ';
+  'list-none font-bold cursor-pointer text-blue-700 text-base mb-3 tracking-wide whitespace-nowrap  ml-4 flex justify-between ';
 
 export const LIST_NAME_STYLE =
   'font-bold sm:text-base text-sm uppercase tracking-widest flex-col flex';
