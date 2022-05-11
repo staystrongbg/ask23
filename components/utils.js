@@ -8,7 +8,7 @@ export const imgStyle = (margin) =>
 export const detailsContainer = (margin, textAlign) =>
   `${margin} ${textAlign} py-2  absolute flex flex-col gap-2  `;
 
-export const imgWidth = (width) => `${width} h-2/3  absolute left-0 bottom-0`;
+export const imgWidth = (width) => `${width} h-2/3  absolute m-auto bottom-0`;
 
 export const headingStyle = (color) =>
   ` xl:text-5xl break-all text-3xl tracking-normal  uppercase head ${color}`;
