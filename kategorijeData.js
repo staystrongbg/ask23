@@ -8,7 +8,7 @@ export const categoryData = [
     textStyle: 'text-red-900',
     detailsContainer: ['left-4 top-4', 'text-left'],
     background: ['bg-red-400', 'bg-left-bottom'],
-    imageStyle: '-left-10',
+    imageStyle: '',
     imgWidth: 'w-full',
   },
   {
@@ -32,7 +32,7 @@ export const categoryData = [
     textStyle: 'text-blue-800',
     detailsContainer: ['right-4 top-10', 'text-right'],
     background: ['bg-blue-300', 'bg-right-bottom'],
-    imageStyle: '-left-20',
+    imageStyle: '',
     imgWidth: 'w-full',
   },
   {
@@ -44,7 +44,7 @@ export const categoryData = [
     textStyle: 'text-blue-900',
     detailsContainer: ['left-4 top-4'],
     background: ['bg-blue-400', 'bg-left-bottom'],
-    imageStyle: '-left-20',
+    imageStyle: '',
     imgWidth: 'w-full',
   },
   {
@@ -56,7 +56,7 @@ export const categoryData = [
     textStyle: 'text-green-900',
     detailsContainer: ['right-2 top-2', 'text-right'],
     background: ['bg-green-400', 'bg-right-bottom'],
-    imageStyle: '-left-10',
+    imageStyle: '',
     imgWidth: 'w-1/2',
   },
 ];
