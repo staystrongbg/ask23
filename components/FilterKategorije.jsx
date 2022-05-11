@@ -29,7 +29,7 @@ export const FilterKategorije = ({ numberOfProductsByType }) => {
   } = useGlobalContext();
 
   return (
-    <ul className={LIST_NAME_STYLE}>
+    <ul>
       <span
         className={UL_LIST_STYLE}
         onClick={() => setShowTitles(!showTitles)}
@@ -62,7 +62,6 @@ export const FilterKategorije = ({ numberOfProductsByType }) => {
           >
             <span>{title}</span>
             <span>
-              ({' '}
               {title === 'све'
                 ? numberOfProductsByType.length
                 : numberOfProductsByType.filter((u) => u.title === title)
@@ -98,7 +97,7 @@ export const FilterTip = ({ numberOfProductsByType }) => {
   }, [vrstaZivotinje]);
 
   return (
-    <ul className={`${LIST_NAME_STYLE}  `}>
+    <ul>
       <span className={UL_LIST_STYLE} onClick={() => setShowTip(!showTip)}>
         тип производа
         <FaChevronRight className={` ${showTip && CHEVRON_ROTATING_STYLE}`} />
@@ -143,7 +142,7 @@ export const FilterTip = ({ numberOfProductsByType }) => {
 export const FilterSort = () => {
   const { setItems, items, showfilters, setShowFilters } = useGlobalContext();
   return (
-    <ul className={LIST_NAME_STYLE}>
+    <ul>
       <span
         className={UL_LIST_STYLE}
         onClick={() => setShowFilters(!showfilters)}

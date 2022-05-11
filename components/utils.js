@@ -6,7 +6,7 @@ export const imgStyle = (margin) =>
   ` object-cover w-full h-full absolute ${margin}`;
 
 export const detailsContainer = (margin, textAlign) =>
-  `${margin} ${textAlign}  absolute flex flex-col gap-2  `;
+  `${margin} ${textAlign} py-2  absolute flex flex-col gap-2  `;
 
 export const imgWidth = (width) => `${width} h-2/3  absolute left-0 bottom-0`;
 
@@ -25,13 +25,11 @@ export const ICON_STYLE_FOOTER = 'bg-gray-700 text-slate-50  rounded-full p-2';
 
 //filteri
 export const UL_LIST_STYLE =
-  'flex items-center justify-start w-full mb-4 cursor-pointer text-base font-bold text-blue-900 whitespace-nowrap';
+  'flex items-center justify-start w-full mb-4 cursor-pointer sm:text-xl text-base font-bold text-blue-900 whitespace-nowrap';
 
 export const LI_LIST_STYLE =
   'list-none font-bold cursor-pointer text-blue-700 text-base mb-3 tracking-wide whitespace-nowrap  ml-4 flex justify-between ';
 
-export const LIST_NAME_STYLE =
-  'font-bold sm:text-base text-sm uppercase tracking-widest flex-col flex';
 //filteri kraj
 
 export const CHEVRON_ROTATING_STYLE = 'rotate-90 transition-all';
