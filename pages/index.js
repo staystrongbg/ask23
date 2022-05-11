@@ -1,10 +1,7 @@
 import Meta from '../components/Meta';
 import Layout from '../components/Layout';
 import Kategorije from '../components/Kategorije';
-import Modal from '../components/Modal';
-import Akcije from '../components/Akcije';
 import Noviteti from '../components/Noviteti';
-import Hero from '../components/Hero';
 import Brendovi from '../components/Brendovi';
 
 export default function Home() {

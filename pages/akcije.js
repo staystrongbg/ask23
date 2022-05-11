@@ -9,7 +9,7 @@ import NonSwiperProizvod from '../components/NonSwiperProizvod';
 
 import SwiperComponent from '../components/SwiperComponent';
 import { useGlobalContext } from '../context';
-import { GridContainer, H1, P } from '../components/utils';
+import { GridContainer, H1, H2, P } from '../components/utils';
 import Button2 from '../components/Buttone2';
 const Akcije = () => {
   const { products, items, pagination, setPagination, vrstaZivotinje } =
@@ -52,6 +52,11 @@ const Akcije = () => {
                     .filter((f) => f.akcija)
                     .slice(0, pagination.page * pagination.perPage)
                     .map((p, idx) => <NonSwiperProizvod key={idx} {...p} />)}
+                {
+                  (items.filter((item) => item.akcija).length = 0 && (
+                    <H2>Тренутно нема производа на акцији</H2>
+                  ))
+                }
               </GridContainer>
             </div>
             {items.filter((f) => f.akcija).length >

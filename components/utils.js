@@ -1,6 +1,6 @@
 //kategorija stilovi
-export const cardStyle = (bg, pawPos) =>
-  `${bg} w-[150px] h-[150px] xl:w-[240px] xl:h-[240px] rounded-sm items-center relative justify-between flex flex-col overflow-hidden shadow-custom hover:scale-110 transition-all bg-blend-multiply rounded-lg border-4 border-gray-500/50 bg-[url('/animals/paw.svg')] bg-no-repeat  ${pawPos}`;
+export const cardStyle = (bg) =>
+  `${bg} w-[150px] h-[150px] xl:w-[240px] xl:h-[240px] rounded-sm items-center relative justify-between flex flex-col overflow-hidden shadow-custom hover:scale-110 transition-all bg-blend-multiply rounded-lg border-4 border-gray-500/50 `;
 
 export const imgStyle = (margin) =>
   ` object-cover w-full h-full absolute ${margin}`;
@@ -25,10 +25,10 @@ export const ICON_STYLE_FOOTER = 'bg-gray-700 text-slate-50  rounded-full p-2';
 
 //filteri
 export const UL_LIST_STYLE =
-  'flex items-center justify-start w-full mb-4 cursor-pointer text-sm text-blue-900 whitespace-nowrap';
+  'flex items-center justify-start w-full mb-4 cursor-pointer text-base font-bold text-blue-900 whitespace-nowrap';
 
 export const LI_LIST_STYLE =
-  'list-none font-bold cursor-pointer text-blue-700 text-sm mb-3 tracking-wide whitespace-nowrap capitalize ml-4 flex justify-between ';
+  'list-none font-bold cursor-pointer text-blue-700 text-base mb-3 tracking-wide whitespace-nowrap capitalize ml-4 flex justify-between ';
 
 export const LIST_NAME_STYLE =
   'font-bold sm:text-base text-sm uppercase tracking-widest flex-col flex';
@@ -71,7 +71,7 @@ export const H2 = ({
 export const P = ({ children, width = '2/3', className = '' }) => {
   return (
     <p
-      className={`xl:w-${width}  sm:text-base text-sm w-full border-b sm:py-10 py-5 border-dashed border-gray-500 mb-20 ${className} `}
+      className={`xl:w-${width}  sm:text-xl text-sm w-full border-b sm:py-10 py-5 border-dashed border-gray-500 mb-20 ${className} `}
     >
       {children}
     </p>

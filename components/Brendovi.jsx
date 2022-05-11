@@ -10,12 +10,12 @@ const Brendovi = () => {
         Добродошли у АСК23 <br /> место где ћете наћи све што вашег љубимца чини
         срећним!
       </H1>
-      <p className='text-white drop-shadow-md mt-10 text-center '>
+      <p className='text-white drop-shadow-md mt-10 text-center text-xl tracking-wide '>
         Код нас ћете наћи производе реномираних произвођача
       </p>
       <BottomLine />
       <div className=' flex flex-wrap items-center justify-center w-4/5 gap-4 '>
-        {brands.map((logo, idx) => {
+        {brands.slice(0, 7).map((logo, idx) => {
           return (
             <img
               key={idx}

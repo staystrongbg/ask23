@@ -7,6 +7,7 @@ import {
   FaInstagram,
   FaArrowUp,
   FaTimes,
+  FaChevronUp,
 } from 'react-icons/fa';
 import Links from './Links';
 import Image from 'next/image';
@@ -154,11 +155,11 @@ const Footer = () => {
 
       {offset && (
         <div
-          className=' z-50 fixed bottom-5 p-2 animate-bounce right-2 rounded-full bg-purple-900 text-gray-50 text-3xl cursor-pointer sm:block hidden '
+          className={` z-50 fixed bottom-5 p-2 animate-bounce right-2 rounded-full bg-purple-900 text-gray-50 text-3xl cursor-pointer lg:block hidden opacity-50 hover:opacity-100 transition-all`}
           title='назад на врх стране'
           onClick={scrollToTop}
         >
-          <FaArrowUp />
+          <FaChevronUp />
         </div>
       )}
       <Map location={location} zoomLevel={17} />

@@ -22,22 +22,16 @@ body {
 .par,
 .head,
 p,
-span,
 h1,
 h2,
+span,
 h3,
+b,
 ul,
-li,
-a {
+li a {
   font-family: $primary-font;
-  font-weight: 400;
-  // font-size: 1.55rem;
 }
 
-b {
-  font-family: $primary-font;
-  font-weight: bold;
-}
 .head {
   font-weight: 900;
 }

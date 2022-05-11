@@ -8,7 +8,7 @@ const Modal = () => {
 
   return (
     <div
-      className={`fixed  top-0 left-0 right-0 bottom-0 bg-gray-200/90 z-50 flex items-center justify-center flex-wrap overflow-auto p-4 gap-8 shadow-lg`}
+      className={`fixed  top-0 left-0 right-0 bottom-0 bg-gray-100/90 z-50 flex items-center justify-center flex-wrap overflow-auto p-4 gap-8 shadow-lg`}
     >
       <span
         className='absolute top-4 right-4 cursor-pointer'

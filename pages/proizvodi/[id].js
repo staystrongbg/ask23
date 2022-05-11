@@ -23,7 +23,9 @@ const ProizvodPojedinacno = ({ product }) => {
 
       <div className={`wrapper w-full  `}>
         <article className='flex flex-col lg:w-4/5 w-full m-auto p-4 bg-transparent'>
-          <h1 className='text-3xl mb-5 text-orange-900 '>{product.name}</h1>
+          <h1 className='text-3xl mb-5 text-orange-900 '>
+            {product.name.toUpperCase()}
+          </h1>
           <div className='flex md:flex-row flex-col gap-4'>
             <div className='flex justify-center xl:max-w-[600px] p-4 bg-white '>
               <Image
