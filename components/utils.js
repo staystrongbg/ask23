@@ -1,20 +1,28 @@
 //kategorija stilovi
-export const cardStyle = (bg) =>
-  `${bg} w-[150px] h-[150px] xl:w-[240px] xl:h-[240px] rounded-sm items-center relative justify-between flex flex-col overflow-hidden shadow-custom hover:scale-110 transition-all bg-blend-multiply rounded-lg border-4 border-gray-500/50 `;
+export const CategoryCard = ({ children, className }) => {
+  return (
+    <span
+      className={`w-[150px] h-[150px] xl:w-[240px] xl:h-[240px] rounded-sm items-center relative justify-center flex flex-col overflow-hidden shadow-custom hover:scale-110 transition-all  gap-4 bg-blend-multiply border-4 border-gray-500/50 ${className}`}
+    >
+      {children}
+    </span>
+  );
+};
 
-export const imgStyle = (margin) =>
-  ` object-cover w-full h-full absolute ${margin}`;
+export const CategoryTitle = ({ className, children }) => {
+  return (
+    <h3
+      className={`${className} xl:text-5xl break-all text-3xl tracking-normal  uppercase head`}
+    >
+      {children}
+    </h3>
+  );
+};
 
-export const detailsContainer = (margin, textAlign) =>
-  `${margin} ${textAlign} py-2  absolute flex flex-col gap-2  `;
+export const CategoryImgContainer = ({ children, className }) => {
+  return <div className={`${className}    `}>{children}</div>;
+};
 
-export const imgWidth = (width) => `${width} h-2/3  absolute m-auto bottom-0`;
-
-export const headingStyle = (color) =>
-  ` xl:text-5xl break-all text-3xl tracking-normal  uppercase head ${color}`;
-
-export const textStyle = (color, className) =>
-  `sm:text-base text-sm  ${color} z-10 par ${className} `;
 //kategorijastilovi
 
 //dropdown icon stilovi
