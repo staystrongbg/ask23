@@ -2,7 +2,7 @@
 export const CategoryCard = ({ children, className }) => {
   return (
     <span
-      className={`w-[150px] h-[150px] xl:w-[240px] xl:h-[240px] rounded-sm items-center relative justify-center flex flex-col overflow-hidden shadow-custom hover:scale-110 transition-all  gap-4 bg-blend-multiply border-4 border-gray-500/50 ${className}`}
+      className={`w-[150px] h-[150px] xl:w-[240px] xl:h-[240px] rounded-lg items-center relative justify-center flex flex-col overflow-hidden shadow-custom hover:scale-110 transition-all  gap-4 bg-blend-multiply border-4 border-gray-800/50 ${className}`}
     >
       {children}
     </span>
