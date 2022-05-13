@@ -329,11 +329,11 @@
       "$oid": "6257d0abc1d4d9a0790c0c1f"
     },
     "tip": "играчке",
-    "name": "дента фан канап,памуч.500G/60CM",
+    "name": " denta fun канап,памуч.500G/60CM",
 
     "price": "586.56",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/dentafun-kanap-sareni-40cm.webp",
     "novo": false,
     "akcija": false,
     "title": "мачке",
@@ -348,7 +348,7 @@
 
     "price": "177.66",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/lopta-pamuc-kanap.jpeg",
     "novo": false,
     "akcija": false,
     "title": "мачке",
@@ -363,7 +363,7 @@
 
     "price": "222.78",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/trixie-jezasta-lopta-od-vinila.png ",
     "novo": false,
     "akcija": false,
     "title": "мачке",
@@ -378,7 +378,7 @@
 
     "price": "290.46",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/lopta-pamuc-kanap.jpeg",
     "novo": false,
     "akcija": false,
     "title": "мачке",
@@ -393,7 +393,7 @@
 
     "price": "376.19",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/korpa-najlon-podes.jpg",
     "novo": false,
     "akcija": false,
     "title": "пси",
@@ -408,7 +408,7 @@
 
     "price": "406.80",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/korpa-najlon-podes.jpg",
     "novo": false,
     "akcija": false,
     "title": "пси",
@@ -423,7 +423,8 @@
 
     "price": "477.55",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/korpa-najlon-podes.jpg",
+
     "novo": false,
     "akcija": false,
     "title": "пси",
@@ -438,7 +439,8 @@
 
     "price": "517.98",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/korpa-najlon-podes.jpg",
+
     "novo": false,
     "akcija": false,
     "title": "пси",
@@ -453,7 +455,8 @@
 
     "price": "545.77",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/korpa-najlon-podes.jpg",
+
     "novo": false,
     "akcija": false,
     "title": "пси",
@@ -468,7 +471,7 @@
 
     "price": "205.30",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/davilica.jpg",
     "novo": false,
     "akcija": false,
     "title": "пси",
@@ -483,7 +486,8 @@
 
     "price": "296.89",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/davilica.jpg",
+
     "novo": false,
     "akcija": false,
     "title": "пси",
@@ -498,7 +502,7 @@
 
     "price": "290.46",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/ogrlica-premium.jpg",
     "novo": false,
     "akcija": false,
     "title": "пси",
@@ -513,7 +517,7 @@
 
     "price": "130.19",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/set-ogrlica.jpg",
     "novo": false,
     "akcija": false,
     "title": "пси",
@@ -528,7 +532,7 @@
 
     "price": "284.48",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/valjak-dlake.jpeg",
     "novo": false,
     "akcija": false,
     "title": "пси",
@@ -543,7 +547,8 @@
 
     "price": "73.32",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/valjak-dlake.jpeg",
+
     "novo": false,
     "akcija": false,
     "title": "пси",
@@ -558,7 +563,7 @@
 
     "price": "6.50",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/rolne-za-glodanje.jpg",
     "novo": false,
     "akcija": false,
     "title": "глодари",
@@ -573,7 +578,7 @@
 
     "price": "30.05",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/kost_za_glodanje.jpg",
     "novo": false,
     "akcija": false,
     "title": "пси",
@@ -588,7 +593,8 @@
 
     "price": "52.66",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/kost_za_glodanje.jpg",
+
     "novo": false,
     "akcija": false,
     "title": "пси",
@@ -599,11 +605,11 @@
       "$oid": "6257d0abc1d4d9a0790c0c31"
     },
     "tip": "поводац",
-    "name": "пов.CLASSIC 1.2-1.8/10-црвени",
+    "name": "поводац CLASSIC 1.2-1.8/10-црвени",
 
     "price": "358.14",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/povodac-classic.jpg",
     "novo": false,
     "akcija": false,
     "title": "пси",
@@ -614,11 +620,10 @@
       "$oid": "6257d0abc1d4d9a0790c0c32"
     },
     "tip": "поводац",
-    "name": "пов.CLASSIC XS-S,1.20M/15MM црни",
-
+    "name": "поводац CLASSIC XS-S,1.20M/15MM црни",
     "price": "363.78",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/povodac-classic.jpg",
     "novo": false,
     "akcija": false,
     "title": "пси",
@@ -629,11 +634,11 @@
       "$oid": "6257d0abc1d4d9a0790c0c33"
     },
     "tip": "поводац",
-    "name": "пов.CLASSIC 1.2-1.8/20-црни",
+    "name": "поводац CLASSIC 1.2-1.8/20-црни",
 
     "price": "541.44",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/povodac-1-2.jpeg",
     "novo": false,
     "akcija": false,
     "title": "пси",
@@ -644,11 +649,12 @@
       "$oid": "6257d0abc1d4d9a0790c0c34"
     },
     "tip": "поводац",
-    "name": "пов.CLASSIC L-XL,1.00M/25MM црни",
+    "name": "пововода CLASSIC L-XL,1.00M/25MM црни",
 
     "price": "583.74",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/povodac-1-2.jpeg",
+
     "novo": false,
     "akcija": false,
     "title": "пси",
@@ -663,7 +669,7 @@
 
     "price": "157.02",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/HRANILICA-POJILICA.jpg",
     "novo": false,
     "akcija": false,
     "title": "птице",
@@ -678,7 +684,8 @@
 
     "price": "170.55",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/HRANILICA-POJILICA.jpg",
+
     "novo": false,
     "akcija": false,
     "title": "птице",
@@ -689,11 +696,11 @@
       "$oid": "6257d0abc1d4d9a0790c0c37"
     },
     "tip": "хранилица/појилица",
-    "name": "хранилица појилица.посудица за кавезе,130ML",
+    "name": "хранилица појилица - посудица за кавезе,130ML",
 
     "price": "99.49",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/hranilica-pojilica.jpg",
     "novo": false,
     "akcija": false,
     "title": "птице",
@@ -708,7 +715,7 @@
 
     "price": "104.34",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/ljuljaska-zvonce.jpg",
     "novo": false,
     "akcija": false,
     "title": "птице",
@@ -723,7 +730,7 @@
 
     "price": "118.44",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/merdevine-5-p.jpg",
     "novo": false,
     "akcija": false,
     "title": "птице",
@@ -738,7 +745,7 @@
 
     "price": "127.24",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/3-loptice-rešetka.jpg",
     "novo": false,
     "akcija": false,
     "title": "птице",
@@ -753,7 +760,7 @@
 
     "price": "159.05",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/polukruzna.jpg",
     "novo": false,
     "akcija": false,
     "title": "птице",
@@ -765,10 +772,9 @@
     },
     "tip": "играчке",
     "name": "мердевине дрвене,8пречки,36cm",
-
     "price": "152.28",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/8precki.webp",
     "novo": false,
     "akcija": false,
     "title": "птице",
@@ -783,7 +789,7 @@
 
     "price": "248.16",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/penjalica-drvena.jpg",
     "novo": false,
     "akcija": false,
     "title": "птице",
@@ -798,7 +804,7 @@
 
     "price": "260.57",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/ljuljaska-polukruzna.jpg",
     "novo": false,
     "akcija": false,
     "title": "птице",
@@ -813,7 +819,7 @@
 
     "price": "539.64",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/prsten-pamucni-drvena-kugla.jpg",
     "novo": false,
     "akcija": false,
     "title": "птице",
@@ -828,7 +834,7 @@
 
     "price": "114.15",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/kamen-kljucanje-jod.jpg",
     "novo": false,
     "akcija": false,
     "title": "птице",
@@ -843,7 +849,7 @@
 
     "price": "150.48",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/kamen-kljucanje-jod.jpg",
     "novo": false,
     "akcija": false,
     "title": "птице",
@@ -858,7 +864,7 @@
 
     "price": "171.23",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/kamen-kljucanje-alge.jpg",
     "novo": false,
     "akcija": false,
     "title": "птице",
@@ -869,11 +875,11 @@
       "$oid": "6257d0abc1d4d9a0790c0c43"
     },
     "tip": "сосић",
-    "name": "FRISKIES Cat сос JUNIOR пилкетина(multipack), 4x85g",
+    "name": "FRISKIES Cat сос JUNIOR пилетина(multipack), 4x85g",
 
     "price": "40.76",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/friskies-cat-sauce-junior.jpg",
     "novo": false,
     "akcija": false,
     "title": "мачке",
@@ -888,7 +894,7 @@
 
     "price": "826.25",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/pro-plan-cat-sterilised-renal-rabbit.jpg",
     "novo": false,
     "akcija": false,
     "title": "мачке",
@@ -903,7 +909,7 @@
 
     "price": "82.65",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/gourmet-gold-cat-chicken-liver.jpg",
     "novo": false,
     "akcija": false,
     "title": "мачке",
@@ -918,7 +924,7 @@
 
     "price": "82.65",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/gourmet-gold-cat-lamb-duck.jpg",
     "novo": false,
     "akcija": false,
     "title": "мачке",
@@ -933,7 +939,7 @@
 
     "price": "82.65",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/gourmet-gold-cat-tuna.jpg",
     "novo": false,
     "akcija": false,
     "title": "мачке",
@@ -948,7 +954,7 @@
 
     "price": "81.18",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/gourmet-gold-cat-cig.jpg",
     "novo": false,
     "akcija": false,
     "title": "мачке",
@@ -963,7 +969,7 @@
 
     "price": "114.11",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/felix-party-mix-grill.jpg",
     "novo": false,
     "akcija": false,
     "title": "мачке",
@@ -978,7 +984,7 @@
 
     "price": "114.11",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/felix-party-mix-ocean.jpg",
     "novo": false,
     "akcija": false,
     "title": "мачке",
@@ -993,7 +999,7 @@
 
     "price": "114.11",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/felix-party-mix.jpg",
     "novo": false,
     "akcija": false,
     "title": "мачке",
@@ -1008,7 +1014,7 @@
 
     "price": "56.32",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/felix-sauce-lamb.jpg",
     "novo": false,
     "akcija": false,
     "title": "мачке",
@@ -1023,7 +1029,7 @@
 
     "price": "78.18",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/friskies-cat-sauce-beef.jpg",
     "novo": false,
     "akcija": false,
     "title": "мачке",
@@ -1038,7 +1044,7 @@
 
     "price": "78.18",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/friskies-cat-sauce-salmon.jpg",
     "novo": false,
     "akcija": false,
     "title": "мачке",
@@ -1053,7 +1059,7 @@
     "kolicina": "kg",
     "price": "553.24",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/pro-plan-dog-all-sizes.jpg",
     "novo": false,
     "akcija": false,
     "title": "пси",
@@ -1068,7 +1074,7 @@
 
     "price": "183.77",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/dentalife-large-dog.png",
     "novo": false,
     "akcija": false,
     "title": "пси",
@@ -1083,7 +1089,7 @@
 
     "price": "183.77",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/dentalife-medium-dog.png",
     "novo": false,
     "akcija": false,
     "title": "пси",
@@ -1098,7 +1104,7 @@
 
     "price": "179.90",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/dentalife-small-dog.png",
     "novo": false,
     "akcija": false,
     "title": "пси",
@@ -1113,7 +1119,7 @@
 
     "price": "49.77",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/friskies-dog-sauce-adult.jpeg",
     "novo": false,
     "akcija": false,
     "title": "пси",
@@ -1128,7 +1134,7 @@
 
     "price": "579.13",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/pro-plan-dog-medium.jpg",
     "novo": false,
     "akcija": false,
     "title": "пси",
@@ -1143,7 +1149,7 @@
 
     "price": "49.28",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/friskies-dog-sauce-junior.jpg",
     "novo": false,
     "akcija": false,
     "title": "пси",
@@ -1158,11 +1164,11 @@
 
     "price": "122.76",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/gnawing-stone-strawberry.jpg",
     "novo": false,
     "akcija": false,
-    "title": "пси",
-    "link": "psi"
+    "title": "глодари",
+    "link": "glodari"
   },
   {
     "_id": {
@@ -1173,11 +1179,11 @@
 
     "price": "122.76",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/gnawing-stone.jpg",
     "novo": false,
     "akcija": false,
-    "title": "пси",
-    "link": "psi"
+    "title": "глодари",
+    "link": "glodari"
   },
   {
     "_id": {
@@ -1188,11 +1194,11 @@
 
     "price": "136.17",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/hvt-premium.jpg",
     "novo": false,
     "akcija": false,
-    "title": "пси",
-    "link": "psi"
+    "title": "глодари",
+    "link": "glodari"
   },
   {
     "_id": {
@@ -1203,11 +1209,11 @@
 
     "price": "134.00",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/hvt-premium-citrus.jpg",
     "novo": false,
     "akcija": false,
-    "title": "пси",
-    "link": "psi"
+    "title": "глодари",
+    "link": "glodari"
   },
   {
     "_id": {
@@ -1218,11 +1224,11 @@
 
     "price": "134.00",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/hvt-premium-apple.jpg",
     "novo": false,
     "akcija": false,
-    "title": "пси",
-    "link": "psi"
+    "title": "глодари",
+    "link": "glodari"
   },
   {
     "_id": {
@@ -1233,7 +1239,7 @@
 
     "price": "100.15",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/se-hamster-400.jpg",
     "novo": false,
     "akcija": false,
     "title": "глодари",
@@ -1248,7 +1254,7 @@
 
     "price": "273.84",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/mn-miscuglio-criceti-hamster.jpg",
     "novo": false,
     "akcija": false,
     "title": "глодари",
@@ -1263,11 +1269,11 @@
 
     "price": "326.80",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/meadow-hay-1.jpg",
     "novo": false,
     "akcija": false,
-    "title": "пси",
-    "link": "psi"
+    "title": "глодари",
+    "link": "glodari"
   },
   {
     "_id": {
@@ -1278,7 +1284,7 @@
 
     "price": "256.78",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/gh-who-cares.jpg",
     "novo": false,
     "akcija": false,
     "title": "мачке",
@@ -1293,7 +1299,7 @@
 
     "price": "278.37",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/gh-who-cares.jpg",
     "novo": false,
     "akcija": false,
     "title": "мачке",
@@ -1308,7 +1314,7 @@
 
     "price": "302.37",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/gh-who-cares-lavander.jpg",
     "novo": false,
     "akcija": false,
     "title": "мачке",
@@ -1323,7 +1329,7 @@
 
     "price": "529.17",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/mm-moksi-silicon-sand-cat-3.jpg",
     "novo": false,
     "akcija": false,
     "title": "мачке",
@@ -1338,7 +1344,7 @@
 
     "price": "538.31",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/imperial-care-clumping-cat-litter-baby-powder.jpg",
     "novo": false,
     "akcija": false,
     "title": "мачке",
@@ -1349,11 +1355,11 @@
       "$oid": "6257d0abc1d4d9a0790c0c63"
     },
     "tip": "посип",
-    "name": "MM 5l Moksi сликонски песак за маце",
+    "name": "MM 5l Moksi силиконски песак за маце",
 
     "price": "667.29",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/mm-moksi-silicon-sand-cat.jpg",
     "novo": false,
     "akcija": false,
     "title": "мачке",
@@ -1368,7 +1374,7 @@
 
     "price": "122.40",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/mm-bags-moksi-regular.jpg",
     "novo": false,
     "akcija": false,
     "title": "пси",
@@ -1383,7 +1389,7 @@
 
     "price": "126.72",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/mm-box-bag-moksi.jpg",
     "novo": false,
     "akcija": false,
     "title": "пси",
@@ -1398,7 +1404,7 @@
 
     "price": "84.48",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/mm-moksi-mini-salam-dog-cat.jpg",
     "novo": false,
     "akcija": false,
     "title": "пси",
@@ -1413,7 +1419,7 @@
 
     "price": "128.18",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/mm-salam-dog-cat-beef.jpg",
     "novo": false,
     "akcija": false,
     "title": "пси",
@@ -1428,7 +1434,7 @@
 
     "price": "128.18",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/mm-salam-dog-cat-chicken.jpg",
     "novo": false,
     "akcija": false,
     "title": "пси",
@@ -1443,7 +1449,7 @@
 
     "price": "128.18",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/mm-salam-dog-cat-ham.jpg",
     "novo": false,
     "akcija": false,
     "title": "пси",
@@ -1458,7 +1464,7 @@
 
     "price": "79.11",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/jumbo-sausage-30.jpg",
     "novo": false,
     "akcija": false,
     "title": "пси",
@@ -1473,7 +1479,7 @@
 
     "price": "126.72",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/mm-moksi-dry-beef.jpg",
     "novo": false,
     "akcija": false,
     "title": "пси",
@@ -1488,7 +1494,7 @@
 
     "price": "197.69",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/slim-sausage.jpg",
     "novo": false,
     "akcija": false,
     "title": "пси",
@@ -1503,7 +1509,7 @@
 
     "price": "27.82",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/mini-bones-ham.jpg",
     "novo": false,
     "akcija": false,
     "title": "пси",
@@ -1518,7 +1524,7 @@
 
     "price": "7.66",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/meat-sticks-80.jpg",
     "novo": false,
     "akcija": false,
     "title": "пси",
@@ -1533,7 +1539,7 @@
 
     "price": "7.82",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/mm-munchy.jpg",
     "novo": false,
     "akcija": false,
     "title": "пси",
@@ -1548,7 +1554,7 @@
 
     "price": "9.98",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/mm-munchy.jpg",
     "novo": false,
     "akcija": false,
     "title": "пси",
@@ -1563,7 +1569,7 @@
 
     "price": "46.38",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/maxi-starsstick-ham.jpg",
     "novo": false,
     "akcija": false,
     "title": "пси",
@@ -1578,7 +1584,7 @@
 
     "price": "904.36",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/mp-transporter-gipsy-s.jpg",
     "novo": false,
     "akcija": false,
     "title": "мачке",
@@ -1593,7 +1599,7 @@
 
     "price": "1635.71",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/mp-transporter-gipsy.jpg",
     "novo": false,
     "akcija": false,
     "title": "мачке",
@@ -1608,7 +1614,7 @@
 
     "price": "228.00",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/mn-kanarinci-stapici-med.jpg",
     "novo": false,
     "akcija": false,
     "title": "птице",
@@ -1623,7 +1629,7 @@
 
     "price": "228.00",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/mn-kanarinci-stapici-voce.jpg",
     "novo": false,
     "akcija": false,
     "title": "птице",
@@ -1638,7 +1644,7 @@
 
     "price": "366.13",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/mn-nimfe-stapici-lesnici.jpg",
     "novo": false,
     "akcija": false,
     "title": "птице",
@@ -1653,7 +1659,7 @@
 
     "price": "366.13",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/mn-nimfe-stapici-voce.jpg",
     "novo": false,
     "akcija": false,
     "title": "птице",
@@ -1668,7 +1674,7 @@
 
     "price": "82.06",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/se-minerali-za-ptice.jpg",
     "novo": false,
     "akcija": false,
     "title": "птице",
@@ -1683,7 +1689,7 @@
 
     "price": "80.24",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/se-proso.jpg",
     "novo": false,
     "akcija": false,
     "title": "птице",
@@ -1698,7 +1704,7 @@
 
     "price": "125.76",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/se-kanarinci.jpg",
     "novo": false,
     "akcija": false,
     "title": "птице",
@@ -1713,7 +1719,7 @@
 
     "price": "120.41",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/se-bar-u-klasu.jpg",
     "novo": false,
     "akcija": false,
     "title": "птице",
@@ -1728,7 +1734,7 @@
 
     "price": "136.24",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/se-nimfe.jpg",
     "novo": false,
     "akcija": false,
     "title": "птице",
@@ -1739,11 +1745,11 @@
       "$oid": "6257d0abc1d4d9a0790c0c7d"
     },
     "tip": "семенке",
-    "name": "CE ти+грице 400g",
+    "name": "CE тигрице 400g",
 
     "price": "128.68",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/se-tigrice.jpg",
     "novo": false,
     "akcija": false,
     "title": "птице",
@@ -1758,7 +1764,7 @@
 
     "price": "236.76",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/mn-parakeets-universal.jpg",
     "novo": false,
     "akcija": false,
     "title": "птице",
@@ -1773,7 +1779,7 @@
 
     "price": "281.41",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/mn-miscuglio-canarini.jpg",
     "novo": false,
     "akcija": false,
     "title": "птице",
@@ -1788,7 +1794,7 @@
 
     "price": "288.76",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/mn-agapornis-parakeets.jpg",
     "novo": false,
     "akcija": false,
     "title": "птице",
@@ -1803,7 +1809,7 @@
     "kolicina": "kg",
     "price": "364.36",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/cibau-lamb-sensitive-medium-maxi.jpg",
     "novo": false,
     "akcija": false,
     "title": "пси",
@@ -1818,11 +1824,11 @@
     "kolicina": "kg",
     "price": "476.41",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/matisse-kitten-chicken-rice.jpg",
     "novo": false,
     "akcija": false,
-    "title": "пси",
-    "link": "psi"
+    "title": "мачке",
+    "link": "macke"
   },
   {
     "_id": {
@@ -1833,11 +1839,11 @@
     "kolicina": "kg",
     "price": "449.81",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/matisse-neutered-salmon-adult-cat.jpg",
     "novo": false,
     "akcija": false,
-    "title": "пси",
-    "link": "psi"
+    "title": "мачке",
+    "link": "macke"
   },
   {
     "_id": {
@@ -1848,7 +1854,7 @@
     "kolicina": "kg",
     "price": "722.12",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/n&d-adult-dog-blueberry.jpg",
     "novo": false,
     "akcija": false,
     "title": "пси",
@@ -1863,7 +1869,7 @@
     "kolicina": "kg",
     "price": "771.35",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/n&d-mini-dog-blueberry.jpg",
     "novo": false,
     "akcija": false,
     "title": "пси",
@@ -1878,7 +1884,7 @@
     "kolicina": "kg",
     "price": "664.90",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/n&d-mini-dog-pomegranate.jpg",
     "novo": false,
     "akcija": false,
     "title": "пси",
@@ -1893,7 +1899,7 @@
     "kolicina": "kg",
     "price": "391.25",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/n&d-grain-dog-pomegranate.jpg",
     "novo": false,
     "akcija": false,
     "title": "пси",
@@ -1908,11 +1914,11 @@
     "kolicina": "kg",
     "price": "772.71",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/n&d-grain-cat-blueberry.jpg",
     "novo": false,
     "akcija": false,
-    "title": "пси",
-    "link": "psi"
+    "title": "мачке",
+    "link": "macke"
   },
   {
     "_id": {
@@ -1923,11 +1929,11 @@
     "kolicina": "kg",
     "price": "747.87",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/n&d-grain-cat-pomegranate.jpg",
     "novo": false,
     "akcija": false,
-    "title": "пси",
-    "link": "psi"
+    "title": "мачке",
+    "link": "macke"
   },
   {
     "_id": {
@@ -1938,7 +1944,7 @@
 
     "price": "179.76",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/dog-menu-beef-l.png",
     "novo": false,
     "akcija": false,
     "title": "пси",
@@ -1953,7 +1959,7 @@
 
     "price": "179.76",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/dog-menu-chicken-l.jpg",
     "novo": false,
     "akcija": false,
     "title": "пси",
@@ -1968,7 +1974,7 @@
 
     "price": "78.96",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/cat-menu-chicken.jpg",
     "novo": false,
     "akcija": false,
     "title": "мачке",
@@ -1983,7 +1989,7 @@
 
     "price": "78.96",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/cat-menu-fish.png",
     "novo": false,
     "akcija": false,
     "title": "мачке",
@@ -1998,7 +2004,7 @@
 
     "price": "78.96",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/cat-menu-beef.jpg",
     "novo": false,
     "akcija": false,
     "title": "мачке",
@@ -2013,7 +2019,7 @@
 
     "price": "78.96",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/dog-menu-chicken.jpg",
     "novo": false,
     "akcija": false,
     "title": "пси",
@@ -2028,7 +2034,7 @@
 
     "price": "78.96",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/dog-menu-beef.jpg",
     "novo": false,
     "akcija": false,
     "title": "пси",
@@ -2039,15 +2045,15 @@
       "$oid": "6257d0abc1d4d9a0790c0c91"
     },
     "tip": "конзерва",
-    "name": "Nuevo говедина Gr`ain free, 400g",
+    "name": "Nuevo говедина Grain free, 400g",
 
     "price": "216.31",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/nuevo-beef-grain-free.jpg",
     "novo": false,
     "akcija": false,
-    "title": "мачке",
-    "link": "macke"
+    "title": "пси",
+    "link": "psi"
   },
   {
     "_id": {
@@ -2058,11 +2064,11 @@
 
     "price": "216.31",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/nuevo-lamb-potato-grain-free.png",
     "novo": false,
     "akcija": false,
-    "title": "мачке",
-    "link": "macke"
+    "title": "пси",
+    "link": "psi"
   },
   {
     "_id": {
@@ -2073,7 +2079,7 @@
 
     "price": "142.74",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/nuevo-sensitive-grain-free.jpg",
     "novo": false,
     "akcija": false,
     "title": "мачке",
@@ -2088,7 +2094,7 @@
 
     "price": "143.91",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/nuevo-kitten-chicken-rice-oil.jpg",
     "novo": false,
     "akcija": false,
     "title": "мачке",
@@ -2103,7 +2109,7 @@
 
     "price": "143.91",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/nuevo-grain-free-cats-beef.png",
     "novo": false,
     "akcija": false,
     "title": "мачке",
@@ -2118,7 +2124,7 @@
 
     "price": "41.50",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/plaisir-sauce-cat-12.jpg",
     "novo": false,
     "akcija": false,
     "title": "мачке",
@@ -2133,7 +2139,7 @@
 
     "price": "41.40",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/plaisir-sauce-kitten-chicken.jpg",
     "novo": false,
     "akcija": false,
     "title": "мачке",
@@ -2148,7 +2154,7 @@
 
     "price": "51.33",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "artikli/plaisir-kitten-chicken.jpg",
     "novo": false,
     "akcija": false,
     "title": "мачке",
@@ -2163,7 +2169,7 @@
 
     "price": "51.33",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/plaisir-cat-patte-chicken.jpg",
     "novo": false,
     "akcija": false,
     "title": "мачке",
@@ -2178,7 +2184,7 @@
 
     "price": "51.33",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/plaisir-cat-patte-beef.png",
     "novo": false,
     "akcija": false,
     "title": "мачке",
@@ -2193,7 +2199,7 @@
 
     "price": "51.33",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/plaisir-cat-patte-salmon.jpg",
     "novo": false,
     "akcija": false,
     "title": "мачке",
@@ -2208,7 +2214,7 @@
 
     "price": "78.59",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/plaisir-dog-patte.jpg",
     "novo": false,
     "akcija": false,
     "title": "пси",
@@ -2223,7 +2229,7 @@
 
     "price": "78.59",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/plaisir-dog-patte.png",
     "novo": false,
     "akcija": false,
     "title": "пси",
@@ -2238,7 +2244,7 @@
 
     "price": "78.59",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/plaisir-puppy-patte.jpg",
     "novo": false,
     "akcija": false,
     "title": "пси",
@@ -2253,7 +2259,7 @@
 
     "price": "639.58",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/diafarm-vm-energy.jpg",
     "novo": false,
     "akcija": false,
     "title": "мачке",
@@ -2268,7 +2274,7 @@
 
     "price": "608.96",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/diafarm-cat-malt.jpg",
     "novo": false,
     "akcija": false,
     "title": "мачке",
@@ -2283,7 +2289,7 @@
 
     "price": "80.00",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/heart-shaped-address.jpg",
     "novo": false,
     "akcija": false,
     "title": "мачке",
@@ -2298,7 +2304,7 @@
 
     "price": "1391.51",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/am-coco-mouse-brown.jpg",
     "novo": false,
     "akcija": false,
     "title": "пси",
@@ -2313,7 +2319,7 @@
 
     "price": "1292.29",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/am-coco-small.jpg",
     "novo": false,
     "akcija": false,
     "title": "пси",
@@ -2328,7 +2334,7 @@
 
     "price": "641.02",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/am-trekking-fuss-comf-red.jpg",
     "novo": false,
     "akcija": false,
     "title": "пси",
@@ -2343,7 +2349,7 @@
 
     "price": "1176.53",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/am-coco-small.jpg",
     "novo": false,
     "akcija": false,
     "title": "пси",
@@ -2358,7 +2364,7 @@
 
     "price": "1430.89",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/am-trekking-fuss-comf-red.jpg",
     "novo": false,
     "akcija": false,
     "title": "пси",
@@ -2373,7 +2379,7 @@
 
     "price": "1119.83",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/am-coco-small.jpg",
     "novo": false,
     "akcija": false,
     "title": "пси",
@@ -2388,7 +2394,7 @@
 
     "price": "423.90",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/scratcher-flat.jpg",
     "novo": false,
     "akcija": false,
     "title": "мачке",
@@ -2403,7 +2409,7 @@
 
     "price": "635.40",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/scratcher-pesciotto.jpg",
     "novo": false,
     "akcija": false,
     "title": "мачке",
@@ -2418,7 +2424,7 @@
 
     "price": "486.68",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/am-nylon-black.jpg",
     "novo": false,
     "akcija": false,
     "title": "пси",
@@ -2433,7 +2439,7 @@
 
     "price": "1700.06",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/transporter-pratico-2.jpg",
     "novo": false,
     "akcija": false,
     "title": "мачке",
@@ -2448,7 +2454,7 @@
 
     "price": "1416.56",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/transporter-pratico.jpg",
     "novo": false,
     "akcija": false,
     "title": "мачке",
@@ -2463,7 +2469,7 @@
 
     "price": "300.04",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/safety-belt-for-car.jpg",
     "novo": false,
     "akcija": false,
     "title": "пси",
@@ -2478,7 +2484,7 @@
 
     "price": "105.23",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/cat-toy-twister-box.jpg",
     "novo": false,
     "akcija": false,
     "title": "мачке",
@@ -2493,7 +2499,7 @@
 
     "price": "21.56",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/cat-toy-mixer.jpg",
     "novo": false,
     "akcija": false,
     "title": "мачке",
@@ -2508,7 +2514,7 @@
 
     "price": "79.35",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/ball-tennis-dogs.jpg",
     "novo": false,
     "akcija": false,
     "title": "пси",
@@ -2523,7 +2529,7 @@
 
     "price": "30.22",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/cat-metal-balls.jpg",
     "novo": false,
     "akcija": false,
     "title": "мачке",
@@ -2538,7 +2544,7 @@
 
     "price": "237.60",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/rope-ball-orange-blue.png",
     "novo": false,
     "akcija": false,
     "title": "пси",
@@ -2549,11 +2555,11 @@
       "$oid": "6257d0abc1d4d9a0790c0cb3"
     },
     "tip": "играчке",
-    "name": "играчка канап са лоптом нарљнџасто/плави 19cm ",
+    "name": "играчка канап са лоптом нарaнџасто/плави 19cm ",
 
     "price": "174.07",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/rope-ball-orange-blue.png",
     "novo": false,
     "akcija": false,
     "title": "пси",
@@ -2568,7 +2574,7 @@
 
     "price": "499.95",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/d-leash-reflect.jpg",
     "novo": false,
     "akcija": false,
     "title": "пси",
@@ -2583,7 +2589,7 @@
 
     "price": "424.88",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/leash-metal.jpg",
     "novo": false,
     "akcija": false,
     "title": "пси",
@@ -2598,7 +2604,7 @@
 
     "price": "294.53",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/leash-metal.jpg",
     "novo": false,
     "akcija": false,
     "title": "пси",
@@ -2613,7 +2619,7 @@
 
     "price": "351.45",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/leash-metal.jpg",
     "novo": false,
     "akcija": false,
     "title": "пси",
@@ -2628,7 +2634,7 @@
 
     "price": "557.87",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/leash-gajtan.jpg",
     "novo": false,
     "akcija": false,
     "title": "пси",
@@ -2643,7 +2649,7 @@
 
     "price": "451.26",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/leash-gajtan.jpg",
     "novo": false,
     "akcija": false,
     "title": "пси",
@@ -2658,7 +2664,7 @@
 
     "price": "557.87",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/leash-gajtan.jpg",
     "novo": false,
     "akcija": false,
     "title": "пси",
@@ -2673,7 +2679,7 @@
 
     "price": "335.34",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/leash-gajtan.jpg",
     "novo": false,
     "akcija": false,
     "title": "пси",
@@ -2688,7 +2694,7 @@
 
     "price": "335.34",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/leash-gajtan.jpg",
     "novo": false,
     "akcija": false,
     "title": "пси",
@@ -2703,7 +2709,7 @@
 
     "price": "213.84",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/leash-gajtan.jpg",
     "novo": false,
     "akcija": false,
     "title": "пси",
@@ -2718,7 +2724,7 @@
 
     "price": "270.14",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/leash-gajtan.jpg",
     "novo": false,
     "akcija": false,
     "title": "пси",
@@ -2733,7 +2739,7 @@
 
     "price": "246.33",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/leash-gajtan.jpg",
     "novo": false,
     "akcija": false,
     "title": "пси",
@@ -2748,7 +2754,7 @@
 
     "price": "557.87",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/leash-gajtan.jpg",
     "novo": false,
     "akcija": false,
     "title": "пси",
@@ -2763,7 +2769,7 @@
 
     "price": "1267.87",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/leash-premium-lamb-skin.jpg",
     "novo": false,
     "akcija": false,
     "title": "пси",
@@ -2778,7 +2784,7 @@
 
     "price": "65.46",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/tetramix.jpg",
     "novo": false,
     "akcija": false,
     "title": "рибице",
@@ -2793,7 +2799,7 @@
 
     "price": "64.22",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/granula-crna-1-sitna.jpg",
     "novo": false,
     "akcija": false,
     "title": "рибице",
@@ -2808,7 +2814,7 @@
 
     "price": "138.32",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/tubifex.jpg",
     "novo": false,
     "akcija": false,
     "title": "рибице",
@@ -2823,7 +2829,7 @@
 
     "price": "64.22",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/granula-crna-2-krupna.jpg",
     "novo": false,
     "akcija": false,
     "title": "рибице",
@@ -2838,7 +2844,7 @@
 
     "price": "102.51",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/tropical-mix.png",
     "novo": false,
     "akcija": false,
     "title": "рибице",
@@ -2853,7 +2859,7 @@
 
     "price": "113.62",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/granula-crna-sitna.jpg",
     "novo": false,
     "akcija": false,
     "title": "рибице",
@@ -2868,7 +2874,7 @@
 
     "price": "1079.66",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/am-trekking-fuss-comf-purple.jpg",
     "novo": false,
     "akcija": false,
     "title": "пси",
@@ -2883,7 +2889,7 @@
 
     "price": "759.15",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/am-trekking-fuss-comf-purple.jpg",
     "novo": false,
     "akcija": false,
     "title": "пси",
@@ -2898,7 +2904,7 @@
 
     "price": "1039.92",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/am-trekking-fuss-comf-red.jpg",
     "novo": false,
     "akcija": false,
     "title": "пси",
@@ -2913,7 +2919,7 @@
 
     "price": "30.10",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/heart-moon-star-mix.jpg",
     "novo": false,
     "akcija": false,
     "title": "пси",
@@ -2928,7 +2934,7 @@
 
     "price": "26.33",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/mini-mix-2kg.jpg",
     "novo": false,
     "akcija": false,
     "title": "пси",
@@ -2943,11 +2949,11 @@
     "kolicina": "kg",
     "price": "205.74",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/premil-standard-poultry.png",
     "novo": false,
     "akcija": false,
-    "title": "пси",
-    "link": "psi"
+    "title": "мачке",
+    "link": "macke"
   },
   {
     "_id": {
@@ -2958,7 +2964,7 @@
     "kolicina": "kg",
     "price": "454.82",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/josera-culinesse-salmon.jpg",
     "novo": false,
     "akcija": false,
     "title": "мачке",
@@ -2973,7 +2979,7 @@
     "kolicina": "kg",
     "price": "469.14",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/josera-catelux-duck.jpeg",
     "novo": false,
     "akcija": false,
     "title": "мачке",
@@ -2988,7 +2994,7 @@
     "kolicina": "kg",
     "price": "121.44",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/premil-maxi-basic.png",
     "novo": false,
     "akcija": false,
     "title": "пси",
@@ -3003,7 +3009,7 @@
     "kolicina": "kg",
     "price": "225.91",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/josera-active-dog.jpg",
     "novo": false,
     "akcija": false,
     "title": "пси",
@@ -3018,7 +3024,7 @@
     "kolicina": "kg",
     "price": "786.60",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/royal-canin-mini-adult.jpg",
     "novo": false,
     "akcija": false,
     "title": "пси",
@@ -3033,7 +3039,7 @@
     "kolicina": "kg",
     "price": "596.51",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/royal-canin-medium-adult.jpg",
     "novo": false,
     "akcija": false,
     "title": "пси",
@@ -3048,7 +3054,7 @@
     "kolicina": "kg",
     "price": "852.15",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/royal-canin-mini-puppy.jpg",
     "novo": false,
     "akcija": false,
     "title": "пси",
@@ -3063,7 +3069,7 @@
     "kolicina": "kg",
     "price": "132.99",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/shampoo-long-hair-velelek.jpg",
     "novo": false,
     "akcija": false,
     "title": "пси",
@@ -3078,7 +3084,7 @@
 
     "price": "132.99",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/shampoo-short-hair-velelek.jpg",
     "novo": false,
     "akcija": false,
     "title": "пси",
@@ -3093,7 +3099,7 @@
 
     "price": "132.99",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/shampoo-parasite-velelek.jpg",
     "novo": false,
     "akcija": false,
     "title": "пси",
@@ -3108,7 +3114,7 @@
 
     "price": "132.99",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/shampoo-puppy-cats-velelek.jpg",
     "novo": false,
     "akcija": false,
     "title": "пси",
@@ -3123,7 +3129,7 @@
 
     "price": "163.02",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/vele-balm-velelek.jpg",
     "novo": false,
     "akcija": false,
     "title": "пси",
@@ -3138,7 +3144,7 @@
     "kolicina": "kg",
     "price": "412.25",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/gosbi-cat-adult.png",
     "novo": false,
     "akcija": false,
     "title": "мачке",
@@ -3153,7 +3159,7 @@
     "kolicina": "kg",
     "price": "463.37",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/gosbi-cat-kitten.png",
     "novo": false,
     "akcija": false,
     "title": "мачке",
@@ -3168,7 +3174,7 @@
     "kolicina": "kg",
     "price": "643.33",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/gosbi-grain-free-adult-mini.png",
     "novo": false,
     "akcija": false,
     "title": "пси",
@@ -3183,7 +3189,7 @@
     "kolicina": "kg",
     "price": "327.60",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/gosbi-life-puppy.png",
     "novo": false,
     "akcija": false,
     "title": "пси",
@@ -3198,7 +3204,7 @@
     "kolicina": "kg",
     "price": "569.42",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/gosbi-cat-sterilized-hairball.png",
     "novo": false,
     "akcija": false,
     "title": "мачке",
@@ -3213,7 +3219,7 @@
     "kolicina": "kg",
     "price": "636.59",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/gosbi-lamb-mini.png",
     "novo": false,
     "akcija": false,
     "title": "пси",
@@ -3228,7 +3234,7 @@
 
     "price": "495.72",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/anastasia-chicken.jpg",
     "novo": false,
     "akcija": false,
     "title": "мачке",
@@ -3243,7 +3249,7 @@
 
     "price": "189.55",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/antibacterial-wet-wipes.jpg",
     "novo": false,
     "akcija": false,
     "title": "мачке",
@@ -3258,7 +3264,7 @@
 
     "price": "326.43",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/drinking-bottle-blue.jpg",
     "novo": false,
     "akcija": false,
     "title": "мачке",
@@ -3273,7 +3279,7 @@
 
     "price": "276.64",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/drinking-bottle-blue.jpg",
     "novo": false,
     "akcija": false,
     "title": "мачке",
@@ -3288,7 +3294,7 @@
 
     "price": "409.28",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/catapult-thrower-tennis-ball.jpg",
     "novo": false,
     "akcija": false,
     "title": "пси",
@@ -3303,7 +3309,7 @@
 
     "price": "270.96",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/donut-dog-toy.jpg",
     "novo": false,
     "akcija": false,
     "title": "пси",
@@ -3318,7 +3324,7 @@
 
     "price": "392.45",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/losion-ear-cleaner.jpg",
     "novo": false,
     "akcija": false,
     "title": "пси",
@@ -3333,7 +3339,7 @@
 
     "price": "173.58",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/drinking-bottle-small-animals.jpg",
     "novo": false,
     "akcija": false,
     "title": "глодари",
@@ -3348,7 +3354,7 @@
 
     "price": "203.75",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/drinking-bottle-small-animals.jpg",
     "novo": false,
     "akcija": false,
     "title": "глодари",
@@ -3363,7 +3369,7 @@
 
     "price": "225.79",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/drinking-bottle-small-animals.jpg",
     "novo": false,
     "akcija": false,
     "title": "глодари",
@@ -3378,7 +3384,7 @@
 
     "price": "533.52",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/gaspra-bone-toy.jpg",
     "novo": false,
     "akcija": false,
     "title": "пси",
@@ -3393,7 +3399,7 @@
 
     "price": "8.71",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/dog-waste-bags-grass.jpeg",
     "novo": false,
     "akcija": false,
     "title": "пси",
@@ -3408,7 +3414,7 @@
 
     "price": "238.86",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/dog-waste-bags.jpg",
     "novo": false,
     "akcija": false,
     "title": "пси",
@@ -3423,7 +3429,7 @@
 
     "price": "2931.55",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/janga-snake-scratcher.jpg",
     "novo": false,
     "akcija": false,
     "title": "мачке",
@@ -3438,7 +3444,7 @@
 
     "price": "192.73",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/jupiter-treat-ball.jpg",
     "novo": false,
     "akcija": false,
     "title": "пси",
@@ -3453,7 +3459,7 @@
 
     "price": "52.99",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/cat-litter-scoop-basic.jpg",
     "novo": false,
     "akcija": false,
     "title": "мачке",
@@ -3468,7 +3474,7 @@
 
     "price": "598.09",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/nail-clippers-safety.jpg",
     "novo": false,
     "akcija": false,
     "title": "пси",
@@ -3483,7 +3489,7 @@
 
     "price": "796.50",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/nail-clippers-safety.jpg",
     "novo": false,
     "akcija": false,
     "title": "пси",
@@ -3498,7 +3504,7 @@
 
     "price": "336.38",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/mars-ball-treats.jpg",
     "novo": false,
     "akcija": false,
     "title": "пси",
@@ -3513,7 +3519,7 @@
 
     "price": "919.89",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/melamin-bowl-slow-feed.jpg",
     "novo": false,
     "akcija": false,
     "title": "пси",
@@ -3528,7 +3534,7 @@
 
     "price": "372.30",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/melamin-bowl-slow-feed.jpg",
     "novo": false,
     "akcija": false,
     "title": "мачке",
@@ -3543,7 +3549,7 @@
 
     "price": "470.44",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/melamin-bowl-slow-feed.jpg",
     "novo": false,
     "akcija": false,
     "title": "мачке",
@@ -3558,7 +3564,7 @@
 
     "price": "677.74",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/melamin-bowl-slow-feed.jpg",
     "novo": false,
     "akcija": false,
     "title": "пси",
@@ -3573,7 +3579,7 @@
 
     "price": "746.72",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/melamin-bowl-moderne.jpg",
     "novo": false,
     "akcija": false,
     "title": "пси",
@@ -3588,7 +3594,7 @@
 
     "price": "347.05",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/melamin-bowl-moderne.jpg",
     "novo": false,
     "akcija": false,
     "title": "мачке",
@@ -3603,7 +3609,7 @@
 
     "price": "524.84",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/melamin-bowl-moderne.jpg",
     "novo": false,
     "akcija": false,
     "title": "мачке",
@@ -3618,7 +3624,7 @@
 
     "price": "622.62",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/memphis-cat-litter-rim.jpg",
     "novo": false,
     "akcija": false,
     "title": "мачке",
@@ -3633,7 +3639,7 @@
 
     "price": "614.38",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/metis-dog-toy.jpg",
     "novo": false,
     "akcija": false,
     "title": "пси",
@@ -3648,7 +3654,7 @@
 
     "price": "413.55",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/mouse-wand.jpg",
     "novo": false,
     "akcija": false,
     "title": "мачке",
@@ -3663,11 +3669,11 @@
 
     "price": "221.83",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/natura-seagrass-roll-ball.jpg",
     "novo": false,
     "akcija": false,
-    "title": "рибице",
-    "link": "ribice"
+    "title": "мачке",
+    "link": "macke"
   },
   {
     "_id": {
@@ -3678,7 +3684,7 @@
 
     "price": "381.19",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/natura-feather-stick.jpg",
     "novo": false,
     "akcija": false,
     "title": "мачке",
@@ -3693,7 +3699,7 @@
 
     "price": "255.09",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/nazca-treat-bag.jpg",
     "novo": false,
     "akcija": false,
     "title": "мачке",
@@ -3708,7 +3714,7 @@
 
     "price": "261.75",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/cat-collar-glitter.jpg",
     "novo": false,
     "akcija": false,
     "title": "мачке",
@@ -3723,7 +3729,7 @@
 
     "price": "241.81",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/cat-collar-pink.jpg",
     "novo": false,
     "akcija": false,
     "title": "мачке",
@@ -3738,7 +3744,7 @@
 
     "price": "374.87",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/dog-collar-flowers.jpg",
     "novo": false,
     "akcija": false,
     "title": "пси",
@@ -3753,7 +3759,7 @@
 
     "price": "431.03",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/dog-collar-stripes.jpg",
     "novo": false,
     "akcija": false,
     "title": "пси",
@@ -3768,7 +3774,7 @@
 
     "price": "439.45",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/dog-collar-stripes.jpg",
     "novo": false,
     "akcija": false,
     "title": "пси",
@@ -3783,7 +3789,7 @@
 
     "price": "305.31",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/sportline-dog-collar.jpg",
     "novo": false,
     "akcija": false,
     "title": "пси",
@@ -3798,7 +3804,7 @@
 
     "price": "349.25",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/sportline-dog-collar.jpg",
     "novo": false,
     "akcija": false,
     "title": "пси",
@@ -3813,7 +3819,7 @@
 
     "price": "421.24",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/sportline-dog-collar.jpg",
     "novo": false,
     "akcija": false,
     "title": "пси",
@@ -3828,7 +3834,7 @@
 
     "price": "1006.39",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/olereon-oval-cushion.jpg",
     "novo": false,
     "akcija": false,
     "title": "мачке",
@@ -3843,7 +3849,7 @@
 
     "price": "1642.97",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/olereon-oval-cushion.jpg",
     "novo": false,
     "akcija": false,
     "title": "мачке",
@@ -3858,7 +3864,7 @@
 
     "price": "677.72",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/olereon-oval-cushion.jpg",
     "novo": false,
     "akcija": false,
     "title": "мачке",
@@ -3873,7 +3879,7 @@
 
     "price": "300.11",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/plasti-bowl.jpg",
     "novo": false,
     "akcija": false,
     "title": "пси",
@@ -3888,7 +3894,7 @@
 
     "price": "177.44",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/plasti-bowl.jpg",
     "novo": false,
     "akcija": false,
     "title": "пси",
@@ -3903,7 +3909,7 @@
 
     "price": "231.13",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/plasti-bowl.jpg",
     "novo": false,
     "akcija": false,
     "title": "пси",
@@ -3918,7 +3924,7 @@
 
     "price": "101.34",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/plastic-double.jpg",
     "novo": false,
     "akcija": false,
     "title": "мачке",
@@ -3933,7 +3939,7 @@
 
     "price": "1074.06",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/portland-scratcher.jpg",
     "novo": false,
     "akcija": false,
     "title": "мачке",
@@ -3948,7 +3954,7 @@
 
     "price": "676.73",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/dog-leash-pink-flowers.jpg",
     "novo": false,
     "akcija": false,
     "title": "пси",
@@ -3963,7 +3969,7 @@
 
     "price": "520.55",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/sportline-dog-leash.jpg",
     "novo": false,
     "akcija": false,
     "title": "пси",
@@ -3978,7 +3984,7 @@
 
     "price": "364.20",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/natural-shampoo-neutral.jpg",
     "novo": false,
     "akcija": false,
     "title": "пси",
@@ -3993,7 +3999,7 @@
 
     "price": "364.20",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/natural-shampoo-2in1.jpg",
     "novo": false,
     "akcija": false,
     "title": "пси",
@@ -4008,7 +4014,7 @@
 
     "price": "364.20",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/natural-shampoo-fleas-ticks.jpg",
     "novo": false,
     "akcija": false,
     "title": "пси",
@@ -4023,7 +4029,7 @@
 
     "price": "364.20",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/natural-shampoo-white.jpg",
     "novo": false,
     "akcija": false,
     "title": "пси",
@@ -4038,7 +4044,7 @@
 
     "price": "364.20",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/natural-shampoo-long.jpg",
     "novo": false,
     "akcija": false,
     "title": "пси",
@@ -4053,7 +4059,7 @@
 
     "price": "364.20",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/natural-shampoo-comb.jpg",
     "novo": false,
     "akcija": false,
     "title": "пси",
@@ -4068,7 +4074,7 @@
 
     "price": "364.20",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/natural-shampoo.jpg",
     "novo": false,
     "akcija": false,
     "title": "пси",
@@ -4083,7 +4089,7 @@
 
     "price": "412.88",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/puppy-training-pads.jpg",
     "novo": false,
     "akcija": false,
     "title": "пси",
@@ -4098,7 +4104,7 @@
 
     "price": "31.29",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/puppy-training-pads.jpg",
     "novo": false,
     "akcija": false,
     "title": "пси",
@@ -4113,7 +4119,7 @@
 
     "price": "563.83",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/puppy-training-pads.jpg",
     "novo": false,
     "akcija": false,
     "title": "пси",
@@ -4128,7 +4134,7 @@
 
     "price": "36.34",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/puppy-training-pads.jpg",
     "novo": false,
     "akcija": false,
     "title": "пси",
@@ -4143,7 +4149,7 @@
 
     "price": "890.90",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/puppy-training-pads.jpg",
     "novo": true,
     "akcija": false,
     "title": "пси",
@@ -4158,7 +4164,7 @@
 
     "price": "58.45",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/puppy-training-pads.jpg",
     "novo": true,
     "akcija": true,
     "title": "пси",
@@ -4173,7 +4179,7 @@
 
     "price": "560.25",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/saturn-red.jpg",
     "novo": true,
     "akcija": false,
     "title": "пси",
@@ -4188,7 +4194,7 @@
 
     "price": "560.25",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/saturn-green.jpg",
     "novo": true,
     "akcija": false,
     "title": "пси",
@@ -4203,7 +4209,7 @@
 
     "price": "337.46",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/nursing-kit.jpg",
     "novo": true,
     "akcija": false,
     "title": "пси",
@@ -4218,7 +4224,7 @@
 
     "price": "553.69",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/splash-boomerang.jpg",
     "novo": false,
     "akcija": true,
     "title": "пси",
@@ -4233,7 +4239,7 @@
 
     "price": "377.35",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/tear-stain-remover.jpg",
     "novo": false,
     "akcija": true,
     "title": "пси",
@@ -4248,7 +4254,7 @@
 
     "price": "321.48",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/twist-ring.jpg",
     "novo": false,
     "akcija": false,
     "title": "пси",
@@ -4263,7 +4269,7 @@
 
     "price": "256.50",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/uranus-purple.jpg",
     "novo": false,
     "akcija": false,
     "title": "пси",
@@ -4278,7 +4284,7 @@
 
     "price": "256.50",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/uranus-green.jpg",
     "novo": false,
     "akcija": true,
     "title": "пси",
@@ -4293,7 +4299,7 @@
 
     "price": "104.85",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/rope.jpg",
     "novo": false,
     "akcija": true,
     "title": "пси",
@@ -4308,7 +4314,7 @@
 
     "price": "210.09",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/rope.jpg",
     "novo": false,
     "akcija": false,
     "title": "пси",
@@ -4323,7 +4329,7 @@
 
     "price": "402.02",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/rope.jpg",
     "novo": false,
     "akcija": false,
     "title": "пси",
@@ -4338,7 +4344,7 @@
 
     "price": "665.44",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/rope.jpg",
     "novo": false,
     "akcija": false,
     "title": "пси",
@@ -4353,7 +4359,7 @@
 
     "price": "182.25",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/wet-wipes-avocado-40.jpg",
     "novo": false,
     "akcija": false,
     "title": "пси",
@@ -4368,7 +4374,7 @@
 
     "price": "182.25",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/wet-wipes-coconut-40.jpg",
     "novo": false,
     "akcija": false,
     "title": "пси",
@@ -4383,7 +4389,7 @@
 
     "price": "135.96",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/wet-wipes-40.jpg",
     "novo": false,
     "akcija": false,
     "title": "пси",
@@ -4398,7 +4404,7 @@
 
     "price": "587.51",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/wet-wipes-100.jpg",
     "novo": false,
     "akcija": false,
     "title": "пси",
@@ -4413,7 +4419,7 @@
 
     "price": "525.85",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/washy-s.jpg",
     "novo": false,
     "akcija": false,
     "title": "пси",
@@ -4428,7 +4434,7 @@
 
     "price": "704.37",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/protective-dog-collar.jpg",
     "novo": false,
     "akcija": false,
     "title": "пси",
@@ -4443,7 +4449,7 @@
 
     "price": "536.36",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/protective-dog-collar.jpg",
     "novo": false,
     "akcija": false,
     "title": "пси",
@@ -4458,7 +4464,7 @@
 
     "price": "454.90",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/protective-dog-collar.jpg",
     "novo": false,
     "akcija": false,
     "title": "пси",
@@ -4473,7 +4479,7 @@
 
     "price": "953.35",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/protective-dog-collar.jpg",
     "novo": false,
     "akcija": false,
     "title": "пси",
@@ -4488,7 +4494,7 @@
 
     "price": "391.72",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/protective-dog-collar.jpg",
     "novo": false,
     "akcija": true,
     "title": "пси",
@@ -4503,7 +4509,7 @@
 
     "price": "1976.79",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/cat-litter-box-small-dairut.jpg",
     "novo": false,
     "akcija": false,
     "title": "мачке",
@@ -4518,7 +4524,7 @@
 
     "price": "2112.80",
     "detail": "-",
-    "image": "/placeholder-image.png",
+    "image": "/artikli/cat-litter-box-small.jpg",
     "novo": false,
     "akcija": true,
     "title": "мачке",
