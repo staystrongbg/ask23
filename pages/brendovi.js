@@ -5,6 +5,7 @@ import Placeholder from '../components/Placeholder';
 import Meta from '../components/Meta';
 import Image from 'next/image';
 const Brendovi = () => {
+  console.log(brands);
   return (
     <Layout>
       <Meta title='Сви произвођачи' />

@@ -5,18 +5,17 @@ import FaMouse from './FaMouse';
 import styles from '../styles/dropdown.module.scss';
 import { ICON_STYLE } from './utils';
 
+const mouseStyle = () =>
+  `bg-gray-50 rounded-full w-5 h-5 mx-4 object-contain items-center justify-center flex  `;
+
+export const mouse = mouseStyle();
+
+const Fadog = () => <FaDog />;
+const Facat = () => <FaCat />;
+const Fabird = () => <GiHummingbird />;
+const Fafish = () => <FaFish />;
+const Famouse = () => <FaMouse mouse={mouse} />;
 export default function Dropdown() {
-  const mouseStyle = () =>
-    `bg-gray-50 rounded-full w-5 h-5 mx-4 object-contain items-center justify-center flex  `;
-
-  const mouse = mouseStyle();
-
-  const Fadog = () => <FaDog />;
-  const Facat = () => <FaCat />;
-  const Fabird = () => <GiHummingbird />;
-  const Fafish = () => <FaFish />;
-  const Famouse = () => <FaMouse mouse={mouse} />;
-
   const mojljubimac = [
     { name: 'пси', comp: Fadog, link: 'psi' },
     { name: 'мачке', comp: Facat, link: 'macke' },

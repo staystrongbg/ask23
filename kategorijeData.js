@@ -24,8 +24,8 @@ export const categoryData = [
     image: '/vectors/riba.svg',
     title: 'рибице',
     link: 'ribice',
-    textStyle: 'text-blue-900',
-    background: 'bg-blue-400',
+    textStyle: 'text-indigo-900',
+    background: 'bg-indigo-400',
   },
   {
     image: '/vectors/zec.svg',

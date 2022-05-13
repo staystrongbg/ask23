@@ -1,11 +1,8 @@
 import Navlinks from '../components/Navlinks';
 import Image from 'next/image';
-import { useGlobalContext } from '../context';
 import Link from 'next/link';
 
 const Topnav = () => {
-  const { cart, isSearching, offset } = useGlobalContext();
-
   return (
     <nav
       className={`flex flex-col items-center w-full justify-center bg-transparent text-gray-900  text-xl

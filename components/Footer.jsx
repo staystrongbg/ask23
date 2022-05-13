@@ -41,7 +41,7 @@ const Footer = () => {
             style={{ animation: 'fadeIn 0.3s ease' }}
           >
             <span
-              className='absolute top-2 right-2 text-xl'
+              className='absolute top-2 text-gray-400 right-2 text-xl'
               onClick={() => setKorisnickiServis({ servis: '', propratni: '' })}
             >
               <FaTimes />

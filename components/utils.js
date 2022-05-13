@@ -1,8 +1,9 @@
+//custom styled components! TEST TEST TEST :)
 //kategorija stilovi
 export const CategoryCard = ({ children, className }) => {
   return (
     <span
-      className={`w-[150px] h-[150px] xl:w-[240px] xl:h-[240px] rounded-lg items-center relative justify-center flex flex-col overflow-hidden shadow-custom hover:scale-110 transition-all  gap-4 bg-blend-multiply border-4 border-gray-800/50 ${className}`}
+      className={`w-[150px] h-[150px] xl:w-[240px] xl:h-[240px] rounded-lg items-center relative justify-center flex flex-col overflow-hidden hover:shadow-custom hover:scale-110 transition-all  gap-4 bg-blend-multiply border-4 border-gray-800/50 ${className}`}
     >
       {children}
     </span>
@@ -22,7 +23,6 @@ export const CategoryTitle = ({ className, children }) => {
 export const CategoryImgContainer = ({ children, className }) => {
   return <div className={`${className}    `}>{children}</div>;
 };
-
 //kategorijastilovi
 
 //dropdown icon stilovi
@@ -45,7 +45,6 @@ export const CHEVRON_ROTATING_STYLE = 'rotate-90 transition-all';
 //array sa zadatom duzinom
 export const createArr = (length) => [...Array(length).keys()];
 
-//custom styled components! TEST TEST TEST :)
 export const H1 = ({ children, className = '', onClick = null }) => {
   return (
     <h1

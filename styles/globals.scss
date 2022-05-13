@@ -12,8 +12,6 @@ body {
 }
 
 // zeleni gradient
-//background:#dce35b;
-// linear-gradient(90deg,#45b649,#dce35b)
 
 .proizvod-cena {
   clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
@@ -65,9 +63,25 @@ input[type='number'] {
   background-attachment: fixed;
 }
 .naslovna-bg {
-  background-color: #333;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 50% 70%;
-  background-image: url('/Slike/hannah-lim-U6nlG0Y5sfs-unsplash.jpg');
+  // background: linear-gradient(90deg, #45b649, #dce35b);
+  background: #fc4a1a; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #f7b733,
+    #fc4a1a,
+    #f7b733
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #f7b733,
+    #fc4a1a,
+    #f7b733
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  // background-color: #dce35b;;
+  // background-color: #333;
+  // background-repeat: no-repeat;
+  // background-size: cover;
+  // background-position: 50% 70%;
+  // background-image: url('/Slike/hannah-lim-U6nlG0Y5sfs-unsplash.jpg');
 }

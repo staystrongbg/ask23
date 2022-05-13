@@ -1,6 +1,5 @@
 import Link from 'next/link';
 import { FaChevronRight } from 'react-icons/fa';
-import React, { useEffect, useState } from 'react';
 import styles from '../styles/dropdown.module.scss';
 import Dropdown from './Dropdown';
 import Image from 'next/image';

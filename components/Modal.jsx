@@ -14,7 +14,7 @@ const Modal = () => {
         className='absolute top-4 right-4 cursor-pointer'
         onClick={() => setSearchTerm('')}
       >
-        <FaTimes className='w-[24px] h-[24px] text-gray-800' />
+        <FaTimes className='w-[24px] h-[24px] text-gray-400' />
       </span>
       <GridContainer>
         {searchProducts &&
