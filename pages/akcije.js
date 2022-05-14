@@ -21,7 +21,7 @@ const Akcije = () => {
       <div className={`wrapper w-full  `}>
         {/* //top slider */}
         <div className='py-5'>
-          <SwiperComponent photos={products.map((img) => img.image)} />
+          <SwiperComponent />
         </div>
 
         <section className='sm:px-5 px-1'>

@@ -18,7 +18,7 @@ const SviProizvodi = () => {
       <div className={`wrapper w-full  bg-gray-200`}>
         {/* //top slider */}
         <div className='py-5'>
-          <SwiperComponent photos={products.map((img) => img.image)} />
+          <SwiperComponent />
         </div>
 
         <section className='sm:px-5 px-1  bg-gray-200'>
