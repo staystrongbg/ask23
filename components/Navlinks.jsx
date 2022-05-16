@@ -22,7 +22,14 @@ const Navlinks = ({ className = '' }) => {
         {offset && (
           <Link href='/'>
             <a>
-              <Image src='/asklogo.svg' alt='kuce' width={120} height={60} />
+              <Image
+                src='/asklogo.svg'
+                alt='kuce'
+                width={120}
+                height={60}
+                unoptimized={true}
+                loading='eager'
+              />
             </a>
           </Link>
         )}

@@ -1,6 +1,10 @@
 import Head from 'next/head';
 
 const Meta = ({ keywords, description, title }) => {
+  console.log(
+    '%ccreated by devox - www.devox-portfolio.netlify.app',
+    'color:blue'
+  );
   return (
     <Head>
       <meta name='keywords' content={keywords} />

@@ -17,6 +17,8 @@ const Hero = () => {
             src='/radnja-spolja.jpg'
             width='500px'
             height='500px'
+            unoptimized={true}
+            loading='eager'
             className='rounded-full'
           />
         </div>

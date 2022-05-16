@@ -48,7 +48,7 @@ export const createArr = (length) => [...Array(length).keys()];
 export const H1 = ({ children, className = '', onClick = null }) => {
   return (
     <h1
-      className={`${className}  xl:text-3xl md:text-2xl sm:text-xl   uppercase`}
+      className={`${className}  xl:text-4xl md:text-3xl sm:text-2xl my-20  uppercase`}
       onClick={onClick}
     >
       {children}
@@ -65,7 +65,7 @@ export const H2 = ({
     <h2
       onClick={onClick}
       tabIndex={tabIndex}
-      className={` ${className} sm:text-2xl text-xl uppercase`}
+      className={` ${className} sm:text-3xl text-2xl uppercase`}
     >
       {children}
     </h2>
@@ -76,7 +76,7 @@ export const H2 = ({
 export const P = ({ children, width = '2/3', className = '' }) => {
   return (
     <p
-      className={`xl:w-${width}  sm:text-xl text-sm w-full border-b sm:py-10 py-5 border-dashed border-gray-500 mb-20 ${className} `}
+      className={`xl:w-${width}  sm:text-xl text-base w-full border-b sm:py-10 py-5 border-dashed border-gray-500 mb-20 ${className} `}
     >
       {children}
     </p>

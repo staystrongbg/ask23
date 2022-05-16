@@ -1,10 +1,16 @@
-// Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 // Import Swiper styles
 import 'swiper/css';
+import 'swiper/css/pagination';
+import 'swiper/css/navigation';
 
-import styles from '../styles/swiper.module.scss';
+// import "./styles.css";
+
+// import required modules
+import { Pagination, Navigation, Autoplay } from 'swiper';
+
+import styles from '../styles/swiper-styles.module.css';
 
 // import required modules
 const photos = [
@@ -24,19 +30,35 @@ const photos = [
 
 const SwiperComponent = () => {
   return (
-    <Swiper grabCursor={true} loop className={styles.swiper}>
-      {photos.map((photo, idx) => (
-        <SwiperSlide className={styles['swiper-slide']} key={photo.title}>
-          <div className={`h-full w-full `}>
-            <img src={photo.bg} alt='' />
-            <h3 className='absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-6xl font-bold'>
-              {photo?.title}
-            </h3>
-          </div>
-        </SwiperSlide>
-      ))}
+    <Swiper
+      slidesPerView={1}
+      centeredSlides={true}
+      loopAdditionalSlides
+      grabCursor={true}
+      autoplay={{
+        delay: 5000,
+        disableOnInteraction: false,
+      }}
+      className={styles.swiper}
+      pagination={{
+        type: 'progressbar',
+      }}
+      navigation={true}
+      modules={[Pagination, Navigation, Autoplay]}
+    >
+      <SwiperSlide>
+        <img src='/animals/alexandru-rotariu-o_QTeyGVWjQ-unsplash.jpg' alt='' />
+      </SwiperSlide>{' '}
+      <SwiperSlide>
+        <img src='/animals/marko-blazevic-zBvVuRJ71vU-unsplash.jpg' alt='' />
+      </SwiperSlide>{' '}
+      <SwiperSlide>
+        <img src='/animals/ricky-kharawala-adK3Vu70DEQ-unsplash.jpg' alt='' />
+      </SwiperSlide>
     </Swiper>
   );
 };
 
 export default SwiperComponent;
+
+// Import Swiper React components

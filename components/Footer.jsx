@@ -31,7 +31,7 @@ const Footer = () => {
   });
 
   return (
-    <footer className='bg-blue-900/80 w-full items-start justify-betwee flex  lg:flex-row flex-col  sm:text-sm md:text-base lg:text-lg overflow-hidden text-red-50 md:px-10 px-2 py-5'>
+    <footer className='bg-blue-900/80 w-full relative items-start justify-betwee flex  lg:flex-row flex-col  sm:text-sm md:text-base lg:text-lg overflow-hidden text-red-50 md:px-10 px-2 py-5'>
       {korisnickiServis.servis && (
         <ClickAwayListener
           onClickAway={() => setKorisnickiServis({ servis: '', propratni: '' })}
@@ -78,19 +78,25 @@ const Footer = () => {
         </div>
         <div className='flex md:flex-row flex-col md:gap-40 gap-10   py-4 items-start'>
           <div className='flex flex-col items-start gap-8 w-[300px]'>
-            <Image src='/asklogo.svg' width={200} height={80} alt='logo' />
+            <Image
+              src='/asklogo.svg'
+              width={200}
+              height={80}
+              alt='logo'
+              unoptimized={true}
+              loading='eager'
+            />
             <p className='moto'>
               Продавница за куће љубимце која у понуди има све што наше љубимце
               чини ситим и срећним.
             </p>
-            <div className='social flex-col flex  gap-4'>
-              <p>Пратите нас на друштвеним мрежама</p>
+            <div className='social flex-col flex items-center justify-center gap-4'>
+              <p>Пратите нас на инстаграму</p>
               <div className='flex gap-4'>
                 <span className={ICON_STYLE_FOOTER}>
-                  <FaFacebook />
-                </span>
-                <span className={ICON_STYLE_FOOTER}>
-                  <FaInstagram />
+                  <a href='https://instagram.com/ansaks2333'>
+                    <FaInstagram />
+                  </a>
                 </span>
               </div>
             </div>
@@ -163,6 +169,9 @@ const Footer = () => {
         </div>
       )}
       <Map location={location} zoomLevel={17} />
+      <p className='absolute text-center bottom-0 left-1/2 -translate-x-1/2 '>
+        &copy; АСК23 - све за кућне љубимце
+      </p>
     </footer>
   );
 };

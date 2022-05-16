@@ -125,6 +125,8 @@ const Topbar = () => {
               width='120px'
               height='30px'
               alt='logo'
+              unoptimized={true}
+              loading='eager'
             />
           </a>
         </Link>

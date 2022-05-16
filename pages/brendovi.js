@@ -24,6 +24,8 @@ const Brendovi = () => {
                 width='300px'
                 objectFit='contain'
                 height='100px'
+                unoptimized={true}
+                loading='eager'
               />
             ))}
           </section>

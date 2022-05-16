@@ -13,7 +13,14 @@ const Topnav = () => {
       >
         <Link href='/'>
           <a>
-            <Image src='/asklogo.svg' alt='kuce' width={340} height={140} />
+            <Image
+              src='/asklogo.svg'
+              alt='kuce'
+              width={340}
+              height={140}
+              unoptimized={true}
+              loading='eager'
+            />
           </a>
         </Link>
       </div>

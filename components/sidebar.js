@@ -1,5 +1,4 @@
 import styles from '../styles/sidebar.module.scss';
-import stylesDropdown from '../styles/dropdown.module.scss';
 
 import Link from 'next/link';
 import { FaTimes } from 'react-icons/fa';

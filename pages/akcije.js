@@ -20,20 +20,13 @@ const Akcije = () => {
 
       <div className={`wrapper w-full  `}>
         {/* //top slider */}
-        <div className='py-5'>
+        {/* <div className='py-5'>
           <SwiperComponent />
-        </div>
+        </div> */}
 
         <section className='sm:px-5 px-1'>
           <div className='flex flex-col w-full m-auto mb-12'>
             <H1 className='text-center'>сви производи тренутно на акцији</H1>
-            <P className='text-center m-auto'>
-              Свака животиња има своје потребе, навике али и карактер на основу
-              чега пажљиво правимо понуду производа за наше купце. Све што је
-              потребно Вашим кућним љубимцима можете пронаћи у нашем пет схоп-у.
-              Приуштите им омиљену храну, опрему или играчке по најповољнијим
-              акцијским ценама.
-            </P>
 
             <div className='flex md:flex-row flex-col xl:gap-40 mb-20'>
               <div className='w-1/8 px-2'>

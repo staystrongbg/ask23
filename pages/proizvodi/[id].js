@@ -28,12 +28,13 @@ const ProizvodPojedinacno = ({ product }) => {
           </h1>
           <div className='flex md:flex-row flex-col gap-4'>
             <div className='flex justify-center xl:max-w-[600px] p-4 bg-white '>
-              <Image
-                objectFit='contain'
-                width='600px'
-                height='600px'
-                placeholder='blur'
-                blurDataURL={product.image}
+              <img
+                className='w-[600px] h-[600px] object-contain'
+                // objectFit='contain'
+                // width='600px'
+                // height='600px'
+                // placeholder='blur'
+                // blurDataURL={product.image}
                 src={product.image}
                 alt={product.name}
               />

@@ -35,6 +35,8 @@ const Cart = () => {
                     placeholder='blur'
                     blurDataURL={item.image}
                     src={item.image}
+                    unoptimized={true}
+                    loading='eager'
                     alt={item.name}
                   />
                 </span>
@@ -96,6 +98,8 @@ const Cart = () => {
                   src='/asklogo.svg'
                   width='120px'
                   height='100%'
+                  unoptimized={true}
+                  loading='eager'
                   alt='logo'
                 />
               </a>

@@ -41,7 +41,7 @@ const Kategorije = () => {
   ];
 
   return (
-    <div className='xl:w-5/6 m-auto  w-full flex flex-wrap justify-center gap-4 '>
+    <div className='xl:w-5/6 m-auto  w-full flex gap-4 flex-wrap justify-center items-center'>
       {categoryData.map((i, idx) => (
         <Link key={idx} href={`/${i.link}`}>
           <a>
