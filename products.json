@@ -22,7 +22,7 @@
     "price": "243.20",
     "detail": "-",
     "image": "/artikli/matatabi.jpg",
-    "novo": true,
+    "novo": false,
     "akcija": false,
     "title": "мачке",
     "link": "macke"
@@ -36,7 +36,7 @@
     "price": "57.67",
     "detail": "-",
     "image": "/artikli/trixie-loptice-i-rolne-45cm.webp",
-    "novo": true,
+    "novo": false,
     "akcija": false,
     "title": "мачке",
     "link": "macke"
@@ -65,7 +65,7 @@
     "detail": "-",
     "image": "/artikli/lopte-zvecke.jpg",
     "novo": false,
-    "akcija": true,
+    "akcija": false,
     "title": "мачке",
     "link": "macke"
   },
@@ -79,7 +79,7 @@
     "detail": "-",
     "image": "/artikli/parada.jpg",
     "novo": false,
-    "akcija": true,
+    "akcija": false,
     "title": "мачке",
     "link": "macke"
   },
@@ -896,7 +896,7 @@
     "detail": "-",
     "image": "/artikli/pro-plan-cat-sterilised-renal-rabbit.jpg",
     "novo": false,
-    "akcija": false,
+    "akcija": true,
     "title": "мачке",
     "link": "macke"
   },
@@ -1061,7 +1061,7 @@
     "detail": "-",
     "image": "/artikli/pro-plan-dog-all-sizes.jpg",
     "novo": false,
-    "akcija": false,
+    "akcija": true,
     "title": "пси",
     "link": "psi"
   },
@@ -1136,7 +1136,7 @@
     "detail": "-",
     "image": "/artikli/pro-plan-dog-medium.jpg",
     "novo": false,
-    "akcija": false,
+    "akcija": true,
     "title": "пси",
     "link": "psi"
   },
@@ -1811,7 +1811,7 @@
     "detail": "-",
     "image": "/artikli/cibau-lamb-sensitive-medium-maxi.jpg",
     "novo": false,
-    "akcija": false,
+    "akcija": true,
     "title": "пси",
     "link": "psi"
   },
@@ -1826,7 +1826,7 @@
     "detail": "-",
     "image": "/artikli/matisse-kitten-chicken-rice.jpg",
     "novo": false,
-    "akcija": false,
+    "akcija": true,
     "title": "мачке",
     "link": "macke"
   },
@@ -1841,7 +1841,7 @@
     "detail": "-",
     "image": "/artikli/matisse-neutered-salmon-adult-cat.jpg",
     "novo": false,
-    "akcija": false,
+    "akcija": true,
     "title": "мачке",
     "link": "macke"
   },
@@ -1856,7 +1856,7 @@
     "detail": "-",
     "image": "/artikli/n&d-adult-dog-blueberry.jpg",
     "novo": false,
-    "akcija": false,
+    "akcija": true,
     "title": "пси",
     "link": "psi"
   },
@@ -1871,7 +1871,7 @@
     "detail": "-",
     "image": "/artikli/n&d-mini-dog-blueberry.jpg",
     "novo": false,
-    "akcija": false,
+    "akcija": true,
     "title": "пси",
     "link": "psi"
   },
@@ -1886,7 +1886,7 @@
     "detail": "-",
     "image": "/artikli/n&d-mini-dog-pomegranate.jpg",
     "novo": false,
-    "akcija": false,
+    "akcija": true,
     "title": "пси",
     "link": "psi"
   },
@@ -1901,7 +1901,7 @@
     "detail": "-",
     "image": "/artikli/n&d-grain-dog-pomegranate.jpg",
     "novo": false,
-    "akcija": false,
+    "akcija": true,
     "title": "пси",
     "link": "psi"
   },
@@ -1916,7 +1916,7 @@
     "detail": "-",
     "image": "/artikli/n&d-grain-cat-blueberry.jpg",
     "novo": false,
-    "akcija": false,
+    "akcija": true,
     "title": "мачке",
     "link": "macke"
   },
@@ -1931,7 +1931,7 @@
     "detail": "-",
     "image": "/artikli/n&d-grain-cat-pomegranate.jpg",
     "novo": false,
-    "akcija": false,
+    "akcija": true,
     "title": "мачке",
     "link": "macke"
   },
@@ -2951,7 +2951,7 @@
     "detail": "-",
     "image": "/artikli/premil-standard-poultry.png",
     "novo": false,
-    "akcija": false,
+    "akcija": true,
     "title": "мачке",
     "link": "macke"
   },
@@ -2966,7 +2966,7 @@
     "detail": "-",
     "image": "/artikli/josera-culinesse-salmon.jpg",
     "novo": false,
-    "akcija": false,
+    "akcija": true,
     "title": "мачке",
     "link": "macke"
   },
@@ -2981,7 +2981,7 @@
     "detail": "-",
     "image": "/artikli/josera-catelux-duck.jpeg",
     "novo": false,
-    "akcija": false,
+    "akcija": true,
     "title": "мачке",
     "link": "macke"
   },
@@ -2996,7 +2996,7 @@
     "detail": "-",
     "image": "/artikli/premil-maxi-basic.png",
     "novo": false,
-    "akcija": false,
+    "akcija": true,
     "title": "пси",
     "link": "psi"
   },
@@ -3011,7 +3011,7 @@
     "detail": "-",
     "image": "/artikli/josera-active-dog.jpg",
     "novo": false,
-    "akcija": false,
+    "akcija": true,
     "title": "пси",
     "link": "psi"
   },
@@ -3026,7 +3026,7 @@
     "detail": "-",
     "image": "/artikli/royal-canin-mini-adult.jpg",
     "novo": false,
-    "akcija": false,
+    "akcija": true,
     "title": "пси",
     "link": "psi"
   },
@@ -3041,7 +3041,7 @@
     "detail": "-",
     "image": "/artikli/royal-canin-medium-adult.jpg",
     "novo": false,
-    "akcija": false,
+    "akcija": true,
     "title": "пси",
     "link": "psi"
   },
@@ -3056,7 +3056,7 @@
     "detail": "-",
     "image": "/artikli/royal-canin-mini-puppy.jpg",
     "novo": false,
-    "akcija": false,
+    "akcija": true,
     "title": "пси",
     "link": "psi"
   },
@@ -3146,7 +3146,7 @@
     "detail": "-",
     "image": "/artikli/gosbi-cat-adult.png",
     "novo": false,
-    "akcija": false,
+    "akcija": true,
     "title": "мачке",
     "link": "macke"
   },
@@ -3161,7 +3161,7 @@
     "detail": "-",
     "image": "/artikli/gosbi-cat-kitten.png",
     "novo": false,
-    "akcija": false,
+    "akcija": true,
     "title": "мачке",
     "link": "macke"
   },
@@ -3176,7 +3176,7 @@
     "detail": "-",
     "image": "/artikli/gosbi-grain-free-adult-mini.png",
     "novo": false,
-    "akcija": false,
+    "akcija": true,
     "title": "пси",
     "link": "psi"
   },
@@ -3191,7 +3191,7 @@
     "detail": "-",
     "image": "/artikli/gosbi-life-puppy.png",
     "novo": false,
-    "akcija": false,
+    "akcija": true,
     "title": "пси",
     "link": "psi"
   },
@@ -3206,7 +3206,7 @@
     "detail": "-",
     "image": "/artikli/gosbi-cat-sterilized-hairball.png",
     "novo": false,
-    "akcija": false,
+    "akcija": true,
     "title": "мачке",
     "link": "macke"
   },
@@ -3221,7 +3221,7 @@
     "detail": "-",
     "image": "/artikli/gosbi-lamb-mini.png",
     "novo": false,
-    "akcija": false,
+    "akcija": true,
     "title": "пси",
     "link": "psi"
   },
@@ -4150,7 +4150,7 @@
     "price": "890.90",
     "detail": "-",
     "image": "/artikli/puppy-training-pads.jpg",
-    "novo": true,
+    "novo": false,
     "akcija": false,
     "title": "пси",
     "link": "psi"
@@ -4165,8 +4165,8 @@
     "price": "58.45",
     "detail": "-",
     "image": "/artikli/puppy-training-pads.jpg",
-    "novo": true,
-    "akcija": true,
+    "novo": false,
+    "akcija": false,
     "title": "пси",
     "link": "psi"
   },
@@ -4180,7 +4180,7 @@
     "price": "560.25",
     "detail": "-",
     "image": "/artikli/saturn-red.jpg",
-    "novo": true,
+    "novo": false,
     "akcija": false,
     "title": "пси",
     "link": "psi"
@@ -4195,7 +4195,7 @@
     "price": "560.25",
     "detail": "-",
     "image": "/artikli/saturn-green.jpg",
-    "novo": true,
+    "novo": false,
     "akcija": false,
     "title": "пси",
     "link": "psi"
@@ -4210,7 +4210,7 @@
     "price": "337.46",
     "detail": "-",
     "image": "/artikli/nursing-kit.jpg",
-    "novo": true,
+    "novo": false,
     "akcija": false,
     "title": "пси",
     "link": "psi"
@@ -4226,7 +4226,7 @@
     "detail": "-",
     "image": "/artikli/splash-boomerang.jpg",
     "novo": false,
-    "akcija": true,
+    "akcija": false,
     "title": "пси",
     "link": "psi"
   },
@@ -4241,7 +4241,7 @@
     "detail": "-",
     "image": "/artikli/tear-stain-remover.jpg",
     "novo": false,
-    "akcija": true,
+    "akcija": false,
     "title": "пси",
     "link": "psi"
   },
@@ -4286,7 +4286,7 @@
     "detail": "-",
     "image": "/artikli/uranus-green.jpg",
     "novo": false,
-    "akcija": true,
+    "akcija": false,
     "title": "пси",
     "link": "psi"
   },
@@ -4301,7 +4301,7 @@
     "detail": "-",
     "image": "/artikli/rope.jpg",
     "novo": false,
-    "akcija": true,
+    "akcija": false,
     "title": "пси",
     "link": "psi"
   },
@@ -4496,7 +4496,7 @@
     "detail": "-",
     "image": "/artikli/protective-dog-collar.jpg",
     "novo": false,
-    "akcija": true,
+    "akcija": false,
     "title": "пси",
     "link": "psi"
   },
@@ -4526,7 +4526,7 @@
     "detail": "-",
     "image": "/artikli/cat-litter-box-small.jpg",
     "novo": false,
-    "akcija": true,
+    "akcija": false,
     "title": "мачке",
     "link": "macke"
   }
