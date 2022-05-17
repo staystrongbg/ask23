@@ -4,7 +4,7 @@ import { useGlobalContext } from '../context';
 const Links = ({ text_color }) => {
   const { links } = useGlobalContext();
   return (
-    <>
+    <div className={` gap-4 xl:gap-6 flex `}>
       {links.map((link, i) => (
         <Link key={i} href={link.href}>
           <a
@@ -15,7 +15,7 @@ const Links = ({ text_color }) => {
           </a>
         </Link>
       ))}
-    </>
+    </div>
   );
 };
 

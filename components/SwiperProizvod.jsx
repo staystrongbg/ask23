@@ -2,7 +2,7 @@ import Link from 'next/link';
 import { useState } from 'react';
 import { FaShoppingCart } from 'react-icons/fa';
 import { useGlobalContext } from '../context';
-
+import AkcijaBadge from './AkcijaBadge';
 const SwiperProizvod = ({ ...p }) => {
   const { setSearchTerm, setIsSearching, dodajProizvodUKorpu } =
     useGlobalContext();
@@ -17,11 +17,7 @@ const SwiperProizvod = ({ ...p }) => {
       className={`w-72 h-[420px] lg:text-base text-xs bg-gray-100 hover:shadow-lg rounded-md  transition-all relative  border-2 flex flex-col justify-start `}
       onClick={closeOverlays}
     >
-      {p.akcija && (
-        <div className='bg-red-600 rounded-full rotate-12 h-16 w-16 flex items-center justify- text-gray-50 font-bold z-50 absolute top-0 right-0  p-2'>
-          акција
-        </div>
-      )}
+      {p.akcija && <AkcijaBadge />}
       <div className='w-full h-1/2 relative '>
         <Link href={`/proizvodi/${p._id.$oid.toString()}`}>
           <a>

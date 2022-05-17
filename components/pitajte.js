@@ -16,9 +16,9 @@ const Pitajte = () => {
         action='https://formsubmit.co/beograd.l@yandex.com'
         className={styles['form']}
       >
-        {/* <input type='hidden' value='table' name='_template' />
-        <input type='hidden' name='_next' value='http://localhost:3000/' />
-        <input
+        <input type='hidden' value='table' name='_template' />
+        <input type='hidden' name='_next' value='https://ask23.rs' />
+        {/*<input
           id={styles['ime']}
           type='text'
           name='name'

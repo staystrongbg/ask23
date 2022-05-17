@@ -3,9 +3,7 @@ import {
   FaPhone,
   FaEnvelope,
   FaMapMarkerAlt,
-  FaFacebook,
   FaInstagram,
-  FaArrowUp,
   FaTimes,
   FaChevronUp,
 } from 'react-icons/fa';
@@ -20,7 +18,7 @@ import { H2, ICON_STYLE_FOOTER, P } from './utils';
 const Footer = () => {
   const { offset, scrollToTop } = useGlobalContext();
   const location = {
-    address: 'Др Драге Љочић, Београд',
+    address: 'Др Драге Љочић 3, Београд',
     lat: 44.80241,
     lng: 20.5242,
   };
@@ -32,7 +30,7 @@ const Footer = () => {
 
   return (
     <footer className='bg-blue-900/80 w-full relative items-start justify-betwee flex  lg:flex-row flex-col  sm:text-sm md:text-base lg:text-lg overflow-hidden text-red-50 md:px-10 px-2 py-5'>
-      {korisnickiServis.servis && (
+      {/* {korisnickiServis.servis && (
         <ClickAwayListener
           onClickAway={() => setKorisnickiServis({ servis: '', propratni: '' })}
         >
@@ -50,9 +48,9 @@ const Footer = () => {
             <p className='text-center'>{korisnickiServis.propratni}</p>
           </div>
         </ClickAwayListener>
-      )}
+      )} */}
 
-      <div className='md:ml-8 flex flex-col items-start  justify-between md:w-2/3 w-full'>
+      <div className='md:ml-8 flex flex-col items-center sm:items-start  justify-between md:w-2/3 w-full'>
         <div className='address flex md:justify-start justify-center   md:gap-40 gap-5  items-start  md:items-start border-b border-gray-500 pb-4  '>
           <div className='flex flex-col items-center justify-center text-center'>
             <span className={ICON_STYLE_FOOTER}>
@@ -76,7 +74,7 @@ const Footer = () => {
             <p>beograd.l@yandex.com</p>
           </div>
         </div>
-        <div className='flex md:flex-row flex-col md:gap-40 gap-10   py-4 items-start'>
+        <div className='flex md:flex-row   flex-col md:gap-40 gap-10   py-4 items-start'>
           <div className='flex flex-col items-start gap-8 w-[300px]'>
             <Image
               src='/asklogo.svg'
@@ -90,7 +88,7 @@ const Footer = () => {
               Продавница за куће љубимце која у понуди има све што наше љубимце
               чини ситим и срећним.
             </p>
-            <div className='social flex-col flex items-center justify-center gap-4'>
+            <div className='social flex-col flex  justify-center gap-4'>
               <p>Пратите нас на инстаграму</p>
               <div className='flex gap-4'>
                 <span className={ICON_STYLE_FOOTER}>
@@ -107,14 +105,14 @@ const Footer = () => {
               <Links text_color='text-gray-50' />
             </div>
 
-            <div className='whitespace-nowrap   '>
+            {/* <div className='whitespace-nowrap   '>
               <b>Кориснички сервиси</b>
               <ul className='flex flex-col sm:text-sm md:text-base lg:text-lg gap-2 mt-1 cursor-pointer'>
                 <li
                   onClick={(e) =>
                     setKorisnickiServis({
                       servis: e.target.textContent,
-                      propratni: 'Испорука робу вршимо курирском службом Бех',
+                      propratni: 'Испорука робу вршимо курирском службом Bex',
                     })
                   }
                 >
@@ -125,7 +123,7 @@ const Footer = () => {
                     setKorisnickiServis({
                       servis: e.target.textContent,
                       propratni:
-                        'Плаћање се врши по пријему поузећем или уплатом на рачун',
+                        'Плаћање се врши по пријему поузећем или уплатом на рачун xxx-yyy-zzz',
                     })
                   }
                 >
@@ -147,14 +145,14 @@ const Footer = () => {
                     setKorisnickiServis({
                       servis: e.target.textContent,
                       propratni:
-                        'Проверите робу и кусур на лицу места. Додатне рекламације на уважамо. Продавац је дужан да вам изда фисклани рачун',
+                        'Проверите робу и кусур на лицу места. Додатне рекламације не уважамо. Продавац је дужан да вам изда фисклани рачун',
                     })
                   }
                 >
                   Рекламације
                 </li>
               </ul>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

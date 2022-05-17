@@ -9,8 +9,14 @@ const Noviteti = () => {
   const [novo, setNovo] = useState(false);
   const [filtrirano, setFiltrirano] = useState(['ново', 'акција']);
 
-  const { produkti, setProdukti, products, isActive, setIsActive } =
-    useGlobalContext();
+  const {
+    produkti,
+    setProdukti,
+    products,
+    isActive,
+    setIsActive,
+    trenutnaAkcija,
+  } = useGlobalContext();
 
   const handleCategory = (e, idx) => {
     setIsActive(idx);
@@ -22,6 +28,7 @@ const Noviteti = () => {
         : products
     );
   };
+
   return (
     <section className='  px-5 py-10 '>
       <div className='flex flex-col items-center justify-center xl:w-5/6 m-auto mt-12 mb-12'>
@@ -39,10 +46,18 @@ const Noviteti = () => {
           ))}
         </div>
         <P className='text-center'>
-          АСК23 - СВЕ ЗА КУЋНЕ ЉУБИМЦЕ се труди да своје верне потрошаче
-          обавештава о најновијин производима и акцијама
+          {produkti.length
+            ? trenutnaAkcija.tekst
+            : `АСК23 - СВЕ ЗА КУЋНЕ ЉУБИМЦЕ се труди да своје верне потрошаче
+          обавештава о најновијим производима и акцијама.`}
         </P>
+
         <div className='flex flex-wrap w-full gap-1 py-10 justify-center '>
+          {!produkti.length && (
+            <h2 className='text-center text-3xl text-gray-400 w-full'>
+              Тренутно нема производа...
+            </h2>
+          )}
           <MultipleSwipers products={produkti} />
         </div>
       </div>

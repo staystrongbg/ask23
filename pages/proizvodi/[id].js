@@ -5,6 +5,7 @@ import { useGlobalContext } from '../../context';
 import { useState } from 'react';
 import Image from 'next/image';
 import Meta from '../../components/Meta';
+import AkcijaBadge from '../../components/AkcijaBadge';
 
 const ProizvodPojedinacno = ({ product }) => {
   const {
@@ -15,6 +16,7 @@ const ProizvodPojedinacno = ({ product }) => {
     add,
     kolicinaInput,
     setKolicinaInput,
+    trenutnaAkcija,
   } = useGlobalContext();
 
   return (
@@ -26,15 +28,17 @@ const ProizvodPojedinacno = ({ product }) => {
           <h1 className='text-3xl mb-5 text-orange-900 '>
             {product.name.toUpperCase()}
           </h1>
-          <div className='flex md:flex-row flex-col gap-4'>
-            <div className='flex justify-center xl:max-w-[600px] p-4 bg-white '>
-              <img
-                className='w-[600px] h-[600px] object-contain'
-                // objectFit='contain'
-                // width='600px'
-                // height='600px'
-                // placeholder='blur'
-                // blurDataURL={product.image}
+          <div className='flex md:flex-row flex-col gap-4 '>
+            <div className='flex justify-center relative xl:max-w-[600px] p-4 bg-white '>
+              {product.akcija && <AkcijaBadge />}
+              <Image
+                objectFit='contain'
+                width='600px'
+                height='600px'
+                placeholder='blur'
+                blurDataURL={product.image}
+                unoptimized={true}
+                loading='eager'
                 src={product.image}
                 alt={product.name}
               />
@@ -44,7 +48,9 @@ const ProizvodPojedinacno = ({ product }) => {
                 <p className='font-bold mb-2 text-gray-600'>
                   Детаљи о производу
                 </p>
-                <p className='text-gray-800'>{product.detail}</p>
+                <p className='text-gray-800'>
+                  {product.akcija ? trenutnaAkcija.tekst : product.detail}
+                </p>
               </div>
               <div>
                 <div className=' flex items-center gap-10'>

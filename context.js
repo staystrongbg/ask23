@@ -61,7 +61,10 @@ const AppProvider = ({ children }) => {
   const [vrstaZivotinje, setVrstaZivotinje] = useState([]);
   const [items, setItems] = useState([]);
   const [vrsteProizvoda, setVrsteProizvoda] = useState([]);
-
+  //trenutno na akciji
+  const [trenutnaAkcija] = useState({
+    tekst: `ПОПУСТ НА КОЛИЧИНУ! 10% попуста за сваки џак хране.`,
+  });
   useEffect(() => {
     setItems(products);
   }, [products]);
@@ -158,6 +161,7 @@ const AppProvider = ({ children }) => {
         setVrstaZivotinje,
         vrsteProizvoda,
         setVrsteProizvoda,
+        trenutnaAkcija,
         setItems,
         proizvodiKorpa,
         setProizvodiKorpa,

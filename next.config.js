@@ -1,4 +1,5 @@
 module.exports = {
+  trailingSlash: true,
   webpack(config) {
     config.module.rules.push({
       test: /\.svg$/,
@@ -7,7 +8,10 @@ module.exports = {
 
     return config;
   },
-  images: {
-    domains: ['picsum.photos'],
-  },
+  // images: {
+  //   disableStaticImages: false,
+  //   loader: 'custom',
+  // },
 };
+// process.env.NODE_ENV === 'production' && 'custom'
+// process.env.NODE_ENV === 'production' && false;

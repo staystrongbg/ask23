@@ -1,7 +1,6 @@
 import Link from 'next/link';
-import { AiOutlineShoppingCart } from 'react-icons/ai';
 import { FaShoppingCart } from 'react-icons/fa';
-// import { useState } from 'react';
+import AkcijaBadge from './AkcijaBadge';
 import { useGlobalContext } from '../context';
 import Button from './Button';
 const NonSwiperProizvod = ({ ...p }) => {
@@ -13,6 +12,7 @@ const NonSwiperProizvod = ({ ...p }) => {
           className={` min-h-[550px] xl:h-[550px]   bg-gray-100 hover:shadow-lg rounded-md overflow-hidden transition-all  border-2  flex flex-col  justify-start relative  `}
           style={{ animation: 'fadeIn 0.3s ease-out' }}
         >
+          {p.akcija && <AkcijaBadge />}
           <div className='w-full lg:h-1/2 h-1/3 p-2 bg-white'>
             <Link href={`proizvodi/${p._id.$oid.toString()}`}>
               <a>

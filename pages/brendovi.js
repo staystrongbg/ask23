@@ -1,7 +1,6 @@
 import Layout from '../components/Layout';
-import { H1, P, createArr, brands } from '../components/utils';
+import { H1, P, brands } from '../components/utils';
 
-import Placeholder from '../components/Placeholder';
 import Meta from '../components/Meta';
 import Image from 'next/image';
 const Brendovi = () => {

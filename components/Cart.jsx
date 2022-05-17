@@ -171,7 +171,7 @@ const Cart = () => {
             action='https://formsubmit.co/beograd.l@yandex.com'
           >
             <input type='hidden' value='table' name='_template' />
-            <input type='hidden' name='_next' value='http://localhost:3000/' />
+            <input type='hidden' name='_next' value='https://ask23.rs' />
             <TextField label='Име' variant='outlined' name='ime' required />
             <TextField
               label='Презиме'
