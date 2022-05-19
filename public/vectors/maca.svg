@@ -26,7 +26,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.49497474"
-     inkscape:cx="615.58732"
+     inkscape:cx="266.07453"
      inkscape:cy="464.35539"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
@@ -77,5 +77,11 @@
          id="path831-4"
          style="fill:#713f12;stroke:#808080;stroke-width:0.26458332;fill-opacity:1" />
     </g>
+    <path
+       style="fill:none;stroke:#713f12;stroke-width:3.865;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.4437269"
+       d="m -19.261822,225.78364 c 0,0 15.1157773,1.78022 21.6885931,-2.7449 6.5728157,-4.52512 13.5909849,-14.36035 13.5909849,-14.36035 0,0 7.748045,11.1612 14.434881,15.40189 6.686835,4.24069 20.310158,2.2379 20.310158,2.2379"
+       id="path819"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="czczc" />
   </g>
 </svg>
